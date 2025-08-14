@@ -1,0 +1,37 @@
+[
+  {
+    "symbol": "ALPHA",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-04",
+    "exchange": "binance"
+  },
+  {
+    "symbol": "BSW",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-04",
+    "exchange": "binance"
+  },
+  {
+    "symbol": "KMD",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-04",
+    "exchange": "binance"
+  },
+  {
+    "symbol": "LEVER",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-04",
+    "exchange": "binance"
+  },
+  {
+    "symbol": "LTO",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-04",
+    "exchange": "binance"
+  }
+]

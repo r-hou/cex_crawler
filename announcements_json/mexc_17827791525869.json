@@ -1,0 +1,16 @@
+[
+  {
+    "symbol": "XRD",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025年7月11日",
+    "exchange": "mexc"
+  },
+  {
+    "symbol": "1000APU",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025年7月11日",
+    "exchange": "mexc"
+  }
+]

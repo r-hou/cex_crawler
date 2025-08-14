@@ -1,0 +1,28 @@
+Gate 关于首发上线 PLAY 永续合约交易（USDT 结算）的公告
+<!--Gate 关于首发上线 PLAY 永续合约交易（USDT 结算）的公告-->
+[//]:content-type-MARKDOWN-DONOT-DELETE
+Gate 将于 2025 年 7 月 31 日 17:30 (UTC+8) 首发上线 PLAY 永续合约实盘交易（USDT 结算），支持 1 - 50 倍做多和做空操作，杠杆率可以在下单时自行选择。
+
+PLAY 永续合约实盘交易链接：https://www.gate.com/zh/futures/USDT/PLAY_USDT
+
+**注：**
+* 关于上线时间：若前期价格波动较大，合约上线时间可能会延后，根据实际情况调整具体上线时间。
+* 关于交易参数调整：为防范市场风险、优化用户交易体验，Gate 将根据实际情况，适时调整资金费率、最小变动价位、最大杠杆、风险限额及维持保证金等交易参数。
+
+<sp>
+Gate 团队
+2025 年 7 月 31 日
+<sp>
+**加密货币之门**
+安全、快捷、轻松交易超过 3,500 种加密货币
+**立即行动**
+<a href="https://www.gate.com/signup" target="_blank">注册账户</a>，最高可领 $10,000 迎新奖励
+<a href="https://www.gate.com/referral" target="_blank">邀请他人注册</a>，可获 40% 佣金
+**关注官方渠道**
+<a href="https://www.gate.com/" target="_blank">访问 Gate 官网</a>
+<a href="https://www.gate.com/mobileapp?ch=ann46392" target="_blank">下载 Gate App | 电脑端</a>
+<a href="https://x.com/Gateio_zh" rel="nofollow noopener noreferrer" target="_blank">关注 X (Twitter)</a>，获取最新福利
+<a href="https://t.me/gate_zh" rel="nofollow noopener noreferrer" target="_blank">加入 Telegram 社群</a>，讨论热点话题
+<a href="https://www.gate.com/community" target="_blank">进入全球社区</a>，获取最新资讯
+**透明度保障**
+<a href="https://www.gate.com/proof-of-reserves" target="_blank">查看 100% 储备金证明</a>

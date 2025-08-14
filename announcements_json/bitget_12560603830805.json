@@ -1,0 +1,16 @@
+[
+  {
+    "symbol": "NCUSDT",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025-07-07",
+    "exchange": "bitget"
+  },
+  {
+    "symbol": "PRAIUSDT",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025-07-07",
+    "exchange": "bitget"
+  }
+]

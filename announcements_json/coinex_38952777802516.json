@@ -1,0 +1,72 @@
+[
+  {
+    "symbol": "SORA/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-09",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "ANALOS/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-09",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "BABYBNB/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-09",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "SIDESHIFT/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-09",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "MILKADA/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-09",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "DOAI/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-09",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "NULS/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-09",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "NULS/BTC",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-09",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "DIGIMON/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-09",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "GOAL/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-09",
+    "exchange": "coinex"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "symbol": "DOGS/FDUSD",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025-08-08",
+    "exchange": "binance"
+  },
+  {
+    "symbol": "MOVE/FDUSD",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025-08-08",
+    "exchange": "binance"
+  },
+  {
+    "symbol": "MANTA/FDUSD",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025-08-08",
+    "exchange": "binance"
+  },
+  {
+    "symbol": "PEOPLE/FDUSD",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025-08-08",
+    "exchange": "binance"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "symbol": "WSDM/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-08",
+    "exchange": "bitget"
+  },
+  {
+    "symbol": "GST/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-08",
+    "exchange": "bitget"
+  },
+  {
+    "symbol": "WEETH/ETH",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-08",
+    "exchange": "bitget"
+  }
+]

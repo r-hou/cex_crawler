@@ -1,0 +1,23 @@
+[
+  {
+    "symbol": "GOOGLX",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-06",
+    "exchange": "btcc"
+  },
+  {
+    "symbol": "DOLO",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-06",
+    "exchange": "btcc"
+  },
+  {
+    "symbol": "TAG",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-06",
+    "exchange": "btcc"
+  }
+]

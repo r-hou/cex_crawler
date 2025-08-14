@@ -1,0 +1,72 @@
+[
+  {
+    "symbol": "SMH/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-22",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "SMH/BTC",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-22",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "JAM/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-22",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "BLOCK/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-22",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "BURGER/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-22",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "MOXIE/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-22",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "MSN/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-22",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "IQ50/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-22",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "MXM/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-22",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "DECHAT/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-22",
+    "exchange": "coinex"
+  }
+]

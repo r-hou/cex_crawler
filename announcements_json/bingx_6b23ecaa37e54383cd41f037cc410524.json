@@ -1,0 +1,44 @@
+[
+  {
+    "symbol": "LINGO/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-26",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "KEYCAT/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-26",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "SLN/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-26",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "MILO/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-26",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "REDSTONE/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-26",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "$URO/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-26",
+    "exchange": "bingx"
+  }
+]

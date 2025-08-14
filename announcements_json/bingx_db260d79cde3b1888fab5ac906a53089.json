@@ -1,0 +1,44 @@
+[
+  {
+    "symbol": "BOOMBSC/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "PFVS/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "FAIR3/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "DORA/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "VRTX/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "SHOGGOTH/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  }
+]

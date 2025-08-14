@@ -1,0 +1,93 @@
+[
+  {
+    "symbol": "MATES/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025年6月12日",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "THG/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025年6月12日",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "APPLE/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025年6月12日",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "ANDYBLAST/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025年6月12日",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "K_SMILEY/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025年6月12日",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "FOFAR/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025年6月12日",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "SPERG/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025年6月12日",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "CENTS/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025年6月12日",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "MOON/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025年6月12日",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "LORDS/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025年6月12日",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "PICA/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025年6月12日",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "PICA/BTC",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025年6月12日",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "SUNWUKONG/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025年6月12日",
+    "exchange": "coinex"
+  }
+]

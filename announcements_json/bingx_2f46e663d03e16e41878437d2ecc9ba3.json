@@ -1,0 +1,44 @@
+[
+  {
+    "symbol": "OL/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "AGLD/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "FORTH/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "ZENT/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "CVC/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "BNT/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  }
+]

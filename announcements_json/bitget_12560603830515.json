@@ -1,0 +1,16 @@
+[
+  {
+    "symbol": "DARKUSDT",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025年7月1日",
+    "exchange": "bitget"
+  },
+  {
+    "symbol": "CLOUDUSDT",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025年7月1日",
+    "exchange": "bitget"
+  }
+]

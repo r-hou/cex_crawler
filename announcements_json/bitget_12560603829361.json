@@ -1,0 +1,16 @@
+[
+  {
+    "symbol": "CEEK/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025年6月19日",
+    "exchange": "bitget"
+  },
+  {
+    "symbol": "XEN/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025年6月19日",
+    "exchange": "bitget"
+  }
+]

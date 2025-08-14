@@ -1,0 +1,86 @@
+[
+  {
+    "symbol": "BITCI/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-06-27",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "BITCI/BTC",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-06-27",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "COM/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-06-27",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "SYK/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-06-27",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "JEWEL/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-06-27",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "JGN/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-06-27",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "VLX/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-06-27",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "VLX/BTC",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-06-27",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "MENDI/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-06-27",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "EPICSAT/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-06-27",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "NOM/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-06-27",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "NOM/BTC",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-06-27",
+    "exchange": "coinex"
+  }
+]

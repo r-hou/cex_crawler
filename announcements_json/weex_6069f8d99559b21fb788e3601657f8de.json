@@ -1,0 +1,16 @@
+[
+  {
+    "symbol": "GME/USDT",
+    "action": "上架",
+    "type": "合约",
+    "time": "2024年6月13日",
+    "exchange": "weex"
+  },
+  {
+    "symbol": "GME/USDT",
+    "action": "上架",
+    "type": "现货",
+    "time": "2024年6月13日",
+    "exchange": "weex"
+  }
+]

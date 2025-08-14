@@ -1,0 +1,30 @@
+[
+  {
+    "symbol": "RPK/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025年8月8日",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "AEG/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025年8月8日",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "EGO/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025年8月8日",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "LUCE/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025年8月8日",
+    "exchange": "bybit"
+  }
+]

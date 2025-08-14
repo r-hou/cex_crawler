@@ -1,0 +1,14 @@
+[
+  {
+    "symbol": "NKN/BTC",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-08"
+  },
+  {
+    "symbol": "STX/BNB",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-08"
+  }
+]

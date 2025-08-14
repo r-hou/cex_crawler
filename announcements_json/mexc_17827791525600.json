@@ -1,0 +1,23 @@
+[
+  {
+    "symbol": "GEAR/USDT",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025年7月10日",
+    "exchange": "mexc"
+  },
+  {
+    "symbol": "SGC/USDT",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025年7月10日",
+    "exchange": "mexc"
+  },
+  {
+    "symbol": "K/USDT",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025年7月10日",
+    "exchange": "mexc"
+  }
+]

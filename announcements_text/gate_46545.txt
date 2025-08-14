@@ -1,0 +1,38 @@
+首发上线：Gate 将支持 World3 (WAI) 现货交易
+<!--首发上线：Gate 将支持 World3 (WAI) 现货交易-->
+[//]:content-type-MARKDOWN-DONOT-DELETE
+**Gate 将于 2025 年 8 月 12 日 17:00 (UTC+8) 首发上线 World3 (WAI) 现货交易。**
+
+简介：WORLD3 是一个去中心化平台，让用户能够创建和部署 AI 智能体。这些智能体可以在 Web2 和 Web3 环境中自动执行任务、开展策略交互。WORLD3 支持用户开发具备专家级能力的智能体，实现分层规划、无限时自动执行、多链互通和跨平台自动化，背后由先进的智能体虚拟机技术与 WORLD3 AI 协议驱动。
+WORLD3 得到了多家业界支持者的认可，包括 Ubisoft、Animoca Brands、Sui Foundation、AWS、BNB Chain 以及 Microsoft for Startups，并依托 Azure 的 AI 和区块链基础设施。
+
+代币符号：WAI
+官方网站：https://world3.ai/
+推特：https://x.com/WORLD3_AI
+WAI 合约地址：
+https://bscscan.com/token/0x1E3dbC0aad9671FDD31E58b2fcc6cF1Ca9947994
+WAI 充值地址：https://www.gate.com/zh/myaccount/deposit/WAI
+WAI 现货交易地址：https://www.gate.com/zh/trade/WAI_USDT
+
+**App 用户访问地址：**
+WAI 充值：Gate App -【资产】-【现货】-【充值】-【WAI】
+WAI 交易：Gate App -【交易】-【现货】-【左上角选择 WAI 交易市场】
+
+
+<sp>
+Gate 团队
+2025 年 8 月 12 日
+<sp>
+**加密货币之门**
+安全、快捷、轻松交易超过 3,500 种加密货币
+**立即行动**
+<a href="https://www.gate.com/signup" target="_blank">注册账户</a>，最高可领 $10,000 迎新奖励
+<a href="https://www.gate.com/referral" target="_blank">邀请他人注册</a>，可获 40% 佣金
+**关注官方渠道**
+<a href="https://www.gate.com/" target="_blank">访问 Gate 官网</a>
+<a href="https://www.gate.com/mobileapp?ch=ann46545" target="_blank">下载 Gate App | 电脑端</a>
+<a href="https://x.com/Gate_zh" rel="nofollow noopener noreferrer" target="_blank">关注 X (Twitter)</a>，获取最新福利
+<a href="https://t.me/gate_zh" rel="nofollow noopener noreferrer" target="_blank">加入 Telegram 社群</a>，讨论热点话题
+<a href="https://www.gate.com/community" target="_blank">进入全球社区</a>，获取最新资讯
+**透明度保障**
+<a href="https://www.gate.com/proof-of-reserves" target="_blank">查看 100% 储备金证明</a>

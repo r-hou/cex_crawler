@@ -1,0 +1,16 @@
+[
+  {
+    "symbol": "UTK/USDC",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025-06-25",
+    "exchange": "binance"
+  },
+  {
+    "symbol": "ZIL/BTC",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025-06-25",
+    "exchange": "binance"
+  }
+]

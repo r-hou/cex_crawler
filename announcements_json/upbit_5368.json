@@ -1,0 +1,23 @@
+[
+  {
+    "symbol": "OP/KRW",
+    "action": "上架",
+    "type": "现货",
+    "time": "7월 28일 16시 30분",
+    "exchange": "upbit"
+  },
+  {
+    "symbol": "OP/BTC",
+    "action": "上架",
+    "type": "现货",
+    "time": "7월 28일 16시 30분",
+    "exchange": "upbit"
+  },
+  {
+    "symbol": "OP/USDT",
+    "action": "上架",
+    "type": "现货",
+    "time": "7월 28일 16시 30분",
+    "exchange": "upbit"
+  }
+]

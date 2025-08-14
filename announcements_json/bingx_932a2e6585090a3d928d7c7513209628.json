@@ -1,0 +1,44 @@
+[
+  {
+    "symbol": "MON/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-25",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "FUR/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-25",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "SKYAI/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-25",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "SORASOL/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-25",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "LAVA/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-25",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "LRDS/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-25",
+    "exchange": "bingx"
+  }
+]

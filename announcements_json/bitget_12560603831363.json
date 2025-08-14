@@ -1,0 +1,30 @@
+[
+  {
+    "symbol": "FIRE/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-17",
+    "exchange": "bitget"
+  },
+  {
+    "symbol": "ROUTE/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-17",
+    "exchange": "bitget"
+  },
+  {
+    "symbol": "ZEROLEND/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-17",
+    "exchange": "bitget"
+  },
+  {
+    "symbol": "VRTX/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-17",
+    "exchange": "bitget"
+  }
+]

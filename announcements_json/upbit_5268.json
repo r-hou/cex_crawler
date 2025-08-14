@@ -1,0 +1,23 @@
+[
+  {
+    "symbol": "NEWT/KRW",
+    "action": "上架",
+    "type": "现货",
+    "time": "2025-06-25",
+    "exchange": "upbit"
+  },
+  {
+    "symbol": "NEWT/BTC",
+    "action": "上架",
+    "type": "现货",
+    "time": "2025-06-25",
+    "exchange": "upbit"
+  },
+  {
+    "symbol": "NEWT/USDT",
+    "action": "上架",
+    "type": "现货",
+    "time": "2025-06-25",
+    "exchange": "upbit"
+  }
+]

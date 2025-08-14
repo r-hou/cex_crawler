@@ -1,0 +1,30 @@
+[
+  {
+    "symbol": "RDNTUSDT",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025-08-08",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "BLUEFINUSDT",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025-08-08",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "CBKUSDT",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025-08-08",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "TROLLSOLUSDT",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025-08-08",
+    "exchange": "bingx"
+  }
+]

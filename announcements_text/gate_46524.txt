@@ -1,0 +1,38 @@
+SatLayer (SLAY) 将首发上线 Gate 现货交易
+<!--SatLayer (SLAY) 将首发上线 Gate 现货交易-->
+[//]:content-type-MARKDOWN-DONOT-DELETE
+**Gate 将于 2025 年 8 月 11 日 19:00 (UTC+8) 首发上线 SatLayer (SLAY) 现货交易。**
+
+简介：基于比特币的新经济：SatLayer 是比特币的经济层，使最佳资产成为完全可编程的抵押品。随着比特币成为新金融体系的黄金标准和全球储备资产，SatLayer 将 BTC 从闲置状态转变为可用于人工智能、DeFi、风险加权资产 (RWA)、稳定币甚至传统金融 (TradFi) 的生产性可编程资产。
+
+代币符号：SLAY
+官方网站：https://satlayer.foundation/
+推特：https://x.com/satlayer
+SLAY 合约地址：
+https://etherscan.io/address/0x51477a3002ee04b7542adfe63ccdb50c00ee5147
+SLAY 充值地址：https://www.gate.com/zh/myaccount/deposit/SLAY
+SLAY 现货交易地址：https://www.gate.com/zh/trade/SLAY_USDT
+
+**App 用户访问地址：**
+SLAY 充值：Gate App -【资产】-【现货】-【充值】-【SLAY】
+SLAY 交易：Gate App -【交易】-【现货】-【左上角选择 SLAY 交易市场】
+
+
+
+<sp>
+Gate 团队
+2025 年 8 月 11 日
+<sp>
+**加密货币之门**
+安全、快捷、轻松交易超过 3,500 种加密货币
+**立即行动**
+<a href="https://www.gate.com/signup" target="_blank">注册账户</a>，最高可领 $10,000 迎新奖励
+<a href="https://www.gate.com/referral" target="_blank">邀请他人注册</a>，可获 40% 佣金
+**关注官方渠道**
+<a href="https://www.gate.com/" target="_blank">访问 Gate 官网</a>
+<a href="https://www.gate.com/mobileapp?ch=ann46524" target="_blank">下载 Gate App | 电脑端</a>
+<a href="https://x.com/Gateio_zh" rel="nofollow noopener noreferrer" target="_blank">关注 X (Twitter)</a>，获取最新福利
+<a href="https://t.me/gate_zh" rel="nofollow noopener noreferrer" target="_blank">加入 Telegram 社群</a>，讨论热点话题
+<a href="https://www.gate.com/community" target="_blank">进入全球社区</a>，获取最新资讯
+**透明度保障**
+<a href="https://www.gate.com/proof-of-reserves" target="_blank">查看 100% 储备金证明</a>

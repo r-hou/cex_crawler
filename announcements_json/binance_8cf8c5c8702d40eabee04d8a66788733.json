@@ -1,0 +1,30 @@
+[
+  {
+    "symbol": "ACT/EUR",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-04",
+    "exchange": "binance"
+  },
+  {
+    "symbol": "FIO/BTC",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-04",
+    "exchange": "binance"
+  },
+  {
+    "symbol": "TNSR/FDUSD",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-04",
+    "exchange": "binance"
+  },
+  {
+    "symbol": "TST/FDUSD",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-04",
+    "exchange": "binance"
+  }
+]

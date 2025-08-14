@@ -1,0 +1,30 @@
+[
+  {
+    "symbol": "1000MUMU/USDT",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025年6月18日",
+    "exchange": "mexc"
+  },
+  {
+    "symbol": "DOGEGOV/USDT",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025年6月18日",
+    "exchange": "mexc"
+  },
+  {
+    "symbol": "BUZZ/USDT",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025年6月18日",
+    "exchange": "mexc"
+  },
+  {
+    "symbol": "PAIN/USDT",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025年6月18日",
+    "exchange": "mexc"
+  }
+]

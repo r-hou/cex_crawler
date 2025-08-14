@@ -1,0 +1,58 @@
+[
+  {
+    "symbol": "FEL/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-11",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "TGT/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-11",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "BANANASOL/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-11",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "RATO/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-11",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "HERO/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-11",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "AGIXT/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-11",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "LLM/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-11",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "NEUR/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-11",
+    "exchange": "bingx"
+  }
+]

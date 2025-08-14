@@ -1,0 +1,23 @@
+[
+  {
+    "symbol": "SYRUP/KRW",
+    "action": "上架",
+    "type": "现货",
+    "time": "7월 25일",
+    "exchange": "upbit"
+  },
+  {
+    "symbol": "SYRUP/BTC",
+    "action": "上架",
+    "type": "现货",
+    "time": "7월 25일",
+    "exchange": "upbit"
+  },
+  {
+    "symbol": "SYRUP/USDT",
+    "action": "上架",
+    "type": "现货",
+    "time": "7월 25일",
+    "exchange": "upbit"
+  }
+]

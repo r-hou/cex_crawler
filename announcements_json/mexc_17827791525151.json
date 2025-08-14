@@ -1,0 +1,30 @@
+[
+  {
+    "symbol": "SWAN",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025年7月2日",
+    "exchange": "mexc"
+  },
+  {
+    "symbol": "DONKEY",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025年7月2日",
+    "exchange": "mexc"
+  },
+  {
+    "symbol": "AMI",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025年7月2日",
+    "exchange": "mexc"
+  },
+  {
+    "symbol": "EDGEN",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025年7月2日",
+    "exchange": "mexc"
+  }
+]

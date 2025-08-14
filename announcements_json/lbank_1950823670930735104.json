@@ -1,0 +1,72 @@
+[
+  {
+    "symbol": "CBK",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025-7-6",
+    "exchange": "lbank"
+  },
+  {
+    "symbol": "LUCE",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025-7-6",
+    "exchange": "lbank"
+  },
+  {
+    "symbol": "GOONC",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025-7-6",
+    "exchange": "lbank"
+  },
+  {
+    "symbol": "ELDE",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025-7-6",
+    "exchange": "lbank"
+  },
+  {
+    "symbol": "GOR",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025-7-6",
+    "exchange": "lbank"
+  },
+  {
+    "symbol": "AITECH",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025-7-6",
+    "exchange": "lbank"
+  },
+  {
+    "symbol": "OLIVIA",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025-7-6",
+    "exchange": "lbank"
+  },
+  {
+    "symbol": "ACID",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025-7-6",
+    "exchange": "lbank"
+  },
+  {
+    "symbol": "VIRGEN",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025-7-6",
+    "exchange": "lbank"
+  },
+  {
+    "symbol": "KNET",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025-7-6",
+    "exchange": "lbank"
+  }
+]

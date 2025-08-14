@@ -1,0 +1,44 @@
+[
+  {
+    "symbol": "HERO/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "SWEAT/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "SLIM/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "REQ/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "OXT/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "DEXE/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  }
+]

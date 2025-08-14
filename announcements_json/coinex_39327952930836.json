@@ -1,0 +1,65 @@
+[
+  {
+    "symbol": "KM/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-22",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "GINNAN/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-22",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "FIGHTETH/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-22",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "WATER/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-22",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "OLM/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-22",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "RBX/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-22",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "VRTX/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-22",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "JLP/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-22",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "ARIX/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-22",
+    "exchange": "coinex"
+  }
+]

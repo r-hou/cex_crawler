@@ -1,0 +1,58 @@
+[
+  {
+    "symbol": "BOOM/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-08",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "XHUNT/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-08",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "RSN/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-08",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "XB/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-08",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "BLASTUP/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-08",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "JLP/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-08",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "AMAL/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-08",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "RBX/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-08",
+    "exchange": "bingx"
+  }
+]

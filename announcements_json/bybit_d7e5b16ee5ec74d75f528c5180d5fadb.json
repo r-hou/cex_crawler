@@ -1,0 +1,30 @@
+[
+  {
+    "symbol": "CHRP/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025年8月15日",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "CAPS/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025年8月15日",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "FMC/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025年8月15日",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "FMB/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025年8月15日",
+    "exchange": "bybit"
+  }
+]

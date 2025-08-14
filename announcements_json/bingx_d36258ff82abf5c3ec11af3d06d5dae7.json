@@ -1,0 +1,44 @@
+[
+  {
+    "symbol": "DEP/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "ELF/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "LEASH/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "ANT/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "GENX/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "RICHIE/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  }
+]

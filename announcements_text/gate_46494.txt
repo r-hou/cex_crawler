@@ -1,0 +1,78 @@
+Gate 将首发上线 IXORAPAD (IXORA) 现货交易并开启 HODLer Airdrop
+<!--Gate 将首发上线 IXORAPAD(IXORA) 现货交易并开启 HODLer Airdrop-->
+[//]:content-type-MARKDOWN-DONOT-DELETE
+Gate 将首发上线 IXORAPAD (IXORA) 现货交易并开启第 280 期 HODLer Airdrop，用户持有 1 GT 可免费参与领取空投，瓜分 2,000,000 IXORA 代币。
+HODLer Airdrop 仅支持 GT 持仓用户参与。本次 IXORAPAD (IXORA) 空投结束后将不会扣除用户参与资金。
+
+<div style="text-align: center;"><a data-type="gate-activity" rel=""  href="https://www.gate.com/zh/hodler-airdrop/2375?airdrop_name=IXORA" target="_blank" style="text-decoration: none !important;display: inline-block;"><div class="gateactivity-btn-style" style="width: 240px;height: 40px;box-sizing: border-box;padding: unset;border-radius: 99px;display: inline-flex;align-items: center;justify-content: center;background: #3377FF;cursor: pointer;"><strong><span style="color:#fff; text-decoration: none;">立即参与</span></strong></div></a></div>
+
+
+**空投详情**
+HODLer Airdrop 结束时间：2025 年 8 月 8 日 14:00 (UTC+8)
+空投总量：2,000,000 IXORA
+解锁方式：100% 解锁
+开启交易：2025 年 8 月 8 日 16:00 (UTC+8)
+上线交易对：IXORA/USDT
+
+**参与要求**
+完成身份认证；GT 持仓 ≥ 1 GT，可按照 GT 持仓快照量占比瓜分总奖池。每名用户本次活动参与上限为 1000 GT。
+如何领空投：登录 Gate 账号，完成<a href="https://www.gate.com/zh/myaccount/kyc_home" target="_blank">身份认证</a> → 进入 <a href="https://www.gate.com/zh/launchpool" target="_blank">Launchpool</a>，选择 HODLer Airdrop → 持有不低于 1 GT → 点击【去参与】。
+<a href="https://www.gate.com/zh/help/launch/hodlerairdrop/44574/hodler-airdrop-faq" target="_blank">HODLer Airdrop 常见问题及解答</a>
+
+**IXORAPAD (IXORA) 介绍**
+Ixorapad 是一个尖端的去中心化 launchpad，旨在连接 Gamefi 富有远见的初创企业与全球投资者。我们为个人投资者和风险投资公司提供独家的早期投资机会，帮助他们支持下一波创新浪潮。
+通过在种子轮和私募轮中搭建投资者与先锋创始人之间的桥梁，Ixorapad 助力 Gamefi 生态系统的发展。我们的使命是革新去中心化融资方式，为开创性项目提供蓬勃发展所需的资源、资金和战略网络。
+
+代币英文全称：IXORAPAD
+代币中文全称：N/A
+代币符号：IXORA
+代币总量：5,000,000,000
+代币类型：Arbitrum
+合约地址：https://arbiscan.io/token/0x99110990b602def65deb578a55f43793b4894a0a
+代币分配比例及解锁规则：
+天使投资：1% - 5% TGE 解锁，12 个月内解锁
+私募轮：1% - 10% TGE 解锁，9 个月内解锁
+IDO/ICO：1% - 20% TGE 解锁，4 个月内解锁
+团队：20% - 0% TGE 解锁，12 个月悬崖期，36 个月内解锁
+市场营销：20% - 5% TGE 解锁，12 个月内解锁
+生态系统：25% - 0% TGE 解锁，1 个月悬崖期，36 个月内解锁 
+流动性：15% - 根据需求解锁
+社区：17% - 5% TGE 解锁，12 个月内解锁 
+项目官网：https://www.ixorapad.com/
+
+**Gate Labs 投资公示**
+Gate Labs 未参与 IXORAPAD (IXORA) 投资。
+
+**注意事项**
+1. GT (GateToken) 是 Gate 交易平台唯一平台币，同时也是 GateChain 公链主网原生资产。持仓 GT 立即获取免费空投：https://www.gate.com/zh/trade/GT_USDT
+2. 参与用户需先完成<a href="https://www.gate.com/zh/myaccount/kyc_home" target="_blank">身份认证</a>，以保障您的账户和资产安全。
+3. 请参与时遵守相关活动规则，禁止任何作弊行为，任何作弊行为将导致取消获奖资格。
+4. 如翻译版本与英文版本有任何差异，以英文版本为主。
+5. Gate 拥有对本次活动的最终解释权。
+6. 英国以及其他受限地区的使用者无法使用全部或部分服务（包括参与本活动、游戏或竞赛），有关受限地区的详细资讯请阅读 <a href="https://www.gate.com/zh/legal/user-agreement" target="_blank">User Agreement</a>。
+
+**风险提示**
+1. HODLer Airdrop 项目为区块链初创项目，仍处在初级阶段，项目的运营、项目的底层技术、法律法规环境等均可能存在极大的风险。
+2. 了解区块链初创项目并对其固有风险进行评估需要掌握高级的技术和财经知识。
+3. 受到技术、法律法规、市场和其他因素的影响，您参与的项目价格可能会剧烈波动，价格可能会大幅降低或者升高。
+4. 加密货币项目具有高风险。加密货币价格具有高波动性。
+5. 项目方未设置保证金且不提供任何价格承诺和破发担保。请务必在完全了解风险并能承担风险的情况下参与，平台强烈提示风险，但无法对投资行为承担担保赔偿等责任。
+
+
+<sp>
+Gate 团队
+2025 年 8 月 7 日
+<sp>
+**加密货币之门**
+安全、快捷、轻松交易超过 3,500 种加密货币
+**立即行动**
+<a href="https://www.gate.com/signup" target="_blank">注册账户</a>，最高可领 $10,000 迎新奖励
+<a href="https://www.gate.com/referral" target="_blank">邀请他人注册</a>，可获 40% 佣金
+**关注官方渠道**
+<a href="https://www.gate.com/" target="_blank">访问 Gate 官网</a>
+<a href="https://www.gate.com/mobileapp?ch=ann46494" target="_blank">下载 Gate App | 电脑端</a>
+<a href="https://x.com/Gateio_zh" rel="nofollow noopener noreferrer" target="_blank">关注 X (Twitter)</a>，获取最新福利
+<a href="https://t.me/gate_zh" rel="nofollow noopener noreferrer" target="_blank">加入 Telegram 社群</a>，讨论热点话题
+<a href="https://www.gate.com/community" target="_blank">进入全球社区</a>，获取最新资讯
+**透明度保障**
+<a href="https://www.gate.com/proof-of-reserves" target="_blank">查看 100% 储备金证明</a>

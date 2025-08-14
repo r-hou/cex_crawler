@@ -1,0 +1,30 @@
+[
+  {
+    "symbol": "LISTEN/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-27",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "SPURS/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-27",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "LAT/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-27",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "HARD/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-27",
+    "exchange": "bingx"
+  }
+]

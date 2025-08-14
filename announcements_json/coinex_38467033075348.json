@@ -1,0 +1,65 @@
+[
+  {
+    "symbol": "GROKCOIN/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-06-24",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "NOTE/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-06-24",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "LUMI/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-06-24",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "QUDE/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-06-24",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "CWAR/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-06-24",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "ALPACA/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-06-24",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "ZKB/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-06-24",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "SHU/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-06-24",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "SKR/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-06-24",
+    "exchange": "coinex"
+  }
+]

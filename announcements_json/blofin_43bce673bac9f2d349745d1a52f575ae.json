@@ -1,0 +1,44 @@
+[
+  {
+    "symbol": "SGC/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-08",
+    "exchange": "blofin"
+  },
+  {
+    "symbol": "ELDE/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-08",
+    "exchange": "blofin"
+  },
+  {
+    "symbol": "EDGEN/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-08",
+    "exchange": "blofin"
+  },
+  {
+    "symbol": "HIGH/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-08",
+    "exchange": "blofin"
+  },
+  {
+    "symbol": "WAXP/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-08",
+    "exchange": "blofin"
+  },
+  {
+    "symbol": "IQ/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-08",
+    "exchange": "blofin"
+  }
+]

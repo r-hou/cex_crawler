@@ -1,0 +1,37 @@
+[
+  {
+    "symbol": "IBRL/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-25",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "RDAC/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-25",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "MIRAI/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-25",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "RPK/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-25",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "MOZ/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-07-25",
+    "exchange": "bingx"
+  }
+]

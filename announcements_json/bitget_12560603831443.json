@@ -1,0 +1,30 @@
+[
+  {
+    "symbol": "ELD/USDT",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025-07-15",
+    "exchange": "bitget"
+  },
+  {
+    "symbol": "TGT/USDT",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025-07-15",
+    "exchange": "bitget"
+  },
+  {
+    "symbol": "PFVS/USDT",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025-07-15",
+    "exchange": "bitget"
+  },
+  {
+    "symbol": "KILO/USDT",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025-07-15",
+    "exchange": "bitget"
+  }
+]

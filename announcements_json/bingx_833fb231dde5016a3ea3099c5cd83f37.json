@@ -1,0 +1,51 @@
+[
+  {
+    "symbol": "STEEM/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "OAS/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "FIS/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "COS/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "BSV/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "DCR/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  },
+  {
+    "symbol": "FIO/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-04",
+    "exchange": "bingx"
+  }
+]

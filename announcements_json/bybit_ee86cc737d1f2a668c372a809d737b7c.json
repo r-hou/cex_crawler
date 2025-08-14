@@ -1,0 +1,44 @@
+[
+  {
+    "symbol": "TST/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025年7月25日",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "5IRE/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025年7月25日",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "APTR/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025年7月25日",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "ERTHA/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025年7月25日",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "GUMMY/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025年7月25日",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "PIP/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025年7月25日",
+    "exchange": "bybit"
+  }
+]
