@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "symbol": "BTC/USDT",
+    "action": "上架",
+    "type": "现货",
+    "time": "2025-08-11",
+    "exchange": "btcc"
+  },
+  {
+    "symbol": "ETH/USDT",
+    "action": "上架",
+    "type": "现货",
+    "time": "2025-08-11",
+    "exchange": "btcc"
+  },
+  {
+    "symbol": "LTC/USDT",
+    "action": "上架",
+    "type": "现货",
+    "time": "2025-08-11",
+    "exchange": "btcc"
+  },
+  {
+    "symbol": "BCH/USDT",
+    "action": "上架",
+    "type": "现货",
+    "time": "2025-08-11",
+    "exchange": "btcc"
+  },
+  {
+    "symbol": "EOS/USDT",
+    "action": "上架",
+    "type": "现货",
+    "time": "2025-08-11",
+    "exchange": "btcc"
+  },
+  {
+    "symbol": "XRP/USDT",
+    "action": "上架",
+    "type": "现货",
+    "time": "2025-08-11",
+    "exchange": "btcc"
+  },
+  {
+    "symbol": "ADA/USDT",
+    "action": "上架",
+    "type": "现货",
+    "time": "2025-08-11",
+    "exchange": "btcc"
+  },
+  {
+    "symbol": "XLM/USDT",
+    "action": "上架",
+    "type": "现货",
+    "time": "2025-08-11",
+    "exchange": "btcc"
+  },
+  {
+    "symbol": "DOGE/USDT",
+    "action": "上架",
+    "type": "现货",
+    "time": "2025-08-11",
+    "exchange": "btcc"
+  },
+  {
+    "symbol": "PEPE/USDT",
+    "action": "上架",
+    "type": "现货",
+    "time": "2025-08-11",
+    "exchange": "btcc"
+  }
+]

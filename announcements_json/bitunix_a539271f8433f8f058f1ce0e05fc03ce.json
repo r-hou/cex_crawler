@@ -3,14 +3,14 @@
     "symbol": "LUMIA/USDT",
     "action": "上架",
     "type": "现货",
-    "time": "2025年8月14日",
+    "time": "2025-08-14",
     "exchange": "bitunix"
   },
   {
     "symbol": "LUMIA/USDT",
     "action": "上架",
     "type": "合约",
-    "time": "2025年8月14日",
+    "time": "2025-08-14",
     "exchange": "bitunix"
   }
 ]

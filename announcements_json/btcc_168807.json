@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "symbol": "5 USDC Spot Trading Pairs",
+    "action": "上架",
+    "type": "现货",
+    "time": "2025-07-08",
+    "exchange": "btcc"
+  }
+]

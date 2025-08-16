@@ -3,21 +3,21 @@
     "symbol": "ANIME/FDUSD",
     "action": "下架",
     "type": "现货",
-    "time": "2025年08月15日",
+    "time": "2025-08-15",
     "exchange": "binance"
   },
   {
     "symbol": "HYPER/FDUSD",
     "action": "下架",
     "type": "现货",
-    "time": "2025年08月15日",
+    "time": "2025-08-15",
     "exchange": "binance"
   },
   {
     "symbol": "STO/BNB",
     "action": "下架",
     "type": "现货",
-    "time": "2025年08月15日",
+    "time": "2025-08-15",
     "exchange": "binance"
   }
 ]

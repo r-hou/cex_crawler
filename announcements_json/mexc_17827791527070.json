@@ -1,9 +1,9 @@
 [
   {
-    "symbol": "SHMUSDT",
+    "symbol": "SHM/USDT",
     "action": "下架",
     "type": "合约",
-    "time": "2025年7月29日",
+    "time": "2025-07-29",
     "exchange": "mexc"
   }
 ]

@@ -3,6 +3,7 @@
     "symbol": "BOSS/USDT",
     "action": "上架",
     "type": "现货",
-    "time": "2025-08-08"
+    "time": "2025-08-08",
+    "exchange": "bitget"
   }
 ]

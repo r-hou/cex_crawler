@@ -1,13 +1,13 @@
 [
   {
-    "symbol": "NCUSDT",
+    "symbol": "NC/USDT",
     "action": "下架",
     "type": "合约",
     "time": "2025-07-07",
     "exchange": "bitget"
   },
   {
-    "symbol": "PRAIUSDT",
+    "symbol": "PRAI/USDT",
     "action": "下架",
     "type": "合约",
     "time": "2025-07-07",

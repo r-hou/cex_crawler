@@ -49,7 +49,7 @@ class DeepSeekAnalyzer:
 
 注意事项：
 1. 只提取明确的上架/下架信息
-2. 时间格式要具体，如"2024-01-15"，不需要时区信息, 不能包含汉字
+2. 时间格式要具体，格式是"YYYY-MM-DD"，不需要时区信息, 不能包含汉字或者韩语，必须输出时间，如果时间格式是"YYYY年MM月DD日"，则转换为"YYYY-MM-DD", 如果时间是YYYY年M月D日(比如2025年7月6日)，则转换为"2025-07-06"
 3. 交易对符号要准确，如"BTC/USDT"
 4. type字段必须填写"现货"或"合约"，根据公告内容判断
 5. 如果没有相关信息，返回空数组
@@ -243,9 +243,8 @@ def main():
         analyzer = DeepSeekAnalyzer(api_key="sk-790c031d07224ee9a905c970cefffcba")
         
         # 示例公告内容
-        sample_text = """
-        [Initial Listing] Bitget Will List Sidekick (K) in the Innovation Zone
-We are thrilled to announce that Sidekick (K) will be listed in the Innovation Zone. Check out the details below: Deposit Available: Opened Trading Available: 8 August 2025, 08:00 (UTC) Withdrawal Available: 8 August 2025, 10:00 (UTC) Spot Trading Link: K/USDT Introduction Sidekick is a Web3 livestream platform that enables creators and audiences to interact in real time through content-driven experiences. To learn more about this project, check out the deep dive on Sidekick. Founded in 2024, Sidekick introduces a model known as LiveFi, which blends livestreamed content with audience participation to make Web3 more engaging and accessible. The team behind Sidekick identified a key gap in Web3: most platforms rely on text-based updates and static interfaces, which makes it difficult to sustain user attention. While livestreaming has become standard in Web2, few products have effectively adapted this format to the Web...
+        sample_text = """LBank Futures Will Delist [[0]]CBK, LUCE, GOONC, ELDE, GOR[[/0]] and [[1]]AITECH[[/1]] Perpetual Contracts
+Dear LBank users, LBank Futures will conduct an automatic settlement on the OLIVIA, ACID, VIRGEN and KNET perpetual contracts and delist them at 14:00 on 2025-7-6 (UTC) after the settlements are compl%
         """
         
         print("示例分析:")

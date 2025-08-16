@@ -3,28 +3,28 @@
     "symbol": "MANEKI/USDT",
     "action": "下架",
     "type": "现货",
-    "time": "2025年6月12日",
+    "time": "2025-06-12",
     "exchange": "bitget"
   },
   {
     "symbol": "MUMU/USDT",
     "action": "下架",
     "type": "现货",
-    "time": "2025年6月12日",
+    "time": "2025-06-12",
     "exchange": "bitget"
   },
   {
     "symbol": "AZERO/USDT",
     "action": "下架",
     "type": "现货",
-    "time": "2025年6月12日",
+    "time": "2025-06-12",
     "exchange": "bitget"
   },
   {
     "symbol": "FMB/USDT",
     "action": "下架",
     "type": "现货",
-    "time": "2025年6月12日",
+    "time": "2025-06-12",
     "exchange": "bitget"
   }
 ]

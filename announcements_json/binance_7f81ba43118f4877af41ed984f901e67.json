@@ -3,14 +3,14 @@
     "symbol": "GPS/FDUSD",
     "action": "下架",
     "type": "现货",
-    "time": "2025年07月25日",
+    "time": "2025-07-25",
     "exchange": "binance"
   },
   {
     "symbol": "HIVE/FDUSD",
     "action": "下架",
     "type": "现货",
-    "time": "2025年07月25日",
+    "time": "2025-07-25",
     "exchange": "binance"
   }
 ]

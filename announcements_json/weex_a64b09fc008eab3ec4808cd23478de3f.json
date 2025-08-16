@@ -3,14 +3,14 @@
     "symbol": "SAFE/USDT",
     "action": "上架",
     "type": "合约",
-    "time": "2024年5月31日",
+    "time": "2024-05-31",
     "exchange": "weex"
   },
   {
     "symbol": "SAFE/USDT",
     "action": "上架",
     "type": "现货",
-    "time": "2024年5月31日",
+    "time": "2024-05-31",
     "exchange": "weex"
   }
 ]

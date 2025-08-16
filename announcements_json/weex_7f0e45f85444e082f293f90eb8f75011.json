@@ -3,12 +3,14 @@
     "symbol": "ZRO/USDT",
     "action": "上架",
     "type": "合约",
-    "time": "2024年6月21日"
+    "time": "2024-06-21",
+    "exchange": "weex"
   },
   {
     "symbol": "ZRO/USDT",
     "action": "上架",
     "type": "现货",
-    "time": "2024年6月21日"
+    "time": "2024-06-21",
+    "exchange": "weex"
   }
 ]

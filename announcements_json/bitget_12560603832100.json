@@ -3,35 +3,35 @@
     "symbol": "MAI/USDT",
     "action": "下架",
     "type": "现货",
-    "time": "2025年7月25日",
+    "time": "2025-07-25",
     "exchange": "bitget"
   },
   {
     "symbol": "BIZA/USDT",
     "action": "下架",
     "type": "现货",
-    "time": "2025年7月25日",
+    "time": "2025-07-25",
     "exchange": "bitget"
   },
   {
     "symbol": "BONE/USDT",
     "action": "下架",
     "type": "现货",
-    "time": "2025年7月25日",
+    "time": "2025-07-25",
     "exchange": "bitget"
   },
   {
     "symbol": "T2T2/USDT",
     "action": "下架",
     "type": "现货",
-    "time": "2025年7月25日",
+    "time": "2025-07-25",
     "exchange": "bitget"
   },
   {
     "symbol": "MV/USDT",
     "action": "下架",
     "type": "现货",
-    "time": "2025年7月25日",
+    "time": "2025-07-25",
     "exchange": "bitget"
   }
 ]

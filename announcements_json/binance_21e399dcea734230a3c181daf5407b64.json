@@ -1,14 +1,16 @@
 [
   {
-    "symbol": "DEFIUSDT",
+    "symbol": "DEFI/USDT",
     "action": "下架",
     "type": "合约",
-    "time": "2025-08-11"
+    "time": "2025-08-11",
+    "exchange": "binance"
   },
   {
-    "symbol": "MEMEFI",
+    "symbol": "MEMEFI/USDT",
     "action": "下架",
     "type": "合约",
-    "time": "2025-08-11"
+    "time": "2025-08-11",
+    "exchange": "binance"
   }
 ]

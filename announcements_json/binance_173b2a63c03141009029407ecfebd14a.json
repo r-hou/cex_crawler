@@ -1,34 +1,34 @@
 [
   {
-    "symbol": "ALPHA",
+    "symbol": "ALPHA/USDT",
     "action": "下架",
     "type": "现货",
     "time": "2025-07-04",
     "exchange": "binance"
   },
   {
-    "symbol": "BSW",
+    "symbol": "BSW/USDT",
     "action": "下架",
     "type": "现货",
     "time": "2025-07-04",
     "exchange": "binance"
   },
   {
-    "symbol": "KMD",
+    "symbol": "KMD/USDT",
     "action": "下架",
     "type": "现货",
     "time": "2025-07-04",
     "exchange": "binance"
   },
   {
-    "symbol": "LEVER",
+    "symbol": "LEVER/USDT",
     "action": "下架",
     "type": "现货",
     "time": "2025-07-04",
     "exchange": "binance"
   },
   {
-    "symbol": "LTO",
+    "symbol": "LTO/USDT",
     "action": "下架",
     "type": "现货",
     "time": "2025-07-04",

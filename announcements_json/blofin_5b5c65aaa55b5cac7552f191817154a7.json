@@ -3,35 +3,35 @@
     "symbol": "VADER/USDT",
     "action": "下架",
     "type": "现货",
-    "time": "2025年8月19日",
+    "time": "2025-08-19",
     "exchange": "blofin"
   },
   {
     "symbol": "BOBO/USDT",
     "action": "下架",
     "type": "现货",
-    "time": "2025年8月19日",
+    "time": "2025-08-19",
     "exchange": "blofin"
   },
   {
     "symbol": "SPICE/USDT",
     "action": "下架",
     "type": "现货",
-    "time": "2025年8月19日",
+    "time": "2025-08-19",
     "exchange": "blofin"
   },
   {
     "symbol": "RIZ/USDT",
     "action": "下架",
     "type": "现货",
-    "time": "2025年8月19日",
+    "time": "2025-08-19",
     "exchange": "blofin"
   },
   {
     "symbol": "LKI/USDT",
     "action": "下架",
     "type": "现货",
-    "time": "2025年8月19日",
+    "time": "2025-08-19",
     "exchange": "blofin"
   }
 ]

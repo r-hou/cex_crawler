@@ -1,30 +1,30 @@
 [
   {
-    "symbol": "SWAN",
+    "symbol": "SWAN/USDT",
     "action": "下架",
     "type": "合约",
-    "time": "2025年7月2日",
+    "time": "2025-07-02",
     "exchange": "mexc"
   },
   {
-    "symbol": "DONKEY",
+    "symbol": "DONKEY/USDT",
     "action": "下架",
     "type": "合约",
-    "time": "2025年7月2日",
+    "time": "2025-07-02",
     "exchange": "mexc"
   },
   {
-    "symbol": "AMI",
+    "symbol": "AMI/USDT",
     "action": "下架",
     "type": "合约",
-    "time": "2025年7月2日",
+    "time": "2025-07-02",
     "exchange": "mexc"
   },
   {
-    "symbol": "EDGEN",
+    "symbol": "EDGEN/USDT",
     "action": "下架",
     "type": "合约",
-    "time": "2025年7月2日",
+    "time": "2025-07-02",
     "exchange": "mexc"
   }
 ]

@@ -3,35 +3,35 @@
     "symbol": "BROCCOLIF3BUSDT",
     "action": "下架",
     "type": "合约",
-    "time": "2025年6月13日",
+    "time": "2025-06-13",
     "exchange": "bitget"
   },
   {
     "symbol": "AIOTUSDT",
     "action": "下架",
     "type": "合约",
-    "time": "2025年6月13日",
+    "time": "2025-06-13",
     "exchange": "bitget"
   },
   {
     "symbol": "MYXUSDT",
     "action": "下架",
     "type": "合约",
-    "time": "2025年6月13日",
+    "time": "2025-06-13",
     "exchange": "bitget"
   },
   {
     "symbol": "RDACUSDT",
     "action": "下架",
     "type": "合约",
-    "time": "2025年6月13日",
+    "time": "2025-06-13",
     "exchange": "bitget"
   },
   {
     "symbol": "1000000BOBUSDT",
     "action": "下架",
     "type": "合约",
-    "time": "2025年6月13日",
+    "time": "2025-06-13",
     "exchange": "bitget"
   }
 ]

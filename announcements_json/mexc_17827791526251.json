@@ -1,37 +1,37 @@
 [
   {
-    "symbol": "ORAI",
+    "symbol": "ORAI/USDT",
     "action": "下架",
     "type": "合约",
-    "time": "2025年7月25日",
+    "time": "2025-07-25",
     "exchange": "mexc"
   },
   {
-    "symbol": "DIS",
+    "symbol": "DIS/USDT",
     "action": "下架",
     "type": "合约",
-    "time": "2025年7月25日",
+    "time": "2025-07-25",
     "exchange": "mexc"
   },
   {
-    "symbol": "MIGGLES",
+    "symbol": "MIGGLES/USDT",
     "action": "下架",
     "type": "合约",
-    "time": "2025年7月25日",
+    "time": "2025-07-25",
     "exchange": "mexc"
   },
   {
-    "symbol": "TITCOIN",
+    "symbol": "TITCOIN/USDT",
     "action": "下架",
     "type": "合约",
-    "time": "2025年7月25日",
+    "time": "2025-07-25",
     "exchange": "mexc"
   },
   {
-    "symbol": "ZEUSETH",
+    "symbol": "ZEUSETH/USDT",
     "action": "下架",
     "type": "合约",
-    "time": "2025年7月25日",
+    "time": "2025-07-25",
     "exchange": "mexc"
   }
 ]

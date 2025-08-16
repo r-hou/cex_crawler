@@ -3,21 +3,21 @@
     "symbol": "ENA/KRW",
     "action": "上架",
     "type": "现货",
-    "time": "7월 11일 17시",
+    "time": "2024-07-11",
     "exchange": "upbit"
   },
   {
     "symbol": "ENA/BTC",
     "action": "上架",
     "type": "现货",
-    "time": "7월 11일 17시",
+    "time": "2024-07-11",
     "exchange": "upbit"
   },
   {
     "symbol": "ENA/USDT",
     "action": "上架",
     "type": "现货",
-    "time": "7월 11일 17시",
+    "time": "2024-07-11",
     "exchange": "upbit"
   }
 ]
