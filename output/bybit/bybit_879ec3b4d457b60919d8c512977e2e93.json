@@ -1,0 +1,51 @@
+[
+  {
+    "symbol": "PSIX/USD",
+    "action": "上架",
+    "type": "合约",
+    "time": "2025-08-14",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "CLS/USD",
+    "action": "上架",
+    "type": "合约",
+    "time": "2025-08-14",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "DAVE/USD",
+    "action": "上架",
+    "type": "合约",
+    "time": "2025-08-14",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "STRL/USD",
+    "action": "上架",
+    "type": "合约",
+    "time": "2025-08-14",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "CRDO/USD",
+    "action": "上架",
+    "type": "合约",
+    "time": "2025-08-14",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "VRT/USD",
+    "action": "上架",
+    "type": "合约",
+    "time": "2025-08-14",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "FIG/USD",
+    "action": "上架",
+    "type": "合约",
+    "time": "2025-08-14",
+    "exchange": "bybit"
+  }
+]

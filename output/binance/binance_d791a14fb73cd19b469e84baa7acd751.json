@@ -1,0 +1,22 @@
+[
+  {
+    "symbol": "NKN/BTC",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-08",
+    "exchange": "binance",
+    "title": "币安移除部分现货交易对的公告 - 2025-08-08",
+    "article_id": "95ea413c2c1c41498664b0bad613fcd9",
+    "url": "https://www.binance.com/zh-CN/support/announcement/detail/95ea413c2c1c41498664b0bad613fcd9"
+  },
+  {
+    "symbol": "STX/BNB",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-08",
+    "exchange": "binance",
+    "title": "币安移除部分现货交易对的公告 - 2025-08-08",
+    "article_id": "95ea413c2c1c41498664b0bad613fcd9",
+    "url": "https://www.binance.com/zh-CN/support/announcement/detail/95ea413c2c1c41498664b0bad613fcd9"
+  }
+]

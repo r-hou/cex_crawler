@@ -10,34 +10,17 @@ import re
 import os
 import sys
 
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from deepseek_analyzer import DeepSeekAnalyzer
+from .base_scraper import BaseScraper
 
-
-class LbankScraper:
-    def __init__(self, analyzer: DeepSeekAnalyzer):
-        self.analyzer = analyzer
-        self.headers = {
-            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-            'accept-language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
-            'cache-control': 'no-cache',
-            'pragma': 'no-cache',
-            'priority': 'u=0, i',
-            'referer': 'https://www.lbank.com/',
-            'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"',
-            'sec-ch-ua-mobile': '?0',
-            'sec-ch-ua-platform': '"macOS"',
-            'sec-fetch-dest': 'document',
-            'sec-fetch-mode': 'navigate',
-            'sec-fetch-site': 'same-origin',
-            'sec-fetch-user': '?1',
-            'upgrade-insecure-requests': '1',
-            'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36'
-        }
-        self.build_id = self.get_build_id()
+class LbankScraper(BaseScraper):
+    def __init__(self, analyzer: DeepSeekAnalyzer, debug: bool = False, max_size: int = 10):
+        super().__init__("lbank", "https://www.lbank.com", analyzer, debug, max_size)
+        
 
     def get_session_id(self):
-        url = 'https://www.lbank.com/support/announcement'
+        # url = 'https://www.lbank.com/support/announcement'
+        url = "https://www.lbank.com/support/sections/latest-news/notice"
         response = requests.get(url, headers=self.headers)
         
         # 解析HTML
@@ -54,14 +37,15 @@ class LbankScraper:
             'New Listing', 'new listing', 'NEW LISTING',
             'System Notification', 'system notification', 'SYSTEM NOTIFICATION'
         ]
-        
+        print(all_links)
         for link in all_links:
             link_text = link.get_text(strip=True)
             href = link.get('href')
             
             # 检查是否包含目标文字
             for target_text in target_texts:
-                if target_text in link_text:
+                if target_text in link_text.lower():
+                    print(link_text)
                     target_links.append({
                         'text': link_text,
                         'href': href,
@@ -69,7 +53,7 @@ class LbankScraper:
                     })
                     print(f"找到目标链接: {link_text} -> {href}")
                     break  # 避免重复添加同一个链接
-        
+        print(target_links)
         # 如果没有找到，尝试其他方法
         if not target_links:
             print("未找到目标链接，尝试其他方法...")
@@ -205,11 +189,16 @@ class LbankScraper:
 
     def run_scraping(self):
         announcements = self.get_announcements_id()
+        # print(len(announcements))
         self.build_id = self.get_build_id()
-        for i, announcement in enumerate(announcements):  # 只显示前3条
+        
+        # Counter for processed announcements in debug mode
+        processed_count = 0
+        
+        for i, announcement in enumerate(announcements):
             article_id = announcement.get('code', uuid.uuid4())
-            text_file_name = f'announcements_text/lbank_{article_id}.txt'
-            json_file_name = f'announcements_json/lbank_{article_id}.json'
+            text_file_name = os.path.join(self.output_dir, f"lbank_{article_id}.txt")
+            json_file_name = os.path.join(self.output_dir, f"lbank_{article_id}.json")
             if os.path.exists(text_file_name) and os.path.exists(json_file_name):
                 print(f"公告详情已存在: {text_file_name}")
                 continue
@@ -235,6 +224,13 @@ class LbankScraper:
                     
                     # 保存分析结果
                     self.analyzer.save_analysis_result(analysis_result, json_file_name, updates={'exchange': 'lbank'})
+
+                    
+                    # Increment counter for successfully processed announcements
+                    processed_count += 1
+                    if self.debug and processed_count >= self.max_size:
+                        print(f"Debug mode: Reached max_size limit ({self.max_size}), stopping...")
+                        break
                     
                 except Exception as e:
                     print(f"DeepSeek分析失败: {traceback.format_exc()}")
@@ -242,8 +238,12 @@ class LbankScraper:
                 
             else:
                 print("获取公告详情失败")
+            
+            # Break outer loop if we've reached max_size in debug mode
+            if self.debug and processed_count >= self.max_size:
+                break
 
 if __name__ == "__main__":
     analyzer = DeepSeekAnalyzer(api_key="sk-790c031d07224ee9a905c970cefffcba")
-    scraper = LbankScraper(analyzer)
+    scraper = LbankScraper(analyzer, debug=True, max_size=3)
     scraper.run_scraping()

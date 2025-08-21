@@ -11,31 +11,13 @@ import uuid
 import os
 import sys
 import hashlib
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from deepseek_analyzer import DeepSeekAnalyzer
+from .base_scraper import BaseScraper
 
-class BybitScraper:
-    def __init__(self, analyzer: DeepSeekAnalyzer):
-        self.analyzer = analyzer
-        self.exchange = ccxt.bybit()
-        self.headers = {
-            'accept': 'application/json, text/plain, */*',
-            'accept-language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
-            'cache-control': 'no-cache',
-            'content-type': 'application/json;charset=UTF-8',
-            'origin': 'https://announcements.bybit.com',
-            'pragma': 'no-cache',
-            'priority': 'u=1, i',
-            'referer': 'https://announcements.bybit.com/en/?category=delistings&page=1',
-            'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"',
-            'sec-ch-ua-mobile': '?0',
-            'sec-ch-ua-platform': '"macOS"',
-            'sec-fetch-dest': 'empty',
-            'sec-fetch-mode': 'cors',
-            'sec-fetch-site': 'same-origin',
-            'traceparent': '00-e644fcbc13aaf6c30f2300b60aefbafc-e908187fa171a8d5-01',
-            'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36'
-        }
+class BybitScraper(BaseScraper):
+    def __init__(self, analyzer: DeepSeekAnalyzer, debug: bool = False, max_size: int = 10):
+        super().__init__("bybit", "https://www.bybit.com", analyzer, debug, max_size)
+        
 
     def get_announcements_id(self):
 
@@ -105,7 +87,8 @@ class BybitScraper:
         # 提取script标签中的JSON数据
         json_data = self.extract_json_from_script(html_content)
         article_elements = json_data['props']['pageProps']['articleDetail']['content']['json']['children']
-        article_text = ''
+        article_text = json_data['props']['pageProps']['articleDetail'].get('description', '')
+        article_text += "公共发布日期:"+json_data['props']['pageProps']['articleDetail'].get('date', '')+"\n"
         for element in article_elements:
             if element['type'] == 'p':
                 article_text += element['children'][0]['text'].replace('\'', '')
@@ -123,14 +106,18 @@ class BybitScraper:
         try:
             announcements = self.get_announcements_id()
             print("\n=== 公告列表 ===")
-            for i, announcement in enumerate(announcements):  # 只显示前3条
+            
+            # Counter for processed announcements in debug mode
+            processed_count = 0
+            
+            for i, announcement in enumerate(announcements):
                 print(f"   标题: {announcement.get('title', 'N/A')}")
                 print(f"   URL: https://announcements.bybit.com/zh-MY/{announcement.get('url', '')}")
                 
                 # 获取公告详情
                 article_id = hashlib.md5(announcement.get('url', '').encode('utf-8')).hexdigest()
-                text_file_name = f'announcements_text/bybit_{article_id}.txt'
-                json_file_name = f'announcements_json/bybit_{article_id}.json'
+                text_file_name = os.path.join(self.output_dir, f"bybit_{article_id}.txt")
+                json_file_name = os.path.join(self.output_dir, f"bybit_{article_id}.json")
                 if os.path.exists(text_file_name) and os.path.exists(json_file_name):
                     print(f"公告详情已存在: {text_file_name}")
                     continue
@@ -152,7 +139,13 @@ class BybitScraper:
                         self.analyzer.print_analysis_result(analysis_result)
                         
                         # 保存分析结果
-                        self.analyzer.save_analysis_result(analysis_result,    json_file_name, updates={'exchange': 'bybit'})
+                        self.analyzer.save_analysis_result(analysis_result, json_file_name, updates={'exchange': 'bybit'})
+                        
+                        # Increment counter for successfully processed announcements
+                        processed_count += 1
+                        if self.debug and processed_count >= self.max_size:
+                            print(f"Debug mode: Reached max_size limit ({self.max_size}), stopping...")
+                            break
                         
                     except Exception as e:
                         print(f"DeepSeek分析失败: {traceback.format_exc()}")
@@ -160,6 +153,10 @@ class BybitScraper:
                     
                 else:
                     print("获取公告详情失败")
+                
+                # Break outer loop if we've reached max_size in debug mode
+                if self.debug and processed_count >= self.max_size:
+                    break
         except Exception as e:
             print(f"获取Bybit公告详情失败: {traceback.format_exc()}")
 

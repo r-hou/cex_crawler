@@ -10,30 +10,13 @@ import re
 import os
 import sys
 
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from deepseek_analyzer import DeepSeekAnalyzer
+from .base_scraper import BaseScraper
 
-
-class BtccScraper:
-    def __init__(self, analyzer: DeepSeekAnalyzer):
-        self.analyzer = analyzer
-        self.headers = {
-            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-            'accept-language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
-            'cache-control': 'no-cache',
-            'pragma': 'no-cache',
-            'priority': 'u=0, i',
-            'referer': 'https://www.lbank.com/',
-            'sec-ch-ua': '"Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"',
-            'sec-ch-ua-mobile': '?0',
-            'sec-ch-ua-platform': '"macOS"',
-            'sec-fetch-dest': 'document',
-            'sec-fetch-mode': 'navigate',
-            'sec-fetch-site': 'same-origin',
-            'sec-fetch-user': '?1',
-            'upgrade-insecure-requests': '1',
-            'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36'
-        }
+class BtccScraper(BaseScraper):
+    def __init__(self, analyzer: DeepSeekAnalyzer, debug: bool = False, max_size: int = 10):
+        super().__init__("btcc", "https://www.btcc.com", analyzer, debug, max_size)
+        
 
     def extract_json_from_script(self, html_content):
         """从HTML的script标签中提取JSON数据"""
@@ -60,46 +43,11 @@ class BtccScraper:
         except Exception as e:
             print(f"提取script标签JSON数据失败: {e}")
             return {}
-    def extract_text_from_html(self, html_content):
-        """从HTML内容中提取纯文字"""
-        try:
-            # 使用BeautifulSoup解析HTML
-            soup = BeautifulSoup(html_content, 'html.parser')
-            
-            # 移除script和style标签
-            for script in soup(["script", "style", "nav", "header", "footer"]):
-                script.decompose()
-            
-            # 获取纯文字
-            text = soup.get_text()
-            
-            # 清理文字（移除多余空白字符）
-            lines = (line.strip() for line in text.splitlines())
-            chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
-            text = ' '.join(chunk for chunk in chunks if chunk)
-            
-            # 移除特殊字符和多余的换行
-            text = re.sub(r'\n+', '\n', text)
-            text = re.sub(r'\s+', ' ', text)
-            
-            return text.strip()
-            
-        except Exception as e:
-            print(f"文字提取失败: {e}")
-            # 如果BeautifulSoup失败，使用简单的正则表达式
-            try:
-                # 移除HTML标签
-                text = re.sub(r'<[^>]+>', '', html_content)
-                # 移除多余空白
-                text = re.sub(r'\s+', ' ', text)
-                return text.strip()
-            except:
-                return html_content
-            
+                
     def get_announcement_detail(self, announcement_id):
         url = f'https://www.btcc.com/en-US/detail/{announcement_id}'
         response = requests.get(url, headers=self.headers)
-        text = self.extract_text_from_html(response.text)
+        text = self.parse_announcement_content(response.text)
         return text
     
     def get_announcements_id(self):
@@ -116,11 +64,15 @@ class BtccScraper:
     
     def run_scraping(self):
         announcements = self.get_announcements_id()
-        for i, announcement in enumerate(announcements):  # 只显示前3条
+        
+        # Counter for processed announcements in debug mode
+        processed_count = 0
+        
+        for i, announcement in enumerate(announcements):
             # 获取公告详情
             article_id = announcement.get('id', uuid.uuid4())
-            text_file_name = f'announcements_text/btcc_{article_id}.txt'
-            json_file_name = f'announcements_json/btcc_{article_id}.json'
+            text_file_name = os.path.join(self.output_dir, f"btcc_{article_id}.txt")
+            json_file_name = os.path.join(self.output_dir, f"btcc_{article_id}.json")
             if os.path.exists(text_file_name) and os.path.exists(json_file_name):
                 print(f"公告详情已存在: {text_file_name}")
                 continue
@@ -145,6 +97,14 @@ class BtccScraper:
                     
                     # 保存分析结果
                     self.analyzer.save_analysis_result(analysis_result, json_file_name, updates={'exchange': 'btcc'})
+
+                    
+
+                    # Increment counter for successfully processed announcements
+                    processed_count += 1
+                    if self.debug and processed_count >= self.max_size:
+                        print(f"Debug mode: Reached max_size limit ({self.max_size}), stopping...")
+                        break
                     
                 except Exception as e:
                     print(f"DeepSeek分析失败: {traceback.format_exc()}")
@@ -152,10 +112,14 @@ class BtccScraper:
                 
             else:
                 print("获取公告详情失败")
+            
+            # Break outer loop if we've reached max_size in debug mode
+            if self.debug and processed_count >= self.max_size:
+                break
 
 
 
 if __name__ == "__main__":
     analyzer = DeepSeekAnalyzer(api_key="sk-790c031d07224ee9a905c970cefffcba")
-    scraper = BtccScraper(analyzer)
+    scraper = BtccScraper(analyzer, debug=True, max_size=3)
     scraper.run_scraping()

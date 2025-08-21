@@ -1,2 +1,0 @@
-LBank Will Delist Certain Trading Pairs (2025.8.4)
-Dear LBank users, Due to lack of liquidity, LBank will delist the following trading pairs at [[0]]12:00 on August 8, 2025 (UTC)[[/0]]: [[2]]{2}[[/2]] And the deposit will be permanently closed at [[1]]12:00 on August 7, 2025 (UTC)[[/1]]. Please cancel 

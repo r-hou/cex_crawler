@@ -1,0 +1,30 @@
+[
+  {
+    "symbol": "TGT/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-22",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "GST/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-22",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "NLK/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-22",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "FIRE/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-22",
+    "exchange": "bybit"
+  }
+]

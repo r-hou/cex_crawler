@@ -1,0 +1,72 @@
+Gate Launchpool 第 298 期：TCOM Global (TCOM)，质押 USDT、TCOM 领空投
+<!--Gate Launchpool 第 298 期：TCOM Global (TCOM)，质押 USDT、TCOM 领空投-->
+[//]:content-type-MARKDOWN-DONOT-DELETE
+Gate Launchpool 将开启第 298 期 Launchpool：TCOM Global (TCOM)。用户质押 USDT、TCOM 即可免费瓜分 900,000 TCOM 代币，每小时领取空投奖励，新用户参与质押可获得 100 USDT 仓位体验券，先到先得。
+
+**空投详情**
+**挖矿时间：2025 年 8 月 18 日 20:00 至 2025 年 8 月 23 日 20:00（UTC+8）**
+挖矿总量：900,000 TCOM
+
+![](https://gimg2.gateimg.com/image/00000202508181421176414862889.png)
+
+<div style="text-align: center;"><a data-type="gate-activity" rel=""  href="https://www.gate.com/zh/launchpool/359?gt_disable_intercept_jump=1&needNavBar=0" target="_blank" style="text-decoration: none !important;display: inline-block;"><div class="gateactivity-btn-style" style="width: 240px;height: 40px;box-sizing: border-box;padding: unset;border-radius: 99px;display: inline-flex;align-items: center;justify-content: center;background: #3377FF;cursor: pointer;"><strong><span style="color:#fff; text-decoration: none;">立即质押赚币</span></strong></div></a></div>
+
+
+解锁方式：100% 解锁
+Gate Launchpool 支持用户提前质押。在项目正式上线前，您即可提前质押资产，确保在项目开始挖矿后第一时间开始赚取奖励。
+用户选择质押资金赎回后转入余币宝【7 天】定期产品，即可在原质押收益基础上叠加额外空投奖励。<a href="https://www.gate.com/zh/announcements/article/46561" target="_blank">了解更多</a>。
+
+**奖励发放**
+系统将每小时按用户质押资产占比对用户发放代币奖励到现货账户。
+<a href="https://www.gate.com/zh/help/guide/launchpool/37021" target="_blank">Gate Launchpool 常见问题及解答</a>
+**新用户专属质押池参与要求：仅限在 2025 年 8 月 16 日 08:00（UTC+8）之后注册的新用户参加。**
+如何参与：登录 Gate 账号，完成<a href="https://www.gate.com/zh/myaccount/kyc_home" target="_blank">身份认证</a> - 进入【<a href="https://www.gate.com/zh/launchpool" target="_blank">Launchpool</a>】- 持有不低于 0.1 USDT / 1 TCOM - 点击【质押】。
+
+**USDT 新手池专属福利：质押赢取 100 USDT 仓位体验券**
+用户参与 USDT 新手池只需保持单笔连续质押时长不低于 48 小时且平均有效质押金额不低于 100 USDT，即可获得 100 USDT 仓位体验券奖励。平均有效质押金额将根据连续质押期间实际质押和赎回情况计算得出。
+共 3,000 个名额，先到先得。
+
+**项目基本信息**
+TCOM 是全球首个去中心化的 IP 治理协议，以日本“漫画之神”手冢治虫的 65 个经典 IP 为起点，重新定义知识产权的创作、授权和价值分配。
+官网：https://www.tcomglobal.io/ 
+
+**Gate Labs 投资公示**
+Gate Labs 未参与 TCOM Global (TCOM) 投资。
+
+**注意事项**
+1. Gate Launchpool 是一个创新的质押空投平台，用户可通过质押 GT、BTC、ETH、USDT 或其他代币，每小时赚取热币新币空投，低门槛高年化，轻松捕获市场机遇。
+2. USDT 新手池专属福利将以仓位体验券的形式发放，满足条件的用户将在达标后 14 个工作日内收到空投。连续质押期间允许部分赎回，全部赎回将重新计算连续质押周期；达标后赎回不影响奖励发放。
+3. 参与用户需先完成<a href="https://www.gate.com/zh/myaccount/kyc_home" target="_blank">身份认证</a> ，以保障您的账户和资产安全。
+4. 请参与时遵守相关活动规则，禁止任何作弊行为，任何作弊行为将导致取消获奖资格。
+5. 如翻译版本与英文版本有任何差异，以英文版本为主。
+6. Gate 拥有对本次活动的最终解释权。
+7. 本活动与 Apple Inc. 无关。
+8. 英国以及其他受限地区的用户无法使用全部或部分服务（包括参与本活动、游戏或竞赛），有关受限地区的详细资讯请阅读 <a href="https://www.gate.com/zh/legal/user-agreement" target="_blank">User Agreement</a>。
+
+**风险提示**
+1. 区块链初创项目仍处在初级阶段，项目的运营、项目的底层技术、法律法规环境等均可能存在极大的风险。
+2. 了解区块链初创项目并对其固有风险进行评估需要掌握高级的技术和财经知识。
+3. 受到技术、法律法规、市场和其他因素的影响，您参与的项目价格可能会剧烈波动，价格可能会大幅降低或者升高。
+4. 可能出现由于项目的底层技术或者 Gate 交易平台的原因，您参与的项目可能无法全部或者部分提现。
+5. 加密货币项目具有高风险。加密货币价格具有高波动性。项目方未设置保证金且不提供任何价格承诺和破发担保。请务必在完全了解风险并能承担风险的情况下参与，平台强烈提示风险，但无法对投资行为承担担保赔偿等责任。
+
+<br>
+
+<br>
+<sp>
+Gate 团队
+2025 年 8 月 18 日
+<sp>
+**加密货币之门**
+安全、快捷、轻松交易超过 3,500 种加密货币
+**立即行动**
+[注册账户](https://www.gate.com/signup)，最高可领 $10,000 迎新奖励
+[邀请他人注册](https://www.gate.com/referral)，可获 40% 佣金
+**关注官方渠道**
+[访问 Gate 官网](https://www.gate.com/)
+[下载 Gate App | 电脑端](https://www.gate.com/mobileapp)
+[关注 X (Twitter)](https://x.com/Gate_zh)，获取最新福利
+[加入 Telegram 社群](https://t.me/gate_zh)，讨论热点话题
+[进入全球社区](https://www.gate.com/community)，获取最新资讯
+**透明度保障**
+[查看 100% 储备金证明](https://www.gate.com/proof-of-reserves)

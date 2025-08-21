@@ -1,0 +1,27 @@
+Dear CoinEx users,
+To provide you with more trading options, after rigorous reviews, CoinEx will list FUSD (Freedom Dollar) on Aug 19, 2025. The details are as follows:
+List Time
+1. Deposit: 10:00 on Aug 19 (UTC)
+2. Withdrawal: 10:00 on Aug 19 (UTC)
+3. Trading pair: FUSD/USDT
+4. Trading: 10:00 Aug 19 (UTC)
+5. Service support: FUSD/USDT supports AMM, Spot Grid, and Auto-Invest Plan;
+FUSD (Zano): 86143388bd056a8f0bab669f78f14873fac8e2dd8d57898cdb725a2d5e2e4f8f
+About FUSD
+Freedom Dollar is a privacy-focused, algorithmic stablecoin on the Zano blockchain.
+Learn more about FUSD>>
+About Automated Market Making (AMM)
+AMM is supported for the FUSD/USDT market. CoinEx AMM allows every user to become a market maker. By adding liquidity to the liquidity pool, users can share 50% of the trading fees earned in this market. The fee dividends are calculated daily. Learn about AMM >>
+About Spot Grid
+Spot Grid is supported for the FUSD/USDT market. Spot Grid is a trading strategy suitable for volatile markets. It helps you capture profits in market fluctuations by automatically executing buy low and sell high within a certain market range 24 hours a day. Learn about Spot Grid >>
+About Auto-Invest Plan
+Auto-Invest Plan is supported for the FUSD/USDT market. CoinEx Auto-Invest Plan is a trading strategy that helps you automatically accumulate crypto assets via pre-set investment and recurring cycles. It has the advantages of automatic execution, convenience, and friendly entry. With a minimum of 1 USDT, you can make stable investments and realize wealth growth. Learn about Auto-Invest Plan >>
+Risk Reminder
+Crypto products are innovative investment products with large price fluctuations as well as high investment risks. Therefore, please evaluate and invest wisely based on your risk tolerance and financial resources.
+CoinEx reserves the final interpretation of this announcement.
+CoinEx Team
+Aug 19, 2025
+· Invite friends to register and share up to 40% trading fee rebate. More free vouchers await you >>>
+· Learn about CoinEx’s latest coin listing info in the New Listing zone >>>
+· Join CoinEx official community to get the latest asset listing updates and unlock exclusive benefits >>>
+· Follow CoinEx Global Twitter to learn about the latest market trends and win gifts >>>

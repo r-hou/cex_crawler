@@ -1,86 +1,89 @@
-time,binance,bingx,bitget,bitunix,blofin,bybit,gate,lbank,mexc
-2025-08-09,,,,,,,,,"上架 BSUUSDT
-"
-2025-08-11,"下架 DEFI/USDT
- 下架 MEMEFI/USDT
-","上架 1000XECUSDT
-",,"下架 MEMEFI/USDT
-","上架 SKY/USDT
-",,"上架 SLAY/USDT
-",,"上架 SPARK/USDT
- 上架 SLAYUSDT
-"
-2025-08-12,,,,,"下架 BOBAUSDT
-",,"上架 WAI/USDT
-","上架 CYBER/USDT
- 上架 SWIF/USDT
-","上架 CLIPPY/USDT
- 上架 WAIUSDT
- 下架 TSTUSDC
-"
-2025-08-13,,"上架 OKBUSDT
- 上架 AIOUSDT
- 上架 XNYUSDT
-","上架 AIO/USDT
- 上架 XNY/USDT
-","上架 CRO/USDT
-","上架 AIO/USDT
- 上架 XNY/USDT
-",,"上架 AIO/USDT
- 上架 OKB/USDT
-","上架 AIO/USDT
- 上架 ORANGE/USDT
- 上架 XNY/USDT
- 上架 SAN/USDT
-","上架 BMNRUSDT
- 上架 OKBUSDT
- 上架 AIO/USDT
-"
-2025-08-14,,,,"上架 XNY/USDT
- 上架 LUMIA/USDT
-",,,"上架 OVL/USDT
- 上架 AIBOT/USDT
-","上架 BLOCK/USDT
-","上架 BLSHUSDT
- 上架 AIBOT/USDT
- 上架 OVL/USDT
-"
-2025-08-15,,,,,"下架 TRXUSD
- 下架 1000000PEIPEIUSDT
-",,,,"上架 PUBLIC/USDT
-"
-2025-08-16,,,"待确定下架 TSTBSCPERP
-",,,"待确定上架 MOODENG/USDC
- 待确定上架 SAHARA/USDC
- 待确定上架 SPX/USDC
- 待确定上架 RESOLV/USDC
- 待确定上架 SEI/USDC
- 待确定上架 IP/USDC
- 待确定上架 AI16Z/USDC
- 待确定上架 NEIRO/USDC
- 待确定下架 MKR/USDT
- 待确定上架 INUSDT
- 待确定上架 YALA/USDT
- 待确定上架 RHEA/USDT
- 待确定上架 ASR/USDT
- 待确定下架 MOBILE/USDT
- 待确定下架 BAL/USDT
- 待确定上架 AIOUSDT
- 待确定上架 A2ZUSDT
- 待确定上架 NAORISUSDT
- 待确定上架 KUSDT/USDT
- 待确定上架 ALPINEUSDT
- 待确定下架 KOMA/USDT
- 待确定上架 XNY/USDT
- 待确定上架 MYX/USDT
-",,"待确定下架 CBK
- 待确定下架 LUCE
- 待确定下架 GOONC
- 待确定下架 ELDE
- 待确定下架 GOR
- 待确定下架 AITECH
- 待确定下架 OLIVIA
- 待确定下架 ACID
- 待确定下架 VIRGEN
- 待确定下架 KNET
-",
+time,bitunix,blofin,btcc,bybit,gate,lbank,mexc,binance,bingx,bitget,okx,weex
+2025-08-14,,,,"上架 ASR
+ 上架 ALPINE
+ 上架 PSIX/USD
+ 上架 CLS/USD
+ 上架 DAVE/USD
+ 上架 STRL/USD
+ 上架 CRDO/USD
+ 上架 VRT/USD
+ 上架 FIG/USD
+",,,"上架 BLSH
+",,,,,
+2025-08-15,,"下架 TRXUSD
+ 下架 1000000PEIPEI
+","上架 SBET
+",,,,"上架 PUBLIC
+ 上架 TCOM
+",,,,,
+2025-08-18,,"下架 D
+ 下架 SEND
+ 下架 QUICK
+ 下架 SCRT
+ 下架 HIVE
+ 下架 ALU
+ 下架 ROAM
+ 下架 DOLO
+ 下架 SOSO
+ 下架 PORT3
+ 下架 NXPC
+ 下架 LAUNCHCOIN
+ 下架 XION
+ 下架 GIGA
+ 下架 CLOUD
+ 下架 DUCK
+ 下架 HPOS10l
+ 下架 DMC
+ 下架 TANSSI
+ 下架 10000COQ
+ 上架 DAM
+ 上架 BTC/USDC
+ 上架 ETH/USDC
+ 上架 DOGE/USDC
+ 上架 SOL/USDC
+ 上架 XRP/USDC
+ 上架 BNB/USDC
+ 上架 SUI/USDC
+ 上架 LINK/USDC
+ 上架 ENA/USDC
+ 上架 ADA/USDC
+",,"下架 MKR
+ 上架 DAM
+",,,"上架 DAM
+",,,,,
+2025-08-19,,,,,,"上架 BTCDOM
+",,,,,,
+2025-08-20,"上架 YALA
+","上架 CUDIS
+ 上架 SAPIEN
+",,"上架 SAPIEN
+","上架 CUDIS
+","上架 DSYNC
+","上架 SKY
+",,,,,
+2025-08-21,"上架 SAPIEN
+ 上架 COS
+ 上架 YZY
+","上架 YZY
+",,"上架 YZY
+","上架 ARIA
+ 上架 SAPIEN
+ 上架 YZY
+ 上架 MNT
+ 上架 YZY
+","上架 AKE
+ 上架 YZY
+ 上架 SAPIEN
+","上架 ARIA
+ 上架 AKE
+ 上架 SAPIEN
+ 上架 BAS
+ 上架 YZY
+",,,,,
+2025-08-22,"下架 CSPR
+",,,,,,,,,,,
+2025-08-26,,"下架 TLM
+ 下架 COS
+ 下架 1000XEC
+ 下架 1000BTT
+",,,,,,,,,,
