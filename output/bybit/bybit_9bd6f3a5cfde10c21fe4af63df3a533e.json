@@ -1,0 +1,30 @@
+[
+  {
+    "symbol": "FWOG/USDT",
+    "action": "上架",
+    "type": "现货",
+    "time": "2025-08-19",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "WORTHLESS/USDT",
+    "action": "上架",
+    "type": "现货",
+    "time": "2025-08-19",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "CLIPPY/USDT",
+    "action": "上架",
+    "type": "现货",
+    "time": "2025-08-19",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "nub/USDT",
+    "action": "上架",
+    "type": "现货",
+    "time": "2025-08-19",
+    "exchange": "bybit"
+  }
+]

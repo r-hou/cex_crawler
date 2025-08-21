@@ -1,0 +1,71 @@
+Dear BloFin Users, We’re excited to announce that USDC-Margined (USDC-M) Futures Contracts are now live on BloFin! This new derivative product allows you to trade with USDC as both margin and settlement currency, offering enhanced clarity and flexibility.Starting 09:00 (UTC), August 18, 2025, we will add the following pairs to USDC-M perpetual contracts:BTC, ETH, DOGE, SOL, XRP, BNB, SUI, ENA, LINK, and ADA.The updates will cover both the web and app interfaces. The details are as follows:
+Feature
+Details
+Underlying Asset
+BTC
+ETH
+DOGE
+SOL
+XRP
+BNB
+SUI
+LINK
+ENA
+ADA
+Settlement Asset
+USDC
+USDC
+USDC
+USDC
+USDC
+USDC
+USDC
+USDC
+USDC
+USDC
+Contract Size
+0.0001
+0.001
+1
+0.01
+0.1
+0.01
+0.1
+0.01
+1
+1
+Tick Size
+0.1
+0.01
+0.00001
+0.01
+0.0001
+0.01
+0.00001
+0.001
+0.0001
+0.0001
+Leverage
+125X
+125X
+75X
+100X
+75X
+75X
+50X
+75X
+50X
+25X
+Funding Fee Settlement
+Every 8 hours
+Every 4 hours
+Trading Hours
+24/7
+Please refer to the price limit rules for the perpetual contracts listed above. Trade with confidence and experience seamless settlement in USDC today. 🚀To experience the innovative power of BloFin, please go to the BloFin website or download the App from the Apple App Store and Google Play Store to trade easily on the go.Thanks for your support! BloFin TeamAug 18, 2025 Find us on:
+X (Twitter)
+Instagram
+Telegram
+Discord
+Youtube
+BloFin reserves the right, in its sole discretion, to amend or cancel this announcement at any time and for any reason without prior notice.
+Risk Warning: Digital assets are highly speculative and subject to significant volatility. They may become illiquid at any time, and investors could lose the entire value of their investment. Before trading any digital asset, you should conduct your own research and assess your risk tolerance. BloFin is not liable for any losses you may incur from trading digital assets. This material should not be construed as financial advice. For more information, view our Terms of Use and Risk Warning.

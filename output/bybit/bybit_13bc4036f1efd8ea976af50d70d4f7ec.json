@@ -1,0 +1,58 @@
+[
+  {
+    "symbol": "AVA/USDT",
+    "action": "上架",
+    "type": "现货",
+    "time": "2025-08-15",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "SPARK/USDT",
+    "action": "上架",
+    "type": "现货",
+    "time": "2025-08-15",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "TROLL/USDT",
+    "action": "上架",
+    "type": "现货",
+    "time": "2025-08-15",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "Tokabu/USDT",
+    "action": "上架",
+    "type": "现货",
+    "time": "2025-08-15",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "House/USDT",
+    "action": "上架",
+    "type": "现货",
+    "time": "2025-08-15",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "USDUC/USDT",
+    "action": "上架",
+    "type": "现货",
+    "time": "2025-08-15",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "URANUS/USDT",
+    "action": "上架",
+    "type": "现货",
+    "time": "2025-08-15",
+    "exchange": "bybit"
+  },
+  {
+    "symbol": "PYTHIA/USDT",
+    "action": "上架",
+    "type": "现货",
+    "time": "2025-08-15",
+    "exchange": "bybit"
+  }
+]

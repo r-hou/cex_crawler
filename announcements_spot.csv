@@ -1,78 +1,121 @@
-time,binance,bingx,bitget,bybit,gate,lbank,mexc,upbit
-2025-08-09,,,,,"上架 TROLL/USDT
- 上架 BSU/USDT
+time,binance,bingx,bybit,coinex,gate,lbank,mexc,upbit,bitget,bithumb
+2025-08-14,,"上架 CELL
+",,,"上架 AIBOT
+",,"上架 CRED
 ",,,
-2025-08-11,,"上架 SPARK/USDT
- 下架 SPARK/USDT
- 下架 FEL/USDT
- 下架 TGT/USDT
- 下架 BANANASOL/USDT
- 下架 RATO/USDT
- 下架 HERO/USDT
- 下架 AGIXT/USDT
- 下架 LLM/USDT
- 下架 NEUR/USDT
- 上架 BOSS/USDT
- 下架 BOSS/USDT
-","上架 XCX/USDT
-",,"上架 XCX/USDT
- 上架 SLAY/USDT
-",,"上架 DEGENFI/USDT
- 上架 IP/USDC
- 上架 IP/BTC
- 上架 IP/ETH
-",
-2025-08-12,,"上架 BLOCK/USDT
-","上架 WAI/USDT
-",,"上架 WAI/USDT
-","上架 REXSOL/USDT
- 上架 TANAKI/USDT
-","上架 WAI/USDT
-","上架 CYBER/KRW
- 上架 CYBER/USDT
-"
-2025-08-13,,,,,"上架 URANUS/USDT
-","上架 PEPE1/USDT
- 上架 DSYNC/USDT
- 上架 SAN/USDT
- 上架 BLOCK/USDT
-","上架 BLU/USDT
-",
-2025-08-14,,"上架 CELL/USDT
-","上架 BSTR/USDT
-",,"上架 AIBOT/USDT
- 上架 OVL/USDT
-","上架 BROWNHOUSE/USDT
-","上架 CRED/USDT
-",
 2025-08-15,"下架 ANIME/FDUSD
  下架 HYPER/FDUSD
  下架 STO/BNB
-",,"上架 PUBLIC/USDT
- 下架 TOMI/USDT
- 下架 SIREN/USDT
-","下架 CHRP/USDT
- 下架 CAPS/USDT
- 下架 FMC/USDT
- 下架 FMB/USDT
-","上架 TCOM/USDT
-","上架 PUBLIC/USDT
- 下架 2
-","上架 MTT/USDT
- 上架 TCOM/USDT
-",
-2025-08-16,,,,"待确定上架 TUNA/USDT
- 待确定上架 K/USDT
-","待确定上架 PUBLIC/USDT
-",,"待确定下架 OKT
-",
-2025-08-18,,"下架 IRON/USDT
+ 下架 ANIME/FDUSD
+ 下架 HYPER/FDUSD
+ 下架 STO/BNB
+ 下架 ANIME/FDUSD
+ 下架 HYPER/FDUSD
+ 下架 STO/BNB
+",,"上架 AVA
+ 上架 SPARK
+ 上架 TROLL
+ 上架 Tokabu
+ 上架 House
+ 上架 USDUC
+ 上架 URANUS
+ 上架 PYTHIA
+ 下架 CHRP
+ 下架 CAPS
+ 下架 FMC
+ 下架 FMB
+","上架 XNY
+","上架 ANI
+ 上架 TCOM
+ 上架 AIO
+ 上架 PUBLIC
+",,"上架 LBAI
+ 上架 MTT
+ 上架 TCOM
+ 上架 BLUP
+",,,
+2025-08-16,,,,,,,"上架 TOKABUETH
+",,,
+2025-08-18,,"上架 LIGHT
+ 下架 LIGHT
+ 下架 IRON
+ 上架 CLIPPY
+ 下架 CLIPPY
+",,"下架 LIBRA
+ 下架 UBC
+ 下架 PAJAMAS
+ 下架 APRS
+ 下架 ESE
+ 下架 ENQAI
+ 下架 BULLY
+ 下架 BLINK
+ 下架 PESTO
+",,,"上架 MK
+ 上架 DAM
+",,,
+2025-08-19,,,"上架 FWOG
+ 上架 WORTHLESS
+ 上架 CLIPPY
+ 上架 nub
+","上架 FUSD
+",,,"上架 BAS
+","上架 API3/KRW
+ 上架 API3
+",,
+2025-08-20,,"上架 SAPIEN
+",,"下架 KLY
+ 下架 BEND
+ 下架 BEER
+ 下架 AZUR
+ 下架 BUZ
+ 下架 SHARK
+ 下架 STFX
+ 下架 GUMMY
+",,"上架 HODL
+ 上架 DGC
+ 上架 HALO1
+",,,,
+2025-08-21,,,,"上架 SAPIEN
+ 上架 YZY
+","上架 ARIA
+ 上架 ARIA
+ 上架 GTBTC
+ 上架 GTBTC/BTC
+ 上架 YZY
+","上架 AKE
+ 上架 LION
+ 上架 67
+ 上架 DARK1
+ 上架 BBDY
+ 上架 YZYMNY
+ 上架 CLANKER1
+",,,,
+2025-08-22,"下架 MOVE/FDUSD
+ 下架 NIL/FDUSD
+ 下架 SXT/BNB
+ 下架 MOVE/FDUSD
+ 下架 NIL/FDUSD
+ 下架 SXT/BNB
+","上架 XPIN
+","下架 TGT
+ 下架 GST
+ 下架 NLK
+ 下架 FIRE
+","下架 PDA
+ 下架 APTR
+ 下架 HEGIC
+ 下架 BARRON
+ 下架 NAP
+ 下架 SRK
+ 下架 FARMHYPE
+ 下架 POOLX
+ 下架 KCN
+","上架 XPIN
+",,,,,
+2025-08-28,,,,"下架 AIPG
+ 下架 AIT
+ 下架 UWU
+ 下架 BRWL
+ 下架 RAT
+ 下架 LEASH
 ",,,,,,
-2025-08-21,,,,,,,,"下架 STRIKE/KRW
- 下架 STRIKE/BTC
-"
-2025-08-25,,,,,,,,"下架 QTCON/BTC
- 下架 QTCON/USDT
-"
-2025-08-28,,,,,,,,"下架 PUNDIAI/BTC
-"

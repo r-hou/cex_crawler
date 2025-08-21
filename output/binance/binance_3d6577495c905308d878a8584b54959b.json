@@ -1,0 +1,32 @@
+[
+  {
+    "symbol": "MOVE/FDUSD",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-22",
+    "exchange": "binance",
+    "title": "币安移除部分现货交易对的公告 - 2025-08-22",
+    "article_id": "c62d1ed9054b4a70b2ecbe0af01e50bb",
+    "url": "https://www.binance.com/zh-CN/support/announcement/detail/c62d1ed9054b4a70b2ecbe0af01e50bb"
+  },
+  {
+    "symbol": "NIL/FDUSD",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-22",
+    "exchange": "binance",
+    "title": "币安移除部分现货交易对的公告 - 2025-08-22",
+    "article_id": "c62d1ed9054b4a70b2ecbe0af01e50bb",
+    "url": "https://www.binance.com/zh-CN/support/announcement/detail/c62d1ed9054b4a70b2ecbe0af01e50bb"
+  },
+  {
+    "symbol": "SXT/BNB",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-22",
+    "exchange": "binance",
+    "title": "币安移除部分现货交易对的公告 - 2025-08-22",
+    "article_id": "c62d1ed9054b4a70b2ecbe0af01e50bb",
+    "url": "https://www.binance.com/zh-CN/support/announcement/detail/c62d1ed9054b4a70b2ecbe0af01e50bb"
+  }
+]

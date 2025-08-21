@@ -1,0 +1,20 @@
+[
+  {
+    "symbol": "CLIPPY/USDT",
+    "action": "上架",
+    "type": "现货",
+    "time": "2025-08-18",
+    "exchange": "bingx",
+    "title": "CLIPPY Migration to BingX Spot2025-08-18",
+    "url": "https://bingx.com/en/support/articles/13529422325775/"
+  },
+  {
+    "symbol": "CLIPPY/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-18",
+    "exchange": "bingx",
+    "title": "CLIPPY Migration to BingX Spot2025-08-18",
+    "url": "https://bingx.com/en/support/articles/13529422325775/"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "symbol": "KLY/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-20",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "BEND/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-20",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "BEER/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-20",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "AZUR/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-20",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "BUZ/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-20",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "SHARK/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-20",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "STFX/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-20",
+    "exchange": "coinex"
+  },
+  {
+    "symbol": "GUMMY/USDT",
+    "action": "下架",
+    "type": "现货",
+    "time": "2025-08-20",
+    "exchange": "coinex"
+  }
+]
