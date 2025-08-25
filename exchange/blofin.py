@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup
 import os
 import sys
 from hashlib import md5
+import pandas as pd
 
 from .base_scraper import BaseScraper
 from deepseek_analyzer import DeepSeekAnalyzer

@@ -3,6 +3,8 @@ import asyncio
 import glob
 import json
 import pandas as pd
+import multiprocessing as mp
+import concurrent.futures as cf
 from exchange.binance import BinanceScraper
 from exchange.bingx import BingxScraper
 from exchange.bitunix import BitunixScraper
@@ -19,7 +21,7 @@ from exchange.bithumb import BithumbScraper
 from exchange.coinex import CoinexScraper
 from exchange.upbit import UpbitScraper
 from deepseek_analyzer import DeepSeekAnalyzer
-
+from generate_html import generate_static_html
 # Configuration
 DEBUG_MODE = True  # Set to True for debug mode
 MAX_DEBUG_SIZE = 5  # Maximum announcements per exchange in debug mode
@@ -49,6 +51,11 @@ def save_accoucements_to_csv():
     df.loc[(df["time"].isna()) | (df["time"].str.len()<10), "comments"] = "待确定"
     df["time"] = df["time"].fillna(today.strftime("%Y-%m-%d"))
     df["time"] = df["time"].apply(lambda x: today.strftime("%Y-%m-%d") if (pd.isna(x) or x == "" or len(x) < 10) else x)
+    df["release_time"] = pd.to_datetime(df["release_time"])
+    df["release_date"] = df["release_time"].dt.date
+    df = df.sort_values(by=["release_date", "exchange"], ascending=False)
+    df = df.drop(columns=["release_date"])
+    df = df[["release_time","time", "exchange", "symbol", "type", "action", "title", "url", "content", "content", "file", "comments"]]
     df.to_csv("announcements.csv", index=False)
     df = df.drop(columns=["file"])
     # 转换时间列，确保没有时区信息
@@ -75,6 +82,57 @@ def save_accoucements_to_csv():
     futures_df.to_csv("announcements_futures.csv", index=True)
     print("save_accoucements_to_csv done")
 
+def run_scraper_entry(scraper_name: str, debug: bool, max_size: int, offset_days: int, analyzer_api_key: str):
+    """Child process entry to run a single scraper in isolation."""
+    try:
+        # Local import map
+        name_to_class = {
+            "binance": BinanceScraper,
+            "bingx": BingxScraper,
+            "bitunix": BitunixScraper,
+            "blofin": BlofinScraper,
+            "bitget": BitgetScraper,
+            "btcc": BtccScraper,
+            "bybit": BybitScraper,
+            "gate": GateScraper,
+            "mexc": MexcScraper,
+            "lbank": LbankScraper,
+            "weex": WeexScraper,
+            "coinex": CoinexScraper,
+            "upbit": UpbitScraper,
+            "okx": OkxScraper,
+        }
+        cls = name_to_class.get(scraper_name)
+        if cls is None:
+            print(f"Unknown scraper: {scraper_name}")
+            return
+        print(f"\n=== [Process] Starting {scraper_name} scraper ===")
+        # Instantiate with best-effort constructor compatibility
+        try:
+            scraper = cls(None, debug, max_size, offset_days, ANALYZER_API_KEY)
+        except TypeError:
+            try:
+                scraper = cls(None, debug, max_size, offset_days)
+            except TypeError:
+                try:
+                    scraper = cls()
+                except Exception as e:
+                    print(f"Failed to construct {scraper_name}: {e}")
+                    return
+
+        run_method = getattr(scraper, "run_scraping", None)
+        if run_method is None:
+            print(f"{scraper_name} has no run_scraping method")
+            return
+        import asyncio as _asyncio
+        if _asyncio.iscoroutinefunction(run_method):
+            _asyncio.run(run_method())
+        else:
+            run_method()
+    except Exception as e:
+        print(f"[Process] Error in {scraper_name}: {e}")
+
+
 async def crawl_announcements():
     # Ensure output directory exists
     if not os.path.exists("output"):
@@ -85,46 +143,40 @@ async def crawl_announcements():
         print(f"Maximum announcements per exchange: {MAX_DEBUG_SIZE}")
 
     # Initialize scrapers with debug configuration
-    # Instantiate scrapers without sharing a single analyzer; each will create its own
-    scrapers = [
-        BinanceScraper(None, DEBUG_MODE, MAX_DEBUG_SIZE, OFFSET_DAYS, ANALYZER_API_KEY),
-        BingxScraper(None, DEBUG_MODE, MAX_DEBUG_SIZE, OFFSET_DAYS, ANALYZER_API_KEY),
-        BitunixScraper(None, DEBUG_MODE, MAX_DEBUG_SIZE, OFFSET_DAYS, ANALYZER_API_KEY),
-        BlofinScraper(None, DEBUG_MODE, MAX_DEBUG_SIZE, OFFSET_DAYS, ANALYZER_API_KEY),
-        BitgetScraper(None, DEBUG_MODE, MAX_DEBUG_SIZE, OFFSET_DAYS, ANALYZER_API_KEY),
-        BtccScraper(None, DEBUG_MODE, MAX_DEBUG_SIZE, OFFSET_DAYS, ANALYZER_API_KEY),
-        BybitScraper(None, DEBUG_MODE, MAX_DEBUG_SIZE, OFFSET_DAYS, ANALYZER_API_KEY),
-        GateScraper(None, DEBUG_MODE, MAX_DEBUG_SIZE, OFFSET_DAYS, ANALYZER_API_KEY),
-        MexcScraper(None, DEBUG_MODE, MAX_DEBUG_SIZE, OFFSET_DAYS, ANALYZER_API_KEY),
-        LbankScraper(None, DEBUG_MODE, MAX_DEBUG_SIZE, OFFSET_DAYS, ANALYZER_API_KEY),
-        WeexScraper(None, DEBUG_MODE, MAX_DEBUG_SIZE, OFFSET_DAYS, ANALYZER_API_KEY),
-        CoinexScraper(None, DEBUG_MODE, MAX_DEBUG_SIZE, OFFSET_DAYS, ANALYZER_API_KEY),
-        UpbitScraper(None, DEBUG_MODE, MAX_DEBUG_SIZE, OFFSET_DAYS, ANALYZER_API_KEY),
-        OkxScraper(None, DEBUG_MODE, MAX_DEBUG_SIZE, OFFSET_DAYS, ANALYZER_API_KEY)
+    # Run each scraper in its own process via ProcessPoolExecutor
+    scraper_names = [
+        "binance", 
+        "bingx", 
+        "bitunix", 
+        "blofin", 
+        "bitget", 
+        "btcc", 
+        "bybit",
+        "gate",
+        "mexc",
+        "lbank", 
+        "weex", 
+        "coinex", 
+        "upbit", 
+        "okx"
     ]
 
-    # Run scrapers concurrently
-    tasks = []
-    started_scrapers = []
-    for scraper in scrapers:
-        run_method = getattr(scraper, "run_scraping", None)
-        if run_method is None:
-            continue
-        print(f"\n=== Starting {scraper.exchange_name} scraper ===")
-        if asyncio.iscoroutinefunction(run_method):
-            tasks.append(asyncio.create_task(run_method()))
-        else:
-            tasks.append(asyncio.to_thread(run_method))
-        started_scrapers.append(scraper)
-
-    results = await asyncio.gather(*tasks, return_exceptions=True)
-    for scraper, result in zip(started_scrapers, results):
-        if isinstance(result, Exception):
-            print(f"Error running {scraper.exchange_name} scraper: {result}")
+    max_workers = min(len(scraper_names), (os.cpu_count() or 4))
+    with cf.ProcessPoolExecutor(max_workers=max_workers, mp_context=mp.get_context("spawn")) as executor:
+        futures = [
+            executor.submit(run_scraper_entry, name, DEBUG_MODE, MAX_DEBUG_SIZE, OFFSET_DAYS, ANALYZER_API_KEY)
+            for name in scraper_names
+        ]
+        for fut, name in zip(futures, scraper_names):
+            try:
+                fut.result()
+            except Exception as e:
+                print(f"[ProcessPool] Error in {name}: {e}")
 
 async def main():
-    await crawl_announcements()
+    # await crawl_announcements()
     save_accoucements_to_csv()
+    generate_static_html()
 
 if __name__ == "__main__":
     asyncio.run(main())
