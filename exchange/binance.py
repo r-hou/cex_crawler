@@ -15,13 +15,14 @@ from deepseek_analyzer import DeepSeekAnalyzer
 import traceback
 import os
 from .base_scraper import BaseScraper
+import pandas as pd
 
 # 禁用SSL警告
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 class BinanceScraper(BaseScraper):
-    def __init__(self, analyzer: DeepSeekAnalyzer, debug: bool = False, max_size: int = 10):
-        super().__init__("binance", "https://www.binance.com", analyzer, debug, max_size)
+    def __init__(self, analyzer: DeepSeekAnalyzer, debug: bool = False, max_size: int = 10, offset_days: int = 7, analyzer_api_key= None):
+        super().__init__("binance", "https://www.binance.com", analyzer, debug, max_size, offset_days, analyzer_api_key)
         
     
     def generate_uuid(self):
@@ -222,8 +223,9 @@ class BinanceScraper(BaseScraper):
             print(f"=== 开始抓取 {self.exchange_name} 公告 ===")
             
             # 获取公告列表
-            announcements = self.get_announcements_id()
-            
+            delisting_announcements = self.get_announcements_id()
+            listing_announcements = self.get_announcements_id(catalog_id='48')
+            announcements = delisting_announcements + listing_announcements
             if not announcements:
                 print("未获取到公告")
                 return
@@ -235,17 +237,21 @@ class BinanceScraper(BaseScraper):
                 try:
                     article_id = announcement.get('code')
                     title = announcement.get('title', 'N/A')
-                    
+                    release_time = int(announcement.get('releaseDate', 'N/A'))
+                    release_time_str = pd.to_datetime(release_time, unit='ms', utc=True).tz_convert('Asia/Hong_Kong').strftime('%Y-%m-%d %H:%M:%S')
+                    if release_time_str < (pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)).strftime('%Y-%m-%d %H:%M:%S'):
+                        print(f"公告 {title} 发布时间 {release_time_str} 小于 {pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)}，跳过")
+                        continue
+
                     if not article_id:
                         continue
                         
                     print(f"\n处理公告 {i+1}/{len(announcements)}: {title}")
                     
                     # 检查文件是否已存在
-                    text_filepath = os.path.join(self.output_dir, f"binance_{article_id}.txt")
+                    # text_filepath = os.path.join(self.output_dir, f"binance_{article_id}.txt")
                     json_filepath = os.path.join(self.output_dir, f"binance_{article_id}.json")
-                    
-                    if os.path.exists(text_filepath) and os.path.exists(json_filepath):
+                    if os.path.exists(json_filepath):
                         print(f"公告详情已存在，跳过")
                         continue
                     
@@ -259,18 +265,27 @@ class BinanceScraper(BaseScraper):
                     if not text_content.strip():
                         print("文本内容为空")
                         continue
+                    # analyzer = DeepSeekAnalyzer(api_key="sk-790c031d07224ee9a905c970cefffcba")
+                    analysis_result = self.analyzer.analyze_announcement(text_content)
                     
-                    # 使用基类方法分析和保存
-                    self.analyze_and_save_announcement(
-                        text_content,
-                        {
+                    # 显示分析结果
+                    self.analyzer.print_analysis_result(analysis_result)
+                    
+                    # 保存分析结果
+                    self.analyzer.save_analysis_result(analysis_result, json_filepath, {
                             'title': title,
-                            'article_id': article_id,
-                            'url': f"https://www.binance.com/zh-CN/support/announcement/detail/{article_id}"
-                        }
-                    )
+                            'exchange': 'binance',
+                            'url': f"https://www.binance.com/zh-CN/support/announcement/detail/{article_id}",
+                            "release_time": release_time_str,
+                            "content": text_content
+                        })
                     
                     processed_count += 1
+
+                    # if self.debug and processed_count >= self.max_size:
+                    #     print(f"Debug mode: Reached max_size limit ({self.max_size}), stopping...")
+                    #     break
+                    
                     await self.random_delay(2, 5)
                     
                 except Exception as e:

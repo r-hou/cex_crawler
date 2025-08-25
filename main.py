@@ -22,7 +22,9 @@ from deepseek_analyzer import DeepSeekAnalyzer
 
 # Configuration
 DEBUG_MODE = True  # Set to True for debug mode
-MAX_DEBUG_SIZE = 20  # Maximum announcements per exchange in debug mode
+MAX_DEBUG_SIZE = 5  # Maximum announcements per exchange in debug mode
+OFFSET_DAYS = 14
+ANALYZER_API_KEY = "sk-790c031d07224ee9a905c970cefffcba"
 
 
 SPOT_CEX = ["binance", "bingx", "bitget", "bybit", "gate", "mexc", "lbank", 'upbit', 'bithumb', 'coinex']
@@ -78,45 +80,50 @@ async def crawl_announcements():
     if not os.path.exists("output"):
         os.makedirs("output", exist_ok=True)
 
-    # Create analyzer
-    analyzer = DeepSeekAnalyzer(api_key="sk-790c031d07224ee9a905c970cefffcba")
-
     print(f"Debug mode: {DEBUG_MODE}")
     if DEBUG_MODE:
         print(f"Maximum announcements per exchange: {MAX_DEBUG_SIZE}")
 
     # Initialize scrapers with debug configuration
+    # Instantiate scrapers without sharing a single analyzer; each will create its own
     scrapers = [
-        BinanceScraper(analyzer, DEBUG_MODE, MAX_DEBUG_SIZE),
-        BingxScraper(analyzer, DEBUG_MODE, MAX_DEBUG_SIZE),
-        BitunixScraper(analyzer, DEBUG_MODE, MAX_DEBUG_SIZE),
-        BlofinScraper(analyzer, DEBUG_MODE, MAX_DEBUG_SIZE),
-        BitgetScraper(analyzer, DEBUG_MODE, MAX_DEBUG_SIZE),
-        BtccScraper(analyzer, DEBUG_MODE, MAX_DEBUG_SIZE),
-        BybitScraper(analyzer, DEBUG_MODE, MAX_DEBUG_SIZE),
-        GateScraper(analyzer, DEBUG_MODE, MAX_DEBUG_SIZE),
-        MexcScraper(analyzer, DEBUG_MODE, MAX_DEBUG_SIZE),
-        LbankScraper(analyzer, DEBUG_MODE, MAX_DEBUG_SIZE),
-        WeexScraper(analyzer, DEBUG_MODE, MAX_DEBUG_SIZE),
-        CoinexScraper(analyzer, DEBUG_MODE, MAX_DEBUG_SIZE),
-        UpbitScraper(analyzer, DEBUG_MODE, MAX_DEBUG_SIZE),
-        OkxScraper(DEBUG_MODE, MAX_DEBUG_SIZE),  # OKX doesn't use analyzer
+        BinanceScraper(None, DEBUG_MODE, MAX_DEBUG_SIZE, OFFSET_DAYS, ANALYZER_API_KEY),
+        BingxScraper(None, DEBUG_MODE, MAX_DEBUG_SIZE, OFFSET_DAYS, ANALYZER_API_KEY),
+        BitunixScraper(None, DEBUG_MODE, MAX_DEBUG_SIZE, OFFSET_DAYS, ANALYZER_API_KEY),
+        BlofinScraper(None, DEBUG_MODE, MAX_DEBUG_SIZE, OFFSET_DAYS, ANALYZER_API_KEY),
+        BitgetScraper(None, DEBUG_MODE, MAX_DEBUG_SIZE, OFFSET_DAYS, ANALYZER_API_KEY),
+        BtccScraper(None, DEBUG_MODE, MAX_DEBUG_SIZE, OFFSET_DAYS, ANALYZER_API_KEY),
+        BybitScraper(None, DEBUG_MODE, MAX_DEBUG_SIZE, OFFSET_DAYS, ANALYZER_API_KEY),
+        GateScraper(None, DEBUG_MODE, MAX_DEBUG_SIZE, OFFSET_DAYS, ANALYZER_API_KEY),
+        MexcScraper(None, DEBUG_MODE, MAX_DEBUG_SIZE, OFFSET_DAYS, ANALYZER_API_KEY),
+        LbankScraper(None, DEBUG_MODE, MAX_DEBUG_SIZE, OFFSET_DAYS, ANALYZER_API_KEY),
+        WeexScraper(None, DEBUG_MODE, MAX_DEBUG_SIZE, OFFSET_DAYS, ANALYZER_API_KEY),
+        CoinexScraper(None, DEBUG_MODE, MAX_DEBUG_SIZE, OFFSET_DAYS, ANALYZER_API_KEY),
+        UpbitScraper(None, DEBUG_MODE, MAX_DEBUG_SIZE, OFFSET_DAYS, ANALYZER_API_KEY),
+        OkxScraper(None, DEBUG_MODE, MAX_DEBUG_SIZE, OFFSET_DAYS, ANALYZER_API_KEY)
     ]
 
-    # Run scrapers
+    # Run scrapers concurrently
+    tasks = []
+    started_scrapers = []
     for scraper in scrapers:
-        try:
-            print(f"\n=== Starting {scraper.exchange_name} scraper ===")
-            if hasattr(scraper, 'run_scraping') and asyncio.iscoroutinefunction(scraper.run_scraping):
-                await scraper.run_scraping()
-            else:
-                scraper.run_scraping()
-        except Exception as e:
-            print(f"Error running {scraper.exchange_name} scraper: {e}")
+        run_method = getattr(scraper, "run_scraping", None)
+        if run_method is None:
             continue
+        print(f"\n=== Starting {scraper.exchange_name} scraper ===")
+        if asyncio.iscoroutinefunction(run_method):
+            tasks.append(asyncio.create_task(run_method()))
+        else:
+            tasks.append(asyncio.to_thread(run_method))
+        started_scrapers.append(scraper)
+
+    results = await asyncio.gather(*tasks, return_exceptions=True)
+    for scraper, result in zip(started_scrapers, results):
+        if isinstance(result, Exception):
+            print(f"Error running {scraper.exchange_name} scraper: {result}")
 
 async def main():
-    # await crawl_announcements()
+    await crawl_announcements()
     save_accoucements_to_csv()
 
 if __name__ == "__main__":

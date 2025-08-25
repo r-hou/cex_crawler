@@ -19,8 +19,8 @@ import traceback
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 class BithumbScraper(BaseScraper):
-    def __init__(self, analyzer: DeepSeekAnalyzer, debug: bool = False, max_size: int = 10):
-        super().__init__("bithumb", "https://www.bithumb.com", analyzer, debug, max_size)
+    def __init__(self, analyzer: DeepSeekAnalyzer, debug: bool = False, max_size: int = 10, offset_days: int = 7):
+        super().__init__("bithumb", "https://www.bithumb.com", analyzer, debug, max_size, offset_days)
         
 
     

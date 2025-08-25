@@ -14,13 +14,14 @@ import sys
 from .base_scraper import BaseScraper
 from deepseek_analyzer import DeepSeekAnalyzer
 import traceback
+import pandas as pd
 
 # 禁用SSL警告
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 class BitgetScraper(BaseScraper):
-    def __init__(self, analyzer: DeepSeekAnalyzer, debug: bool = False, max_size: int = 10):
-        super().__init__("bitget", "https://www.bitget.com", analyzer, debug, max_size)
+    def __init__(self, analyzer: DeepSeekAnalyzer, debug: bool = False, max_size: int = 10, offset_days: int = 7, analyzer_api_key= None):
+        super().__init__("bitget", "https://www.bitget.com", analyzer, debug, max_size, offset_days, analyzer_api_key)
         
 
     
@@ -66,9 +67,9 @@ class BitgetScraper(BaseScraper):
         print(f"Spot listing section ID: {spot_listing_section_id}")
         print(f"Futures listing section ID: {futures_listing_section_id}")
         print(f"Delisting section ID: {delisting_section_id}")
-        spot_listing_url = f'https://www.bitget.com/support/_next/data/Xt6R0Fqn1UDxRwqoNVED5/en/support/sections/{spot_listing_section_id}/1.json?slug={spot_listing_section_id}&slug=1'
-        futures_listing_url = f'https://www.bitget.com/support/_next/data/Xt6R0Fqn1UDxRwqoNVED5/en/support/sections/{futures_listing_section_id}/1.json?slug={futures_listing_section_id}&slug=1'
-        delisting_url = f'https://www.bitget.com/support/_next/data/Xt6R0Fqn1UDxRwqoNVED5/en/support/sections/{delisting_section_id}/1.json?slug={delisting_section_id}&slug=1'
+        spot_listing_url = f'https://www.bitget.com/support/_next/data/{self.build_id}/en/support/sections/{spot_listing_section_id}/1.json?slug={spot_listing_section_id}&slug=1'
+        futures_listing_url = f'https://www.bitget.com/support/_next/data/{self.build_id}/en/support/sections/{futures_listing_section_id}/1.json?slug={futures_listing_section_id}&slug=1'
+        delisting_url = f'https://www.bitget.com/support/_next/data/{self.build_id}/en/support/sections/{delisting_section_id}/1.json?slug={delisting_section_id}&slug=1'
         spot_listing_content = await self.get_page_content(spot_listing_url, 'load')
         futures_listing_content = await self.get_page_content(futures_listing_url, 'load')
         delisting_content = await self.get_page_content(delisting_url, 'load')
@@ -156,14 +157,20 @@ class BitgetScraper(BaseScraper):
             
             for i, article in enumerate(announcements):
                 article_id = article.get('simpleResult').get('contentId')
-                text_file_name = os.path.join(self.output_dir, f"bitget_{article_id}.txt")
+                release_time = article.get('simpleResult').get('showTime')
+                url = f"https://www.bitget.com/support/articles/{article_id}"
+                release_time_str = pd.to_datetime(int(release_time), unit='ms', utc=True).tz_convert('Asia/Hong_Kong').strftime('%Y-%m-%d %H:%M:%S')
+                if release_time_str < (pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)).strftime('%Y-%m-%d %H:%M:%S'):
+                    print(f"公告 {article.get('title', 'N/A')} 发布时间 {release_time_str} 小于 {pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)}，跳过")
+                    continue
+                # text_file_name = os.path.join(self.output_dir, f"bitget_{article_id}.txt")
                 json_file_name = os.path.join(self.output_dir, f"bitget_{article_id}.json")
-                if os.path.exists(text_file_name) and os.path.exists(json_file_name):
-                    print(f"公告详情已存在: {text_file_name}")
+                if os.path.exists(json_file_name):
+                    print(f"公告详情已存在: {json_file_name}")
                     continue
                 print("=== 获取公告详情 ===")
                 print(f"   标题: {article.get('title', 'N/A')}")
-                print(f"   URL: https://www.bitget.com/support/articles/{article_id}")
+                print(f"   URL: {url}")
                 if article_id:
                     detail_result = await self.get_announcement_detail(article_id)
                     if detail_result:
@@ -172,9 +179,9 @@ class BitgetScraper(BaseScraper):
                         print(text_content[:1000] + "..." if len(text_content) > 1000 else text_content)
                         
                         # 保存到文件
-                        with open(text_file_name, 'w', encoding='utf-8') as f:
-                            f.write(text_content)
-                        print(f"\n纯文字内容已保存到: {text_file_name}")
+                        # with open(text_file_name, 'w', encoding='utf-8') as f:
+                        #     f.write(text_content)
+                        # print(f"\n纯文字内容已保存到: {text_file_name}")
                         
                         # 使用OpenAI分析内容
                         print("\n=== 使用DeepSeek分析公告内容 ===")
@@ -187,7 +194,13 @@ class BitgetScraper(BaseScraper):
                             self.analyzer.print_analysis_result(analysis_result)
                             
                             # 保存分析结果
-                            self.analyzer.save_analysis_result(analysis_result, json_file_name, updates={'exchange': 'bitget'})
+                            self.analyzer.save_analysis_result(analysis_result, json_file_name, updates={
+                                'title': article.get('title', 'N/A'),
+                                'exchange': 'bitget',
+                                'url': url,
+                                "release_time": release_time_str,
+                                "content": text_content
+                            })
                             
                             # Increment counter for successfully processed announcements
                             processed_count += 1
@@ -201,8 +214,8 @@ class BitgetScraper(BaseScraper):
                         print("获取详情失败")
                 
                 # Break outer loop if we've reached max_size in debug mode
-                if self.debug and processed_count >= self.max_size:
-                    break
+                # if self.debug and processed_count >= self.max_size:
+                #     break
             
         except Exception as e:
             print(f"程序执行出错: {traceback.format_exc()}")

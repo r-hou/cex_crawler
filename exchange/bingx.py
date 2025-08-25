@@ -14,13 +14,14 @@ import sys
 from .base_scraper import BaseScraper
 from deepseek_analyzer import DeepSeekAnalyzer
 import traceback
+import pandas as pd
 
 # 禁用SSL警告
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 class BingxScraper(BaseScraper):
-    def __init__(self, analyzer: DeepSeekAnalyzer, debug: bool = False, max_size: int = 10):
-        super().__init__("bingx", "https://www.bingx.com", analyzer, debug, max_size)
+    def __init__(self, analyzer: DeepSeekAnalyzer, debug: bool = False, max_size: int = 10, offset_days: int = 7, analyzer_api_key= None):
+        super().__init__("bingx", "https://www.bingx.com", analyzer, debug, max_size, offset_days, analyzer_api_key)
         
 
     
@@ -82,16 +83,129 @@ class BingxScraper(BaseScraper):
                 future_listing_url = "https://bingx.com" + a_tag.get('href')
             if "delisting" in a_tag.get_text(strip=True).lower():
                 delisting_url = "https://bingx.com" + a_tag.get('href')
+    
         print(f"Spot Listing URL: {spot_listing_url}")
         print(f"Future Listing URL: {future_listing_url}")
         print(f"Delisting URL: {delisting_url}")
-        spot_listing_content = await self.get_page_content(spot_listing_url, 'load')
-        future_listing_content = await self.get_page_content(future_listing_url, 'load')
-        delisting_content = await self.get_page_content(delisting_url, 'load')
-        spot_listing_announcements = self.get_announcement_url(spot_listing_content)
-        future_listing_announcements = self.get_announcement_url(future_listing_content)
-        delisting_announcements = self.get_announcement_url(delisting_content)
-        announcements = spot_listing_announcements + future_listing_announcements + delisting_announcements
+        
+        spot_listing_section_id = spot_listing_url.split("/")[-1]
+        future_listing_section_id = future_listing_url.split("/")[-1]
+        delisting_section_id = delisting_url.split("/")[-1]
+        
+        announcements = []
+        
+        # 方案1：监听网络请求
+        for section_id, section_url in [
+            (spot_listing_section_id, spot_listing_url),
+            (future_listing_section_id, future_listing_url), 
+            (delisting_section_id, delisting_url)
+        ]:
+            try:
+                print(f"正在访问页面获取section {section_id} 的数据...")
+                
+                # 设置网络监听器
+                api_responses = []
+                
+                async def handle_response(response):
+                    if 'api/customer/v1/announcement/listArticles' in response.url:
+                        try:
+                            json_data = await response.json()
+                            api_responses.append(json_data)
+                            print(f"捕获到API响应: {len(json_data.get('data', {}).get('result', []))} 条记录")
+                        except:
+                            pass
+                
+                # 注册响应监听器
+                self.page.on('response', handle_response)
+                
+                # 访问页面，触发API请求
+                await self.page.goto(section_url)
+                await self.random_delay(3, 5)  # 等待页面完全加载
+                
+                # 尝试滚动页面，可能触发更多API请求
+                await self.page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+                await self.random_delay(2, 3)
+                
+                # 移除监听器
+                self.page.remove_listener('response', handle_response)
+                
+                # 处理捕获的API响应
+                for api_data in api_responses:
+                    if api_data and 'data' in api_data and 'result' in api_data['data']:
+                        section_announcements = api_data['data']['result']
+                        # 为每个公告添加完整URL
+                        for announcement in section_announcements:
+                            if 'id' in announcement:
+                                announcement['full_url'] = f"https://bingx.com/en/support/articles/{announcement['id']}"
+                        
+                        announcements.extend(section_announcements)
+                        print(f"成功获取 {len(section_announcements)} 条公告 from section {section_id}")
+                
+                await self.random_delay(2, 3)
+                
+            except Exception as e:
+                print(f"处理section {section_id} 时发生异常: {e}")
+                continue
+        
+        # 如果网络监听没有获取到数据，尝试直接解析页面内容
+        if not announcements:
+            print("网络监听未获取到数据，尝试解析页面内容...")
+            announcements = await self.parse_announcements_from_pages([
+                spot_listing_url, future_listing_url, delisting_url
+            ])
+        
+        print(f"总共获取到 {len(announcements)} 条公告")
+        return announcements
+
+    async def parse_announcements_from_pages(self, urls):
+        """从页面HTML中直接解析公告信息"""
+        announcements = []
+        
+        for url in urls:
+            try:
+                print(f"正在解析页面: {url}")
+                await self.page.goto(url)
+                await self.random_delay(3, 5)
+                
+                # 等待内容加载
+                await self.page.wait_for_selector('.article-item, .announcement-item, .notice-item', timeout=10000)
+                
+                # 获取页面内容
+                content = await self.page.content()
+                soup = BeautifulSoup(content, 'html.parser')
+                
+                # 尝试不同的选择器来找到公告列表
+                selectors = [
+                    '.article-item a',
+                    '.announcement-item a', 
+                    '.notice-item a',
+                    'a[href*="/support/articles/"]',
+                    'a[href*="/support/notice/"]'
+                ]
+                
+                for selector in selectors:
+                    links = soup.select(selector)
+                    if links:
+                        print(f"使用选择器 {selector} 找到 {len(links)} 个链接")
+                        for link in links:
+                            title = link.get_text(strip=True)
+                            href = link.get('href', '')
+                            
+                            if href and title:
+                                if not href.startswith('http'):
+                                    href = 'https://bingx.com' + href
+                                
+                                announcements.append({
+                                    'title': title,
+                                    'full_url': href,
+                                    'id': href.split('/')[-1] if '/' in href else ''
+                                })
+                        break
+                
+            except Exception as e:
+                print(f"解析页面 {url} 时出错: {e}")
+                continue
+        
         return announcements
 
     
@@ -181,19 +295,19 @@ class BingxScraper(BaseScraper):
             
             # 获取公告列表
             announcements = await self.get_announcements_id()
-            
+
             if not announcements:
                 print("未获取到公告")
                 return
             
             # 限制调试模式下的处理数量
-            announcements = self.limit_results_for_debug(announcements)
-            
+            # announcements = self.limit_results_for_debug(announcements)
+            print(announcements)
             processed_count = 0
             for i, article in enumerate(announcements):
                 try:
-                    full_url = article.get('full_url')
                     title = article.get('title', 'N/A')
+                    full_url = f"https://bingx.com/en/support/articles/{article.get('articleId', '')}"
                     
                     if not full_url:
                         continue
@@ -201,13 +315,18 @@ class BingxScraper(BaseScraper):
                     print(f"\n处理公告 {i+1}/{len(announcements)}: {title}")
                     
                     # 生成文件ID
-                    file_id = self.generate_file_id(full_url)
+                    file_id = article.get('articleId', '')
+                    release_time = article.get('updateTime', '')
+                    release_time_str = pd.to_datetime(release_time).tz_convert('Asia/Hong_Kong').strftime('%Y-%m-%d %H:%M:%S')
+                    if release_time_str < (pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)).strftime('%Y-%m-%d %H:%M:%S'):
+                        print(f"公告 {title} 发布时间 {release_time_str} 小于 {pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)}，跳过")
+                        continue
                     
                     # 检查文件是否已存在
-                    text_filepath = os.path.join(self.output_dir, f"bingx_{file_id}.txt")
+                    # text_filepath = os.path.join(self.output_dir, f"bingx_{file_id}.txt")
                     json_filepath = os.path.join(self.output_dir, f"bingx_{file_id}.json")
                     
-                    if os.path.exists(text_filepath) and os.path.exists(json_filepath):
+                    if os.path.exists(json_filepath):
                         print(f"公告详情已存在，跳过")
                         continue
                     
@@ -221,27 +340,41 @@ class BingxScraper(BaseScraper):
                     if not text_content.strip():
                         print("文本内容为空")
                         continue
-                    
+                    # with open(text_filepath, 'w', encoding='utf-8') as f:
+                    #     f.write(text_content)
+                    # print(f"\n纯文字内容已保存到: {text_filepath}")
                     # 使用基类方法分析和保存
-                    self.analyze_and_save_announcement(
-                        text_content,
-                        {
+                    # analyzer = DeepSeekAnalyzer(api_key="sk-790c031d07224ee9a905c970cefffcba")
+                    analysis_result = self.analyzer.analyze_announcement(text_content)
+                    
+                    # 显示分析结果
+                    self.analyzer.print_analysis_result(analysis_result)
+                    
+                    # 保存分析结果
+                    self.analyzer.save_analysis_result(analysis_result, json_filepath, updates={
                             'title': title,
-                            'url': full_url
-                        }
-                    )
+                            'exchange': 'bingx',
+                            'url': full_url,
+                            "release_time": release_time_str,
+                            "content": text_content
+                        })
+
+    
                     
                     processed_count += 1
+                    # if self.debug and processed_count >= self.max_size:
+                    #     print(f"Debug mode: Reached max_size limit ({self.max_size}), stopping...")
+                    #     break
                     await self.random_delay(2, 5)
                     
                 except Exception as e:
-                    print(f"处理公告时出错: {e}")
+                    print(f"处理公告时出错: {traceback.format_exc()}")
                     continue
             
             print(f"\n=== {self.exchange_name} 抓取完成，共处理 {processed_count} 个公告 ===")
             
         except Exception as e:
-            print(f"程序执行出错: {e}")
+            print(f"程序执行出错: {traceback.format_exc()}")
             traceback.print_exc()
         finally:
             await self.cleanup_browser()

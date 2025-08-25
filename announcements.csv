@@ -1,368 +1,991 @@
-file,symbol,action,type,time,exchange,title,url,article_id,comments
-output/okx/okx_6bc5f694400d6389518adda7a5fd71c7.txt,BTC/USDC,上架,现货,2025-08-21,okx,,,,
-output/okx/okx_6bc5f694400d6389518adda7a5fd71c7.txt,ETH/USDC,上架,现货,2025-08-21,okx,,,,
-output/okx/okx_6bc5f694400d6389518adda7a5fd71c7.txt,SOL/USDC,上架,现货,2025-08-21,okx,,,,
-output/okx/okx_6bc5f694400d6389518adda7a5fd71c7.txt,TON/USDC,上架,现货,2025-08-21,okx,,,,
-output/okx/okx_6bc5f694400d6389518adda7a5fd71c7.txt,DOGE/USDC,上架,现货,2025-08-21,okx,,,,
-output/okx/okx_6bc5f694400d6389518adda7a5fd71c7.txt,XRP/USDC,上架,现货,2025-08-21,okx,,,,
-output/okx/okx_6bc5f694400d6389518adda7a5fd71c7.txt,PI/USDC,上架,现货,2025-08-21,okx,,,,
-output/okx/okx_6bc5f694400d6389518adda7a5fd71c7.txt,ADA/USDC,上架,现货,2025-08-21,okx,,,,
-output/okx/okx_6bc5f694400d6389518adda7a5fd71c7.txt,LTC/USDC,上架,现货,2025-08-21,okx,,,,
-output/okx/okx_6bc5f694400d6389518adda7a5fd71c7.txt,PEPE/USDC,上架,现货,2025-08-21,okx,,,,
-output/okx/okx_6bc5f694400d6389518adda7a5fd71c7.txt,SUI/USDC,上架,现货,2025-08-21,okx,,,,
-output/okx/okx_6bc5f694400d6389518adda7a5fd71c7.txt,TRX/USDC,上架,现货,2025-08-21,okx,,,,
-output/weex/weex_c8df7443adb6ba4971bf23c95633a470.txt,IO/USDT,上架,合约,2024-06-12,weex,,,,
-output/weex/weex_c8df7443adb6ba4971bf23c95633a470.txt,IO/USDT,上架,现货,2024-06-12,weex,,,,
-output/weex/weex_b0334afd291addf0bc6175219ec6e6b6.txt,WOJAK/USDT,上架,现货,2024-06-13,weex,,,,
-output/weex/weex_b0334afd291addf0bc6175219ec6e6b6.txt,WOJAK/USDT,上架,合约,2024-06-13,weex,,,,
-output/weex/weex_bc4626bf8f7ad6cc44ce75e752c95f42.txt,ULTI/USDT,上架,合约,2024-06-13,weex,,,,
-output/weex/weex_bc4626bf8f7ad6cc44ce75e752c95f42.txt,ULTI/USDT,上架,现货,2024-06-13,weex,,,,
-output/weex/weex_7f39131dcb7a7ab8819e739387cdcaba.txt,15 perpetual futures trading pairs,上架,合约,2024-07-05,weex,,,,
-output/weex/weex_3b68b7cf287f2f3dead8a5da085411a1.txt,VTHO/USDT,上架,现货,2024-06-07,weex,,,,
-output/weex/weex_3b68b7cf287f2f3dead8a5da085411a1.txt,VTHO/USDT,上架,合约,2024-06-07,weex,,,,
-output/weex/weex_591ee8de67ae579c4dc563498eb2478a.txt,StETH/USDT,上架,现货,2024-06-07,weex,,,,
-output/weex/weex_4b8dee418c9824c84c56b340a81eb5eb.txt,交易对符号,上架,现货,2024-06-20,weex,,,,
-output/weex/weex_0f805439aa451b7029376d6157a8f0dd.txt,10 perpetual futures trading pairs,上架,合约,2024-06-27,weex,,,,
-output/weex/weex_efb1d3c2ffe9f434d6909308cce0297e.txt,10 perpetual futures trading pairs,上架,合约,2024-06-20,weex,,,,
-output/weex/weex_7f0e45f85444e082f293f90eb8f75011.txt,ZRO/USDT,上架,现货,2024-06-21,weex,,,,
-output/weex/weex_7f0e45f85444e082f293f90eb8f75011.txt,ZRO/USDT,上架,合约,2024-06-21,weex,,,,
-output/weex/weex_47ff9a78b62d0d29105ab38b47df0786.txt,14 spot trading pairs,上架,现货,2024-07-05,weex,,,,
-output/weex/weex_3747c4a9eb5a6bd3c30d6e19e4c314fa.txt,GAS/USDT,上架,现货,2024-06-13,weex,,,,
-output/weex/weex_3747c4a9eb5a6bd3c30d6e19e4c314fa.txt,GAS/USDT,上架,合约,2024-06-13,weex,,,,
-output/weex/weex_6886d13f7cb8dfdca7ebd69c378241a5.txt,MOG/USDT,上架,合约,2024-06-13,weex,,,,
-output/weex/weex_6886d13f7cb8dfdca7ebd69c378241a5.txt,MOG/USDT,上架,现货,2024-06-13,weex,,,,
-output/weex/weex_6981f4d77f0c154a9d6d95697f8151e9.txt,HIGH/USDT,上架,合约,2024-06-13,weex,,,,
-output/weex/weex_6981f4d77f0c154a9d6d95697f8151e9.txt,HIGH/USDT,上架,现货,2024-06-13,weex,,,,
-output/weex/weex_0701d1343f1bf4d798b6027000c2a6f8.txt,MAVIA/USDT,上架,现货,2024-06-13,weex,,,,
-output/weex/weex_0701d1343f1bf4d798b6027000c2a6f8.txt,MAVIA/USDT,上架,合约,2024-06-13,weex,,,,
-output/weex/weex_356077ba9689d65a850cff8ee29a3241.txt,BAT/USDT,上架,合约,2024-06-13,weex,,,,
-output/weex/weex_7834b003ae6d082636bf3db2a21f727c.txt,TAIKO/USDT,上架,现货,2024-06-13,weex,,,,
-output/weex/weex_7834b003ae6d082636bf3db2a21f727c.txt,TAIKO/USDT,上架,合约,2024-06-13,weex,,,,
-output/weex/weex_8095c89c77bd2ffbbb45ee7bc6e67f03.txt,NULS/USDT,上架,现货,2024-06-13,weex,,,,
-output/weex/weex_a7d9c11c43b4cfd196e016430099e91a.txt,PIZZA/USDT,上架,现货,2024-06-13,weex,,,,
-output/weex/weex_6069f8d99559b21fb788e3601657f8de.txt,GME/USDT,上架,合约,2024-06-13,weex,,,,
-output/weex/weex_6069f8d99559b21fb788e3601657f8de.txt,GME/USDT,上架,现货,2024-06-13,weex,,,,
-output/blofin/blofin_be836dbb62d33a20cad3b6fb8028867e.txt,PGPT/USDT,上架,现货,2025-08-21,blofin,,,,
-output/blofin/blofin_02ebf9bd051fe65043c2dea859a1c236.txt,TRXUSD,下架,合约,2025-08-15,blofin,,,,
-output/blofin/blofin_4c06dafbbb95d8d55b7323cad758a7a8.txt,YZY/USDT,上架,合约,2025-08-21,blofin,,,,
-output/blofin/blofin_69403cc9a09dd76c9ac72f163b8cf00a.txt,1000000PEIPEIUSDT,下架,合约,2025-08-15,blofin,,,,
-output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,DUSDT,下架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,SENDUSDT,下架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,QUICKUSDT,下架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,SCRTUSDT,下架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,HIVEUSDT,下架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,ALUUSDT,下架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,ROAMUSDT,下架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,DOLOUSDT,下架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,SOSOUSDT,下架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,PORT3USDT,下架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,NXPCUSDT,下架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,LAUNCHCOINUSDT,下架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,XIONUSDT,下架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,GIGAUSDT,下架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,CLOUDUSDT,下架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,DUCKUSDT,下架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,HPOS10lUSDT,下架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,DMCUSDT,下架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,TANSSIUSDT,下架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,10000COQUSDT,下架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_57369cae4c9c4ed2957bca65fa778480.txt,OVL/USDT,上架,现货,2025-08-14,blofin,,,,
-output/blofin/blofin_31230ce218b0090f8abcf2b8328e75b8.txt,BUZZ/USDT,下架,现货,2025-08-19,blofin,,,,
-output/blofin/blofin_31230ce218b0090f8abcf2b8328e75b8.txt,MVL/USDT,下架,现货,2025-08-19,blofin,,,,
-output/blofin/blofin_31230ce218b0090f8abcf2b8328e75b8.txt,ROAM/USDT,下架,现货,2025-08-19,blofin,,,,
-output/blofin/blofin_6761feb03db62ae42f768bf25057de89.txt,CUDIS/USDT,上架,合约,2025-08-20,blofin,,,,
-output/blofin/blofin_5b5c65aaa55b5cac7552f191817154a7.txt,VADER/USDT,下架,现货,2025-08-19,blofin,,,,
-output/blofin/blofin_5b5c65aaa55b5cac7552f191817154a7.txt,BOBO/USDT,下架,现货,2025-08-19,blofin,,,,
-output/blofin/blofin_5b5c65aaa55b5cac7552f191817154a7.txt,SPICE/USDT,下架,现货,2025-08-19,blofin,,,,
-output/blofin/blofin_5b5c65aaa55b5cac7552f191817154a7.txt,RIZ/USDT,下架,现货,2025-08-19,blofin,,,,
-output/blofin/blofin_5b5c65aaa55b5cac7552f191817154a7.txt,LKI/USDT,下架,现货,2025-08-19,blofin,,,,
-output/blofin/blofin_7147e72ce3eeed3315544b49914467ad.txt,ALKIMI/USDT,上架,现货,2025-08-20,blofin,,,,
-output/blofin/blofin_a5faef034f8b0bb983a5dc6059eeae5a.txt,SAPIEN/USDT,上架,合约,2025-08-20,blofin,,,,
-output/blofin/blofin_51244f56d4bb844e0ef9991b4ee33790.txt,ZENKO/USDT,上架,现货,2025-08-08,blofin,,,,
-output/blofin/blofin_2de5b1213a582e54f45585215dad755a.txt,MINDFAK/USDT,上架,现货,2025-08-21,blofin,,,,
-output/blofin/blofin_2e359c638d5fb15d0a58a07ae65a8c4c.txt,IN/USDT,上架,现货,2025-08-07,blofin,,,,
-output/blofin/blofin_6f4cddc35de00e5577933fb7ca95a5c5.txt,DAM/USDT,上架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_ea8e011e50d18a55dbe6afd12f6ecce3.txt,TLM/USDT,下架,合约,2025-08-26,blofin,,,,
-output/blofin/blofin_ea8e011e50d18a55dbe6afd12f6ecce3.txt,COS/USDT,下架,合约,2025-08-26,blofin,,,,
-output/blofin/blofin_ea8e011e50d18a55dbe6afd12f6ecce3.txt,1000XEC/USDT,下架,合约,2025-08-26,blofin,,,,
-output/blofin/blofin_ea8e011e50d18a55dbe6afd12f6ecce3.txt,1000BTT/USDT,下架,合约,2025-08-26,blofin,,,,
-output/blofin/blofin_99f7166e48c9c1976518471a8a39f709.txt,XNY/USDT,上架,合约,2025-08-13,blofin,,,,
-output/blofin/blofin_91f9cf071bf758c36e7a9cd66e3cf157.txt,BTC/USDC,上架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_91f9cf071bf758c36e7a9cd66e3cf157.txt,ETH/USDC,上架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_91f9cf071bf758c36e7a9cd66e3cf157.txt,DOGE/USDC,上架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_91f9cf071bf758c36e7a9cd66e3cf157.txt,SOL/USDC,上架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_91f9cf071bf758c36e7a9cd66e3cf157.txt,XRP/USDC,上架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_91f9cf071bf758c36e7a9cd66e3cf157.txt,BNB/USDC,上架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_91f9cf071bf758c36e7a9cd66e3cf157.txt,SUI/USDC,上架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_91f9cf071bf758c36e7a9cd66e3cf157.txt,LINK/USDC,上架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_91f9cf071bf758c36e7a9cd66e3cf157.txt,ENA/USDC,上架,合约,2025-08-18,blofin,,,,
-output/blofin/blofin_91f9cf071bf758c36e7a9cd66e3cf157.txt,ADA/USDC,上架,合约,2025-08-18,blofin,,,,
-output/lbank/lbank_1958505346238513152.txt,AKE/USDT,上架,合约,2025-08-21,lbank,,,,
-output/lbank/lbank_1957775326410964992.txt,AKE/USDT,上架,现货,2025-08-21,lbank,,,,
-output/lbank/lbank_1958002152244772864.txt,LION/USDT,上架,现货,2025-08-21,lbank,,,,
-output/lbank/lbank_1958449128547549184.txt,67/USDT,上架,现货,2025-08-21,lbank,,,,
-output/lbank/lbank_1955171729894539264.txt,DSYNC/USDT,上架,现货,2025-08-13,lbank,,,,
-output/lbank/lbank_1957793723949514752.txt,BTCDOM/USDT,上架,合约,2025-08-19,lbank,,,,
-output/lbank/lbank_1958383715281272832.txt,DARK1/USDT,上架,现货,2025-08-21,lbank,,,,
-output/lbank/lbank_1958158142223155200.txt,HODL/USDT,上架,现货,2025-08-20,lbank,,,,
-output/lbank/lbank_1958065130000351232.txt,DGC/USDT,上架,现货,2025-08-20,lbank,,,,
-output/lbank/lbank_1957725011204636672.txt,BBDY/USDT,上架,现货,2025-08-21,lbank,,,,
-output/lbank/lbank_1958367387535278080.txt,YZYMNY/USDT,上架,现货,2025-08-21,lbank,,,,
-output/lbank/lbank_1958003108084711424.txt,DSYNC/USDT,上架,合约,2025-08-20,lbank,,,,
-output/lbank/lbank_1958381710638841856.txt,CLANKER1/USDT,上架,现货,2025-08-21,lbank,,,,
-output/lbank/lbank_1958393706268590080.txt,YZY/USDT,上架,合约,2025-08-21,lbank,,,,
-output/lbank/lbank_1958394614767419392.txt,SAPIEN/USDT,上架,合约,2025-08-21,lbank,,,,
-output/lbank/lbank_1957673778599165952.txt,HALO1/USDT,上架,现货,2025-08-20,lbank,,,,
-output/upbit/upbit_5429.txt,API3/KRW,上架,现货,2025-08-19,upbit,,,,
-output/upbit/upbit_5429.txt,API3/USDT,上架,现货,2025-08-19,upbit,,,,
-output/btcc/btcc_169062.txt,BTC/USDT,上架,现货,2025-08-21,btcc,,,,
-output/btcc/btcc_169062.txt,ETH/USDT,上架,现货,2025-08-21,btcc,,,,
-output/btcc/btcc_169062.txt,LTC/USDT,上架,现货,2025-08-21,btcc,,,,
-output/btcc/btcc_169062.txt,BCH/USDT,上架,现货,2025-08-21,btcc,,,,
-output/btcc/btcc_169062.txt,EOS/USDT,上架,现货,2025-08-21,btcc,,,,
-output/btcc/btcc_169062.txt,XRP/USDT,上架,现货,2025-08-21,btcc,,,,
-output/btcc/btcc_169062.txt,ADA/USDT,上架,现货,2025-08-21,btcc,,,,
-output/btcc/btcc_169054.txt,NVDAX/USDT,下架,现货,2025-08-20,btcc,,,,
-output/btcc/btcc_169054.txt,COINX/USDT,下架,现货,2025-08-20,btcc,,,,
-output/btcc/btcc_168919.txt,SBET/USDT,上架,合约,2025-08-15,btcc,,,,
-output/coinex/coinex_39859235969812.txt,MAMO/USDT,上架,现货,2025-08-01,coinex,,,,
-output/coinex/coinex_40282944756756.txt,XNY/USDT,上架,现货,2025-08-15,coinex,,,,
-output/coinex/coinex_39859182646164.txt,IKA/USDT,上架,现货,2025-08-01,coinex,,,,
-output/coinex/coinex_39965711454356.txt,PROVE/USDT,上架,现货,2025-08-06,coinex,,,,
-output/coinex/coinex_40282237546132.txt,PDA/USDT,下架,现货,2025-08-22,coinex,,,,
-output/coinex/coinex_40282237546132.txt,APTR/USDT,下架,现货,2025-08-22,coinex,,,,
-output/coinex/coinex_40282237546132.txt,HEGIC/USDT,下架,现货,2025-08-22,coinex,,,,
-output/coinex/coinex_40282237546132.txt,BARRON/USDT,下架,现货,2025-08-22,coinex,,,,
-output/coinex/coinex_40282237546132.txt,NAP/USDT,下架,现货,2025-08-22,coinex,,,,
-output/coinex/coinex_40282237546132.txt,SRK/USDT,下架,现货,2025-08-22,coinex,,,,
-output/coinex/coinex_40282237546132.txt,FARMHYPE/USDT,下架,现货,2025-08-22,coinex,,,,
-output/coinex/coinex_40282237546132.txt,POOLX/USDT,下架,现货,2025-08-22,coinex,,,,
-output/coinex/coinex_40282237546132.txt,KCN/USDT,下架,现货,2025-08-22,coinex,,,,
-output/coinex/coinex_40465156247060.txt,SAPIEN/USDT,上架,现货,2025-08-21,coinex,,,,
-output/coinex/coinex_40394887694100.txt,FUSD/USDT,上架,现货,2025-08-19,coinex,,,,
-output/coinex/coinex_39858799717524.txt,NOICE/USDT,上架,现货,2025-08-01,coinex,,,,
-output/coinex/coinex_40248241694100.txt,KLY/USDT,下架,现货,2025-08-20,coinex,,,,
-output/coinex/coinex_40248241694100.txt,BEND/USDT,下架,现货,2025-08-20,coinex,,,,
-output/coinex/coinex_40248241694100.txt,BEER/USDT,下架,现货,2025-08-20,coinex,,,,
-output/coinex/coinex_40248241694100.txt,AZUR/USDT,下架,现货,2025-08-20,coinex,,,,
-output/coinex/coinex_40248241694100.txt,BUZ/USDT,下架,现货,2025-08-20,coinex,,,,
-output/coinex/coinex_40248241694100.txt,SHARK/USDT,下架,现货,2025-08-20,coinex,,,,
-output/coinex/coinex_40248241694100.txt,STFX/USDT,下架,现货,2025-08-20,coinex,,,,
-output/coinex/coinex_40248241694100.txt,GUMMY/USDT,下架,现货,2025-08-20,coinex,,,,
-output/coinex/coinex_39789206183188.txt,URANUS/USDT,上架,现货,2025-07-30,coinex,,,,
-output/coinex/coinex_39753721126932.txt,OCT/USDT,下架,现货,2025-08-06,coinex,,,,
-output/coinex/coinex_39753721126932.txt,GNON/USDT,下架,现货,2025-08-06,coinex,,,,
-output/coinex/coinex_39753721126932.txt,ZERO/USDT,下架,现货,2025-08-06,coinex,,,,
-output/coinex/coinex_39753721126932.txt,CWS/USDT,下架,现货,2025-08-06,coinex,,,,
-output/coinex/coinex_39753721126932.txt,STAR/USDT,下架,现货,2025-08-06,coinex,,,,
-output/coinex/coinex_39753721126932.txt,HOP/USDT,下架,现货,2025-08-06,coinex,,,,
-output/coinex/coinex_39753721126932.txt,WHALE/USDT,下架,现货,2025-08-06,coinex,,,,
-output/coinex/coinex_39753721126932.txt,EVMOS/USDT,下架,现货,2025-08-06,coinex,,,,
-output/coinex/coinex_39753721126932.txt,EVMOS/BTC,下架,现货,2025-08-06,coinex,,,,
-output/coinex/coinex_39753721126932.txt,TRACY/USDT,下架,现货,2025-08-06,coinex,,,,
-output/coinex/coinex_40182562435732.txt,YALA/USDT,上架,现货,2025-08-13,coinex,,,,
-output/coinex/coinex_39788932728852.txt,TREE/USDT,上架,现货,2025-07-30,coinex,,,,
-output/coinex/coinex_39789005440276.txt,JUSTAMEMECOIN/USDT,上架,现货,2025-07-30,coinex,,,,
-output/coinex/coinex_40463358458900.txt,YZY/USDT,上架,现货,2025-08-21,coinex,,,,
-output/coinex/coinex_39965770786964.txt,TOWNS/USDT,上架,现货,2025-08-05,coinex,,,,
-output/coinex/coinex_40145763257492.txt,LIBRA/USDT,下架,现货,2025-08-18,coinex,,,,
-output/coinex/coinex_40145763257492.txt,UBC/USDT,下架,现货,2025-08-18,coinex,,,,
-output/coinex/coinex_40145763257492.txt,PAJAMAS/USDT,下架,现货,2025-08-18,coinex,,,,
-output/coinex/coinex_40145763257492.txt,APRS/USDT,下架,现货,2025-08-18,coinex,,,,
-output/coinex/coinex_40145763257492.txt,ESE/USDT,下架,现货,2025-08-18,coinex,,,,
-output/coinex/coinex_40145763257492.txt,ENQAI/USDT,下架,现货,2025-08-18,coinex,,,,
-output/coinex/coinex_40145763257492.txt,BULLY/USDT,下架,现货,2025-08-18,coinex,,,,
-output/coinex/coinex_40145763257492.txt,BLINK/USDT,下架,现货,2025-08-18,coinex,,,,
-output/coinex/coinex_40145763257492.txt,PESTO/USDT,下架,现货,2025-08-18,coinex,,,,
-output/coinex/coinex_40463754301972.txt,AIPG/USDT,下架,现货,2025-08-28,coinex,,,,
-output/coinex/coinex_40463754301972.txt,AIT/USDT,下架,现货,2025-08-28,coinex,,,,
-output/coinex/coinex_40463754301972.txt,UWU/USDT,下架,现货,2025-08-28,coinex,,,,
-output/coinex/coinex_40463754301972.txt,BRWL/USDT,下架,现货,2025-08-28,coinex,,,,
-output/coinex/coinex_40463754301972.txt,RAT/USDT,下架,现货,2025-08-28,coinex,,,,
-output/coinex/coinex_40463754301972.txt,LEASH/USDT,下架,现货,2025-08-28,coinex,,,,
-output/coinex/coinex_40183111587348.txt,IN/USDT,上架,现货,2025-08-13,coinex,,,,
-output/coinex/coinex_39828022899732.txt,PLAY/USDT,上架,现货,2025-08-01,coinex,,,,
-output/mexc/mexc_17827791529550.txt,ARIAUSDT,上架,合约,2025-08-21,mexc,,,,
-output/mexc/mexc_17827791529008.txt,TOKABUETH/USDT,上架,现货,2025-08-16,mexc,,,,
-output/mexc/mexc_17827791528658.txt,CRED/USDT,上架,现货,2025-08-14,mexc,,,,
-output/mexc/mexc_17827791529003.txt,BLSH/USDT,上架,合约,2025-08-14,mexc,,,,
-output/mexc/mexc_17827791529516.txt,AKE/USDT,上架,合约,2025-08-21,mexc,,,,
-output/mexc/mexc_17827791529347.txt,BAS/USDT,上架,现货,2025-08-19,mexc,,,,
-output/mexc/mexc_17827791529019.txt,PUBLIC/USDT,上架,合约,2025-08-15,mexc,,,,
-output/mexc/mexc_17827791529297.txt,MK/USDT,上架,现货,2025-08-18,mexc,,,,
-output/mexc/mexc_17827791528850.txt,LBAI/USDT,上架,现货,2025-08-15,mexc,,,,
-output/mexc/mexc_17827791528997.txt,MTT/USDT,上架,现货,2025-08-15,mexc,,,,
-output/mexc/mexc_17827791529519.txt,SAPIENUSDT,上架,合约,2025-08-21,mexc,,,,
-output/mexc/mexc_17827791529295.txt,TCOMUSDT,上架,合约,2025-08-15,mexc,,,,
-output/mexc/mexc_17827791529344.txt,DAM/USDT,上架,合约,2025-08-18,mexc,,,,
-output/mexc/mexc_17827791529578.txt,BAS/USDT,上架,合约,2025-08-21,mexc,,,,
-output/mexc/mexc_17827791528851.txt,AIO/USDT,上架,合约,2025-08-13,mexc,,,,
-output/mexc/mexc_17827791529549.txt,YZYUSDT,上架,合约,2025-08-21,mexc,,,,
-output/mexc/mexc_17827791529504.txt,SKY/USDT,上架,合约,2025-08-20,mexc,,,,
-output/mexc/mexc_17827791528894.txt,TCOM/USDT,上架,现货,2025-08-15,mexc,,,,
-output/mexc/mexc_17827791529026.txt,BLUP/USDT,上架,现货,2025-08-15,mexc,,,,
-output/mexc/mexc_17827791529319.txt,DAM/USDT,上架,现货,2025-08-18,mexc,,,,
-output/bingx/bingx_a337ad885df52f4825610e94f536a4ff.txt,CELL/USDT,上架,现货,2025-08-14,bingx,Cellframe (CELL) Coin Gets Listed on BingX Spot2025-08-13,https://bingx.com/en/support/articles/13492964385551/,,
-output/bingx/bingx_31baf03f13d2258c36df116aea47b8d1.txt,YALA/USDT,上架,现货,2025-08-08,bingx,Yala (YALA) Coin Gets Listed on BingX Spot2025-08-08,https://bingx.com/en/support/articles/13451631612047/,,
-output/bingx/bingx_955d5efa114738c3a166610c28088788.txt,XPIN/USDT,上架,现货,2025-08-22,bingx,XPIN Network (XPIN) Coin Gets Listed on BingX Spot2025-08-21,https://bingx.com/en/support/articles/13557368277135/,,
-output/bingx/bingx_cdcab05a6c9e06b5ee2c29843efdff80.txt,SPARK/USDT,上架,现货,2025-08-11,bingx,SPARK Migration to BingX Spot2025-08-11,https://bingx.com/en/support/articles/13472876773519/,,
-output/bingx/bingx_cdcab05a6c9e06b5ee2c29843efdff80.txt,SPARK/USDT,下架,现货,2025-08-11,bingx,SPARK Migration to BingX Spot2025-08-11,https://bingx.com/en/support/articles/13472876773519/,,
-output/bingx/bingx_349ce4d2006cad1264a35a4b33c3e608.txt,LIGHT/USDT,上架,现货,2025-08-18,bingx,LIGHT Migration to BingX Spot2025-08-18,https://bingx.com/en/support/articles/13529440591247/,,
-output/bingx/bingx_349ce4d2006cad1264a35a4b33c3e608.txt,LIGHT/USDT,下架,现货,2025-08-18,bingx,LIGHT Migration to BingX Spot2025-08-18,https://bingx.com/en/support/articles/13529440591247/,,
-output/bingx/bingx_f14e4df5ed45574f430d9511192ae381.txt,BOSS/USDT,上架,现货,2025-08-11,bingx,BOSS Migration to BingX Spot2025-08-11,https://bingx.com/en/support/articles/13472894807695/,,
-output/bingx/bingx_f14e4df5ed45574f430d9511192ae381.txt,BOSS/USDT,下架,现货,2025-08-11,bingx,BOSS Migration to BingX Spot2025-08-11,https://bingx.com/en/support/articles/13472894807695/,,
-output/bingx/bingx_15d6ab91d3c551d2aff2f81dbdba415d.txt,SAPIEN/USDT,上架,现货,2025-08-20,bingx,Sapien (SAPIEN) Coin Gets Listed on BingX Spot2025-08-20,https://bingx.com/en/support/articles/13550096476943/,,
-output/bingx/bingx_2944722db474f5ac4b7b4981143f00cf.txt,FLUID/USDT,上架,现货,2025-08-06,bingx,Fluid (FLUID) Coin Gets Listed on BingX Spot2025-08-06,https://bingx.com/en/support/articles/13431171447951/,,
-output/bingx/bingx_c25c393aef8f91ae3cdcadcdc79006ec.txt,WORTHLESS/USDT,上架,现货,2025-08-01,bingx,WORTHLESS Migration to BingX Spot2025-08-01,https://bingx.com/en/support/articles/13391975577487/,,
-output/bingx/bingx_c25c393aef8f91ae3cdcadcdc79006ec.txt,WORTHLESS/USDT,下架,现货,2025-08-01,bingx,WORTHLESS Migration to BingX Spot2025-08-01,https://bingx.com/en/support/articles/13391975577487/,,
-output/bingx/bingx_d87b62cbcc54e95d02b5eba1aa346eea.txt,BLOCK/USDT,上架,现货,2025-08-12,bingx,Block (BLOCK) Coin Gets Listed on BingX Spot2025-08-12,https://bingx.com/en/support/articles/13481120222735/,,
-output/bingx/bingx_7f8d0f0f7ed888a686dba9b019f7cfa6.txt,X/USDT,上架,现货,2025-08-07,bingx,TaleX (X) Coin Gets Listed on BingX Spot [Global Debut]2025-08-07,https://bingx.com/en/support/articles/13443335680911/,,
-output/bingx/bingx_b86747c31f1a91d45a1acc3a1d35a81e.txt,GAIA/USDT,上架,现货,2025-07-31,bingx,Gaia (GAIA) Coin Gets Listed on BingX Spot2025-07-31,https://bingx.com/en/support/articles/13382005385871/,,
-output/bingx/bingx_811488d7efb9fc7bb63f3913171d048a.txt,IRON/USDT,下架,现货,2025-08-18,bingx,BingX Spot Will Delist and Buy Back IRON2025-08-11,https://bingx.com/en/support/articles/13473134302351/,,
-output/bingx/bingx_573d373ffecd4457f0ff70a24f9bb632.txt,IN/USDT,上架,现货,2025-08-07,bingx,INFINIT (IN) Coin Gets Listed on BingX Spot2025-08-06,https://bingx.com/en/support/articles/13430153729935/,,
-output/bingx/bingx_d41eb05e602e5f0d7fd16eea189f1d99.txt,FIR/USDT,上架,现货,2025-08-06,bingx,Fireverse (FIR) Coin Gets Listed on BingX Spot2025-08-04,https://bingx.com/en/support/articles/13415163363727/,,
-output/bingx/bingx_973a278d7d4b2b78cc004b9e0e36d554.txt,PROVE/USDT,上架,现货,2025-08-05,bingx,Succinct (PROVE) Coin Gets Listed on BingX Spot2025-08-05,https://bingx.com/en/support/articles/13421467778319/,,
-output/bingx/bingx_2c7b0f3c049dbc544e38b84baf510dd2.txt,URANUS/USDT,上架,现货,2025-08-01,bingx,URANUS Migration to BingX Spot2025-08-01,https://bingx.com/en/support/articles/13392005105807/,,
-output/bingx/bingx_2c7b0f3c049dbc544e38b84baf510dd2.txt,URANUS/USDT,下架,现货,2025-08-01,bingx,URANUS Migration to BingX Spot2025-08-01,https://bingx.com/en/support/articles/13392005105807/,,
-output/bingx/bingx_d63e8adcc8dbb965faffc14d33350bc3.txt,CLIPPY/USDT,上架,现货,2025-08-18,bingx,CLIPPY Migration to BingX Spot2025-08-18,https://bingx.com/en/support/articles/13529422325775/,,
-output/bingx/bingx_d63e8adcc8dbb965faffc14d33350bc3.txt,CLIPPY/USDT,下架,现货,2025-08-18,bingx,CLIPPY Migration to BingX Spot2025-08-18,https://bingx.com/en/support/articles/13529422325775/,,
-output/bingx/bingx_a50edefeed19930c94bb74bf48765671.txt,RHEA/USDT,上架,现货,2025-07-31,bingx,RHEA Finance (RHEA) Coin Gets Listed on BingX Spot2025-07-31,https://bingx.com/en/support/articles/13385399487375/,,
-output/bingx/bingx_f856444a0618e5eb0ea1f56fff734692.txt,A2Z/USDT,上架,现货,2025-08-05,bingx,Arena-Z (A2Z) Coin Gets Listed on BingX Spot2025-08-05,https://bingx.com/en/support/articles/13424906521871/,,
-output/bitunix/bitunix_da90a89c33d91b828f9992b435b3483b.txt,PLAY/USDT,下架,现货,2025-08-07,bitunix,,,,
-output/bitunix/bitunix_da90a89c33d91b828f9992b435b3483b.txt,BULLA/USDT,下架,现货,2025-08-07,bitunix,,,,
-output/bitunix/bitunix_beff13a2f2f954f689859b7a46c8f403.txt,UFD/USDT,下架,现货,2025-08-07,bitunix,,,,
-output/bitunix/bitunix_beff13a2f2f954f689859b7a46c8f403.txt,BROCCOLIF3B/USDT,下架,现货,2025-08-07,bitunix,,,,
-output/bitunix/bitunix_beff13a2f2f954f689859b7a46c8f403.txt,BASEDAI/USDT,下架,现货,2025-08-07,bitunix,,,,
-output/bitunix/bitunix_b8558939238dc6892f1a36a6f22e79ae.txt,BOMB/USDT,下架,现货,2025-08-22,bitunix,,,,
-output/bitunix/bitunix_b8558939238dc6892f1a36a6f22e79ae.txt,CSKY/USDT,下架,现货,2025-08-22,bitunix,,,,
-output/bitunix/bitunix_85b63aaaa3a2a7ac68aa2b39c7f6bb63.txt,AIT/USDT,下架,现货,2025-08-15,bitunix,,,,
-output/bitunix/bitunix_85b63aaaa3a2a7ac68aa2b39c7f6bb63.txt,ARW/USDT,下架,现货,2025-08-15,bitunix,,,,
-output/bitunix/bitunix_85b63aaaa3a2a7ac68aa2b39c7f6bb63.txt,CEL/USDT,下架,现货,2025-08-15,bitunix,,,,
-output/bitunix/bitunix_85b63aaaa3a2a7ac68aa2b39c7f6bb63.txt,PAIN/USDT,下架,现货,2025-08-15,bitunix,,,,
-output/bitunix/bitunix_85b63aaaa3a2a7ac68aa2b39c7f6bb63.txt,VGX/USDT,下架,现货,2025-08-15,bitunix,,,,
-output/bitunix/bitunix_7b4914fe224cbca0bcdcf1a4b8dfe6e7.txt,RAD/USDT,上架,现货,2025-08-20,bitunix,,,,
-output/bitunix/bitunix_30c4ad610710e1427f93ad86688e5828.txt,SAPIEN/USDT,上架,现货,2025-08-21,bitunix,,,,
-output/bitunix/bitunix_30c4ad610710e1427f93ad86688e5828.txt,SAPIEN/USDT,上架,合约,2025-08-21,bitunix,,,,
-output/bitunix/bitunix_445c89b2190af2798cd2d0334b9033d6.txt,YALA/USDT,上架,合约,2025-08-20,bitunix,,,,
-output/bitunix/bitunix_34eb171222712a495ffe473d79327552.txt,COS/USDT,上架,现货,2025-08-21,bitunix,,,,
-output/bitunix/bitunix_34eb171222712a495ffe473d79327552.txt,COS/USDT,上架,合约,2025-08-21,bitunix,,,,
-output/bitunix/bitunix_5d0208ceabdffb0a24c9256a1b5478ab.txt,CSPR/USDT,下架,合约,2025-08-22,bitunix,,,,
-output/bitunix/bitunix_ad0f9b505fe33363582f1430b75eed1b.txt,WILD/USDT,上架,现货,2025-08-19,bitunix,,,,
-output/bitunix/bitunix_4e300b19928619fb8e4c4bce8efe4f45.txt,RFC/USDT,下架,合约,2025-08-08,bitunix,,,,
-output/bitunix/bitunix_e021f43a4303f52dc77e684d8c2a2097.txt,YZY/USDT,上架,现货,2025-08-21,bitunix,,,,
-output/bitunix/bitunix_e021f43a4303f52dc77e684d8c2a2097.txt,YZY/USDT,上架,合约,2025-08-21,bitunix,,,,
-output/bybit/bybit_1e2d97ddba18e8874ba617c62408180a.txt,MKR/USDT,下架,合约,2025-08-18,bybit,,,,
-output/bybit/bybit_4721669def6d1147af18e8b3e3d9b836.txt,DAM/USDT,上架,合约,2025-08-18,bybit,,,,
-output/bybit/bybit_2115458c083b9f3f1a07d8783d0fb777.txt,TGT/USDT,下架,现货,2025-08-22,bybit,,,,
-output/bybit/bybit_2115458c083b9f3f1a07d8783d0fb777.txt,GST/USDT,下架,现货,2025-08-22,bybit,,,,
-output/bybit/bybit_2115458c083b9f3f1a07d8783d0fb777.txt,NLK/USDT,下架,现货,2025-08-22,bybit,,,,
-output/bybit/bybit_2115458c083b9f3f1a07d8783d0fb777.txt,FIRE/USDT,下架,现货,2025-08-22,bybit,,,,
-output/bybit/bybit_13bc4036f1efd8ea976af50d70d4f7ec.txt,AVA/USDT,上架,现货,2025-08-15,bybit,,,,
-output/bybit/bybit_13bc4036f1efd8ea976af50d70d4f7ec.txt,SPARK/USDT,上架,现货,2025-08-15,bybit,,,,
-output/bybit/bybit_13bc4036f1efd8ea976af50d70d4f7ec.txt,TROLL/USDT,上架,现货,2025-08-15,bybit,,,,
-output/bybit/bybit_13bc4036f1efd8ea976af50d70d4f7ec.txt,Tokabu/USDT,上架,现货,2025-08-15,bybit,,,,
-output/bybit/bybit_13bc4036f1efd8ea976af50d70d4f7ec.txt,House/USDT,上架,现货,2025-08-15,bybit,,,,
-output/bybit/bybit_13bc4036f1efd8ea976af50d70d4f7ec.txt,USDUC/USDT,上架,现货,2025-08-15,bybit,,,,
-output/bybit/bybit_13bc4036f1efd8ea976af50d70d4f7ec.txt,URANUS/USDT,上架,现货,2025-08-15,bybit,,,,
-output/bybit/bybit_13bc4036f1efd8ea976af50d70d4f7ec.txt,PYTHIA/USDT,上架,现货,2025-08-15,bybit,,,,
-output/bybit/bybit_5f233f011f1e0309f48c4d5ef09074eb.txt,SAPIEN/USDT,上架,合约,2025-08-20,bybit,,,,
-output/bybit/bybit_d9417f8d47ece73041860dce6d513104.txt,RPK/USDT,下架,现货,2025-08-08,bybit,,,,
-output/bybit/bybit_d9417f8d47ece73041860dce6d513104.txt,AEG/USDT,下架,现货,2025-08-08,bybit,,,,
-output/bybit/bybit_d9417f8d47ece73041860dce6d513104.txt,EGO/USDT,下架,现货,2025-08-08,bybit,,,,
-output/bybit/bybit_d9417f8d47ece73041860dce6d513104.txt,LUCE/USDT,下架,现货,2025-08-08,bybit,,,,
-output/bybit/bybit_e4be6cee9853f9f8a8f0d773803dd72e.txt,ASR/USDT,上架,合约,2025-08-14,bybit,,,,
-output/bybit/bybit_8e89b1fb9a8e1e66a2f8b9e9175666ba.txt,MOBILE/USDT,下架,合约,2025-08-01,bybit,,,,
-output/bybit/bybit_fd96fbf67d11e36d9f2b5973c3d413f4.txt,BAL/USDT,下架,合约,2025-07-29,bybit,,,,
-output/bybit/bybit_d7e5b16ee5ec74d75f528c5180d5fadb.txt,CHRP/USDT,下架,现货,2025-08-15,bybit,,,,
-output/bybit/bybit_d7e5b16ee5ec74d75f528c5180d5fadb.txt,CAPS/USDT,下架,现货,2025-08-15,bybit,,,,
-output/bybit/bybit_d7e5b16ee5ec74d75f528c5180d5fadb.txt,FMC/USDT,下架,现货,2025-08-15,bybit,,,,
-output/bybit/bybit_d7e5b16ee5ec74d75f528c5180d5fadb.txt,FMB/USDT,下架,现货,2025-08-15,bybit,,,,
-output/bybit/bybit_5a5deba5a3e209747a1c09722732ba54.txt,AIO/USDT,上架,合约,2025-08-13,bybit,,,,
-output/bybit/bybit_9bd6f3a5cfde10c21fe4af63df3a533e.txt,FWOG/USDT,上架,现货,2025-08-19,bybit,,,,
-output/bybit/bybit_9bd6f3a5cfde10c21fe4af63df3a533e.txt,WORTHLESS/USDT,上架,现货,2025-08-19,bybit,,,,
-output/bybit/bybit_9bd6f3a5cfde10c21fe4af63df3a533e.txt,CLIPPY/USDT,上架,现货,2025-08-19,bybit,,,,
-output/bybit/bybit_9bd6f3a5cfde10c21fe4af63df3a533e.txt,nub/USDT,上架,现货,2025-08-19,bybit,,,,
-output/bybit/bybit_2b7bf88f6c38f8eea8ac623aed9f26d5.txt,KUSDT/USDT,上架,合约,2025-08-08,bybit,,,,
-output/bybit/bybit_f5a275559507fad571f44435b154d489.txt,ALPINE/USDT,上架,合约,2025-08-14,bybit,,,,
-output/bybit/bybit_f11dc12c99b96ade328baf19399ddcee.txt,SKY/USDT,上架,合约,2025-08-11,bybit,,,,
-output/bybit/bybit_87de27fde1f30fbbfae83f9d0da38925.txt,YZY/USDT,上架,合约,2025-08-21,bybit,,,,
-output/bybit/bybit_ee86cc737d1f2a668c372a809d737b7c.txt,TST/USDT,下架,现货,2025-07-25,bybit,,,,
-output/bybit/bybit_ee86cc737d1f2a668c372a809d737b7c.txt,5IRE/USDT,下架,现货,2025-07-25,bybit,,,,
-output/bybit/bybit_ee86cc737d1f2a668c372a809d737b7c.txt,APTR/USDT,下架,现货,2025-07-25,bybit,,,,
-output/bybit/bybit_ee86cc737d1f2a668c372a809d737b7c.txt,ERTHA/USDT,下架,现货,2025-07-25,bybit,,,,
-output/bybit/bybit_ee86cc737d1f2a668c372a809d737b7c.txt,GUMMY/USDT,下架,现货,2025-07-25,bybit,,,,
-output/bybit/bybit_ee86cc737d1f2a668c372a809d737b7c.txt,PIP/USDT,下架,现货,2025-07-25,bybit,,,,
-output/bybit/bybit_3945ddf90bec9998a204ae1e3bc50e80.txt,KOMA/USDT,下架,合约,2025-08-01,bybit,,,,
-output/bybit/bybit_879ec3b4d457b60919d8c512977e2e93.txt,PSIX/USD,上架,合约,2025-08-14,bybit,,,,
-output/bybit/bybit_879ec3b4d457b60919d8c512977e2e93.txt,CLS/USD,上架,合约,2025-08-14,bybit,,,,
-output/bybit/bybit_879ec3b4d457b60919d8c512977e2e93.txt,DAVE/USD,上架,合约,2025-08-14,bybit,,,,
-output/bybit/bybit_879ec3b4d457b60919d8c512977e2e93.txt,STRL/USD,上架,合约,2025-08-14,bybit,,,,
-output/bybit/bybit_879ec3b4d457b60919d8c512977e2e93.txt,CRDO/USD,上架,合约,2025-08-14,bybit,,,,
-output/bybit/bybit_879ec3b4d457b60919d8c512977e2e93.txt,VRT/USD,上架,合约,2025-08-14,bybit,,,,
-output/bybit/bybit_879ec3b4d457b60919d8c512977e2e93.txt,FIG/USD,上架,合约,2025-08-14,bybit,,,,
-output/bybit/bybit_6f01737264c0637db40f473a93b7f910.txt,XNY/USDT,上架,合约,2025-08-13,bybit,,,,
-output/gate/gate_46718.txt,ARIA/USDT,上架,现货,2025-08-21,gate,,,,
-output/gate/gate_46703.txt,CUDIS/USDT,上架,合约,2025-08-20,gate,,,,
-output/gate/gate_46719.txt,ARIA/USDT,上架,合约,2025-08-21,gate,,,,
-output/gate/gate_46641.txt,ARIA/USDT,上架,现货,2025-08-21,gate,,,,
-output/gate/gate_46704.txt,SAPIEN/USDT,上架,合约,2025-08-21,gate,,,,
-output/gate/gate_46620.txt,ANI/USDT,上架,现货,2025-08-15,gate,,,,
-output/gate/gate_46565.txt,AIBOT/USDT,上架,现货,2025-08-14,gate,,,,
-output/gate/gate_46713.txt,GTBTC/USDT,上架,现货,2025-08-21,gate,,,,
-output/gate/gate_46713.txt,GTBTC/BTC,上架,现货,2025-08-21,gate,,,,
-output/gate/gate_46593.txt,TCOM/USDT,上架,现货,2025-08-15,gate,,,,
-output/gate/gate_46710.txt,YZY/USDT,上架,现货,2025-08-21,gate,,,,
-output/gate/gate_46706.txt,XPIN/USDT,上架,现货,2025-08-22,gate,,,,
-output/gate/gate_46567.txt,URANUS/USDT,上架,现货,2025-08-13,gate,,,,
-output/gate/gate_46711.txt,YZY/USDT,上架,合约,2025-08-21,gate,,,,
-output/gate/gate_46711.txt,MNT/USDT,上架,合约,2025-08-21,gate,,,,
-output/gate/gate_46720.txt,YZY/USDT,上架,合约,2025-08-21,gate,,,,
-output/gate/gate_46645.txt,AIO/USDT,上架,现货,2025-08-15,gate,,,,
-output/gate/gate_46613.txt,PUBLIC/USDT,上架,现货,2025-08-15,gate,,,,
-output/binance/binance_40ee960c4a54cc4f1f5bc39122ca89a7.txt,MOVE/FDUSD,下架,现货,2025-08-22,binance,币安移除部分现货交易对的公告 - 2025-08-22,https://www.binance.com/zh-CN/support/announcement/detail/c62d1ed9054b4a70b2ecbe0af01e50bb,c62d1ed9054b4a70b2ecbe0af01e50bb,
-output/binance/binance_40ee960c4a54cc4f1f5bc39122ca89a7.txt,NIL/FDUSD,下架,现货,2025-08-22,binance,币安移除部分现货交易对的公告 - 2025-08-22,https://www.binance.com/zh-CN/support/announcement/detail/c62d1ed9054b4a70b2ecbe0af01e50bb,c62d1ed9054b4a70b2ecbe0af01e50bb,
-output/binance/binance_40ee960c4a54cc4f1f5bc39122ca89a7.txt,SXT/BNB,下架,现货,2025-08-22,binance,币安移除部分现货交易对的公告 - 2025-08-22,https://www.binance.com/zh-CN/support/announcement/detail/c62d1ed9054b4a70b2ecbe0af01e50bb,c62d1ed9054b4a70b2ecbe0af01e50bb,
-output/binance/binance_e541316d2811dd48540c009cb429b5dc.txt,DEFI/USDT,下架,合约,2025-08-11,binance,币安合约将下架DEFIUSDT和MEMEFI U本位永续合约（2025-08-11）,https://www.binance.com/zh-CN/support/announcement/detail/21e399dcea734230a3c181daf5407b64,21e399dcea734230a3c181daf5407b64,
-output/binance/binance_e541316d2811dd48540c009cb429b5dc.txt,MEMEFI/USDT,下架,合约,2025-08-11,binance,币安合约将下架DEFIUSDT和MEMEFI U本位永续合约（2025-08-11）,https://www.binance.com/zh-CN/support/announcement/detail/21e399dcea734230a3c181daf5407b64,21e399dcea734230a3c181daf5407b64,
-output/binance/binance_fefbcd2fc864b323cd618a1d975d167f.txt,DEFI/USDT,下架,合约,2025-08-11,binance,币安合约将下架DEFIUSDT和MEMEFI U本位永续合约（2025-08-11）,https://www.binance.com/zh-CN/support/announcement/detail/21e399dcea734230a3c181daf5407b64,21e399dcea734230a3c181daf5407b64,
-output/binance/binance_fefbcd2fc864b323cd618a1d975d167f.txt,MEMEFI/USDT,下架,合约,2025-08-11,binance,币安合约将下架DEFIUSDT和MEMEFI U本位永续合约（2025-08-11）,https://www.binance.com/zh-CN/support/announcement/detail/21e399dcea734230a3c181daf5407b64,21e399dcea734230a3c181daf5407b64,
-output/binance/binance_fb3d6a3d09f8f04384d7dfa1a34c0ad2.txt,ANIME/FDUSD,下架,现货,2025-08-15,binance,币安移除部分现货交易对的公告 - 2025-08-15,https://www.binance.com/zh-CN/support/announcement/detail/b021b76f70af4465a0b5add81d751de7,b021b76f70af4465a0b5add81d751de7,
-output/binance/binance_fb3d6a3d09f8f04384d7dfa1a34c0ad2.txt,HYPER/FDUSD,下架,现货,2025-08-15,binance,币安移除部分现货交易对的公告 - 2025-08-15,https://www.binance.com/zh-CN/support/announcement/detail/b021b76f70af4465a0b5add81d751de7,b021b76f70af4465a0b5add81d751de7,
-output/binance/binance_fb3d6a3d09f8f04384d7dfa1a34c0ad2.txt,STO/BNB,下架,现货,2025-08-15,binance,币安移除部分现货交易对的公告 - 2025-08-15,https://www.binance.com/zh-CN/support/announcement/detail/b021b76f70af4465a0b5add81d751de7,b021b76f70af4465a0b5add81d751de7,
-output/binance/binance_c06fdfdbe0056bbff6717e56e995b816.txt,NKN/BTC,下架,现货,2025-08-08,binance,币安移除部分现货交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/95ea413c2c1c41498664b0bad613fcd9,95ea413c2c1c41498664b0bad613fcd9,
-output/binance/binance_c06fdfdbe0056bbff6717e56e995b816.txt,STX/BNB,下架,现货,2025-08-08,binance,币安移除部分现货交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/95ea413c2c1c41498664b0bad613fcd9,95ea413c2c1c41498664b0bad613fcd9,
-output/binance/binance_72b7d930588783ddeaedad7c46fc769f.txt,ACT/EUR,下架,现货,2025-07-04,binance,币安移除部分现货交易对的公告 - 2025-07-04,https://www.binance.com/zh-CN/support/announcement/detail/8cf8c5c8702d40eabee04d8a66788733,8cf8c5c8702d40eabee04d8a66788733,
-output/binance/binance_72b7d930588783ddeaedad7c46fc769f.txt,FIO/BTC,下架,现货,2025-07-04,binance,币安移除部分现货交易对的公告 - 2025-07-04,https://www.binance.com/zh-CN/support/announcement/detail/8cf8c5c8702d40eabee04d8a66788733,8cf8c5c8702d40eabee04d8a66788733,
-output/binance/binance_72b7d930588783ddeaedad7c46fc769f.txt,TNSR/FDUSD,下架,现货,2025-07-04,binance,币安移除部分现货交易对的公告 - 2025-07-04,https://www.binance.com/zh-CN/support/announcement/detail/8cf8c5c8702d40eabee04d8a66788733,8cf8c5c8702d40eabee04d8a66788733,
-output/binance/binance_72b7d930588783ddeaedad7c46fc769f.txt,TST/FDUSD,下架,现货,2025-07-04,binance,币安移除部分现货交易对的公告 - 2025-07-04,https://www.binance.com/zh-CN/support/announcement/detail/8cf8c5c8702d40eabee04d8a66788733,8cf8c5c8702d40eabee04d8a66788733,
-output/binance/binance_8a31c579724352f626d8101d3ca48d20.txt,ALPHA/USDT,下架,现货,2025-07-04,binance,币安将下架ALPHA、BSW、KMD、LEVER、LTO（2025-07-04）,https://www.binance.com/zh-CN/support/announcement/detail/173b2a63c03141009029407ecfebd14a,173b2a63c03141009029407ecfebd14a,
-output/binance/binance_8a31c579724352f626d8101d3ca48d20.txt,BSW/USDT,下架,现货,2025-07-04,binance,币安将下架ALPHA、BSW、KMD、LEVER、LTO（2025-07-04）,https://www.binance.com/zh-CN/support/announcement/detail/173b2a63c03141009029407ecfebd14a,173b2a63c03141009029407ecfebd14a,
-output/binance/binance_8a31c579724352f626d8101d3ca48d20.txt,KMD/USDT,下架,现货,2025-07-04,binance,币安将下架ALPHA、BSW、KMD、LEVER、LTO（2025-07-04）,https://www.binance.com/zh-CN/support/announcement/detail/173b2a63c03141009029407ecfebd14a,173b2a63c03141009029407ecfebd14a,
-output/binance/binance_8a31c579724352f626d8101d3ca48d20.txt,LEVER/USDT,下架,现货,2025-07-04,binance,币安将下架ALPHA、BSW、KMD、LEVER、LTO（2025-07-04）,https://www.binance.com/zh-CN/support/announcement/detail/173b2a63c03141009029407ecfebd14a,173b2a63c03141009029407ecfebd14a,
-output/binance/binance_8a31c579724352f626d8101d3ca48d20.txt,LTO/USDT,下架,现货,2025-07-04,binance,币安将下架ALPHA、BSW、KMD、LEVER、LTO（2025-07-04）,https://www.binance.com/zh-CN/support/announcement/detail/173b2a63c03141009029407ecfebd14a,173b2a63c03141009029407ecfebd14a,
-output/binance/binance_9f4a100ca92a26ee8e95876d76b30719.txt,DOGS/FDUSD,下架,合约,2025-08-08,binance,币安杠杆移除部分交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/3270cb16cd344fecb9646758131189dc,3270cb16cd344fecb9646758131189dc,
-output/binance/binance_9f4a100ca92a26ee8e95876d76b30719.txt,MOVE/FDUSD,下架,合约,2025-08-08,binance,币安杠杆移除部分交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/3270cb16cd344fecb9646758131189dc,3270cb16cd344fecb9646758131189dc,
-output/binance/binance_9f4a100ca92a26ee8e95876d76b30719.txt,MANTA/FDUSD,下架,合约,2025-08-08,binance,币安杠杆移除部分交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/3270cb16cd344fecb9646758131189dc,3270cb16cd344fecb9646758131189dc,
-output/binance/binance_9f4a100ca92a26ee8e95876d76b30719.txt,PEOPLE/FDUSD,下架,合约,2025-08-08,binance,币安杠杆移除部分交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/3270cb16cd344fecb9646758131189dc,3270cb16cd344fecb9646758131189dc,
-output/binance/binance_3d6577495c905308d878a8584b54959b.txt,MOVE/FDUSD,下架,现货,2025-08-22,binance,币安移除部分现货交易对的公告 - 2025-08-22,https://www.binance.com/zh-CN/support/announcement/detail/c62d1ed9054b4a70b2ecbe0af01e50bb,c62d1ed9054b4a70b2ecbe0af01e50bb,
-output/binance/binance_3d6577495c905308d878a8584b54959b.txt,NIL/FDUSD,下架,现货,2025-08-22,binance,币安移除部分现货交易对的公告 - 2025-08-22,https://www.binance.com/zh-CN/support/announcement/detail/c62d1ed9054b4a70b2ecbe0af01e50bb,c62d1ed9054b4a70b2ecbe0af01e50bb,
-output/binance/binance_3d6577495c905308d878a8584b54959b.txt,SXT/BNB,下架,现货,2025-08-22,binance,币安移除部分现货交易对的公告 - 2025-08-22,https://www.binance.com/zh-CN/support/announcement/detail/c62d1ed9054b4a70b2ecbe0af01e50bb,c62d1ed9054b4a70b2ecbe0af01e50bb,
-output/binance/binance_d791a14fb73cd19b469e84baa7acd751.txt,NKN/BTC,下架,现货,2025-08-08,binance,币安移除部分现货交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/95ea413c2c1c41498664b0bad613fcd9,95ea413c2c1c41498664b0bad613fcd9,
-output/binance/binance_d791a14fb73cd19b469e84baa7acd751.txt,STX/BNB,下架,现货,2025-08-08,binance,币安移除部分现货交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/95ea413c2c1c41498664b0bad613fcd9,95ea413c2c1c41498664b0bad613fcd9,
-output/binance/binance_af2de8759a8b0ae12ca1f537a4e92482.txt,DOGS/FDUSD,下架,合约,2025-08-08,binance,币安杠杆移除部分交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/3270cb16cd344fecb9646758131189dc,3270cb16cd344fecb9646758131189dc,
-output/binance/binance_af2de8759a8b0ae12ca1f537a4e92482.txt,MOVE/FDUSD,下架,合约,2025-08-08,binance,币安杠杆移除部分交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/3270cb16cd344fecb9646758131189dc,3270cb16cd344fecb9646758131189dc,
-output/binance/binance_af2de8759a8b0ae12ca1f537a4e92482.txt,MANTA/FDUSD,下架,合约,2025-08-08,binance,币安杠杆移除部分交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/3270cb16cd344fecb9646758131189dc,3270cb16cd344fecb9646758131189dc,
-output/binance/binance_af2de8759a8b0ae12ca1f537a4e92482.txt,PEOPLE/FDUSD,下架,合约,2025-08-08,binance,币安杠杆移除部分交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/3270cb16cd344fecb9646758131189dc,3270cb16cd344fecb9646758131189dc,
-output/binance/binance_857961a19f2e58be8d68ba1aa1fbf324.txt,XVS/TRY,下架,现货,2025-08-01,binance,币安移除部分现货交易对的公告 - 2025-08-01,https://www.binance.com/zh-CN/support/announcement/detail/4da1c4e783e24cfd93f24d73e484654e,4da1c4e783e24cfd93f24d73e484654e,
-output/binance/binance_857961a19f2e58be8d68ba1aa1fbf324.txt,YGG/TRY,下架,现货,2025-08-01,binance,币安移除部分现货交易对的公告 - 2025-08-01,https://www.binance.com/zh-CN/support/announcement/detail/4da1c4e783e24cfd93f24d73e484654e,4da1c4e783e24cfd93f24d73e484654e,
-output/binance/binance_622b30e1f754d18033da9cc641d9ab65.txt,GPS/FDUSD,下架,现货,2025-07-25,binance,币安移除部分现货交易对的公告 - 2025-07-25,https://www.binance.com/zh-CN/support/announcement/detail/7f81ba43118f4877af41ed984f901e67,7f81ba43118f4877af41ed984f901e67,
-output/binance/binance_622b30e1f754d18033da9cc641d9ab65.txt,HIVE/FDUSD,下架,现货,2025-07-25,binance,币安移除部分现货交易对的公告 - 2025-07-25,https://www.binance.com/zh-CN/support/announcement/detail/7f81ba43118f4877af41ed984f901e67,7f81ba43118f4877af41ed984f901e67,
-output/binance/binance_b1a46bd8cc19ce190a47abc65821f526.txt,ANIME/FDUSD,下架,现货,2025-08-15,binance,币安移除部分现货交易对的公告 - 2025-08-15,https://www.binance.com/zh-CN/support/announcement/detail/b021b76f70af4465a0b5add81d751de7,b021b76f70af4465a0b5add81d751de7,
-output/binance/binance_b1a46bd8cc19ce190a47abc65821f526.txt,HYPER/FDUSD,下架,现货,2025-08-15,binance,币安移除部分现货交易对的公告 - 2025-08-15,https://www.binance.com/zh-CN/support/announcement/detail/b021b76f70af4465a0b5add81d751de7,b021b76f70af4465a0b5add81d751de7,
-output/binance/binance_b1a46bd8cc19ce190a47abc65821f526.txt,STO/BNB,下架,现货,2025-08-15,binance,币安移除部分现货交易对的公告 - 2025-08-15,https://www.binance.com/zh-CN/support/announcement/detail/b021b76f70af4465a0b5add81d751de7,b021b76f70af4465a0b5add81d751de7,
-output/binance/binance_dab7ed08672e073f2b9562fffcc15393.txt,KAITO/BNB,下架,现货,2025-06-27,binance,币安移除部分现货交易对的公告 - 2025-06-27,https://www.binance.com/zh-CN/support/announcement/detail/a37e284394114daf8e0045360dd129eb,a37e284394114daf8e0045360dd129eb,
-output/binance/binance_dab7ed08672e073f2b9562fffcc15393.txt,KAITO/BRL,下架,现货,2025-06-27,binance,币安移除部分现货交易对的公告 - 2025-06-27,https://www.binance.com/zh-CN/support/announcement/detail/a37e284394114daf8e0045360dd129eb,a37e284394114daf8e0045360dd129eb,
-output/binance/binance_dab7ed08672e073f2b9562fffcc15393.txt,ZIL/BTC,下架,现货,2025-06-27,binance,币安移除部分现货交易对的公告 - 2025-06-27,https://www.binance.com/zh-CN/support/announcement/detail/a37e284394114daf8e0045360dd129eb,a37e284394114daf8e0045360dd129eb,
-output/binance/binance_1873a51a3fd8e8e4548f401e6c3619ef.txt,ANIME/FDUSD,下架,现货,2025-08-15,binance,币安移除部分现货交易对的公告 - 2025-08-15,https://www.binance.com/zh-CN/support/announcement/detail/b021b76f70af4465a0b5add81d751de7,b021b76f70af4465a0b5add81d751de7,
-output/binance/binance_1873a51a3fd8e8e4548f401e6c3619ef.txt,HYPER/FDUSD,下架,现货,2025-08-15,binance,币安移除部分现货交易对的公告 - 2025-08-15,https://www.binance.com/zh-CN/support/announcement/detail/b021b76f70af4465a0b5add81d751de7,b021b76f70af4465a0b5add81d751de7,
-output/binance/binance_1873a51a3fd8e8e4548f401e6c3619ef.txt,STO/BNB,下架,现货,2025-08-15,binance,币安移除部分现货交易对的公告 - 2025-08-15,https://www.binance.com/zh-CN/support/announcement/detail/b021b76f70af4465a0b5add81d751de7,b021b76f70af4465a0b5add81d751de7,
+file,symbol,action,type,time,exchange,title,url,release_time,content,article_id,comments
+output/okx/okx_2QHzjlFctuTaDvdLsca23A.txt,CATI/USDT,下架,现货,2025-08-27,okx,欧易关于部分币对杠杆下线的公告,https://www.okx.com/zh-hans/help/okx-to-delist-several-margin-trading-pairs-20250821,2025-08-21 18:00:00,欧易关于部分币对杠杆下线的公告发布于 2025年8月21日阅读时长 3 分钟尊敬的欧易用户：为了防范市场风险，给用户提供良好的交易体验，欧易将定期对部分杠杆币对进行下线处理。具体下线计划如下：一、杠杆交易及活期借贷杠杆币对停止借币功能下线时间CATI/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 27 日下午 2:00 ~ 6:00 (UTC+8)NMR/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 27 日下午 2:00 ~ 6:00 (UTC+8)ICX/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 27 日下午 2:00 ~ 6:00 (UTC+8)DGB/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 27 日下午 2:00 ~ 6:00 (UTC+8)MEME/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 28 日下午 2:00 ~ 6:00 (UTC+8)JST/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 28 日下午 2:00 ~ 6:00 (UTC+8)RVN/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 28 日下午 2:00 ~ 6:00 (UTC+8)欧易将于上述下线时间暂停相关币对的杠杆交易及活期借贷服务，并撤销杠杆交易市场订单。每个币对下线所需时间约为 2 小时。在上述杠杆交易对或活期借贷中有借币/质押的用户，请务必在该币对下线前进行还币，如果届时未归还借币，将触发系统强制还币。风险提示：由于行情波动较大，建议用户在停止交易前自行平仓，以免在系统强制还币时造成亏损。二、币种折扣率调整调整前：详情请参考币种折扣率页面调整后：最大抵押量折扣率00币种折扣率介绍在跨币种保证金账户模式下，全仓仓位中不同币种资产可共同折算为美金价值作为保证金使用，由于各币种的市场流动性存在较大差异，平台在计算各币种的实际美元价值时进行了折扣，从而达到平衡市场风险的目的。风险提示：由于近期市场波动较大，且在币种保证金退市过程中，我们将逐步把折扣率调降至0。在此期间，使用该币种作为抵押品的用户仓位的维持保证金率可能会提高。为防止由于规则调整引发的强制平仓，建议用户及时通过平仓、减仓、追加保证金等方式进行风险控制。三、简单赚币和活期借币由于 CATI、NMR、ICX、DGB、MEME、JST 和 RVN 即将下架，这些币种将不再支持简单赚币和活期借币。如您正在使用上述服务，请注意以下事项：现有简单赚币订单：相关币种下架后，您的订单将自动赎回，本金及收益将发放至您的资金账户，您无需进行任何操作。现有活期借币订单：请在相关币种下架前偿还所有相关借币订单，否则系统将触发强制还币，自动结清借款。如您将相关币种用作质押资产，币种下架后其折扣率将调整为 0；请及时调整质押资产，以确保质押率 (LTV) 处于安全范围。欧易将持续为您提供更优秀的产品和更优质的服务！欧易团队2025 年 8 月 21 日,,
+output/okx/okx_2QHzjlFctuTaDvdLsca23A.txt,NMR/USDT,下架,现货,2025-08-27,okx,欧易关于部分币对杠杆下线的公告,https://www.okx.com/zh-hans/help/okx-to-delist-several-margin-trading-pairs-20250821,2025-08-21 18:00:00,欧易关于部分币对杠杆下线的公告发布于 2025年8月21日阅读时长 3 分钟尊敬的欧易用户：为了防范市场风险，给用户提供良好的交易体验，欧易将定期对部分杠杆币对进行下线处理。具体下线计划如下：一、杠杆交易及活期借贷杠杆币对停止借币功能下线时间CATI/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 27 日下午 2:00 ~ 6:00 (UTC+8)NMR/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 27 日下午 2:00 ~ 6:00 (UTC+8)ICX/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 27 日下午 2:00 ~ 6:00 (UTC+8)DGB/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 27 日下午 2:00 ~ 6:00 (UTC+8)MEME/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 28 日下午 2:00 ~ 6:00 (UTC+8)JST/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 28 日下午 2:00 ~ 6:00 (UTC+8)RVN/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 28 日下午 2:00 ~ 6:00 (UTC+8)欧易将于上述下线时间暂停相关币对的杠杆交易及活期借贷服务，并撤销杠杆交易市场订单。每个币对下线所需时间约为 2 小时。在上述杠杆交易对或活期借贷中有借币/质押的用户，请务必在该币对下线前进行还币，如果届时未归还借币，将触发系统强制还币。风险提示：由于行情波动较大，建议用户在停止交易前自行平仓，以免在系统强制还币时造成亏损。二、币种折扣率调整调整前：详情请参考币种折扣率页面调整后：最大抵押量折扣率00币种折扣率介绍在跨币种保证金账户模式下，全仓仓位中不同币种资产可共同折算为美金价值作为保证金使用，由于各币种的市场流动性存在较大差异，平台在计算各币种的实际美元价值时进行了折扣，从而达到平衡市场风险的目的。风险提示：由于近期市场波动较大，且在币种保证金退市过程中，我们将逐步把折扣率调降至0。在此期间，使用该币种作为抵押品的用户仓位的维持保证金率可能会提高。为防止由于规则调整引发的强制平仓，建议用户及时通过平仓、减仓、追加保证金等方式进行风险控制。三、简单赚币和活期借币由于 CATI、NMR、ICX、DGB、MEME、JST 和 RVN 即将下架，这些币种将不再支持简单赚币和活期借币。如您正在使用上述服务，请注意以下事项：现有简单赚币订单：相关币种下架后，您的订单将自动赎回，本金及收益将发放至您的资金账户，您无需进行任何操作。现有活期借币订单：请在相关币种下架前偿还所有相关借币订单，否则系统将触发强制还币，自动结清借款。如您将相关币种用作质押资产，币种下架后其折扣率将调整为 0；请及时调整质押资产，以确保质押率 (LTV) 处于安全范围。欧易将持续为您提供更优秀的产品和更优质的服务！欧易团队2025 年 8 月 21 日,,
+output/okx/okx_2QHzjlFctuTaDvdLsca23A.txt,ICX/USDT,下架,现货,2025-08-27,okx,欧易关于部分币对杠杆下线的公告,https://www.okx.com/zh-hans/help/okx-to-delist-several-margin-trading-pairs-20250821,2025-08-21 18:00:00,欧易关于部分币对杠杆下线的公告发布于 2025年8月21日阅读时长 3 分钟尊敬的欧易用户：为了防范市场风险，给用户提供良好的交易体验，欧易将定期对部分杠杆币对进行下线处理。具体下线计划如下：一、杠杆交易及活期借贷杠杆币对停止借币功能下线时间CATI/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 27 日下午 2:00 ~ 6:00 (UTC+8)NMR/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 27 日下午 2:00 ~ 6:00 (UTC+8)ICX/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 27 日下午 2:00 ~ 6:00 (UTC+8)DGB/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 27 日下午 2:00 ~ 6:00 (UTC+8)MEME/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 28 日下午 2:00 ~ 6:00 (UTC+8)JST/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 28 日下午 2:00 ~ 6:00 (UTC+8)RVN/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 28 日下午 2:00 ~ 6:00 (UTC+8)欧易将于上述下线时间暂停相关币对的杠杆交易及活期借贷服务，并撤销杠杆交易市场订单。每个币对下线所需时间约为 2 小时。在上述杠杆交易对或活期借贷中有借币/质押的用户，请务必在该币对下线前进行还币，如果届时未归还借币，将触发系统强制还币。风险提示：由于行情波动较大，建议用户在停止交易前自行平仓，以免在系统强制还币时造成亏损。二、币种折扣率调整调整前：详情请参考币种折扣率页面调整后：最大抵押量折扣率00币种折扣率介绍在跨币种保证金账户模式下，全仓仓位中不同币种资产可共同折算为美金价值作为保证金使用，由于各币种的市场流动性存在较大差异，平台在计算各币种的实际美元价值时进行了折扣，从而达到平衡市场风险的目的。风险提示：由于近期市场波动较大，且在币种保证金退市过程中，我们将逐步把折扣率调降至0。在此期间，使用该币种作为抵押品的用户仓位的维持保证金率可能会提高。为防止由于规则调整引发的强制平仓，建议用户及时通过平仓、减仓、追加保证金等方式进行风险控制。三、简单赚币和活期借币由于 CATI、NMR、ICX、DGB、MEME、JST 和 RVN 即将下架，这些币种将不再支持简单赚币和活期借币。如您正在使用上述服务，请注意以下事项：现有简单赚币订单：相关币种下架后，您的订单将自动赎回，本金及收益将发放至您的资金账户，您无需进行任何操作。现有活期借币订单：请在相关币种下架前偿还所有相关借币订单，否则系统将触发强制还币，自动结清借款。如您将相关币种用作质押资产，币种下架后其折扣率将调整为 0；请及时调整质押资产，以确保质押率 (LTV) 处于安全范围。欧易将持续为您提供更优秀的产品和更优质的服务！欧易团队2025 年 8 月 21 日,,
+output/okx/okx_2QHzjlFctuTaDvdLsca23A.txt,DGB/USDT,下架,现货,2025-08-27,okx,欧易关于部分币对杠杆下线的公告,https://www.okx.com/zh-hans/help/okx-to-delist-several-margin-trading-pairs-20250821,2025-08-21 18:00:00,欧易关于部分币对杠杆下线的公告发布于 2025年8月21日阅读时长 3 分钟尊敬的欧易用户：为了防范市场风险，给用户提供良好的交易体验，欧易将定期对部分杠杆币对进行下线处理。具体下线计划如下：一、杠杆交易及活期借贷杠杆币对停止借币功能下线时间CATI/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 27 日下午 2:00 ~ 6:00 (UTC+8)NMR/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 27 日下午 2:00 ~ 6:00 (UTC+8)ICX/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 27 日下午 2:00 ~ 6:00 (UTC+8)DGB/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 27 日下午 2:00 ~ 6:00 (UTC+8)MEME/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 28 日下午 2:00 ~ 6:00 (UTC+8)JST/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 28 日下午 2:00 ~ 6:00 (UTC+8)RVN/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 28 日下午 2:00 ~ 6:00 (UTC+8)欧易将于上述下线时间暂停相关币对的杠杆交易及活期借贷服务，并撤销杠杆交易市场订单。每个币对下线所需时间约为 2 小时。在上述杠杆交易对或活期借贷中有借币/质押的用户，请务必在该币对下线前进行还币，如果届时未归还借币，将触发系统强制还币。风险提示：由于行情波动较大，建议用户在停止交易前自行平仓，以免在系统强制还币时造成亏损。二、币种折扣率调整调整前：详情请参考币种折扣率页面调整后：最大抵押量折扣率00币种折扣率介绍在跨币种保证金账户模式下，全仓仓位中不同币种资产可共同折算为美金价值作为保证金使用，由于各币种的市场流动性存在较大差异，平台在计算各币种的实际美元价值时进行了折扣，从而达到平衡市场风险的目的。风险提示：由于近期市场波动较大，且在币种保证金退市过程中，我们将逐步把折扣率调降至0。在此期间，使用该币种作为抵押品的用户仓位的维持保证金率可能会提高。为防止由于规则调整引发的强制平仓，建议用户及时通过平仓、减仓、追加保证金等方式进行风险控制。三、简单赚币和活期借币由于 CATI、NMR、ICX、DGB、MEME、JST 和 RVN 即将下架，这些币种将不再支持简单赚币和活期借币。如您正在使用上述服务，请注意以下事项：现有简单赚币订单：相关币种下架后，您的订单将自动赎回，本金及收益将发放至您的资金账户，您无需进行任何操作。现有活期借币订单：请在相关币种下架前偿还所有相关借币订单，否则系统将触发强制还币，自动结清借款。如您将相关币种用作质押资产，币种下架后其折扣率将调整为 0；请及时调整质押资产，以确保质押率 (LTV) 处于安全范围。欧易将持续为您提供更优秀的产品和更优质的服务！欧易团队2025 年 8 月 21 日,,
+output/okx/okx_2QHzjlFctuTaDvdLsca23A.txt,MEME/USDT,下架,现货,2025-08-28,okx,欧易关于部分币对杠杆下线的公告,https://www.okx.com/zh-hans/help/okx-to-delist-several-margin-trading-pairs-20250821,2025-08-21 18:00:00,欧易关于部分币对杠杆下线的公告发布于 2025年8月21日阅读时长 3 分钟尊敬的欧易用户：为了防范市场风险，给用户提供良好的交易体验，欧易将定期对部分杠杆币对进行下线处理。具体下线计划如下：一、杠杆交易及活期借贷杠杆币对停止借币功能下线时间CATI/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 27 日下午 2:00 ~ 6:00 (UTC+8)NMR/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 27 日下午 2:00 ~ 6:00 (UTC+8)ICX/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 27 日下午 2:00 ~ 6:00 (UTC+8)DGB/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 27 日下午 2:00 ~ 6:00 (UTC+8)MEME/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 28 日下午 2:00 ~ 6:00 (UTC+8)JST/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 28 日下午 2:00 ~ 6:00 (UTC+8)RVN/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 28 日下午 2:00 ~ 6:00 (UTC+8)欧易将于上述下线时间暂停相关币对的杠杆交易及活期借贷服务，并撤销杠杆交易市场订单。每个币对下线所需时间约为 2 小时。在上述杠杆交易对或活期借贷中有借币/质押的用户，请务必在该币对下线前进行还币，如果届时未归还借币，将触发系统强制还币。风险提示：由于行情波动较大，建议用户在停止交易前自行平仓，以免在系统强制还币时造成亏损。二、币种折扣率调整调整前：详情请参考币种折扣率页面调整后：最大抵押量折扣率00币种折扣率介绍在跨币种保证金账户模式下，全仓仓位中不同币种资产可共同折算为美金价值作为保证金使用，由于各币种的市场流动性存在较大差异，平台在计算各币种的实际美元价值时进行了折扣，从而达到平衡市场风险的目的。风险提示：由于近期市场波动较大，且在币种保证金退市过程中，我们将逐步把折扣率调降至0。在此期间，使用该币种作为抵押品的用户仓位的维持保证金率可能会提高。为防止由于规则调整引发的强制平仓，建议用户及时通过平仓、减仓、追加保证金等方式进行风险控制。三、简单赚币和活期借币由于 CATI、NMR、ICX、DGB、MEME、JST 和 RVN 即将下架，这些币种将不再支持简单赚币和活期借币。如您正在使用上述服务，请注意以下事项：现有简单赚币订单：相关币种下架后，您的订单将自动赎回，本金及收益将发放至您的资金账户，您无需进行任何操作。现有活期借币订单：请在相关币种下架前偿还所有相关借币订单，否则系统将触发强制还币，自动结清借款。如您将相关币种用作质押资产，币种下架后其折扣率将调整为 0；请及时调整质押资产，以确保质押率 (LTV) 处于安全范围。欧易将持续为您提供更优秀的产品和更优质的服务！欧易团队2025 年 8 月 21 日,,
+output/okx/okx_2QHzjlFctuTaDvdLsca23A.txt,JST/USDT,下架,现货,2025-08-28,okx,欧易关于部分币对杠杆下线的公告,https://www.okx.com/zh-hans/help/okx-to-delist-several-margin-trading-pairs-20250821,2025-08-21 18:00:00,欧易关于部分币对杠杆下线的公告发布于 2025年8月21日阅读时长 3 分钟尊敬的欧易用户：为了防范市场风险，给用户提供良好的交易体验，欧易将定期对部分杠杆币对进行下线处理。具体下线计划如下：一、杠杆交易及活期借贷杠杆币对停止借币功能下线时间CATI/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 27 日下午 2:00 ~ 6:00 (UTC+8)NMR/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 27 日下午 2:00 ~ 6:00 (UTC+8)ICX/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 27 日下午 2:00 ~ 6:00 (UTC+8)DGB/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 27 日下午 2:00 ~ 6:00 (UTC+8)MEME/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 28 日下午 2:00 ~ 6:00 (UTC+8)JST/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 28 日下午 2:00 ~ 6:00 (UTC+8)RVN/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 28 日下午 2:00 ~ 6:00 (UTC+8)欧易将于上述下线时间暂停相关币对的杠杆交易及活期借贷服务，并撤销杠杆交易市场订单。每个币对下线所需时间约为 2 小时。在上述杠杆交易对或活期借贷中有借币/质押的用户，请务必在该币对下线前进行还币，如果届时未归还借币，将触发系统强制还币。风险提示：由于行情波动较大，建议用户在停止交易前自行平仓，以免在系统强制还币时造成亏损。二、币种折扣率调整调整前：详情请参考币种折扣率页面调整后：最大抵押量折扣率00币种折扣率介绍在跨币种保证金账户模式下，全仓仓位中不同币种资产可共同折算为美金价值作为保证金使用，由于各币种的市场流动性存在较大差异，平台在计算各币种的实际美元价值时进行了折扣，从而达到平衡市场风险的目的。风险提示：由于近期市场波动较大，且在币种保证金退市过程中，我们将逐步把折扣率调降至0。在此期间，使用该币种作为抵押品的用户仓位的维持保证金率可能会提高。为防止由于规则调整引发的强制平仓，建议用户及时通过平仓、减仓、追加保证金等方式进行风险控制。三、简单赚币和活期借币由于 CATI、NMR、ICX、DGB、MEME、JST 和 RVN 即将下架，这些币种将不再支持简单赚币和活期借币。如您正在使用上述服务，请注意以下事项：现有简单赚币订单：相关币种下架后，您的订单将自动赎回，本金及收益将发放至您的资金账户，您无需进行任何操作。现有活期借币订单：请在相关币种下架前偿还所有相关借币订单，否则系统将触发强制还币，自动结清借款。如您将相关币种用作质押资产，币种下架后其折扣率将调整为 0；请及时调整质押资产，以确保质押率 (LTV) 处于安全范围。欧易将持续为您提供更优秀的产品和更优质的服务！欧易团队2025 年 8 月 21 日,,
+output/okx/okx_2QHzjlFctuTaDvdLsca23A.txt,RVN/USDT,下架,现货,2025-08-28,okx,欧易关于部分币对杠杆下线的公告,https://www.okx.com/zh-hans/help/okx-to-delist-several-margin-trading-pairs-20250821,2025-08-21 18:00:00,欧易关于部分币对杠杆下线的公告发布于 2025年8月21日阅读时长 3 分钟尊敬的欧易用户：为了防范市场风险，给用户提供良好的交易体验，欧易将定期对部分杠杆币对进行下线处理。具体下线计划如下：一、杠杆交易及活期借贷杠杆币对停止借币功能下线时间CATI/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 27 日下午 2:00 ~ 6:00 (UTC+8)NMR/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 27 日下午 2:00 ~ 6:00 (UTC+8)ICX/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 27 日下午 2:00 ~ 6:00 (UTC+8)DGB/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 27 日下午 2:00 ~ 6:00 (UTC+8)MEME/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 28 日下午 2:00 ~ 6:00 (UTC+8)JST/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 28 日下午 2:00 ~ 6:00 (UTC+8)RVN/USDT2025 年 8 月 21 日下午 6:00 (UTC+8)2025 年 8 月 28 日下午 2:00 ~ 6:00 (UTC+8)欧易将于上述下线时间暂停相关币对的杠杆交易及活期借贷服务，并撤销杠杆交易市场订单。每个币对下线所需时间约为 2 小时。在上述杠杆交易对或活期借贷中有借币/质押的用户，请务必在该币对下线前进行还币，如果届时未归还借币，将触发系统强制还币。风险提示：由于行情波动较大，建议用户在停止交易前自行平仓，以免在系统强制还币时造成亏损。二、币种折扣率调整调整前：详情请参考币种折扣率页面调整后：最大抵押量折扣率00币种折扣率介绍在跨币种保证金账户模式下，全仓仓位中不同币种资产可共同折算为美金价值作为保证金使用，由于各币种的市场流动性存在较大差异，平台在计算各币种的实际美元价值时进行了折扣，从而达到平衡市场风险的目的。风险提示：由于近期市场波动较大，且在币种保证金退市过程中，我们将逐步把折扣率调降至0。在此期间，使用该币种作为抵押品的用户仓位的维持保证金率可能会提高。为防止由于规则调整引发的强制平仓，建议用户及时通过平仓、减仓、追加保证金等方式进行风险控制。三、简单赚币和活期借币由于 CATI、NMR、ICX、DGB、MEME、JST 和 RVN 即将下架，这些币种将不再支持简单赚币和活期借币。如您正在使用上述服务，请注意以下事项：现有简单赚币订单：相关币种下架后，您的订单将自动赎回，本金及收益将发放至您的资金账户，您无需进行任何操作。现有活期借币订单：请在相关币种下架前偿还所有相关借币订单，否则系统将触发强制还币，自动结清借款。如您将相关币种用作质押资产，币种下架后其折扣率将调整为 0；请及时调整质押资产，以确保质押率 (LTV) 处于安全范围。欧易将持续为您提供更优秀的产品和更优质的服务！欧易团队2025 年 8 月 21 日,,
+output/okx/okx_6TR8lw9G6MPPy1OQTZGLpa.txt,WLFI/USDT,上架,合约,2025-08-23,okx,欧易关于 WLFI (World Liberty Financial) 盘前永续合约正式上线的公告,https://www.okx.com/zh-hans/help/okx-to-list-pre-market-perpetual-futures-for-wlfi-world-liberty-financial,2025-08-23 20:30:00,"欧易关于 WLFI (World Liberty Financial) 盘前永续合约正式上线的公告发布于 2025年8月23日阅读时长 3 分钟尊敬的欧易用户：欧易即将上线 WLFI (World Liberty Financial) 盘前交易，具体时间安排如下：上线时间WLFI/USDT 盘前交易开盘时间：2025 年 8 月 23 日下午 9:00 (UTC+8)前往欧易盘前交易项目介绍World Liberty Financial 将传统金融与区块链的开放性相结合，致力于建立简单的金融模式，从而弥合传统银行业务与数字化未来的差距。英文全称：World Liberty Financial英文简称：WLFI查看 World Liberty Financial 价格: https://www.okx.com/price/world-liberty-financial-wlfi盘前交易欧易盘前交易允许用户对尚未发布的币种进行永续合约交易。盘前交易永续合约本质是 USDT 本位永续合约，通常情况下会在新币种在币币交易市场上线后转换为标准永续合约。欧易推出盘前交易功能，旨在为用户提供一个可以参与新币种价格发现的安全可靠的平台。1. 盘前交易合约合约要素详情合约标的 (Underlying)WLFI/USDT 指数 (指数取该合约的最新成交价)结算货币 (Settlement crypto)USDT合约面值 (Face value)10 WLFI报价单位 (Price quotation)按照 1 WLFI 的 USDT 价格进行报价最小变动价位 (Tick size)0.0001杠杆倍数 (Leverage)0.01 ~ 10 倍资金费率 (Funding rate)固定 0.03% 日费率资金费用结算周期 (Funding fee settlement interval)4 小时交易时间 (Trading hours)7×24 小时合约类型 (Contract type)永续合约转换时间 (Conversion time)盘前合约转换标准永续合约日期尚未确定，盘前交易合约通常会在该币种在币币市场上线后进行转换，转换时间确定后会另行公告通知除此之外，盘前交易市场与标准永续市场部分产品机制不同，梯度档位限仓规则如下（其他交易规则详情请参考盘前交易产品规则）:1. 梯度档位限仓规则档位最大可开仓量 (张数)维持保证金率初始保证金率最大杠杆倍数12,5005.00%10.00%10.00212,5007.50%15.00%6.67325,00010.00%20.00%5.00450,00015.00%25.00%4.00575,00020.00%30.00%3.336100,00025.00%35.00%2.867125,00030.00%40.00%2.508150,00035.00%45.00%2.229175,00040.00%50.00%2.00准备交易充值您的 USDT 余额，为 WLFI/USDT 盘前交易做好准备：充值 USDT 到您的欧易账户风险提示:目前项目方暂未确定最终发币计划，总发行量存在不确定性，若发行量变化可能会造成市场价格波动，用户需要自行关注市场信息，注意风险控制谨慎交易。盘前交易市场的价格由买卖双方的市场行为决定，该价格可能无法准确反映新币种实际发行的价格。欧易并不保证盘前永续合约的币种最终会在币币交易中上线。具体上币情况请关注欧易最新上币公告。欧易可随时自行决定暂停此类盘前合约交易。有关更多详细信息，请参阅欧易服务条款和风险&合规披露。欧易将持续为您提供更优秀的产品和更优质的服务！欧易团队2025 年 8 月 23 日",,
+output/okx/okx_6bc5f694400d6389518adda7a5fd71c7.txt,BTC/USDC,上架,现货,2025-08-21,okx,,,,,,
+output/okx/okx_6bc5f694400d6389518adda7a5fd71c7.txt,ETH/USDC,上架,现货,2025-08-21,okx,,,,,,
+output/okx/okx_6bc5f694400d6389518adda7a5fd71c7.txt,SOL/USDC,上架,现货,2025-08-21,okx,,,,,,
+output/okx/okx_6bc5f694400d6389518adda7a5fd71c7.txt,TON/USDC,上架,现货,2025-08-21,okx,,,,,,
+output/okx/okx_6bc5f694400d6389518adda7a5fd71c7.txt,DOGE/USDC,上架,现货,2025-08-21,okx,,,,,,
+output/okx/okx_6bc5f694400d6389518adda7a5fd71c7.txt,XRP/USDC,上架,现货,2025-08-21,okx,,,,,,
+output/okx/okx_6bc5f694400d6389518adda7a5fd71c7.txt,PI/USDC,上架,现货,2025-08-21,okx,,,,,,
+output/okx/okx_6bc5f694400d6389518adda7a5fd71c7.txt,ADA/USDC,上架,现货,2025-08-21,okx,,,,,,
+output/okx/okx_6bc5f694400d6389518adda7a5fd71c7.txt,LTC/USDC,上架,现货,2025-08-21,okx,,,,,,
+output/okx/okx_6bc5f694400d6389518adda7a5fd71c7.txt,PEPE/USDC,上架,现货,2025-08-21,okx,,,,,,
+output/okx/okx_6bc5f694400d6389518adda7a5fd71c7.txt,SUI/USDC,上架,现货,2025-08-21,okx,,,,,,
+output/okx/okx_6bc5f694400d6389518adda7a5fd71c7.txt,TRX/USDC,上架,现货,2025-08-21,okx,,,,,,
+output/okx/okx_1u97FyrF1ab5DT7byOSs68.txt,JSTUSDT,下架,合约,2025-08-29,okx,欧易关于 JST 永续合约下线的公告,https://www.okx.com/zh-hans/help/okx-to-delist-perpetual-futures-for-jst-crypto,2025-08-25 19:00:00,"欧易关于 JST 永续合约下线的公告发布于 2025年8月25日阅读时长 2 分钟尊敬的欧易用户：为了防范市场风险，给用户提供良好的交易体验，欧易将定期对部分永续合约进行下线处理。具体下线计划如下：一、永续合约交易合约名称下线时间JSTUSDT2025 年 8 月 29 日下午 4:00 (UTC+8)合约下线时，将停止该合约交易，撤销所有用户挂单，并以下线前一小时的欧易指数算术平均值作为下线永续合约交割价格，交割该合约下的所有用户仓位。下线前一小时如遇到指数价格受到异常操控，平台可能会根据实际情况调整最终交割价格至合理水平进行交割。下线当日下午 4:00 的当期资金费率为 0 (因此该期资金费将不会出现在账单记录中)，交割用户仓位时不会收取资金费用，也不会产生交割手续费等额外费用。考虑到合约下线前行情可能会剧烈波动，请各位用户通过降低实际杠杆倍数或提前平仓等方式做好风险控制。合约下线后，以上永续合约交割时持仓价值大于 10,000 美元的用户会被限制交易账户所有资产划转，30 分钟后恢复正常。以上永续合约历史委托和账单记录在合约下线后仍可查询，如您需要备份记录，请及时前往桌面端订单中心下载。为了保障永续合约平稳下线，针对以上永续合约风控参数设置作如下调整：限价规则调整如果合约价格出现偏离问题，会根据市场情况酌情调整限价规则。欧易将持续为您提供更优秀的产品和更优质的服务！欧易团队2025 年 8 月 25 日",,
+output/weex/weex_c8df7443adb6ba4971bf23c95633a470.txt,IO/USDT,上架,合约,2024-06-12,weex,,,,,,
+output/weex/weex_c8df7443adb6ba4971bf23c95633a470.txt,IO/USDT,上架,现货,2024-06-12,weex,,,,,,
+output/weex/weex_b0334afd291addf0bc6175219ec6e6b6.txt,WOJAK/USDT,上架,现货,2024-06-13,weex,,,,,,
+output/weex/weex_b0334afd291addf0bc6175219ec6e6b6.txt,WOJAK/USDT,上架,合约,2024-06-13,weex,,,,,,
+output/weex/weex_bc4626bf8f7ad6cc44ce75e752c95f42.txt,ULTI/USDT,上架,合约,2024-06-13,weex,,,,,,
+output/weex/weex_bc4626bf8f7ad6cc44ce75e752c95f42.txt,ULTI/USDT,上架,现货,2024-06-13,weex,,,,,,
+output/weex/weex_7f39131dcb7a7ab8819e739387cdcaba.txt,15 perpetual futures trading pairs,上架,合约,2024-07-05,weex,,,,,,
+output/weex/weex_3b68b7cf287f2f3dead8a5da085411a1.txt,VTHO/USDT,上架,现货,2024-06-07,weex,,,,,,
+output/weex/weex_3b68b7cf287f2f3dead8a5da085411a1.txt,VTHO/USDT,上架,合约,2024-06-07,weex,,,,,,
+output/weex/weex_591ee8de67ae579c4dc563498eb2478a.txt,StETH/USDT,上架,现货,2024-06-07,weex,,,,,,
+output/weex/weex_4b8dee418c9824c84c56b340a81eb5eb.txt,交易对符号,上架,现货,2024-06-20,weex,,,,,,
+output/weex/weex_0f805439aa451b7029376d6157a8f0dd.txt,10 perpetual futures trading pairs,上架,合约,2024-06-27,weex,,,,,,
+output/weex/weex_efb1d3c2ffe9f434d6909308cce0297e.txt,10 perpetual futures trading pairs,上架,合约,2024-06-20,weex,,,,,,
+output/weex/weex_7f0e45f85444e082f293f90eb8f75011.txt,ZRO/USDT,上架,现货,2024-06-21,weex,,,,,,
+output/weex/weex_7f0e45f85444e082f293f90eb8f75011.txt,ZRO/USDT,上架,合约,2024-06-21,weex,,,,,,
+output/weex/weex_3747c4a9eb5a6bd3c30d6e19e4c314fa.txt,GAS/USDT,上架,现货,2024-06-13,weex,,,,,,
+output/weex/weex_3747c4a9eb5a6bd3c30d6e19e4c314fa.txt,GAS/USDT,上架,合约,2024-06-13,weex,,,,,,
+output/weex/weex_6886d13f7cb8dfdca7ebd69c378241a5.txt,MOG/USDT,上架,合约,2024-06-13,weex,,,,,,
+output/weex/weex_6886d13f7cb8dfdca7ebd69c378241a5.txt,MOG/USDT,上架,现货,2024-06-13,weex,,,,,,
+output/weex/weex_6981f4d77f0c154a9d6d95697f8151e9.txt,HIGH/USDT,上架,合约,2024-06-13,weex,,,,,,
+output/weex/weex_6981f4d77f0c154a9d6d95697f8151e9.txt,HIGH/USDT,上架,现货,2024-06-13,weex,,,,,,
+output/weex/weex_0701d1343f1bf4d798b6027000c2a6f8.txt,MAVIA/USDT,上架,现货,2024-06-13,weex,,,,,,
+output/weex/weex_0701d1343f1bf4d798b6027000c2a6f8.txt,MAVIA/USDT,上架,合约,2024-06-13,weex,,,,,,
+output/weex/weex_356077ba9689d65a850cff8ee29a3241.txt,BAT/USDT,上架,合约,2024-06-13,weex,,,,,,
+output/weex/weex_7834b003ae6d082636bf3db2a21f727c.txt,TAIKO/USDT,上架,现货,2024-06-13,weex,,,,,,
+output/weex/weex_7834b003ae6d082636bf3db2a21f727c.txt,TAIKO/USDT,上架,合约,2024-06-13,weex,,,,,,
+output/weex/weex_8095c89c77bd2ffbbb45ee7bc6e67f03.txt,NULS/USDT,上架,现货,2024-06-13,weex,,,,,,
+output/weex/weex_a7d9c11c43b4cfd196e016430099e91a.txt,PIZZA/USDT,上架,现货,2024-06-13,weex,,,,,,
+output/weex/weex_6069f8d99559b21fb788e3601657f8de.txt,GME/USDT,上架,合约,2024-06-13,weex,,,,,,
+output/weex/weex_6069f8d99559b21fb788e3601657f8de.txt,GME/USDT,上架,现货,2024-06-13,weex,,,,,,
+output/blofin/blofin_be836dbb62d33a20cad3b6fb8028867e.txt,PGPT/USDT,上架,现货,2025-08-21,blofin,,,,,,
+output/blofin/blofin_02ebf9bd051fe65043c2dea859a1c236.txt,TRXUSD,下架,合约,2025-08-15,blofin,,,,,,
+output/blofin/blofin_4c06dafbbb95d8d55b7323cad758a7a8.txt,YZY/USDT,上架,合约,2025-08-21,blofin,,,,,,
+output/blofin/blofin_69403cc9a09dd76c9ac72f163b8cf00a.txt,1000000PEIPEIUSDT,下架,合约,2025-08-15,blofin,,,,,,
+output/blofin/blofin_dcc2e3bc514847128e8b43a06c57555f.txt,XPL/USDT,上架,合约,2025-08-23,blofin,,,,,,
+output/blofin/blofin_dcc2e3bc514847128e8b43a06c57555f.txt,WLFI/USDT,上架,合约,2025-08-23,blofin,,,,,,
+output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,DUSDT,下架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,SENDUSDT,下架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,QUICKUSDT,下架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,SCRTUSDT,下架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,HIVEUSDT,下架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,ALUUSDT,下架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,ROAMUSDT,下架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,DOLOUSDT,下架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,SOSOUSDT,下架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,PORT3USDT,下架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,NXPCUSDT,下架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,LAUNCHCOINUSDT,下架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,XIONUSDT,下架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,GIGAUSDT,下架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,CLOUDUSDT,下架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,DUCKUSDT,下架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,HPOS10lUSDT,下架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,DMCUSDT,下架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,TANSSIUSDT,下架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_4bf33fe394b3a642026f4047245c73a6.txt,10000COQUSDT,下架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_57369cae4c9c4ed2957bca65fa778480.txt,OVL/USDT,上架,现货,2025-08-14,blofin,,,,,,
+output/blofin/blofin_31230ce218b0090f8abcf2b8328e75b8.txt,BUZZ/USDT,下架,现货,2025-08-19,blofin,,,,,,
+output/blofin/blofin_31230ce218b0090f8abcf2b8328e75b8.txt,MVL/USDT,下架,现货,2025-08-19,blofin,,,,,,
+output/blofin/blofin_31230ce218b0090f8abcf2b8328e75b8.txt,ROAM/USDT,下架,现货,2025-08-19,blofin,,,,,,
+output/blofin/blofin_6761feb03db62ae42f768bf25057de89.txt,CUDIS/USDT,上架,合约,2025-08-20,blofin,,,,,,
+output/blofin/blofin_5b5c65aaa55b5cac7552f191817154a7.txt,VADER/USDT,下架,现货,2025-08-19,blofin,,,,,,
+output/blofin/blofin_5b5c65aaa55b5cac7552f191817154a7.txt,BOBO/USDT,下架,现货,2025-08-19,blofin,,,,,,
+output/blofin/blofin_5b5c65aaa55b5cac7552f191817154a7.txt,SPICE/USDT,下架,现货,2025-08-19,blofin,,,,,,
+output/blofin/blofin_5b5c65aaa55b5cac7552f191817154a7.txt,RIZ/USDT,下架,现货,2025-08-19,blofin,,,,,,
+output/blofin/blofin_5b5c65aaa55b5cac7552f191817154a7.txt,LKI/USDT,下架,现货,2025-08-19,blofin,,,,,,
+output/blofin/blofin_7147e72ce3eeed3315544b49914467ad.txt,ALKIMI/USDT,上架,现货,2025-08-20,blofin,,,,,,
+output/blofin/blofin_a5faef034f8b0bb983a5dc6059eeae5a.txt,SAPIEN/USDT,上架,合约,2025-08-20,blofin,,,,,,
+output/blofin/blofin_51244f56d4bb844e0ef9991b4ee33790.txt,ZENKO/USDT,上架,现货,2025-08-08,blofin,,,,,,
+output/blofin/blofin_2de5b1213a582e54f45585215dad755a.txt,MINDFAK/USDT,上架,现货,2025-08-21,blofin,,,,,,
+output/blofin/blofin_2e359c638d5fb15d0a58a07ae65a8c4c.txt,IN/USDT,上架,现货,2025-08-07,blofin,,,,,,
+output/blofin/blofin_6f4cddc35de00e5577933fb7ca95a5c5.txt,DAM/USDT,上架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_ea8e011e50d18a55dbe6afd12f6ecce3.txt,TLM/USDT,下架,合约,2025-08-26,blofin,,,,,,
+output/blofin/blofin_ea8e011e50d18a55dbe6afd12f6ecce3.txt,COS/USDT,下架,合约,2025-08-26,blofin,,,,,,
+output/blofin/blofin_ea8e011e50d18a55dbe6afd12f6ecce3.txt,1000XEC/USDT,下架,合约,2025-08-26,blofin,,,,,,
+output/blofin/blofin_ea8e011e50d18a55dbe6afd12f6ecce3.txt,1000BTT/USDT,下架,合约,2025-08-26,blofin,,,,,,
+output/blofin/blofin_99f7166e48c9c1976518471a8a39f709.txt,XNY/USDT,上架,合约,2025-08-13,blofin,,,,,,
+output/blofin/blofin_91f9cf071bf758c36e7a9cd66e3cf157.txt,BTC/USDC,上架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_91f9cf071bf758c36e7a9cd66e3cf157.txt,ETH/USDC,上架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_91f9cf071bf758c36e7a9cd66e3cf157.txt,DOGE/USDC,上架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_91f9cf071bf758c36e7a9cd66e3cf157.txt,SOL/USDC,上架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_91f9cf071bf758c36e7a9cd66e3cf157.txt,XRP/USDC,上架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_91f9cf071bf758c36e7a9cd66e3cf157.txt,BNB/USDC,上架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_91f9cf071bf758c36e7a9cd66e3cf157.txt,SUI/USDC,上架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_91f9cf071bf758c36e7a9cd66e3cf157.txt,LINK/USDC,上架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_91f9cf071bf758c36e7a9cd66e3cf157.txt,ENA/USDC,上架,合约,2025-08-18,blofin,,,,,,
+output/blofin/blofin_91f9cf071bf758c36e7a9cd66e3cf157.txt,ADA/USDC,上架,合约,2025-08-18,blofin,,,,,,
+output/lbank/lbank_1959894872802459648.txt,RETIRE/USDT,上架,现货,2025-08-25,lbank,RETIRE (The Last Play) Will Be Listed in LBank MEME Zone,https://www.lbank.com/support/articles/1959894872802459648,2025-08-25 16:25:19,"[[0]]RETIRE (The Last Play)[[/0]] Will Be Listed in LBank MEME Zone
+Dear LBank users, [[0]]RETIRE (The Last Play)[[/0]] will be listed on LBank at [[1]]09:00 on August 25, 2025 (UTC)[[/1]]. The details are as follows: Trading Pair: [[2]]RETIRE[[/2]]/USDT Trading Zone: MEME Zone Start Deposit: [[3]]09:00 on August 25, 2025 (UTC)[[/3]] Start Tr",,
+output/lbank/lbank_1958505346238513152.txt,AKE/USDT,上架,合约,2025-08-21,lbank,,,,,,
+output/lbank/lbank_1957775326410964992.txt,AKE/USDT,上架,现货,2025-08-21,lbank,,,,,,
+output/lbank/lbank_1959846659126984704.txt,VLTX/USDT,上架,现货,2025-08-26,lbank,VLTX (VaultX) Will Be Listed in LBank Innovation Zone,https://www.lbank.com/support/articles/1959846659126984704,2025-08-25 16:14:40,"[[0]]VLTX (VaultX)[[/0]] Will Be Listed in LBank Innovation Zone
+Dear LBank users, [[0]]VLTX (VaultX)[[/0]] will be listed on LBank at [[1]]09:00 on August 26, 2025 (UTC)[[/1]]. The details are as follows: Trading Pair: [[2]]VLTX[[/2]]/USDT Trading Zone: Innovation Zone Start Deposit: [[3]]09:00 on August 25, 2025 (UTC)[[/3]] St",,
+output/lbank/lbank_1958002152244772864.txt,LION/USDT,上架,现货,2025-08-21,lbank,,,,,,
+output/lbank/lbank_1959218356938604544.txt,NIL/USDT,上架,合约,2025-03-13,lbank,,,,,,
+output/lbank/lbank_1959128829725245440.txt,BTK/USDT,上架,现货,2025-08-25,lbank,,,,,,
+output/lbank/lbank_1958449128547549184.txt,67/USDT,上架,现货,2025-08-21,lbank,,,,,,
+output/lbank/lbank_1955171729894539264.txt,DSYNC/USDT,上架,现货,2025-08-13,lbank,,,,,,
+output/lbank/lbank_1957793723949514752.txt,BTCDOM/USDT,上架,合约,2025-08-19,lbank,,,,,,
+output/lbank/lbank_1958383715281272832.txt,DARK1/USDT,上架,现货,2025-08-21,lbank,,,,,,
+output/lbank/lbank_1958158142223155200.txt,HODL/USDT,上架,现货,2025-08-20,lbank,,,,,,
+output/lbank/lbank_1959886675144343552.txt,NVDAX/USDT,上架,合约,2025-08-25,lbank,LBank Futures Will Launch NVDAX (NVDIA xStock) USDT-Margined Perpetual Contract,https://www.lbank.com/support/articles/1959886675144343552,2025-08-25 15:50:47,"LBank Futures Will Launch [[0]]NVDAX (NVDIA xStock)[[/0]] USDT-Margined Perpetual Contract
+Dear LBank users, LBank will list the [[0]]NVDAX (NVDIA xStock)[[/0]] USDT-M perpetual contract at [[1]]05:20 on August 25, 2025 (UTC)[[/1]]. Details are as follows: Trading Pair Leverage Tick Size Funding Fee Settlement Frequency [[2]]{2}[[/2]",,
+output/lbank/lbank_1958065130000351232.txt,DGC/USDT,上架,现货,2025-08-20,lbank,,,,,,
+output/lbank/lbank_1957725011204636672.txt,BBDY/USDT,上架,现货,2025-08-21,lbank,,,,,,
+output/lbank/lbank_1958367387535278080.txt,YZYMNY/USDT,上架,现货,2025-08-21,lbank,,,,,,
+output/lbank/lbank_1958003108084711424.txt,DSYNC/USDT,上架,合约,2025-08-20,lbank,,,,,,
+output/lbank/lbank_1958381710638841856.txt,CLANKER1/USDT,上架,现货,2025-08-21,lbank,,,,,,
+output/lbank/lbank_1959853711329067008.txt,CAMP/USDT,上架,现货,2025-08-27,lbank,World Premiere | CAMP (Camp) Will Be Listed in LBank,https://www.lbank.com/support/articles/1959853711329067008,2025-08-25 16:42:30,"World Premiere | [[0]]CAMP (Camp)[[/0]] Will Be Listed in LBank
+Dear LBank users, [[0]]CAMP (Camp)[[/0]] will be listed on LBank at [[1]]09:00 on August 27, 2025 (UTC)[[/1]]. The details are as follows: Trading Pair: [[2]]CAMP[[/2]]/USDT Trading Zone: USDT Zone Start Deposit: [[3]]10:00 on August 26, 2025 (UTC)[[/3]] Start Tr",,
+output/lbank/lbank_1959595907846504448.txt,DIT/USDT,上架,现货,2025-08-27,lbank,DIT (DADI digital token) Will Be Listed in LBank Innovation Zone,https://www.lbank.com/support/articles/1959595907846504448,2025-08-25 16:50:28,"[[0]]DIT (DADI digital token)[[/0]] Will Be Listed in LBank Innovation Zone
+Dear LBank users, [[0]]DIT (DADI digital token)[[/0]] will be listed on LBank at [[1]]09:00 on August 27, 2025 (UTC)[[/1]]. The details are as follows: Trading Pair: [[2]]DIT[[/2]]/USDT Trading Zone: Innovation Zone Start Deposit: [[3]]09:00 on August 26, 2025 (UTC)[[/3]] St",,
+output/lbank/lbank_1958393706268590080.txt,YZY/USDT,上架,合约,2025-08-21,lbank,,,,,,
+output/lbank/lbank_1958394614767419392.txt,SAPIEN/USDT,上架,合约,2025-08-21,lbank,,,,,,
+output/lbank/lbank_1957673778599165952.txt,HALO1/USDT,上架,现货,2025-08-20,lbank,,,,,,
+output/upbit/upbit_5429.txt,API3/KRW,上架,现货,2025-08-19,upbit,,,,,,
+output/upbit/upbit_5429.txt,API3/USDT,上架,现货,2025-08-19,upbit,,,,,,
+output/upbit/upbit_5442.txt,AERO/KRW,上架,现货,2024-08-22,upbit,"Market Support for Aerodrome Finance(AERO) (KRW, BTC, USDT Market)",https://upbit.com/service_center/notice?id=5442,2025-08-22 08:30:00,"안녕하세요. 가장 신뢰받는 글로벌 표준 디지털 자산 거래소 업비트입니다.
+
+신규 디지털 자산 거래지원을 아래와 같이 안내드립니다.
+
+<table>
+<thead>
+  <tr>
+    <th>디지털 자산</th>
+    <th>마켓</th>
+    <th>네트워크</th>
+    <th>입출금 개시 시점</th>
+    <th>거래지원 개시 시점</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>에어로드롬파이낸스(AERO)</td>
+    <td>KRW, BTC, USDT</td>
+    <td>Base</td>
+    <td>공지 게시 시점으로부터 1시간 30분 이내</td>
+    <td>8월 22일 11시 30분 예정</td>
+  </tr>
+</tbody>
+</table>
+
+* 디지털 자산 입금 전 네트워크를 반드시 확인 바랍니다. <highlight class=""warning"">안내된 네트워크 외 타 네트워크를 통한 입출금은 지원되지 않습니다.</highlight>
+
+### ※ 거래 제한 안내
+코인마켓캡에서 제공하는 시세를 기준으로 거래 제한 가격이 결정됩니다.
+- 매수 제한 : 거래 지원 이후 약 5분간 매수 주문이 제한됩니다.
+- 최저 매도가 제한 : 거래 지원 이후 약 5분간 전일 종가 대비 – 10% 이하 가격의 매도 주문이 제한됩니다.
+- 주문 타입 제한 : 거래 지원 이후 약 2시간 동안 지정가 주문을 제외한 모든 타입의 주문이 제한됩니다.
+- 전일 종가 및 최근 시세는 아래 표를 통해 확인 바랍니다.
+
+<table>
+<thead>
+  <tr>
+    <th>디지털 자산</th>
+    <th>전일 종가</th>
+    <th>최근 시세 (8월 22일 09시 기준)</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th rowspan=""3"">AERO</th>
+    <td>1,883.43 KRW</td>
+    <td>1,803.54 KRW</td>
+  </tr>
+  <tr>
+    <td>0.00001184 BTC</td>
+    <td>0.00001145 BTC</td>
+  </tr>
+  <tr>
+    <td>1.34 USDT</td>
+    <td>1.28 USDT</td>
+  </tr>
+</tbody>
+</table>
+
+### ※ 입금 유의사항
+반영 불가한 입금은 반환 절차에 오랜 시간이 소요될 수 있으니 유의사항을 꼼꼼하게 확인하세요 
+
+- <highlight class=""warning"">안내된 네트워크 (AERO-Base)로만 입출금이 지원됩니다. 입금 전 반드시 네트워크를 확인하세요.</highlight>
+- 업비트에서 거래지원하는 AERO의 컨트랙트 주소는 [0x940181a94A35A4569E4529A3CDfB74e38FD98631](https://basescan.org/token/0x940181a94A35A4569E4529A3CDfB74e38FD98631)입니다. AERO 입출금 진행 시 컨트랙트 주소를 확인 바랍니다.
+- 트래블룰 이행을 위해, [입출금 가능 가상자산사업자 리스트](https://upbitcs.zendesk.com/hc/ko/articles/5048002559897)에 포함 되어있지 않은 거래소를 통해 업비트에 자산이 입금될 경우 반영이 불가하며, <highlight class=""warning"">반영 불가한 입금은 반환 절차까지 오랜 시간이 소요될 수 있습니다.</highlight>
+- '본인 소유 확인'이 완료된 개인지갑 주소로만 입출금이 가능하며, 연동된 개인지갑을 통한 입금 건이더라도 해당 자산의 네트워크에 따라 입금 반환 처리를 해야 할 수 있습니다.
+- 출처가 불분명한 고액의 디지털 자산 입금 시, 자금 출처에 대한 소명이 요청될 수 있습니다. (이용약관 제17조 제8항)
+
+### ※ 추가 디지털 자산
+
+~~AERO (에어로드롬파이낸스 Aerodrome Finance)~~
+
+> 에어로드롬파이낸스(Aerodrome Finance)는 이더리움 레이어2 블록체인인 베이스(Base) 체인 기반의 탈중앙화 거래소(DEX)입니다. 유동성 인센티브 엔진, 투표 잠금 거버넌스 모델, 사용자 친화적인 경험을 결합하여 베이스 생태계의 중심 유동성 허브로 기능하도록 설계된 차세대 자동화 마켓 메이커입니다. 가상자산 AERO는 스테이킹 및 거버넌스 용도로 사용됩니다. ERC-20 표준의 AERO는 스테이킹을 통해 수량과 스테이킹 기간에 비례하여 ERC-721 표준의 veAERO를 수령할 수 있고, veAERO는 거버넌스 참여 용도로 활용됩니다.
+> 홈페이지 : [에어로드롬파이낸스 공식 홈페이지](https://aerodrome.finance/)
+> X(구 트위터) : [에어로드롬파이낸스 공식 X](https://x.com/aerodromefi)
+> 백서 : [에어로드롬파이낸스 공식 백서](https://aerodrome.finance/docs)
+
+✽ PC에서 해당 디지털 자산이 조회되지 않을 경우, 새로고침 (F5) 후 확인 부탁드립니다.
+✽ 업비트 App에서 해당 디지털 자산이 조회되지 않을 경우, 더보기 > 화면설정 > 코인정보 다시 받기를 클릭 후 확인 부탁드립니다.
+
+<p class=""box"">
+<strong>투자 위험 안내</strong><br>
+• 디지털 자산 투자는 투기적 수요 및 국내외 규제환경 변화 등에 따라 급격한 시세 변동에 노출될 수 있습니다. 본 디지털 자산의 투자 판단의 책임은 본인에게 있으며, 발생 가능한 손실도 투자자 본인에게 귀속됩니다. 프로젝트 홈페이지 및 공시 자료 등을 면밀히 참고하시어 디지털 자산의 특성을 충분히 인지하시고 신중하게 거래해 주시기를 당부해 드립니다.<br>
+• 디지털 자산 거래의 특성상 국내외 거래소간 시세 차이가 지속적으로 발생하고 있습니다. 반드시 디지털 자산 투자 전 글로벌 거래소와의 시세 차이에 유의하시기 바랍니다.<br>
+• 업비트는 안정된 거래 환경 조성을 위하여 최소 주문 금액 제한 등 다양한 조치를 취하고 있으나, 과열된 투자 환경에 따라 일부 회원님에게는 주문 안정화 메시지가 노출 될 수 있습니다. 이는 먼저 주문한 회원의 주문을 처리하고, 안정적인 서비스를 위한 불가피한 조치이므로 이 점 유의하시기 바랍니다.
+</p>
+
+※ 가상자산은 고위험 상품으로 투자금의 전부 또는 일부 손실을 초래할 수 있습니다.",,
+output/upbit/upbit_5442.txt,AERO/BTC,上架,现货,2024-08-22,upbit,"Market Support for Aerodrome Finance(AERO) (KRW, BTC, USDT Market)",https://upbit.com/service_center/notice?id=5442,2025-08-22 08:30:00,"안녕하세요. 가장 신뢰받는 글로벌 표준 디지털 자산 거래소 업비트입니다.
+
+신규 디지털 자산 거래지원을 아래와 같이 안내드립니다.
+
+<table>
+<thead>
+  <tr>
+    <th>디지털 자산</th>
+    <th>마켓</th>
+    <th>네트워크</th>
+    <th>입출금 개시 시점</th>
+    <th>거래지원 개시 시점</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>에어로드롬파이낸스(AERO)</td>
+    <td>KRW, BTC, USDT</td>
+    <td>Base</td>
+    <td>공지 게시 시점으로부터 1시간 30분 이내</td>
+    <td>8월 22일 11시 30분 예정</td>
+  </tr>
+</tbody>
+</table>
+
+* 디지털 자산 입금 전 네트워크를 반드시 확인 바랍니다. <highlight class=""warning"">안내된 네트워크 외 타 네트워크를 통한 입출금은 지원되지 않습니다.</highlight>
+
+### ※ 거래 제한 안내
+코인마켓캡에서 제공하는 시세를 기준으로 거래 제한 가격이 결정됩니다.
+- 매수 제한 : 거래 지원 이후 약 5분간 매수 주문이 제한됩니다.
+- 최저 매도가 제한 : 거래 지원 이후 약 5분간 전일 종가 대비 – 10% 이하 가격의 매도 주문이 제한됩니다.
+- 주문 타입 제한 : 거래 지원 이후 약 2시간 동안 지정가 주문을 제외한 모든 타입의 주문이 제한됩니다.
+- 전일 종가 및 최근 시세는 아래 표를 통해 확인 바랍니다.
+
+<table>
+<thead>
+  <tr>
+    <th>디지털 자산</th>
+    <th>전일 종가</th>
+    <th>최근 시세 (8월 22일 09시 기준)</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th rowspan=""3"">AERO</th>
+    <td>1,883.43 KRW</td>
+    <td>1,803.54 KRW</td>
+  </tr>
+  <tr>
+    <td>0.00001184 BTC</td>
+    <td>0.00001145 BTC</td>
+  </tr>
+  <tr>
+    <td>1.34 USDT</td>
+    <td>1.28 USDT</td>
+  </tr>
+</tbody>
+</table>
+
+### ※ 입금 유의사항
+반영 불가한 입금은 반환 절차에 오랜 시간이 소요될 수 있으니 유의사항을 꼼꼼하게 확인하세요 
+
+- <highlight class=""warning"">안내된 네트워크 (AERO-Base)로만 입출금이 지원됩니다. 입금 전 반드시 네트워크를 확인하세요.</highlight>
+- 업비트에서 거래지원하는 AERO의 컨트랙트 주소는 [0x940181a94A35A4569E4529A3CDfB74e38FD98631](https://basescan.org/token/0x940181a94A35A4569E4529A3CDfB74e38FD98631)입니다. AERO 입출금 진행 시 컨트랙트 주소를 확인 바랍니다.
+- 트래블룰 이행을 위해, [입출금 가능 가상자산사업자 리스트](https://upbitcs.zendesk.com/hc/ko/articles/5048002559897)에 포함 되어있지 않은 거래소를 통해 업비트에 자산이 입금될 경우 반영이 불가하며, <highlight class=""warning"">반영 불가한 입금은 반환 절차까지 오랜 시간이 소요될 수 있습니다.</highlight>
+- '본인 소유 확인'이 완료된 개인지갑 주소로만 입출금이 가능하며, 연동된 개인지갑을 통한 입금 건이더라도 해당 자산의 네트워크에 따라 입금 반환 처리를 해야 할 수 있습니다.
+- 출처가 불분명한 고액의 디지털 자산 입금 시, 자금 출처에 대한 소명이 요청될 수 있습니다. (이용약관 제17조 제8항)
+
+### ※ 추가 디지털 자산
+
+~~AERO (에어로드롬파이낸스 Aerodrome Finance)~~
+
+> 에어로드롬파이낸스(Aerodrome Finance)는 이더리움 레이어2 블록체인인 베이스(Base) 체인 기반의 탈중앙화 거래소(DEX)입니다. 유동성 인센티브 엔진, 투표 잠금 거버넌스 모델, 사용자 친화적인 경험을 결합하여 베이스 생태계의 중심 유동성 허브로 기능하도록 설계된 차세대 자동화 마켓 메이커입니다. 가상자산 AERO는 스테이킹 및 거버넌스 용도로 사용됩니다. ERC-20 표준의 AERO는 스테이킹을 통해 수량과 스테이킹 기간에 비례하여 ERC-721 표준의 veAERO를 수령할 수 있고, veAERO는 거버넌스 참여 용도로 활용됩니다.
+> 홈페이지 : [에어로드롬파이낸스 공식 홈페이지](https://aerodrome.finance/)
+> X(구 트위터) : [에어로드롬파이낸스 공식 X](https://x.com/aerodromefi)
+> 백서 : [에어로드롬파이낸스 공식 백서](https://aerodrome.finance/docs)
+
+✽ PC에서 해당 디지털 자산이 조회되지 않을 경우, 새로고침 (F5) 후 확인 부탁드립니다.
+✽ 업비트 App에서 해당 디지털 자산이 조회되지 않을 경우, 더보기 > 화면설정 > 코인정보 다시 받기를 클릭 후 확인 부탁드립니다.
+
+<p class=""box"">
+<strong>투자 위험 안내</strong><br>
+• 디지털 자산 투자는 투기적 수요 및 국내외 규제환경 변화 등에 따라 급격한 시세 변동에 노출될 수 있습니다. 본 디지털 자산의 투자 판단의 책임은 본인에게 있으며, 발생 가능한 손실도 투자자 본인에게 귀속됩니다. 프로젝트 홈페이지 및 공시 자료 등을 면밀히 참고하시어 디지털 자산의 특성을 충분히 인지하시고 신중하게 거래해 주시기를 당부해 드립니다.<br>
+• 디지털 자산 거래의 특성상 국내외 거래소간 시세 차이가 지속적으로 발생하고 있습니다. 반드시 디지털 자산 투자 전 글로벌 거래소와의 시세 차이에 유의하시기 바랍니다.<br>
+• 업비트는 안정된 거래 환경 조성을 위하여 최소 주문 금액 제한 등 다양한 조치를 취하고 있으나, 과열된 투자 환경에 따라 일부 회원님에게는 주문 안정화 메시지가 노출 될 수 있습니다. 이는 먼저 주문한 회원의 주문을 처리하고, 안정적인 서비스를 위한 불가피한 조치이므로 이 점 유의하시기 바랍니다.
+</p>
+
+※ 가상자산은 고위험 상품으로 투자금의 전부 또는 일부 손실을 초래할 수 있습니다.",,
+output/upbit/upbit_5442.txt,AERO/USDT,上架,现货,2024-08-22,upbit,"Market Support for Aerodrome Finance(AERO) (KRW, BTC, USDT Market)",https://upbit.com/service_center/notice?id=5442,2025-08-22 08:30:00,"안녕하세요. 가장 신뢰받는 글로벌 표준 디지털 자산 거래소 업비트입니다.
+
+신규 디지털 자산 거래지원을 아래와 같이 안내드립니다.
+
+<table>
+<thead>
+  <tr>
+    <th>디지털 자산</th>
+    <th>마켓</th>
+    <th>네트워크</th>
+    <th>입출금 개시 시점</th>
+    <th>거래지원 개시 시점</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>에어로드롬파이낸스(AERO)</td>
+    <td>KRW, BTC, USDT</td>
+    <td>Base</td>
+    <td>공지 게시 시점으로부터 1시간 30분 이내</td>
+    <td>8월 22일 11시 30분 예정</td>
+  </tr>
+</tbody>
+</table>
+
+* 디지털 자산 입금 전 네트워크를 반드시 확인 바랍니다. <highlight class=""warning"">안내된 네트워크 외 타 네트워크를 통한 입출금은 지원되지 않습니다.</highlight>
+
+### ※ 거래 제한 안내
+코인마켓캡에서 제공하는 시세를 기준으로 거래 제한 가격이 결정됩니다.
+- 매수 제한 : 거래 지원 이후 약 5분간 매수 주문이 제한됩니다.
+- 최저 매도가 제한 : 거래 지원 이후 약 5분간 전일 종가 대비 – 10% 이하 가격의 매도 주문이 제한됩니다.
+- 주문 타입 제한 : 거래 지원 이후 약 2시간 동안 지정가 주문을 제외한 모든 타입의 주문이 제한됩니다.
+- 전일 종가 및 최근 시세는 아래 표를 통해 확인 바랍니다.
+
+<table>
+<thead>
+  <tr>
+    <th>디지털 자산</th>
+    <th>전일 종가</th>
+    <th>최근 시세 (8월 22일 09시 기준)</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th rowspan=""3"">AERO</th>
+    <td>1,883.43 KRW</td>
+    <td>1,803.54 KRW</td>
+  </tr>
+  <tr>
+    <td>0.00001184 BTC</td>
+    <td>0.00001145 BTC</td>
+  </tr>
+  <tr>
+    <td>1.34 USDT</td>
+    <td>1.28 USDT</td>
+  </tr>
+</tbody>
+</table>
+
+### ※ 입금 유의사항
+반영 불가한 입금은 반환 절차에 오랜 시간이 소요될 수 있으니 유의사항을 꼼꼼하게 확인하세요 
+
+- <highlight class=""warning"">안내된 네트워크 (AERO-Base)로만 입출금이 지원됩니다. 입금 전 반드시 네트워크를 확인하세요.</highlight>
+- 업비트에서 거래지원하는 AERO의 컨트랙트 주소는 [0x940181a94A35A4569E4529A3CDfB74e38FD98631](https://basescan.org/token/0x940181a94A35A4569E4529A3CDfB74e38FD98631)입니다. AERO 입출금 진행 시 컨트랙트 주소를 확인 바랍니다.
+- 트래블룰 이행을 위해, [입출금 가능 가상자산사업자 리스트](https://upbitcs.zendesk.com/hc/ko/articles/5048002559897)에 포함 되어있지 않은 거래소를 통해 업비트에 자산이 입금될 경우 반영이 불가하며, <highlight class=""warning"">반영 불가한 입금은 반환 절차까지 오랜 시간이 소요될 수 있습니다.</highlight>
+- '본인 소유 확인'이 완료된 개인지갑 주소로만 입출금이 가능하며, 연동된 개인지갑을 통한 입금 건이더라도 해당 자산의 네트워크에 따라 입금 반환 처리를 해야 할 수 있습니다.
+- 출처가 불분명한 고액의 디지털 자산 입금 시, 자금 출처에 대한 소명이 요청될 수 있습니다. (이용약관 제17조 제8항)
+
+### ※ 추가 디지털 자산
+
+~~AERO (에어로드롬파이낸스 Aerodrome Finance)~~
+
+> 에어로드롬파이낸스(Aerodrome Finance)는 이더리움 레이어2 블록체인인 베이스(Base) 체인 기반의 탈중앙화 거래소(DEX)입니다. 유동성 인센티브 엔진, 투표 잠금 거버넌스 모델, 사용자 친화적인 경험을 결합하여 베이스 생태계의 중심 유동성 허브로 기능하도록 설계된 차세대 자동화 마켓 메이커입니다. 가상자산 AERO는 스테이킹 및 거버넌스 용도로 사용됩니다. ERC-20 표준의 AERO는 스테이킹을 통해 수량과 스테이킹 기간에 비례하여 ERC-721 표준의 veAERO를 수령할 수 있고, veAERO는 거버넌스 참여 용도로 활용됩니다.
+> 홈페이지 : [에어로드롬파이낸스 공식 홈페이지](https://aerodrome.finance/)
+> X(구 트위터) : [에어로드롬파이낸스 공식 X](https://x.com/aerodromefi)
+> 백서 : [에어로드롬파이낸스 공식 백서](https://aerodrome.finance/docs)
+
+✽ PC에서 해당 디지털 자산이 조회되지 않을 경우, 새로고침 (F5) 후 확인 부탁드립니다.
+✽ 업비트 App에서 해당 디지털 자산이 조회되지 않을 경우, 더보기 > 화면설정 > 코인정보 다시 받기를 클릭 후 확인 부탁드립니다.
+
+<p class=""box"">
+<strong>투자 위험 안내</strong><br>
+• 디지털 자산 투자는 투기적 수요 및 국내외 규제환경 변화 등에 따라 급격한 시세 변동에 노출될 수 있습니다. 본 디지털 자산의 투자 판단의 책임은 본인에게 있으며, 발생 가능한 손실도 투자자 본인에게 귀속됩니다. 프로젝트 홈페이지 및 공시 자료 등을 면밀히 참고하시어 디지털 자산의 특성을 충분히 인지하시고 신중하게 거래해 주시기를 당부해 드립니다.<br>
+• 디지털 자산 거래의 특성상 국내외 거래소간 시세 차이가 지속적으로 발생하고 있습니다. 반드시 디지털 자산 투자 전 글로벌 거래소와의 시세 차이에 유의하시기 바랍니다.<br>
+• 업비트는 안정된 거래 환경 조성을 위하여 최소 주문 금액 제한 등 다양한 조치를 취하고 있으나, 과열된 투자 환경에 따라 일부 회원님에게는 주문 안정화 메시지가 노출 될 수 있습니다. 이는 먼저 주문한 회원의 주문을 처리하고, 안정적인 서비스를 위한 불가피한 조치이므로 이 점 유의하시기 바랍니다.
+</p>
+
+※ 가상자산은 고위험 상품으로 투자금의 전부 또는 일부 손실을 초래할 수 있습니다.",,
+output/btcc/btcc_169062.txt,BTC/USDT,上架,现货,2025-08-21,btcc,,,,,,
+output/btcc/btcc_169062.txt,ETH/USDT,上架,现货,2025-08-21,btcc,,,,,,
+output/btcc/btcc_169062.txt,LTC/USDT,上架,现货,2025-08-21,btcc,,,,,,
+output/btcc/btcc_169062.txt,BCH/USDT,上架,现货,2025-08-21,btcc,,,,,,
+output/btcc/btcc_169062.txt,EOS/USDT,上架,现货,2025-08-21,btcc,,,,,,
+output/btcc/btcc_169062.txt,XRP/USDT,上架,现货,2025-08-21,btcc,,,,,,
+output/btcc/btcc_169062.txt,ADA/USDT,上架,现货,2025-08-21,btcc,,,,,,
+output/btcc/btcc_169054.txt,NVDAX/USDT,下架,现货,2025-08-20,btcc,,,,,,
+output/btcc/btcc_169054.txt,COINX/USDT,下架,现货,2025-08-20,btcc,,,,,,
+output/btcc/btcc_168919.txt,SBET/USDT,上架,合约,2025-08-15,btcc,,,,,,
+output/coinex/coinex_39859235969812.txt,MAMO/USDT,上架,现货,2025-08-01,coinex,,,,,,
+output/coinex/coinex_40282944756756.txt,XNY/USDT,上架,现货,2025-08-15,coinex,,,,,,
+output/coinex/coinex_39859182646164.txt,IKA/USDT,上架,现货,2025-08-01,coinex,,,,,,
+output/coinex/coinex_39965711454356.txt,PROVE/USDT,上架,现货,2025-08-06,coinex,,,,,,
+output/coinex/coinex_40282237546132.txt,PDA/USDT,下架,现货,2025-08-22,coinex,,,,,,
+output/coinex/coinex_40282237546132.txt,APTR/USDT,下架,现货,2025-08-22,coinex,,,,,,
+output/coinex/coinex_40282237546132.txt,HEGIC/USDT,下架,现货,2025-08-22,coinex,,,,,,
+output/coinex/coinex_40282237546132.txt,BARRON/USDT,下架,现货,2025-08-22,coinex,,,,,,
+output/coinex/coinex_40282237546132.txt,NAP/USDT,下架,现货,2025-08-22,coinex,,,,,,
+output/coinex/coinex_40282237546132.txt,SRK/USDT,下架,现货,2025-08-22,coinex,,,,,,
+output/coinex/coinex_40282237546132.txt,FARMHYPE/USDT,下架,现货,2025-08-22,coinex,,,,,,
+output/coinex/coinex_40282237546132.txt,POOLX/USDT,下架,现货,2025-08-22,coinex,,,,,,
+output/coinex/coinex_40282237546132.txt,KCN/USDT,下架,现货,2025-08-22,coinex,,,,,,
+output/coinex/coinex_40465156247060.txt,SAPIEN/USDT,上架,现货,2025-08-21,coinex,,,,,,
+output/coinex/coinex_40394887694100.txt,FUSD/USDT,上架,现货,2025-08-19,coinex,,,,,,
+output/coinex/coinex_39858799717524.txt,NOICE/USDT,上架,现货,2025-08-01,coinex,,,,,,
+output/coinex/coinex_40248241694100.txt,KLY/USDT,下架,现货,2025-08-20,coinex,,,,,,
+output/coinex/coinex_40248241694100.txt,BEND/USDT,下架,现货,2025-08-20,coinex,,,,,,
+output/coinex/coinex_40248241694100.txt,BEER/USDT,下架,现货,2025-08-20,coinex,,,,,,
+output/coinex/coinex_40248241694100.txt,AZUR/USDT,下架,现货,2025-08-20,coinex,,,,,,
+output/coinex/coinex_40248241694100.txt,BUZ/USDT,下架,现货,2025-08-20,coinex,,,,,,
+output/coinex/coinex_40248241694100.txt,SHARK/USDT,下架,现货,2025-08-20,coinex,,,,,,
+output/coinex/coinex_40248241694100.txt,STFX/USDT,下架,现货,2025-08-20,coinex,,,,,,
+output/coinex/coinex_40248241694100.txt,GUMMY/USDT,下架,现货,2025-08-20,coinex,,,,,,
+output/coinex/coinex_40574513362836.txt,BUBBLE/USDT,下架,现货,2025-09-01,coinex,"CoinEx Will Delist BUBBLE, LSD, DVI, BLENDR, JOY, EVAN, WSDM, SILLY, COMBO, LUMO and SUPFRIEND",https://www.coinex.com/en/announcements/detail/40574513362836,2025-08-25 15:10:47,"Dear CoinEx users, To provide better investment options for global users, CoinEx will conduct regular reviews on all cryptos listed on our platform according to the Delisting Criteria and will delist the ones that fail to meet our standards. When conducting a review, CoinEx will comprehensively consider many factors (including but not limited to community construction and operation factors, technology development factors, transaction volume, liquidity, etc.), and make delisting decisions prudently. Therefore, we have decided to start the delisting process of the following cryptos on Aug 25, 2025. The details are as follows.Delisted CryptosBUBBLE, LSD, DVI, BLENDR, JOY, EVAN, WSDM, SILLY, COMBO, LUMO, SUPFRIEND Delisted PairsBUBBLE/USDT, LSD/USDT, DVI/USDT, BLENDR/USDT, JOY/USDT, EVAN/USDT, WSDM/USDT, SILLY/USDT, COMBO/USDT, LUMO/USDT, SUPFRIEND/USDT Service Termination1. Deposit of the above cryptos terminates at: 8:00 Sep 01, 2025 (UTC)2. Trading of the above cryptos terminates at: 8:00 Sep 01, 2025 (UTC)3. Withdrawal of the above cryptos terminates at: 8:00 Dec 01, 2025 (UTC) Notes1. Users who have unexecuted orders related to the to-be-delisted trading pairs, please cancel them in advance. If it fails, cancellations will be made automatically by the order system. The refunded assets can be checked in your account.2. For liquidity providers of the to-be-delisted trading pairs, please withdraw the liquidity in advance. If the withdrawal is not made after the delisting, the system will automatically execute the withdrawal and the relevant assets will be returned to your Spot account.3. For users who are executing trading strategies, please cancel the strategies in advance. If the strategies are not canceled after the delisting, the system will automatically execute the cancellations.4. Deposit, withdrawal, and trading of the above cryptos will be terminated precisely as scheduled, and these cryptos will no longer be available for deposit, withdrawal, or trading after delisting.5. For holders of the to-be-delisted cryptos, please make sure to complete the withdrawal or asset replacement (transaction/swap) before the delisting to avoid unnecessary losses.6. If your balance of the to-be-delisted crypto is less than the minimum order amount, you can convert your assets into CET via the Small Asset Converter. For more info, please refer to Convert Small Assets into CET. Risk ReminderCrypto products are innovative investment products with large price fluctuations as well as high investment risks. Therefore, please evaluate and invest wisely based on your risk tolerance and financial resources. We apologize for any inconvenience caused.CoinEx reserves the right of final interpretation of this announcement. CoinEx TeamAug 25, 2025",,
+output/coinex/coinex_40574513362836.txt,LSD/USDT,下架,现货,2025-09-01,coinex,"CoinEx Will Delist BUBBLE, LSD, DVI, BLENDR, JOY, EVAN, WSDM, SILLY, COMBO, LUMO and SUPFRIEND",https://www.coinex.com/en/announcements/detail/40574513362836,2025-08-25 15:10:47,"Dear CoinEx users, To provide better investment options for global users, CoinEx will conduct regular reviews on all cryptos listed on our platform according to the Delisting Criteria and will delist the ones that fail to meet our standards. When conducting a review, CoinEx will comprehensively consider many factors (including but not limited to community construction and operation factors, technology development factors, transaction volume, liquidity, etc.), and make delisting decisions prudently. Therefore, we have decided to start the delisting process of the following cryptos on Aug 25, 2025. The details are as follows.Delisted CryptosBUBBLE, LSD, DVI, BLENDR, JOY, EVAN, WSDM, SILLY, COMBO, LUMO, SUPFRIEND Delisted PairsBUBBLE/USDT, LSD/USDT, DVI/USDT, BLENDR/USDT, JOY/USDT, EVAN/USDT, WSDM/USDT, SILLY/USDT, COMBO/USDT, LUMO/USDT, SUPFRIEND/USDT Service Termination1. Deposit of the above cryptos terminates at: 8:00 Sep 01, 2025 (UTC)2. Trading of the above cryptos terminates at: 8:00 Sep 01, 2025 (UTC)3. Withdrawal of the above cryptos terminates at: 8:00 Dec 01, 2025 (UTC) Notes1. Users who have unexecuted orders related to the to-be-delisted trading pairs, please cancel them in advance. If it fails, cancellations will be made automatically by the order system. The refunded assets can be checked in your account.2. For liquidity providers of the to-be-delisted trading pairs, please withdraw the liquidity in advance. If the withdrawal is not made after the delisting, the system will automatically execute the withdrawal and the relevant assets will be returned to your Spot account.3. For users who are executing trading strategies, please cancel the strategies in advance. If the strategies are not canceled after the delisting, the system will automatically execute the cancellations.4. Deposit, withdrawal, and trading of the above cryptos will be terminated precisely as scheduled, and these cryptos will no longer be available for deposit, withdrawal, or trading after delisting.5. For holders of the to-be-delisted cryptos, please make sure to complete the withdrawal or asset replacement (transaction/swap) before the delisting to avoid unnecessary losses.6. If your balance of the to-be-delisted crypto is less than the minimum order amount, you can convert your assets into CET via the Small Asset Converter. For more info, please refer to Convert Small Assets into CET. Risk ReminderCrypto products are innovative investment products with large price fluctuations as well as high investment risks. Therefore, please evaluate and invest wisely based on your risk tolerance and financial resources. We apologize for any inconvenience caused.CoinEx reserves the right of final interpretation of this announcement. CoinEx TeamAug 25, 2025",,
+output/coinex/coinex_40574513362836.txt,DVI/USDT,下架,现货,2025-09-01,coinex,"CoinEx Will Delist BUBBLE, LSD, DVI, BLENDR, JOY, EVAN, WSDM, SILLY, COMBO, LUMO and SUPFRIEND",https://www.coinex.com/en/announcements/detail/40574513362836,2025-08-25 15:10:47,"Dear CoinEx users, To provide better investment options for global users, CoinEx will conduct regular reviews on all cryptos listed on our platform according to the Delisting Criteria and will delist the ones that fail to meet our standards. When conducting a review, CoinEx will comprehensively consider many factors (including but not limited to community construction and operation factors, technology development factors, transaction volume, liquidity, etc.), and make delisting decisions prudently. Therefore, we have decided to start the delisting process of the following cryptos on Aug 25, 2025. The details are as follows.Delisted CryptosBUBBLE, LSD, DVI, BLENDR, JOY, EVAN, WSDM, SILLY, COMBO, LUMO, SUPFRIEND Delisted PairsBUBBLE/USDT, LSD/USDT, DVI/USDT, BLENDR/USDT, JOY/USDT, EVAN/USDT, WSDM/USDT, SILLY/USDT, COMBO/USDT, LUMO/USDT, SUPFRIEND/USDT Service Termination1. Deposit of the above cryptos terminates at: 8:00 Sep 01, 2025 (UTC)2. Trading of the above cryptos terminates at: 8:00 Sep 01, 2025 (UTC)3. Withdrawal of the above cryptos terminates at: 8:00 Dec 01, 2025 (UTC) Notes1. Users who have unexecuted orders related to the to-be-delisted trading pairs, please cancel them in advance. If it fails, cancellations will be made automatically by the order system. The refunded assets can be checked in your account.2. For liquidity providers of the to-be-delisted trading pairs, please withdraw the liquidity in advance. If the withdrawal is not made after the delisting, the system will automatically execute the withdrawal and the relevant assets will be returned to your Spot account.3. For users who are executing trading strategies, please cancel the strategies in advance. If the strategies are not canceled after the delisting, the system will automatically execute the cancellations.4. Deposit, withdrawal, and trading of the above cryptos will be terminated precisely as scheduled, and these cryptos will no longer be available for deposit, withdrawal, or trading after delisting.5. For holders of the to-be-delisted cryptos, please make sure to complete the withdrawal or asset replacement (transaction/swap) before the delisting to avoid unnecessary losses.6. If your balance of the to-be-delisted crypto is less than the minimum order amount, you can convert your assets into CET via the Small Asset Converter. For more info, please refer to Convert Small Assets into CET. Risk ReminderCrypto products are innovative investment products with large price fluctuations as well as high investment risks. Therefore, please evaluate and invest wisely based on your risk tolerance and financial resources. We apologize for any inconvenience caused.CoinEx reserves the right of final interpretation of this announcement. CoinEx TeamAug 25, 2025",,
+output/coinex/coinex_40574513362836.txt,BLENDR/USDT,下架,现货,2025-09-01,coinex,"CoinEx Will Delist BUBBLE, LSD, DVI, BLENDR, JOY, EVAN, WSDM, SILLY, COMBO, LUMO and SUPFRIEND",https://www.coinex.com/en/announcements/detail/40574513362836,2025-08-25 15:10:47,"Dear CoinEx users, To provide better investment options for global users, CoinEx will conduct regular reviews on all cryptos listed on our platform according to the Delisting Criteria and will delist the ones that fail to meet our standards. When conducting a review, CoinEx will comprehensively consider many factors (including but not limited to community construction and operation factors, technology development factors, transaction volume, liquidity, etc.), and make delisting decisions prudently. Therefore, we have decided to start the delisting process of the following cryptos on Aug 25, 2025. The details are as follows.Delisted CryptosBUBBLE, LSD, DVI, BLENDR, JOY, EVAN, WSDM, SILLY, COMBO, LUMO, SUPFRIEND Delisted PairsBUBBLE/USDT, LSD/USDT, DVI/USDT, BLENDR/USDT, JOY/USDT, EVAN/USDT, WSDM/USDT, SILLY/USDT, COMBO/USDT, LUMO/USDT, SUPFRIEND/USDT Service Termination1. Deposit of the above cryptos terminates at: 8:00 Sep 01, 2025 (UTC)2. Trading of the above cryptos terminates at: 8:00 Sep 01, 2025 (UTC)3. Withdrawal of the above cryptos terminates at: 8:00 Dec 01, 2025 (UTC) Notes1. Users who have unexecuted orders related to the to-be-delisted trading pairs, please cancel them in advance. If it fails, cancellations will be made automatically by the order system. The refunded assets can be checked in your account.2. For liquidity providers of the to-be-delisted trading pairs, please withdraw the liquidity in advance. If the withdrawal is not made after the delisting, the system will automatically execute the withdrawal and the relevant assets will be returned to your Spot account.3. For users who are executing trading strategies, please cancel the strategies in advance. If the strategies are not canceled after the delisting, the system will automatically execute the cancellations.4. Deposit, withdrawal, and trading of the above cryptos will be terminated precisely as scheduled, and these cryptos will no longer be available for deposit, withdrawal, or trading after delisting.5. For holders of the to-be-delisted cryptos, please make sure to complete the withdrawal or asset replacement (transaction/swap) before the delisting to avoid unnecessary losses.6. If your balance of the to-be-delisted crypto is less than the minimum order amount, you can convert your assets into CET via the Small Asset Converter. For more info, please refer to Convert Small Assets into CET. Risk ReminderCrypto products are innovative investment products with large price fluctuations as well as high investment risks. Therefore, please evaluate and invest wisely based on your risk tolerance and financial resources. We apologize for any inconvenience caused.CoinEx reserves the right of final interpretation of this announcement. CoinEx TeamAug 25, 2025",,
+output/coinex/coinex_40574513362836.txt,JOY/USDT,下架,现货,2025-09-01,coinex,"CoinEx Will Delist BUBBLE, LSD, DVI, BLENDR, JOY, EVAN, WSDM, SILLY, COMBO, LUMO and SUPFRIEND",https://www.coinex.com/en/announcements/detail/40574513362836,2025-08-25 15:10:47,"Dear CoinEx users, To provide better investment options for global users, CoinEx will conduct regular reviews on all cryptos listed on our platform according to the Delisting Criteria and will delist the ones that fail to meet our standards. When conducting a review, CoinEx will comprehensively consider many factors (including but not limited to community construction and operation factors, technology development factors, transaction volume, liquidity, etc.), and make delisting decisions prudently. Therefore, we have decided to start the delisting process of the following cryptos on Aug 25, 2025. The details are as follows.Delisted CryptosBUBBLE, LSD, DVI, BLENDR, JOY, EVAN, WSDM, SILLY, COMBO, LUMO, SUPFRIEND Delisted PairsBUBBLE/USDT, LSD/USDT, DVI/USDT, BLENDR/USDT, JOY/USDT, EVAN/USDT, WSDM/USDT, SILLY/USDT, COMBO/USDT, LUMO/USDT, SUPFRIEND/USDT Service Termination1. Deposit of the above cryptos terminates at: 8:00 Sep 01, 2025 (UTC)2. Trading of the above cryptos terminates at: 8:00 Sep 01, 2025 (UTC)3. Withdrawal of the above cryptos terminates at: 8:00 Dec 01, 2025 (UTC) Notes1. Users who have unexecuted orders related to the to-be-delisted trading pairs, please cancel them in advance. If it fails, cancellations will be made automatically by the order system. The refunded assets can be checked in your account.2. For liquidity providers of the to-be-delisted trading pairs, please withdraw the liquidity in advance. If the withdrawal is not made after the delisting, the system will automatically execute the withdrawal and the relevant assets will be returned to your Spot account.3. For users who are executing trading strategies, please cancel the strategies in advance. If the strategies are not canceled after the delisting, the system will automatically execute the cancellations.4. Deposit, withdrawal, and trading of the above cryptos will be terminated precisely as scheduled, and these cryptos will no longer be available for deposit, withdrawal, or trading after delisting.5. For holders of the to-be-delisted cryptos, please make sure to complete the withdrawal or asset replacement (transaction/swap) before the delisting to avoid unnecessary losses.6. If your balance of the to-be-delisted crypto is less than the minimum order amount, you can convert your assets into CET via the Small Asset Converter. For more info, please refer to Convert Small Assets into CET. Risk ReminderCrypto products are innovative investment products with large price fluctuations as well as high investment risks. Therefore, please evaluate and invest wisely based on your risk tolerance and financial resources. We apologize for any inconvenience caused.CoinEx reserves the right of final interpretation of this announcement. CoinEx TeamAug 25, 2025",,
+output/coinex/coinex_40574513362836.txt,EVAN/USDT,下架,现货,2025-09-01,coinex,"CoinEx Will Delist BUBBLE, LSD, DVI, BLENDR, JOY, EVAN, WSDM, SILLY, COMBO, LUMO and SUPFRIEND",https://www.coinex.com/en/announcements/detail/40574513362836,2025-08-25 15:10:47,"Dear CoinEx users, To provide better investment options for global users, CoinEx will conduct regular reviews on all cryptos listed on our platform according to the Delisting Criteria and will delist the ones that fail to meet our standards. When conducting a review, CoinEx will comprehensively consider many factors (including but not limited to community construction and operation factors, technology development factors, transaction volume, liquidity, etc.), and make delisting decisions prudently. Therefore, we have decided to start the delisting process of the following cryptos on Aug 25, 2025. The details are as follows.Delisted CryptosBUBBLE, LSD, DVI, BLENDR, JOY, EVAN, WSDM, SILLY, COMBO, LUMO, SUPFRIEND Delisted PairsBUBBLE/USDT, LSD/USDT, DVI/USDT, BLENDR/USDT, JOY/USDT, EVAN/USDT, WSDM/USDT, SILLY/USDT, COMBO/USDT, LUMO/USDT, SUPFRIEND/USDT Service Termination1. Deposit of the above cryptos terminates at: 8:00 Sep 01, 2025 (UTC)2. Trading of the above cryptos terminates at: 8:00 Sep 01, 2025 (UTC)3. Withdrawal of the above cryptos terminates at: 8:00 Dec 01, 2025 (UTC) Notes1. Users who have unexecuted orders related to the to-be-delisted trading pairs, please cancel them in advance. If it fails, cancellations will be made automatically by the order system. The refunded assets can be checked in your account.2. For liquidity providers of the to-be-delisted trading pairs, please withdraw the liquidity in advance. If the withdrawal is not made after the delisting, the system will automatically execute the withdrawal and the relevant assets will be returned to your Spot account.3. For users who are executing trading strategies, please cancel the strategies in advance. If the strategies are not canceled after the delisting, the system will automatically execute the cancellations.4. Deposit, withdrawal, and trading of the above cryptos will be terminated precisely as scheduled, and these cryptos will no longer be available for deposit, withdrawal, or trading after delisting.5. For holders of the to-be-delisted cryptos, please make sure to complete the withdrawal or asset replacement (transaction/swap) before the delisting to avoid unnecessary losses.6. If your balance of the to-be-delisted crypto is less than the minimum order amount, you can convert your assets into CET via the Small Asset Converter. For more info, please refer to Convert Small Assets into CET. Risk ReminderCrypto products are innovative investment products with large price fluctuations as well as high investment risks. Therefore, please evaluate and invest wisely based on your risk tolerance and financial resources. We apologize for any inconvenience caused.CoinEx reserves the right of final interpretation of this announcement. CoinEx TeamAug 25, 2025",,
+output/coinex/coinex_40574513362836.txt,WSDM/USDT,下架,现货,2025-09-01,coinex,"CoinEx Will Delist BUBBLE, LSD, DVI, BLENDR, JOY, EVAN, WSDM, SILLY, COMBO, LUMO and SUPFRIEND",https://www.coinex.com/en/announcements/detail/40574513362836,2025-08-25 15:10:47,"Dear CoinEx users, To provide better investment options for global users, CoinEx will conduct regular reviews on all cryptos listed on our platform according to the Delisting Criteria and will delist the ones that fail to meet our standards. When conducting a review, CoinEx will comprehensively consider many factors (including but not limited to community construction and operation factors, technology development factors, transaction volume, liquidity, etc.), and make delisting decisions prudently. Therefore, we have decided to start the delisting process of the following cryptos on Aug 25, 2025. The details are as follows.Delisted CryptosBUBBLE, LSD, DVI, BLENDR, JOY, EVAN, WSDM, SILLY, COMBO, LUMO, SUPFRIEND Delisted PairsBUBBLE/USDT, LSD/USDT, DVI/USDT, BLENDR/USDT, JOY/USDT, EVAN/USDT, WSDM/USDT, SILLY/USDT, COMBO/USDT, LUMO/USDT, SUPFRIEND/USDT Service Termination1. Deposit of the above cryptos terminates at: 8:00 Sep 01, 2025 (UTC)2. Trading of the above cryptos terminates at: 8:00 Sep 01, 2025 (UTC)3. Withdrawal of the above cryptos terminates at: 8:00 Dec 01, 2025 (UTC) Notes1. Users who have unexecuted orders related to the to-be-delisted trading pairs, please cancel them in advance. If it fails, cancellations will be made automatically by the order system. The refunded assets can be checked in your account.2. For liquidity providers of the to-be-delisted trading pairs, please withdraw the liquidity in advance. If the withdrawal is not made after the delisting, the system will automatically execute the withdrawal and the relevant assets will be returned to your Spot account.3. For users who are executing trading strategies, please cancel the strategies in advance. If the strategies are not canceled after the delisting, the system will automatically execute the cancellations.4. Deposit, withdrawal, and trading of the above cryptos will be terminated precisely as scheduled, and these cryptos will no longer be available for deposit, withdrawal, or trading after delisting.5. For holders of the to-be-delisted cryptos, please make sure to complete the withdrawal or asset replacement (transaction/swap) before the delisting to avoid unnecessary losses.6. If your balance of the to-be-delisted crypto is less than the minimum order amount, you can convert your assets into CET via the Small Asset Converter. For more info, please refer to Convert Small Assets into CET. Risk ReminderCrypto products are innovative investment products with large price fluctuations as well as high investment risks. Therefore, please evaluate and invest wisely based on your risk tolerance and financial resources. We apologize for any inconvenience caused.CoinEx reserves the right of final interpretation of this announcement. CoinEx TeamAug 25, 2025",,
+output/coinex/coinex_40574513362836.txt,SILLY/USDT,下架,现货,2025-09-01,coinex,"CoinEx Will Delist BUBBLE, LSD, DVI, BLENDR, JOY, EVAN, WSDM, SILLY, COMBO, LUMO and SUPFRIEND",https://www.coinex.com/en/announcements/detail/40574513362836,2025-08-25 15:10:47,"Dear CoinEx users, To provide better investment options for global users, CoinEx will conduct regular reviews on all cryptos listed on our platform according to the Delisting Criteria and will delist the ones that fail to meet our standards. When conducting a review, CoinEx will comprehensively consider many factors (including but not limited to community construction and operation factors, technology development factors, transaction volume, liquidity, etc.), and make delisting decisions prudently. Therefore, we have decided to start the delisting process of the following cryptos on Aug 25, 2025. The details are as follows.Delisted CryptosBUBBLE, LSD, DVI, BLENDR, JOY, EVAN, WSDM, SILLY, COMBO, LUMO, SUPFRIEND Delisted PairsBUBBLE/USDT, LSD/USDT, DVI/USDT, BLENDR/USDT, JOY/USDT, EVAN/USDT, WSDM/USDT, SILLY/USDT, COMBO/USDT, LUMO/USDT, SUPFRIEND/USDT Service Termination1. Deposit of the above cryptos terminates at: 8:00 Sep 01, 2025 (UTC)2. Trading of the above cryptos terminates at: 8:00 Sep 01, 2025 (UTC)3. Withdrawal of the above cryptos terminates at: 8:00 Dec 01, 2025 (UTC) Notes1. Users who have unexecuted orders related to the to-be-delisted trading pairs, please cancel them in advance. If it fails, cancellations will be made automatically by the order system. The refunded assets can be checked in your account.2. For liquidity providers of the to-be-delisted trading pairs, please withdraw the liquidity in advance. If the withdrawal is not made after the delisting, the system will automatically execute the withdrawal and the relevant assets will be returned to your Spot account.3. For users who are executing trading strategies, please cancel the strategies in advance. If the strategies are not canceled after the delisting, the system will automatically execute the cancellations.4. Deposit, withdrawal, and trading of the above cryptos will be terminated precisely as scheduled, and these cryptos will no longer be available for deposit, withdrawal, or trading after delisting.5. For holders of the to-be-delisted cryptos, please make sure to complete the withdrawal or asset replacement (transaction/swap) before the delisting to avoid unnecessary losses.6. If your balance of the to-be-delisted crypto is less than the minimum order amount, you can convert your assets into CET via the Small Asset Converter. For more info, please refer to Convert Small Assets into CET. Risk ReminderCrypto products are innovative investment products with large price fluctuations as well as high investment risks. Therefore, please evaluate and invest wisely based on your risk tolerance and financial resources. We apologize for any inconvenience caused.CoinEx reserves the right of final interpretation of this announcement. CoinEx TeamAug 25, 2025",,
+output/coinex/coinex_40574513362836.txt,COMBO/USDT,下架,现货,2025-09-01,coinex,"CoinEx Will Delist BUBBLE, LSD, DVI, BLENDR, JOY, EVAN, WSDM, SILLY, COMBO, LUMO and SUPFRIEND",https://www.coinex.com/en/announcements/detail/40574513362836,2025-08-25 15:10:47,"Dear CoinEx users, To provide better investment options for global users, CoinEx will conduct regular reviews on all cryptos listed on our platform according to the Delisting Criteria and will delist the ones that fail to meet our standards. When conducting a review, CoinEx will comprehensively consider many factors (including but not limited to community construction and operation factors, technology development factors, transaction volume, liquidity, etc.), and make delisting decisions prudently. Therefore, we have decided to start the delisting process of the following cryptos on Aug 25, 2025. The details are as follows.Delisted CryptosBUBBLE, LSD, DVI, BLENDR, JOY, EVAN, WSDM, SILLY, COMBO, LUMO, SUPFRIEND Delisted PairsBUBBLE/USDT, LSD/USDT, DVI/USDT, BLENDR/USDT, JOY/USDT, EVAN/USDT, WSDM/USDT, SILLY/USDT, COMBO/USDT, LUMO/USDT, SUPFRIEND/USDT Service Termination1. Deposit of the above cryptos terminates at: 8:00 Sep 01, 2025 (UTC)2. Trading of the above cryptos terminates at: 8:00 Sep 01, 2025 (UTC)3. Withdrawal of the above cryptos terminates at: 8:00 Dec 01, 2025 (UTC) Notes1. Users who have unexecuted orders related to the to-be-delisted trading pairs, please cancel them in advance. If it fails, cancellations will be made automatically by the order system. The refunded assets can be checked in your account.2. For liquidity providers of the to-be-delisted trading pairs, please withdraw the liquidity in advance. If the withdrawal is not made after the delisting, the system will automatically execute the withdrawal and the relevant assets will be returned to your Spot account.3. For users who are executing trading strategies, please cancel the strategies in advance. If the strategies are not canceled after the delisting, the system will automatically execute the cancellations.4. Deposit, withdrawal, and trading of the above cryptos will be terminated precisely as scheduled, and these cryptos will no longer be available for deposit, withdrawal, or trading after delisting.5. For holders of the to-be-delisted cryptos, please make sure to complete the withdrawal or asset replacement (transaction/swap) before the delisting to avoid unnecessary losses.6. If your balance of the to-be-delisted crypto is less than the minimum order amount, you can convert your assets into CET via the Small Asset Converter. For more info, please refer to Convert Small Assets into CET. Risk ReminderCrypto products are innovative investment products with large price fluctuations as well as high investment risks. Therefore, please evaluate and invest wisely based on your risk tolerance and financial resources. We apologize for any inconvenience caused.CoinEx reserves the right of final interpretation of this announcement. CoinEx TeamAug 25, 2025",,
+output/coinex/coinex_40574513362836.txt,LUMO/USDT,下架,现货,2025-09-01,coinex,"CoinEx Will Delist BUBBLE, LSD, DVI, BLENDR, JOY, EVAN, WSDM, SILLY, COMBO, LUMO and SUPFRIEND",https://www.coinex.com/en/announcements/detail/40574513362836,2025-08-25 15:10:47,"Dear CoinEx users, To provide better investment options for global users, CoinEx will conduct regular reviews on all cryptos listed on our platform according to the Delisting Criteria and will delist the ones that fail to meet our standards. When conducting a review, CoinEx will comprehensively consider many factors (including but not limited to community construction and operation factors, technology development factors, transaction volume, liquidity, etc.), and make delisting decisions prudently. Therefore, we have decided to start the delisting process of the following cryptos on Aug 25, 2025. The details are as follows.Delisted CryptosBUBBLE, LSD, DVI, BLENDR, JOY, EVAN, WSDM, SILLY, COMBO, LUMO, SUPFRIEND Delisted PairsBUBBLE/USDT, LSD/USDT, DVI/USDT, BLENDR/USDT, JOY/USDT, EVAN/USDT, WSDM/USDT, SILLY/USDT, COMBO/USDT, LUMO/USDT, SUPFRIEND/USDT Service Termination1. Deposit of the above cryptos terminates at: 8:00 Sep 01, 2025 (UTC)2. Trading of the above cryptos terminates at: 8:00 Sep 01, 2025 (UTC)3. Withdrawal of the above cryptos terminates at: 8:00 Dec 01, 2025 (UTC) Notes1. Users who have unexecuted orders related to the to-be-delisted trading pairs, please cancel them in advance. If it fails, cancellations will be made automatically by the order system. The refunded assets can be checked in your account.2. For liquidity providers of the to-be-delisted trading pairs, please withdraw the liquidity in advance. If the withdrawal is not made after the delisting, the system will automatically execute the withdrawal and the relevant assets will be returned to your Spot account.3. For users who are executing trading strategies, please cancel the strategies in advance. If the strategies are not canceled after the delisting, the system will automatically execute the cancellations.4. Deposit, withdrawal, and trading of the above cryptos will be terminated precisely as scheduled, and these cryptos will no longer be available for deposit, withdrawal, or trading after delisting.5. For holders of the to-be-delisted cryptos, please make sure to complete the withdrawal or asset replacement (transaction/swap) before the delisting to avoid unnecessary losses.6. If your balance of the to-be-delisted crypto is less than the minimum order amount, you can convert your assets into CET via the Small Asset Converter. For more info, please refer to Convert Small Assets into CET. Risk ReminderCrypto products are innovative investment products with large price fluctuations as well as high investment risks. Therefore, please evaluate and invest wisely based on your risk tolerance and financial resources. We apologize for any inconvenience caused.CoinEx reserves the right of final interpretation of this announcement. CoinEx TeamAug 25, 2025",,
+output/coinex/coinex_40574513362836.txt,SUPFRIEND/USDT,下架,现货,2025-09-01,coinex,"CoinEx Will Delist BUBBLE, LSD, DVI, BLENDR, JOY, EVAN, WSDM, SILLY, COMBO, LUMO and SUPFRIEND",https://www.coinex.com/en/announcements/detail/40574513362836,2025-08-25 15:10:47,"Dear CoinEx users, To provide better investment options for global users, CoinEx will conduct regular reviews on all cryptos listed on our platform according to the Delisting Criteria and will delist the ones that fail to meet our standards. When conducting a review, CoinEx will comprehensively consider many factors (including but not limited to community construction and operation factors, technology development factors, transaction volume, liquidity, etc.), and make delisting decisions prudently. Therefore, we have decided to start the delisting process of the following cryptos on Aug 25, 2025. The details are as follows.Delisted CryptosBUBBLE, LSD, DVI, BLENDR, JOY, EVAN, WSDM, SILLY, COMBO, LUMO, SUPFRIEND Delisted PairsBUBBLE/USDT, LSD/USDT, DVI/USDT, BLENDR/USDT, JOY/USDT, EVAN/USDT, WSDM/USDT, SILLY/USDT, COMBO/USDT, LUMO/USDT, SUPFRIEND/USDT Service Termination1. Deposit of the above cryptos terminates at: 8:00 Sep 01, 2025 (UTC)2. Trading of the above cryptos terminates at: 8:00 Sep 01, 2025 (UTC)3. Withdrawal of the above cryptos terminates at: 8:00 Dec 01, 2025 (UTC) Notes1. Users who have unexecuted orders related to the to-be-delisted trading pairs, please cancel them in advance. If it fails, cancellations will be made automatically by the order system. The refunded assets can be checked in your account.2. For liquidity providers of the to-be-delisted trading pairs, please withdraw the liquidity in advance. If the withdrawal is not made after the delisting, the system will automatically execute the withdrawal and the relevant assets will be returned to your Spot account.3. For users who are executing trading strategies, please cancel the strategies in advance. If the strategies are not canceled after the delisting, the system will automatically execute the cancellations.4. Deposit, withdrawal, and trading of the above cryptos will be terminated precisely as scheduled, and these cryptos will no longer be available for deposit, withdrawal, or trading after delisting.5. For holders of the to-be-delisted cryptos, please make sure to complete the withdrawal or asset replacement (transaction/swap) before the delisting to avoid unnecessary losses.6. If your balance of the to-be-delisted crypto is less than the minimum order amount, you can convert your assets into CET via the Small Asset Converter. For more info, please refer to Convert Small Assets into CET. Risk ReminderCrypto products are innovative investment products with large price fluctuations as well as high investment risks. Therefore, please evaluate and invest wisely based on your risk tolerance and financial resources. We apologize for any inconvenience caused.CoinEx reserves the right of final interpretation of this announcement. CoinEx TeamAug 25, 2025",,
+output/coinex/coinex_39789206183188.txt,URANUS/USDT,上架,现货,2025-07-30,coinex,,,,,,
+output/coinex/coinex_39753721126932.txt,OCT/USDT,下架,现货,2025-08-06,coinex,,,,,,
+output/coinex/coinex_39753721126932.txt,GNON/USDT,下架,现货,2025-08-06,coinex,,,,,,
+output/coinex/coinex_39753721126932.txt,ZERO/USDT,下架,现货,2025-08-06,coinex,,,,,,
+output/coinex/coinex_39753721126932.txt,CWS/USDT,下架,现货,2025-08-06,coinex,,,,,,
+output/coinex/coinex_39753721126932.txt,STAR/USDT,下架,现货,2025-08-06,coinex,,,,,,
+output/coinex/coinex_39753721126932.txt,HOP/USDT,下架,现货,2025-08-06,coinex,,,,,,
+output/coinex/coinex_39753721126932.txt,WHALE/USDT,下架,现货,2025-08-06,coinex,,,,,,
+output/coinex/coinex_39753721126932.txt,EVMOS/USDT,下架,现货,2025-08-06,coinex,,,,,,
+output/coinex/coinex_39753721126932.txt,EVMOS/BTC,下架,现货,2025-08-06,coinex,,,,,,
+output/coinex/coinex_39753721126932.txt,TRACY/USDT,下架,现货,2025-08-06,coinex,,,,,,
+output/coinex/coinex_40182562435732.txt,YALA/USDT,上架,现货,2025-08-13,coinex,,,,,,
+output/coinex/coinex_39788932728852.txt,TREE/USDT,上架,现货,2025-07-30,coinex,,,,,,
+output/coinex/coinex_39789005440276.txt,JUSTAMEMECOIN/USDT,上架,现货,2025-07-30,coinex,,,,,,
+output/coinex/coinex_40463358458900.txt,YZY/USDT,上架,现货,2025-08-21,coinex,,,,,,
+output/coinex/coinex_39965770786964.txt,TOWNS/USDT,上架,现货,2025-08-05,coinex,,,,,,
+output/coinex/coinex_40145763257492.txt,LIBRA/USDT,下架,现货,2025-08-18,coinex,,,,,,
+output/coinex/coinex_40145763257492.txt,UBC/USDT,下架,现货,2025-08-18,coinex,,,,,,
+output/coinex/coinex_40145763257492.txt,PAJAMAS/USDT,下架,现货,2025-08-18,coinex,,,,,,
+output/coinex/coinex_40145763257492.txt,APRS/USDT,下架,现货,2025-08-18,coinex,,,,,,
+output/coinex/coinex_40145763257492.txt,ESE/USDT,下架,现货,2025-08-18,coinex,,,,,,
+output/coinex/coinex_40145763257492.txt,ENQAI/USDT,下架,现货,2025-08-18,coinex,,,,,,
+output/coinex/coinex_40145763257492.txt,BULLY/USDT,下架,现货,2025-08-18,coinex,,,,,,
+output/coinex/coinex_40145763257492.txt,BLINK/USDT,下架,现货,2025-08-18,coinex,,,,,,
+output/coinex/coinex_40145763257492.txt,PESTO/USDT,下架,现货,2025-08-18,coinex,,,,,,
+output/coinex/coinex_40463754301972.txt,AIPG/USDT,下架,现货,2025-08-28,coinex,,,,,,
+output/coinex/coinex_40463754301972.txt,AIT/USDT,下架,现货,2025-08-28,coinex,,,,,,
+output/coinex/coinex_40463754301972.txt,UWU/USDT,下架,现货,2025-08-28,coinex,,,,,,
+output/coinex/coinex_40463754301972.txt,BRWL/USDT,下架,现货,2025-08-28,coinex,,,,,,
+output/coinex/coinex_40463754301972.txt,RAT/USDT,下架,现货,2025-08-28,coinex,,,,,,
+output/coinex/coinex_40463754301972.txt,LEASH/USDT,下架,现货,2025-08-28,coinex,,,,,,
+output/coinex/coinex_40183111587348.txt,IN/USDT,上架,现货,2025-08-13,coinex,,,,,,
+output/coinex/coinex_39828022899732.txt,PLAY/USDT,上架,现货,2025-08-01,coinex,,,,,,
+output/mexc/mexc_17827791529642.txt,TAKE/USDT,上架,合约,2025-08-25,mexc,【全球首发】OVERTAKE (TAKE) U本位合约将于 2025年8月25日 20:10 (UTC+8) 上线,https://www.mexc.com/zh-MY/support/articles/17827791529642,2025-08-25 13:13:31,"【全球首发】OVERTAKE (TAKE) U本位合约将于 2025年8月25日 20:10 (UTC+8) 上线
+我们很高兴地宣布，TAKEUSDT 即将于 MEXC 合约（网页版及App端）上线。
+合约交易将于上线后立即开放，合约网格机器人策略将于上线后 5 分钟内开放。
+详情如下：合约上线时间（UTC+8）杠杆倍数
+保证金模式TAKEUSDT2025年8月25日 20:10 (UTC+8)1-
+20
+倍
+可自由调节全仓
+逐仓
+*BTN-开始交易 TAKEUSDT&BTNURL=https://www.mexc.com/zh-CN/futures/TAKE_USDT*关于 OVERTAKE (TAKE)
+官方网站 | X (推特) | 电报 | 白皮书 | 合约地址 (SUI) | 合约地址 (BEP20)
+感谢您对 MEXC 合约交易的支持！",,
+output/mexc/mexc_17827791529550.txt,ARIAUSDT,上架,合约,2025-08-21,mexc,,,,,,
+output/mexc/mexc_17827791529209.txt,WOLFTON/USDT,上架,现货,2025-08-24,mexc,,,,,,
+output/mexc/mexc_17827791529008.txt,TOKABUETH/USDT,上架,现货,2025-08-16,mexc,,,,,,
+output/mexc/mexc_17827791528658.txt,CRED/USDT,上架,现货,2025-08-14,mexc,,,,,,
+output/mexc/mexc_17827791529003.txt,BLSH/USDT,上架,合约,2025-08-14,mexc,,,,,,
+output/mexc/mexc_17827791529516.txt,AKE/USDT,上架,合约,2025-08-21,mexc,,,,,,
+output/mexc/mexc_17827791529347.txt,BAS/USDT,上架,现货,2025-08-19,mexc,,,,,,
+output/mexc/mexc_17827791529652.txt,BTR/USDT,上架,合约,2025-08-25,mexc,【全球首发】Bitlayer (BTR) U本位合约即将上线,https://www.mexc.com/zh-MY/support/articles/17827791529652,2025-08-25 15:21:53,"【全球首发】Bitlayer (BTR) U本位合约即将上线
+BTRUSDT 合約即將上線，屆時您可以在 MEXC （網頁端及App端）進行BTRUSDT 合約交易，該幣對合約網格策略則會在合約開盤 5 分鐘內開放。详情如下：合约上线时间（UTC+8）杠杆倍数保证金模式BTRUSDT现货上线后10分钟1-20 倍可自由调节全仓逐仓*BTN-开始交易 BTRUSDT&BTNURL=https://www.mexc.com/zh-MY/futures/BTR_USDT*相关公告链接【首发上线】MEXC 将于创新区上线 Bitlayer (BTR) 并支持闪兑服务关于 Bitlayer (BTR)官方网站 | 合约地址 (BTRSCAN) | X (推特) | 白皮书 | 合约地址 (ERC20)感谢您对 MEXC 合约交易的支持！",,待确定
+output/mexc/mexc_17827791529019.txt,PUBLIC/USDT,上架,合约,2025-08-15,mexc,,,,,,
+output/mexc/mexc_17827791529625.txt,FSTUSDT,上架,合约,2025-08-24,mexc,,,,,,
+output/mexc/mexc_17827791529297.txt,MK/USDT,上架,现货,2025-08-18,mexc,,,,,,
+output/mexc/mexc_17827791528850.txt,LBAI/USDT,上架,现货,2025-08-15,mexc,,,,,,
+output/mexc/mexc_17827791529650.txt,PUMP/USDC,上架,合约,2025-08-25,mexc,PUMP 和 BIO USDC本位合约将于 2025 年 8 月 25 日 16:00（UTC+8）上线，限时享受 0 费,https://www.mexc.com/zh-MY/support/articles/17827791529650,2025-08-25 15:07:52,"PUMP 和 BIO USDC本位合约将于 2025 年 8 月 25 日 16:00（UTC+8）上线，限时享受 0 费
+PUMPUSDC 和 BIOUSDC 合约即将上线，届时您可以通过 MEXC App 和网页进行交易。详情如下：合约上线时间（UTC+8）杠杆倍数保证金模式PUMPUSDC2025 年 8 月 25 日 16:001-125 倍可自由调节全仓逐仓BIOUSDC点击交易：PUMPUSDC 永续合约>> | BIOUSDC 永续合约>> 🎉 限時优惠：0 交易费交易 PUMPUSDC 和 BIOUSDC 合约，纵享限时 0 交易费。注意事项：- 活动期间，以上合约交易对不再享有手续费优惠活动；- 活动期间，以上合约交易对的交易量将不计入合约活动（如 MEXC Win、领 10,000 USDT、M-Day 合约专场、Super X-game、合约风云榜、Futures Hotspot 等）；- 本活动仅限特定地区的部分用户参与，请您登录账户后以费率页面或交易页面的费率为准；- MEXC 保留对本次活动的最终解释权。如有任何问题，请联系客服。感谢您对 MEXC 合约交易的支持！",,
+output/mexc/mexc_17827791529650.txt,BIO/USDC,上架,合约,2025-08-25,mexc,PUMP 和 BIO USDC本位合约将于 2025 年 8 月 25 日 16:00（UTC+8）上线，限时享受 0 费,https://www.mexc.com/zh-MY/support/articles/17827791529650,2025-08-25 15:07:52,"PUMP 和 BIO USDC本位合约将于 2025 年 8 月 25 日 16:00（UTC+8）上线，限时享受 0 费
+PUMPUSDC 和 BIOUSDC 合约即将上线，届时您可以通过 MEXC App 和网页进行交易。详情如下：合约上线时间（UTC+8）杠杆倍数保证金模式PUMPUSDC2025 年 8 月 25 日 16:001-125 倍可自由调节全仓逐仓BIOUSDC点击交易：PUMPUSDC 永续合约>> | BIOUSDC 永续合约>> 🎉 限時优惠：0 交易费交易 PUMPUSDC 和 BIOUSDC 合约，纵享限时 0 交易费。注意事项：- 活动期间，以上合约交易对不再享有手续费优惠活动；- 活动期间，以上合约交易对的交易量将不计入合约活动（如 MEXC Win、领 10,000 USDT、M-Day 合约专场、Super X-game、合约风云榜、Futures Hotspot 等）；- 本活动仅限特定地区的部分用户参与，请您登录账户后以费率页面或交易页面的费率为准；- MEXC 保留对本次活动的最终解释权。如有任何问题，请联系客服。感谢您对 MEXC 合约交易的支持！",,
+output/mexc/mexc_17827791528997.txt,MTT/USDT,上架,现货,2025-08-15,mexc,,,,,,
+output/mexc/mexc_17827791529666.txt,SOMI/USDT,上架,合约,2025-08-25,mexc,MEXC 永续合约盘前交易：SOMIUSDT 即将上线,https://www.mexc.com/zh-MY/support/articles/17827791529666,2025-08-25 17:45:38,"MEXC 永续合约盘前交易：SOMIUSDT 即将上线
+我们很高兴地宣布，SOMIUSDT 将于 2025 年 8 月 25 日 18:00（UTC+8）在 MEXC 永续合约盘前交易上线！*BTN-交易 SOMIUSDT 盘前永续合约&BTNURL=https://www.mexc.com/zh-MY/futures/SOMI_USDT*相关说明：什么是MEXC盘前永续合约交易免责声明盘前交易市场与标准交割市场部分产品机制不同，请务必事先了解清楚盘前交易产品机制与风险。请注意，盘前交易可能存在多种风险，包括流动性有限、买卖价差大以及价格不确定性等。",,
+output/mexc/mexc_17827791529519.txt,SAPIENUSDT,上架,合约,2025-08-21,mexc,,,,,,
+output/mexc/mexc_17827791529295.txt,TCOMUSDT,上架,合约,2025-08-15,mexc,,,,,,
+output/mexc/mexc_17827791529344.txt,DAM/USDT,上架,合约,2025-08-18,mexc,,,,,,
+output/mexc/mexc_17827791529578.txt,BAS/USDT,上架,合约,2025-08-21,mexc,,,,,,
+output/mexc/mexc_17827791529606.txt,FST/USDT,上架,现货,2025-08-24,mexc,,,,,,
+output/mexc/mexc_17827791528851.txt,AIO/USDT,上架,合约,2025-08-13,mexc,,,,,,
+output/mexc/mexc_17827791529549.txt,YZYUSDT,上架,合约,2025-08-21,mexc,,,,,,
+output/mexc/mexc_17827791529656.txt,BTR/USDT,上架,合约,2025-08-25,mexc,【全球首发】Bitlayer (BTR) U本位合约上线,https://www.mexc.com/zh-MY/support/articles/17827791529656,2025-08-25 15:44:17,"【全球首发】Bitlayer (BTR) U本位合约上线
+我们很高兴地宣布，BTRUSDT 即将于 MEXC 合约（网页版及App端）上线。
+合约交易将于上线后立即开放，合约网格机器人策略将于上线后 5 分钟内开放。
+详情如下：合约
+上线时间（UTC+8）杠杆倍数保证金模式BTRUSDT
+现货上线
+10 分钟后1-20
+倍
+可自由调节
+全仓
+逐仓
+*BTN- 开始交易 BTRUSDT&BTNURL=https://www.mexc.com/zh-CN/futures/BTR_USDT*相关公告链接：https://www.mexc.com/zh-CN/support/articles/17827791529511关于 Bitlayer (BTR) 官方网站 | 合约地址 (BTRSCAN) | X (推特) | 白皮书 | 合约地址 (ERC20)感谢您对 MEXC 合约交易的支持！",,待确定
+output/mexc/mexc_17827791529617.txt,DORA/USDT,上架,合约,2025-08-23,mexc,,,,,,
+output/mexc/mexc_17827791529504.txt,SKY/USDT,上架,合约,2025-08-20,mexc,,,,,,
+output/mexc/mexc_17827791529552.txt,TAKE/USDT,上架,现货,2025-08-25,mexc,,,,,,
+output/mexc/mexc_17827791528894.txt,TCOM/USDT,上架,现货,2025-08-15,mexc,,,,,,
+output/mexc/mexc_17827791529026.txt,BLUP/USDT,上架,现货,2025-08-15,mexc,,,,,,
+output/mexc/mexc_17827791529319.txt,DAM/USDT,上架,现货,2025-08-18,mexc,,,,,,
+output/bingx/bingx_a337ad885df52f4825610e94f536a4ff.txt,CELL/USDT,上架,现货,2025-08-14,bingx,Cellframe (CELL) Coin Gets Listed on BingX Spot2025-08-13,https://bingx.com/en/support/articles/13492964385551/,,,,
+output/bingx/bingx_31baf03f13d2258c36df116aea47b8d1.txt,YALA/USDT,上架,现货,2025-08-08,bingx,Yala (YALA) Coin Gets Listed on BingX Spot2025-08-08,https://bingx.com/en/support/articles/13451631612047/,,,,
+output/bingx/bingx_955d5efa114738c3a166610c28088788.txt,XPIN/USDT,上架,现货,2025-08-22,bingx,XPIN Network (XPIN) Coin Gets Listed on BingX Spot2025-08-21,https://bingx.com/en/support/articles/13557368277135/,,,,
+output/bingx/bingx_cdcab05a6c9e06b5ee2c29843efdff80.txt,SPARK/USDT,上架,现货,2025-08-11,bingx,SPARK Migration to BingX Spot2025-08-11,https://bingx.com/en/support/articles/13472876773519/,,,,
+output/bingx/bingx_cdcab05a6c9e06b5ee2c29843efdff80.txt,SPARK/USDT,下架,现货,2025-08-11,bingx,SPARK Migration to BingX Spot2025-08-11,https://bingx.com/en/support/articles/13472876773519/,,,,
+output/bingx/bingx_349ce4d2006cad1264a35a4b33c3e608.txt,LIGHT/USDT,上架,现货,2025-08-18,bingx,LIGHT Migration to BingX Spot2025-08-18,https://bingx.com/en/support/articles/13529440591247/,,,,
+output/bingx/bingx_349ce4d2006cad1264a35a4b33c3e608.txt,LIGHT/USDT,下架,现货,2025-08-18,bingx,LIGHT Migration to BingX Spot2025-08-18,https://bingx.com/en/support/articles/13529440591247/,,,,
+output/bingx/bingx_f14e4df5ed45574f430d9511192ae381.txt,BOSS/USDT,上架,现货,2025-08-11,bingx,BOSS Migration to BingX Spot2025-08-11,https://bingx.com/en/support/articles/13472894807695/,,,,
+output/bingx/bingx_f14e4df5ed45574f430d9511192ae381.txt,BOSS/USDT,下架,现货,2025-08-11,bingx,BOSS Migration to BingX Spot2025-08-11,https://bingx.com/en/support/articles/13472894807695/,,,,
+output/bingx/bingx_13575374902287.txt,WLFI/USDT,上架,合约,2025-08-25,bingx,BingX Pre-Launch Futures Has Launched WLFIUSDT,https://bingx.com/en/support/articles/13575374902287,2025-08-23 16:59:00,,,待确定
+output/bingx/bingx_15d6ab91d3c551d2aff2f81dbdba415d.txt,SAPIEN/USDT,上架,现货,2025-08-20,bingx,Sapien (SAPIEN) Coin Gets Listed on BingX Spot2025-08-20,https://bingx.com/en/support/articles/13550096476943/,,,,
+output/bingx/bingx_2944722db474f5ac4b7b4981143f00cf.txt,FLUID/USDT,上架,现货,2025-08-06,bingx,Fluid (FLUID) Coin Gets Listed on BingX Spot2025-08-06,https://bingx.com/en/support/articles/13431171447951/,,,,
+output/bingx/bingx_c25c393aef8f91ae3cdcadcdc79006ec.txt,WORTHLESS/USDT,上架,现货,2025-08-01,bingx,WORTHLESS Migration to BingX Spot2025-08-01,https://bingx.com/en/support/articles/13391975577487/,,,,
+output/bingx/bingx_c25c393aef8f91ae3cdcadcdc79006ec.txt,WORTHLESS/USDT,下架,现货,2025-08-01,bingx,WORTHLESS Migration to BingX Spot2025-08-01,https://bingx.com/en/support/articles/13391975577487/,,,,
+output/bingx/bingx_d87b62cbcc54e95d02b5eba1aa346eea.txt,BLOCK/USDT,上架,现货,2025-08-12,bingx,Block (BLOCK) Coin Gets Listed on BingX Spot2025-08-12,https://bingx.com/en/support/articles/13481120222735/,,,,
+output/bingx/bingx_7f8d0f0f7ed888a686dba9b019f7cfa6.txt,X/USDT,上架,现货,2025-08-07,bingx,TaleX (X) Coin Gets Listed on BingX Spot [Global Debut]2025-08-07,https://bingx.com/en/support/articles/13443335680911/,,,,
+output/bingx/bingx_13568475319951.txt,UCN/USDT,上架,现货,2025-08-22,bingx,UChain (UCN) Coin Gets Listed on BingX Spot,https://bingx.com/en/support/articles/13568475319951,2025-08-22 15:10:58,,,
+output/bingx/bingx_13557368277135.txt,XPIN/USDT,上架,现货,2025-08-22,bingx,XPIN Network (XPIN) Coin Gets Listed on BingX Spot,https://bingx.com/en/support/articles/13557368277135,2025-08-21 12:08:11,,,
+output/bingx/bingx_13550096476943.txt,SAPIEN/USDT,上架,现货,2025-08-20,bingx,Sapien (SAPIEN) Coin Gets Listed on BingX Spot,https://bingx.com/en/support/articles/13550096476943,2025-08-20 16:44:26,,,
+output/bingx/bingx_b86747c31f1a91d45a1acc3a1d35a81e.txt,GAIA/USDT,上架,现货,2025-07-31,bingx,Gaia (GAIA) Coin Gets Listed on BingX Spot2025-07-31,https://bingx.com/en/support/articles/13382005385871/,,,,
+output/bingx/bingx_811488d7efb9fc7bb63f3913171d048a.txt,IRON/USDT,下架,现货,2025-08-18,bingx,BingX Spot Will Delist and Buy Back IRON2025-08-11,https://bingx.com/en/support/articles/13473134302351/,,,,
+output/bingx/bingx_573d373ffecd4457f0ff70a24f9bb632.txt,IN/USDT,上架,现货,2025-08-07,bingx,INFINIT (IN) Coin Gets Listed on BingX Spot2025-08-06,https://bingx.com/en/support/articles/13430153729935/,,,,
+output/bingx/bingx_d41eb05e602e5f0d7fd16eea189f1d99.txt,FIR/USDT,上架,现货,2025-08-06,bingx,Fireverse (FIR) Coin Gets Listed on BingX Spot2025-08-04,https://bingx.com/en/support/articles/13415163363727/,,,,
+output/bingx/bingx_973a278d7d4b2b78cc004b9e0e36d554.txt,PROVE/USDT,上架,现货,2025-08-05,bingx,Succinct (PROVE) Coin Gets Listed on BingX Spot2025-08-05,https://bingx.com/en/support/articles/13421467778319/,,,,
+output/bingx/bingx_2c7b0f3c049dbc544e38b84baf510dd2.txt,URANUS/USDT,上架,现货,2025-08-01,bingx,URANUS Migration to BingX Spot2025-08-01,https://bingx.com/en/support/articles/13392005105807/,,,,
+output/bingx/bingx_2c7b0f3c049dbc544e38b84baf510dd2.txt,URANUS/USDT,下架,现货,2025-08-01,bingx,URANUS Migration to BingX Spot2025-08-01,https://bingx.com/en/support/articles/13392005105807/,,,,
+output/bingx/bingx_d63e8adcc8dbb965faffc14d33350bc3.txt,CLIPPY/USDT,上架,现货,2025-08-18,bingx,CLIPPY Migration to BingX Spot2025-08-18,https://bingx.com/en/support/articles/13529422325775/,,,,
+output/bingx/bingx_d63e8adcc8dbb965faffc14d33350bc3.txt,CLIPPY/USDT,下架,现货,2025-08-18,bingx,CLIPPY Migration to BingX Spot2025-08-18,https://bingx.com/en/support/articles/13529422325775/,,,,
+output/bingx/bingx_a50edefeed19930c94bb74bf48765671.txt,RHEA/USDT,上架,现货,2025-07-31,bingx,RHEA Finance (RHEA) Coin Gets Listed on BingX Spot2025-07-31,https://bingx.com/en/support/articles/13385399487375/,,,,
+output/bingx/bingx_f856444a0618e5eb0ea1f56fff734692.txt,A2Z/USDT,上架,现货,2025-08-05,bingx,Arena-Z (A2Z) Coin Gets Listed on BingX Spot2025-08-05,https://bingx.com/en/support/articles/13424906521871/,,,,
+output/bingx/bingx_13547325392015.txt,MBG/USDT,上架,现货,2025-08-25,bingx,MultiBank Group (MBG) Coin Gets Listed on BingX Spot,https://bingx.com/en/support/articles/13547325392015,2025-08-20 12:03:34,,,
+output/bitunix/bitunix_da90a89c33d91b828f9992b435b3483b.txt,PLAY/USDT,下架,现货,2025-08-07,bitunix,,,,,,
+output/bitunix/bitunix_da90a89c33d91b828f9992b435b3483b.txt,BULLA/USDT,下架,现货,2025-08-07,bitunix,,,,,,
+output/bitunix/bitunix_beff13a2f2f954f689859b7a46c8f403.txt,UFD/USDT,下架,现货,2025-08-07,bitunix,,,,,,
+output/bitunix/bitunix_beff13a2f2f954f689859b7a46c8f403.txt,BROCCOLIF3B/USDT,下架,现货,2025-08-07,bitunix,,,,,,
+output/bitunix/bitunix_beff13a2f2f954f689859b7a46c8f403.txt,BASEDAI/USDT,下架,现货,2025-08-07,bitunix,,,,,,
+output/bitunix/bitunix_b8558939238dc6892f1a36a6f22e79ae.txt,BOMB/USDT,下架,现货,2025-08-22,bitunix,,,,,,
+output/bitunix/bitunix_b8558939238dc6892f1a36a6f22e79ae.txt,CSKY/USDT,下架,现货,2025-08-22,bitunix,,,,,,
+output/bitunix/bitunix_85b63aaaa3a2a7ac68aa2b39c7f6bb63.txt,AIT/USDT,下架,现货,2025-08-15,bitunix,,,,,,
+output/bitunix/bitunix_85b63aaaa3a2a7ac68aa2b39c7f6bb63.txt,ARW/USDT,下架,现货,2025-08-15,bitunix,,,,,,
+output/bitunix/bitunix_85b63aaaa3a2a7ac68aa2b39c7f6bb63.txt,CEL/USDT,下架,现货,2025-08-15,bitunix,,,,,,
+output/bitunix/bitunix_85b63aaaa3a2a7ac68aa2b39c7f6bb63.txt,PAIN/USDT,下架,现货,2025-08-15,bitunix,,,,,,
+output/bitunix/bitunix_85b63aaaa3a2a7ac68aa2b39c7f6bb63.txt,VGX/USDT,下架,现货,2025-08-15,bitunix,,,,,,
+output/bitunix/bitunix_7b4914fe224cbca0bcdcf1a4b8dfe6e7.txt,RAD/USDT,上架,现货,2025-08-20,bitunix,,,,,,
+output/bitunix/bitunix_30c4ad610710e1427f93ad86688e5828.txt,SAPIEN/USDT,上架,现货,2025-08-21,bitunix,,,,,,
+output/bitunix/bitunix_30c4ad610710e1427f93ad86688e5828.txt,SAPIEN/USDT,上架,合约,2025-08-21,bitunix,,,,,,
+output/bitunix/bitunix_bbd80d53f9635a91361c759a7d471409.txt,CUDIS/USDT,上架,合约,2025-08-22,bitunix,,,,,,
+output/bitunix/bitunix_445c89b2190af2798cd2d0334b9033d6.txt,YALA/USDT,上架,合约,2025-08-20,bitunix,,,,,,
+output/bitunix/bitunix_34eb171222712a495ffe473d79327552.txt,COS/USDT,上架,现货,2025-08-21,bitunix,,,,,,
+output/bitunix/bitunix_34eb171222712a495ffe473d79327552.txt,COS/USDT,上架,合约,2025-08-21,bitunix,,,,,,
+output/bitunix/bitunix_5d0208ceabdffb0a24c9256a1b5478ab.txt,CSPR/USDT,下架,合约,2025-08-22,bitunix,,,,,,
+output/bitunix/bitunix_ad0f9b505fe33363582f1430b75eed1b.txt,WILD/USDT,上架,现货,2025-08-19,bitunix,,,,,,
+output/bitunix/bitunix_f3d6138d73019bdeed606428bd0007e2.txt,WLFI/USDT,上架,合约,2025-08-24,bitunix,Bitunix to Launch WLFI/USDT in Perpetual Futures,https://support.bitunix.com//hc/en-us/articles/50061480533785-Bitunix-to-Launch-WLFI-USDT-in-Perpetual-Futures,2025-08-24 13:44:39,,,
+output/bitunix/bitunix_4e300b19928619fb8e4c4bce8efe4f45.txt,RFC/USDT,下架,合约,2025-08-08,bitunix,,,,,,
+output/bitunix/bitunix_e021f43a4303f52dc77e684d8c2a2097.txt,YZY/USDT,上架,现货,2025-08-21,bitunix,,,,,,
+output/bitunix/bitunix_e021f43a4303f52dc77e684d8c2a2097.txt,YZY/USDT,上架,合约,2025-08-21,bitunix,,,,,,
+output/bitunix/bitunix_711de02526aa01a5cd3dbccbe6257b47.txt,OKB/USDT,上架,合约,2025-08-22,bitunix,,,,,,
+output/bybit/bybit_1e2d97ddba18e8874ba617c62408180a.txt,MKR/USDT,下架,合约,2025-08-18,bybit,,,,,,
+output/bybit/bybit_4721669def6d1147af18e8b3e3d9b836.txt,DAM/USDT,上架,合约,2025-08-18,bybit,,,,,,
+output/bybit/bybit_57f715c768fca6e8a0d502e3b846eefe.txt,YALA/USDT,上架,合约,2025-08-08,bybit,,,,,,
+output/bybit/bybit_2115458c083b9f3f1a07d8783d0fb777.txt,TGT/USDT,下架,现货,2025-08-22,bybit,,,,,,
+output/bybit/bybit_2115458c083b9f3f1a07d8783d0fb777.txt,GST/USDT,下架,现货,2025-08-22,bybit,,,,,,
+output/bybit/bybit_2115458c083b9f3f1a07d8783d0fb777.txt,NLK/USDT,下架,现货,2025-08-22,bybit,,,,,,
+output/bybit/bybit_2115458c083b9f3f1a07d8783d0fb777.txt,FIRE/USDT,下架,现货,2025-08-22,bybit,,,,,,
+output/bybit/bybit_13bc4036f1efd8ea976af50d70d4f7ec.txt,AVA/USDT,上架,现货,2025-08-15,bybit,,,,,,
+output/bybit/bybit_13bc4036f1efd8ea976af50d70d4f7ec.txt,SPARK/USDT,上架,现货,2025-08-15,bybit,,,,,,
+output/bybit/bybit_13bc4036f1efd8ea976af50d70d4f7ec.txt,TROLL/USDT,上架,现货,2025-08-15,bybit,,,,,,
+output/bybit/bybit_13bc4036f1efd8ea976af50d70d4f7ec.txt,Tokabu/USDT,上架,现货,2025-08-15,bybit,,,,,,
+output/bybit/bybit_13bc4036f1efd8ea976af50d70d4f7ec.txt,House/USDT,上架,现货,2025-08-15,bybit,,,,,,
+output/bybit/bybit_13bc4036f1efd8ea976af50d70d4f7ec.txt,USDUC/USDT,上架,现货,2025-08-15,bybit,,,,,,
+output/bybit/bybit_13bc4036f1efd8ea976af50d70d4f7ec.txt,URANUS/USDT,上架,现货,2025-08-15,bybit,,,,,,
+output/bybit/bybit_13bc4036f1efd8ea976af50d70d4f7ec.txt,PYTHIA/USDT,上架,现货,2025-08-15,bybit,,,,,,
+output/bybit/bybit_5f233f011f1e0309f48c4d5ef09074eb.txt,SAPIEN/USDT,上架,合约,2025-08-20,bybit,,,,,,
+output/bybit/bybit_d9417f8d47ece73041860dce6d513104.txt,RPK/USDT,下架,现货,2025-08-08,bybit,,,,,,
+output/bybit/bybit_d9417f8d47ece73041860dce6d513104.txt,AEG/USDT,下架,现货,2025-08-08,bybit,,,,,,
+output/bybit/bybit_d9417f8d47ece73041860dce6d513104.txt,EGO/USDT,下架,现货,2025-08-08,bybit,,,,,,
+output/bybit/bybit_d9417f8d47ece73041860dce6d513104.txt,LUCE/USDT,下架,现货,2025-08-08,bybit,,,,,,
+output/bybit/bybit_e4be6cee9853f9f8a8f0d773803dd72e.txt,ASR/USDT,上架,合约,2025-08-14,bybit,,,,,,
+output/bybit/bybit_da3b46d359c9e0a41b9abf85e527d6b4.txt,WLFI/USDT,上架,合约,2025-08-23,bybit,,,,,,
+output/bybit/bybit_8e89b1fb9a8e1e66a2f8b9e9175666ba.txt,MOBILE/USDT,下架,合约,2025-08-01,bybit,,,,,,
+output/bybit/bybit_fd96fbf67d11e36d9f2b5973c3d413f4.txt,BAL/USDT,下架,合约,2025-07-29,bybit,,,,,,
+output/bybit/bybit_d7e5b16ee5ec74d75f528c5180d5fadb.txt,CHRP/USDT,下架,现货,2025-08-15,bybit,,,,,,
+output/bybit/bybit_d7e5b16ee5ec74d75f528c5180d5fadb.txt,CAPS/USDT,下架,现货,2025-08-15,bybit,,,,,,
+output/bybit/bybit_d7e5b16ee5ec74d75f528c5180d5fadb.txt,FMC/USDT,下架,现货,2025-08-15,bybit,,,,,,
+output/bybit/bybit_d7e5b16ee5ec74d75f528c5180d5fadb.txt,FMB/USDT,下架,现货,2025-08-15,bybit,,,,,,
+output/bybit/bybit_56cd7038f8c74a04d3f648c5a93d5740.txt,K/USDT,上架,现货,2025-08-08,bybit,,,,,,
+output/bybit/bybit_70e897dacc32ce1341e3aeec8a4dbd3a.txt,XPL/USDT,上架,合约,2025-08-22,bybit,,,,,,
+output/bybit/bybit_5a5deba5a3e209747a1c09722732ba54.txt,AIO/USDT,上架,合约,2025-08-13,bybit,,,,,,
+output/bybit/bybit_9bd6f3a5cfde10c21fe4af63df3a533e.txt,FWOG/USDT,上架,现货,2025-08-19,bybit,,,,,,
+output/bybit/bybit_9bd6f3a5cfde10c21fe4af63df3a533e.txt,WORTHLESS/USDT,上架,现货,2025-08-19,bybit,,,,,,
+output/bybit/bybit_9bd6f3a5cfde10c21fe4af63df3a533e.txt,CLIPPY/USDT,上架,现货,2025-08-19,bybit,,,,,,
+output/bybit/bybit_9bd6f3a5cfde10c21fe4af63df3a533e.txt,nub/USDT,上架,现货,2025-08-19,bybit,,,,,,
+output/bybit/bybit_2b7bf88f6c38f8eea8ac623aed9f26d5.txt,KUSDT/USDT,上架,合约,2025-08-08,bybit,,,,,,
+output/bybit/bybit_f5a275559507fad571f44435b154d489.txt,ALPINE/USDT,上架,合约,2025-08-14,bybit,,,,,,
+output/bybit/bybit_f11dc12c99b96ade328baf19399ddcee.txt,SKY/USDT,上架,合约,2025-08-11,bybit,,,,,,
+output/bybit/bybit_87de27fde1f30fbbfae83f9d0da38925.txt,YZY/USDT,上架,合约,2025-08-21,bybit,,,,,,
+output/bybit/bybit_ee86cc737d1f2a668c372a809d737b7c.txt,TST/USDT,下架,现货,2025-07-25,bybit,,,,,,
+output/bybit/bybit_ee86cc737d1f2a668c372a809d737b7c.txt,5IRE/USDT,下架,现货,2025-07-25,bybit,,,,,,
+output/bybit/bybit_ee86cc737d1f2a668c372a809d737b7c.txt,APTR/USDT,下架,现货,2025-07-25,bybit,,,,,,
+output/bybit/bybit_ee86cc737d1f2a668c372a809d737b7c.txt,ERTHA/USDT,下架,现货,2025-07-25,bybit,,,,,,
+output/bybit/bybit_ee86cc737d1f2a668c372a809d737b7c.txt,GUMMY/USDT,下架,现货,2025-07-25,bybit,,,,,,
+output/bybit/bybit_ee86cc737d1f2a668c372a809d737b7c.txt,PIP/USDT,下架,现货,2025-07-25,bybit,,,,,,
+output/bybit/bybit_3945ddf90bec9998a204ae1e3bc50e80.txt,KOMA/USDT,下架,合约,2025-08-01,bybit,,,,,,
+output/bybit/bybit_879ec3b4d457b60919d8c512977e2e93.txt,PSIX/USD,上架,合约,2025-08-14,bybit,,,,,,
+output/bybit/bybit_879ec3b4d457b60919d8c512977e2e93.txt,CLS/USD,上架,合约,2025-08-14,bybit,,,,,,
+output/bybit/bybit_879ec3b4d457b60919d8c512977e2e93.txt,DAVE/USD,上架,合约,2025-08-14,bybit,,,,,,
+output/bybit/bybit_879ec3b4d457b60919d8c512977e2e93.txt,STRL/USD,上架,合约,2025-08-14,bybit,,,,,,
+output/bybit/bybit_879ec3b4d457b60919d8c512977e2e93.txt,CRDO/USD,上架,合约,2025-08-14,bybit,,,,,,
+output/bybit/bybit_879ec3b4d457b60919d8c512977e2e93.txt,VRT/USD,上架,合约,2025-08-14,bybit,,,,,,
+output/bybit/bybit_879ec3b4d457b60919d8c512977e2e93.txt,FIG/USD,上架,合约,2025-08-14,bybit,,,,,,
+output/bybit/bybit_6f01737264c0637db40f473a93b7f910.txt,XNY/USDT,上架,合约,2025-08-13,bybit,,,,,,
+output/bybit/bybit_f3c69c3b993ad270a63d3ea8157bc498.txt,MAK/USDT,下架,现货,2025-08-29,bybit,MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 下架通知,https://announcements.bybit.com/zh-MY//article/delisting-of-mak-mnry-smile-gene-star-mstar-galaxis-exvg-cats-aark-and-aprs-blt4198691a8184eecd/,2025-08-22 16:30:00,"Bybit 平台即将下架 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 交易对，今后将不再支持上述资产。公告发布日期:2025-08-22T08:30:00.000Z
+Bybit 平台即将下架 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 交易对，今后将不再支持上述资产。现货  • 2025 年 8 月 29 日 8:00 (UTC) 后，Bybit 现货交易平台不再支持 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 现货交易对，所有订单都将自动移除。  闪兑  • 2025 年 8 月 29 日 8:00 (UTC) 后，Bybit 闪兑平台将下架 MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 代币。  充值• 2025 年 8 月 28 日 8:00 (UTC) 后，不再支持 MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 充值。  交易对下架后您仍可提走资产。提币仍正常开放，但建议您尽快提币，以便有效管理您的资产。为更好地管理您的资产，请参考具体时间安排。如果您上述交易对有运行中的现货网格机器人或定投机器人，请在 2025 年 8 月 29 日 8:00 (UTC) 之前将其关闭。否则，系统将自动关闭这些机器人。  *您可点击[此处](https://www.bybit.com/zh-MY/help-center/article/Bybit-Token-Management-Rules)查看 Bybit 代币管理规则。  感谢您一直以来的支持。",,
+output/bybit/bybit_f3c69c3b993ad270a63d3ea8157bc498.txt,MNRY/USDT,下架,现货,2025-08-29,bybit,MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 下架通知,https://announcements.bybit.com/zh-MY//article/delisting-of-mak-mnry-smile-gene-star-mstar-galaxis-exvg-cats-aark-and-aprs-blt4198691a8184eecd/,2025-08-22 16:30:00,"Bybit 平台即将下架 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 交易对，今后将不再支持上述资产。公告发布日期:2025-08-22T08:30:00.000Z
+Bybit 平台即将下架 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 交易对，今后将不再支持上述资产。现货  • 2025 年 8 月 29 日 8:00 (UTC) 后，Bybit 现货交易平台不再支持 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 现货交易对，所有订单都将自动移除。  闪兑  • 2025 年 8 月 29 日 8:00 (UTC) 后，Bybit 闪兑平台将下架 MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 代币。  充值• 2025 年 8 月 28 日 8:00 (UTC) 后，不再支持 MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 充值。  交易对下架后您仍可提走资产。提币仍正常开放，但建议您尽快提币，以便有效管理您的资产。为更好地管理您的资产，请参考具体时间安排。如果您上述交易对有运行中的现货网格机器人或定投机器人，请在 2025 年 8 月 29 日 8:00 (UTC) 之前将其关闭。否则，系统将自动关闭这些机器人。  *您可点击[此处](https://www.bybit.com/zh-MY/help-center/article/Bybit-Token-Management-Rules)查看 Bybit 代币管理规则。  感谢您一直以来的支持。",,
+output/bybit/bybit_f3c69c3b993ad270a63d3ea8157bc498.txt,SMILE/USDT,下架,现货,2025-08-29,bybit,MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 下架通知,https://announcements.bybit.com/zh-MY//article/delisting-of-mak-mnry-smile-gene-star-mstar-galaxis-exvg-cats-aark-and-aprs-blt4198691a8184eecd/,2025-08-22 16:30:00,"Bybit 平台即将下架 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 交易对，今后将不再支持上述资产。公告发布日期:2025-08-22T08:30:00.000Z
+Bybit 平台即将下架 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 交易对，今后将不再支持上述资产。现货  • 2025 年 8 月 29 日 8:00 (UTC) 后，Bybit 现货交易平台不再支持 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 现货交易对，所有订单都将自动移除。  闪兑  • 2025 年 8 月 29 日 8:00 (UTC) 后，Bybit 闪兑平台将下架 MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 代币。  充值• 2025 年 8 月 28 日 8:00 (UTC) 后，不再支持 MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 充值。  交易对下架后您仍可提走资产。提币仍正常开放，但建议您尽快提币，以便有效管理您的资产。为更好地管理您的资产，请参考具体时间安排。如果您上述交易对有运行中的现货网格机器人或定投机器人，请在 2025 年 8 月 29 日 8:00 (UTC) 之前将其关闭。否则，系统将自动关闭这些机器人。  *您可点击[此处](https://www.bybit.com/zh-MY/help-center/article/Bybit-Token-Management-Rules)查看 Bybit 代币管理规则。  感谢您一直以来的支持。",,
+output/bybit/bybit_f3c69c3b993ad270a63d3ea8157bc498.txt,GENE/USDT,下架,现货,2025-08-29,bybit,MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 下架通知,https://announcements.bybit.com/zh-MY//article/delisting-of-mak-mnry-smile-gene-star-mstar-galaxis-exvg-cats-aark-and-aprs-blt4198691a8184eecd/,2025-08-22 16:30:00,"Bybit 平台即将下架 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 交易对，今后将不再支持上述资产。公告发布日期:2025-08-22T08:30:00.000Z
+Bybit 平台即将下架 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 交易对，今后将不再支持上述资产。现货  • 2025 年 8 月 29 日 8:00 (UTC) 后，Bybit 现货交易平台不再支持 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 现货交易对，所有订单都将自动移除。  闪兑  • 2025 年 8 月 29 日 8:00 (UTC) 后，Bybit 闪兑平台将下架 MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 代币。  充值• 2025 年 8 月 28 日 8:00 (UTC) 后，不再支持 MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 充值。  交易对下架后您仍可提走资产。提币仍正常开放，但建议您尽快提币，以便有效管理您的资产。为更好地管理您的资产，请参考具体时间安排。如果您上述交易对有运行中的现货网格机器人或定投机器人，请在 2025 年 8 月 29 日 8:00 (UTC) 之前将其关闭。否则，系统将自动关闭这些机器人。  *您可点击[此处](https://www.bybit.com/zh-MY/help-center/article/Bybit-Token-Management-Rules)查看 Bybit 代币管理规则。  感谢您一直以来的支持。",,
+output/bybit/bybit_f3c69c3b993ad270a63d3ea8157bc498.txt,STAR/USDT,下架,现货,2025-08-29,bybit,MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 下架通知,https://announcements.bybit.com/zh-MY//article/delisting-of-mak-mnry-smile-gene-star-mstar-galaxis-exvg-cats-aark-and-aprs-blt4198691a8184eecd/,2025-08-22 16:30:00,"Bybit 平台即将下架 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 交易对，今后将不再支持上述资产。公告发布日期:2025-08-22T08:30:00.000Z
+Bybit 平台即将下架 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 交易对，今后将不再支持上述资产。现货  • 2025 年 8 月 29 日 8:00 (UTC) 后，Bybit 现货交易平台不再支持 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 现货交易对，所有订单都将自动移除。  闪兑  • 2025 年 8 月 29 日 8:00 (UTC) 后，Bybit 闪兑平台将下架 MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 代币。  充值• 2025 年 8 月 28 日 8:00 (UTC) 后，不再支持 MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 充值。  交易对下架后您仍可提走资产。提币仍正常开放，但建议您尽快提币，以便有效管理您的资产。为更好地管理您的资产，请参考具体时间安排。如果您上述交易对有运行中的现货网格机器人或定投机器人，请在 2025 年 8 月 29 日 8:00 (UTC) 之前将其关闭。否则，系统将自动关闭这些机器人。  *您可点击[此处](https://www.bybit.com/zh-MY/help-center/article/Bybit-Token-Management-Rules)查看 Bybit 代币管理规则。  感谢您一直以来的支持。",,
+output/bybit/bybit_f3c69c3b993ad270a63d3ea8157bc498.txt,MSTAR/USDT,下架,现货,2025-08-29,bybit,MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 下架通知,https://announcements.bybit.com/zh-MY//article/delisting-of-mak-mnry-smile-gene-star-mstar-galaxis-exvg-cats-aark-and-aprs-blt4198691a8184eecd/,2025-08-22 16:30:00,"Bybit 平台即将下架 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 交易对，今后将不再支持上述资产。公告发布日期:2025-08-22T08:30:00.000Z
+Bybit 平台即将下架 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 交易对，今后将不再支持上述资产。现货  • 2025 年 8 月 29 日 8:00 (UTC) 后，Bybit 现货交易平台不再支持 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 现货交易对，所有订单都将自动移除。  闪兑  • 2025 年 8 月 29 日 8:00 (UTC) 后，Bybit 闪兑平台将下架 MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 代币。  充值• 2025 年 8 月 28 日 8:00 (UTC) 后，不再支持 MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 充值。  交易对下架后您仍可提走资产。提币仍正常开放，但建议您尽快提币，以便有效管理您的资产。为更好地管理您的资产，请参考具体时间安排。如果您上述交易对有运行中的现货网格机器人或定投机器人，请在 2025 年 8 月 29 日 8:00 (UTC) 之前将其关闭。否则，系统将自动关闭这些机器人。  *您可点击[此处](https://www.bybit.com/zh-MY/help-center/article/Bybit-Token-Management-Rules)查看 Bybit 代币管理规则。  感谢您一直以来的支持。",,
+output/bybit/bybit_f3c69c3b993ad270a63d3ea8157bc498.txt,GALAXIS/USDT,下架,现货,2025-08-29,bybit,MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 下架通知,https://announcements.bybit.com/zh-MY//article/delisting-of-mak-mnry-smile-gene-star-mstar-galaxis-exvg-cats-aark-and-aprs-blt4198691a8184eecd/,2025-08-22 16:30:00,"Bybit 平台即将下架 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 交易对，今后将不再支持上述资产。公告发布日期:2025-08-22T08:30:00.000Z
+Bybit 平台即将下架 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 交易对，今后将不再支持上述资产。现货  • 2025 年 8 月 29 日 8:00 (UTC) 后，Bybit 现货交易平台不再支持 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 现货交易对，所有订单都将自动移除。  闪兑  • 2025 年 8 月 29 日 8:00 (UTC) 后，Bybit 闪兑平台将下架 MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 代币。  充值• 2025 年 8 月 28 日 8:00 (UTC) 后，不再支持 MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 充值。  交易对下架后您仍可提走资产。提币仍正常开放，但建议您尽快提币，以便有效管理您的资产。为更好地管理您的资产，请参考具体时间安排。如果您上述交易对有运行中的现货网格机器人或定投机器人，请在 2025 年 8 月 29 日 8:00 (UTC) 之前将其关闭。否则，系统将自动关闭这些机器人。  *您可点击[此处](https://www.bybit.com/zh-MY/help-center/article/Bybit-Token-Management-Rules)查看 Bybit 代币管理规则。  感谢您一直以来的支持。",,
+output/bybit/bybit_f3c69c3b993ad270a63d3ea8157bc498.txt,EXVG/USDT,下架,现货,2025-08-29,bybit,MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 下架通知,https://announcements.bybit.com/zh-MY//article/delisting-of-mak-mnry-smile-gene-star-mstar-galaxis-exvg-cats-aark-and-aprs-blt4198691a8184eecd/,2025-08-22 16:30:00,"Bybit 平台即将下架 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 交易对，今后将不再支持上述资产。公告发布日期:2025-08-22T08:30:00.000Z
+Bybit 平台即将下架 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 交易对，今后将不再支持上述资产。现货  • 2025 年 8 月 29 日 8:00 (UTC) 后，Bybit 现货交易平台不再支持 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 现货交易对，所有订单都将自动移除。  闪兑  • 2025 年 8 月 29 日 8:00 (UTC) 后，Bybit 闪兑平台将下架 MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 代币。  充值• 2025 年 8 月 28 日 8:00 (UTC) 后，不再支持 MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 充值。  交易对下架后您仍可提走资产。提币仍正常开放，但建议您尽快提币，以便有效管理您的资产。为更好地管理您的资产，请参考具体时间安排。如果您上述交易对有运行中的现货网格机器人或定投机器人，请在 2025 年 8 月 29 日 8:00 (UTC) 之前将其关闭。否则，系统将自动关闭这些机器人。  *您可点击[此处](https://www.bybit.com/zh-MY/help-center/article/Bybit-Token-Management-Rules)查看 Bybit 代币管理规则。  感谢您一直以来的支持。",,
+output/bybit/bybit_f3c69c3b993ad270a63d3ea8157bc498.txt,CATS/USDT,下架,现货,2025-08-29,bybit,MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 下架通知,https://announcements.bybit.com/zh-MY//article/delisting-of-mak-mnry-smile-gene-star-mstar-galaxis-exvg-cats-aark-and-aprs-blt4198691a8184eecd/,2025-08-22 16:30:00,"Bybit 平台即将下架 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 交易对，今后将不再支持上述资产。公告发布日期:2025-08-22T08:30:00.000Z
+Bybit 平台即将下架 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 交易对，今后将不再支持上述资产。现货  • 2025 年 8 月 29 日 8:00 (UTC) 后，Bybit 现货交易平台不再支持 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 现货交易对，所有订单都将自动移除。  闪兑  • 2025 年 8 月 29 日 8:00 (UTC) 后，Bybit 闪兑平台将下架 MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 代币。  充值• 2025 年 8 月 28 日 8:00 (UTC) 后，不再支持 MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 充值。  交易对下架后您仍可提走资产。提币仍正常开放，但建议您尽快提币，以便有效管理您的资产。为更好地管理您的资产，请参考具体时间安排。如果您上述交易对有运行中的现货网格机器人或定投机器人，请在 2025 年 8 月 29 日 8:00 (UTC) 之前将其关闭。否则，系统将自动关闭这些机器人。  *您可点击[此处](https://www.bybit.com/zh-MY/help-center/article/Bybit-Token-Management-Rules)查看 Bybit 代币管理规则。  感谢您一直以来的支持。",,
+output/bybit/bybit_f3c69c3b993ad270a63d3ea8157bc498.txt,AARK/USDT,下架,现货,2025-08-29,bybit,MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 下架通知,https://announcements.bybit.com/zh-MY//article/delisting-of-mak-mnry-smile-gene-star-mstar-galaxis-exvg-cats-aark-and-aprs-blt4198691a8184eecd/,2025-08-22 16:30:00,"Bybit 平台即将下架 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 交易对，今后将不再支持上述资产。公告发布日期:2025-08-22T08:30:00.000Z
+Bybit 平台即将下架 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 交易对，今后将不再支持上述资产。现货  • 2025 年 8 月 29 日 8:00 (UTC) 后，Bybit 现货交易平台不再支持 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 现货交易对，所有订单都将自动移除。  闪兑  • 2025 年 8 月 29 日 8:00 (UTC) 后，Bybit 闪兑平台将下架 MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 代币。  充值• 2025 年 8 月 28 日 8:00 (UTC) 后，不再支持 MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 充值。  交易对下架后您仍可提走资产。提币仍正常开放，但建议您尽快提币，以便有效管理您的资产。为更好地管理您的资产，请参考具体时间安排。如果您上述交易对有运行中的现货网格机器人或定投机器人，请在 2025 年 8 月 29 日 8:00 (UTC) 之前将其关闭。否则，系统将自动关闭这些机器人。  *您可点击[此处](https://www.bybit.com/zh-MY/help-center/article/Bybit-Token-Management-Rules)查看 Bybit 代币管理规则。  感谢您一直以来的支持。",,
+output/bybit/bybit_f3c69c3b993ad270a63d3ea8157bc498.txt,APRS/USDT,下架,现货,2025-08-29,bybit,MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 下架通知,https://announcements.bybit.com/zh-MY//article/delisting-of-mak-mnry-smile-gene-star-mstar-galaxis-exvg-cats-aark-and-aprs-blt4198691a8184eecd/,2025-08-22 16:30:00,"Bybit 平台即将下架 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 交易对，今后将不再支持上述资产。公告发布日期:2025-08-22T08:30:00.000Z
+Bybit 平台即将下架 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 交易对，今后将不再支持上述资产。现货  • 2025 年 8 月 29 日 8:00 (UTC) 后，Bybit 现货交易平台不再支持 MAK/USDT、MNRY/USDT、SMILE/USDT、GENE/USDT、STAR/USDT、MSTAR/USDT、GALAXIS/USDT、EXVG/USDT、CATS/USDT、AARK/USDT 和 APRS/USDT 现货交易对，所有订单都将自动移除。  闪兑  • 2025 年 8 月 29 日 8:00 (UTC) 后，Bybit 闪兑平台将下架 MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 代币。  充值• 2025 年 8 月 28 日 8:00 (UTC) 后，不再支持 MAK、MNRY、SMILE、GENE、STAR、MSTAR、GALAXIS、EXVG、CATS、AARK 和 APRS 充值。  交易对下架后您仍可提走资产。提币仍正常开放，但建议您尽快提币，以便有效管理您的资产。为更好地管理您的资产，请参考具体时间安排。如果您上述交易对有运行中的现货网格机器人或定投机器人，请在 2025 年 8 月 29 日 8:00 (UTC) 之前将其关闭。否则，系统将自动关闭这些机器人。  *您可点击[此处](https://www.bybit.com/zh-MY/help-center/article/Bybit-Token-Management-Rules)查看 Bybit 代币管理规则。  感谢您一直以来的支持。",,
+output/gate/gate_46718.txt,ARIA/USDT,上架,现货,2025-08-21,gate,,,,,,
+output/gate/gate_46755.txt,TOWN/USDT,上架,现货,2025-08-26,gate,Initial Listing: Gate to List Alt.town (TOWN) Spot Trading and Launch CandyDrop 72nd,https://www.gate.com/zh/announcements/article/46755,2025-08-25 11:45:22,"首发上线：Gate 将上线 Alt.town (TOWN) 现货交易并开启 CandyDrop 第 72 期
+<!--Gate 将于 2025 年 8 月 26 日 17:00 (UTC+8) 上线 Alt.town (TOWN) 现货交易，并开启 CandyDrop 第 72 期空投活动。本期总计瓜分 3,636,364 TOWN。-->
+[//]:content-type-MARKDOWN-DONOT-DELETE
+Gate 将于 2025 年 8 月 26 日 17:00 (UTC+8) 上线 Alt.town (TOWN) 现货交易，并开启 CandyDrop 第 72 期空投活动。CandyDrop 是 Gate 推出的糖果空投平台，用户通过完成任务赢取糖果并参与瓜分代币空投。本期总计瓜分 3,636,364 TOWN。
+
+**Alt.town (TOWN) 现货交易
+开始时间：2025 年 8 月 26 日 17:00 (UTC+8)**
+TOWN 充值地址： <a href=""https://www.gate.com/zh/myaccount/deposit/TOWN"" target=""_blank"">https://www.gate.com/zh/myaccount/deposit/TOWN</a> 
+TOWN 交易地址： <a href=""https://www.gate.com/zh/trade/TOWN_USDT"" target=""_blank"">https://www.gate.com/zh/trade/TOWN_USDT</a>
+TOWN 合约地址：<a href=""https://bscscan.com/token/0x973253D0C12366e0fA5AFb9F9E2e9486ECA69c01"" rel=""nofollow noopener noreferrer"" target=""_blank"">https://bscscan.com/token/0x973253D0C12366e0fA5AFb9F9E2e9486ECA69c01</a>
+
+
+**CandyDrop活动时间：2025 年 8 月 26 日 17:00 - 2025 年 9 月 3 日 17:00（UTC+8）**
+**活动总奖池：3,636,364 TOWN，单人瓜分上限 5,000 TOWN**
+<div style=""text-align: center;""><a data-type=""gate-activity"" rel=""""  href=""https://www.gate.com/candy-drop/detail/TOWN-114"" target=""_blank"" style=""text-decoration: none !important;display: inline-block;""><div class=""gateactivity-btn-style"" style=""width: 240px;height: 40px;box-sizing: border-box;padding: unset;border-radius: 99px;display: inline-flex;align-items: center;justify-content: center;background: #3377FF;cursor: pointer;""><strong><span style=""color:#fff; text-decoration: none;"">立即参与</span></strong></div></a></div>
+
+**1. 新用户交易奖池规则：**
+新用户加入 Gate，并且累计 TOWN 现货交易量（买入 + 卖出）≥ 500 USDT，即可获得糖果奖励，瓜分 1,212,121 TOWN 奖池。每位用户最多可获得 3 个糖果，单人最高可获得 1,000 TOWN，奖励规则如下：
+- TOWN 交易量 ≥ 500 USDT：1 个糖果
+- TOWN 交易量 ≥ 1,000 USDT：2 个糖果
+- 新用户定义：活动期间注册的用户
+
+**2. 现货交易奖池规则：**
+活动期间，用户累计 TOWN 现货交易量（买入 + 卖出）≥ 2,000 USDT，即可根据 TOWN 现货交易量，瓜分 2,424,243 TOWN 奖池。单人最高可获得 4,000 TOWN，交易越多，奖励越多。
+
+**项目简介：** 
+Alt.town 是面向虚拟偶像价值成长的下一代 Web3 平台。通过融合区块链技术，平台为创作者、粉丝与品牌赋能，实现数字所有权与数据驱动的粉丝互动。该协议致力于打造可持续、透明的粉丝经济，在整个娱乐生态中实现公平参与、治理与价值共享。
+代币符号：TOWN
+官方网站： <a href=""https://www.alt.town/"" rel=""nofollow noopener noreferrer"" target=""_blank"">https://www.alt.town</a>
+
+**注意事项：**
+1. 参与者须点击活动页面的「立即参与」按钮，活动成功加入后，并完成活动任务和身份认证以获得奖励。
+2. 奖励将于活动结束后14个工作日内发放至用户账户。
+3. 严禁批量注册小号，恶意刷量、自买自卖、相互对敲等作弊行为，同一认证用户的多个账号将视为同一账号，子账户不可参与活动。
+4. 做市商、企业、机构不可参与本次活动，代理商帐户不可参与邀请好友类型活动，其他活动无限制。
+5. 仅完全成交的订单计入活动；部分成交的订单不计入。
+6. 如翻译版本与英文版本有任何差异，以英文版本为主。
+7. Gate 对本次活动有最终解释权。
+8. 受限地区的使用者无法使用全部或部分服务(包括参与本活动、游戏或竞赛), 有关受限地区的详细资讯请阅读 <a href=""https://www.gate.com/user-agreement"" target=""_blank"">User Agreement</a>。
+9. 风险提示：虚拟币交易受市场，政策等多方面因素影响，市场波动很大，涨跌难以预测，请务必注意市场风险，谨慎交易。
+
+<br>
+<sp>
+Gate 团队
+2025 年 8 月 25 日
+<sp>
+**加密货币之门**
+安全、快捷、轻松交易超过 3,500 种加密货币
+**立即行动**
+[注册账户](https://www.gate.com/signup)，最高可领 $10,000 迎新奖励
+[邀请他人注册](https://www.gate.com/referral)，可获 40% 佣金
+**关注官方渠道**
+[访问 Gate 官网](https://www.gate.com/)
+[下载 Gate App | 电脑端](https://www.gate.com/mobileapp)
+[关注 X (Twitter)](https://x.com/Gate_zh)，获取最新福利
+[加入 Telegram 社群](https://t.me/gate_zh)，讨论热点话题
+[进入全球社区](https://www.gate.com/community)，获取最新资讯
+**透明度保障**
+[查看 100% 储备金证明](https://www.gate.com/proof-of-reserves)",,
+output/gate/gate_46703.txt,CUDIS/USDT,上架,合约,2025-08-20,gate,,,,,,
+output/gate/gate_46719.txt,ARIA/USDT,上架,合约,2025-08-21,gate,,,,,,
+output/gate/gate_46753.txt,CUDIS/USDT,上架,现货,2025-08-25,gate,Gate to List CUDIS (CUDIS) for Spot Trading,https://www.gate.com/zh/announcements/article/46753,2025-08-25 10:38:11,"Gate 将上线 CUDIS (CUDIS) 现货交易
+<!--Gate 将上线 CUDIS (CUDIS) 现货交易-->
+[//]:content-type-MARKDOWN-DONOT-DELETE
+**Gate 将于 2025 年 8 月 25 日 18:00 (UTC+8) 上线 CUDIS (CUDIS) 现货交易。**
+
+**该代币与 2025 年 6 月 5 日上线 Gate Alpha 板块**
+CUDIS (CUDIS) 合约地址：https://bscscan.com/token/0xc1353d3ee02fdbd4f65f92eee543cfd709049cb1 系同一代币。
+
+简介：CUDIS —— 人人可参与的长寿激励协议
+CUDIS 以将健康寿命延长至 140 岁为愿景，正在打造业内首个长寿协议，使长寿管理可追踪、可个性化、且更具激励。通过整合 CUDIS Ring、AI 赋能的长寿枢纽 (Longevity Hub) 以及区块链驱动的超级应用 (Super App)，用户将获得对健康数据的完整所有权，实时获取长寿洞察，并在优化生物健康的过程中获得经济激励。CUDIS 正与全球合作伙伴携手，以切实有效的产品、项目与服务，共同构建全新的长寿生态。
+
+代币符号：CUDIS
+官方网站：https://www.cudis.xyz/
+推特：https://x.com/CudisWellness
+CUDIS 合约地址：https://bscscan.com/token/0xc1353d3ee02fdbd4f65f92eee543cfd709049cb1
+CUDIS 充值地址：https://www.gate.com/zh/myaccount/deposit/CUDIS
+CUDIS 现货交易地址：https://www.gate.com/zh/trade/CUDIS_USDT
+
+**App 用户访问地址：**
+CUDIS 充值：Gate App -【资产】-【现货】-【充值】-【CUDIS】
+CUDIS 交易：Gate App -【交易】-【现货】-【左上角选择 CUDIS 交易市场】
+
+
+
+
+<br>
+<sp>
+Gate 团队
+2025 年 8 月 25 日
+<sp>
+**加密货币之门**
+安全、快捷、轻松交易超过 3,500 种加密货币
+**立即行动**
+<a href=""https://www.gate.com/signup"" target=""_blank"">注册账户</a>，最高可领 $10,000 迎新奖励
+<a href=""https://www.gate.com/referral"" target=""_blank"">邀请他人注册</a>，可获 40% 佣金
+**关注官方渠道**
+<a href=""https://www.gate.com/"" target=""_blank"">访问 Gate 官网</a>
+<a href=""https://www.gate.com/mobileapp"" target=""_blank"">下载 Gate App | 电脑端</a>
+<a href=""https://x.com/Gate_zh"" rel=""nofollow noopener noreferrer"" target=""_blank"">关注 X (Twitter)</a>，获取最新福利
+<a href=""https://t.me/gate_zh"" rel=""nofollow noopener noreferrer"" target=""_blank"">加入 Telegram 社群</a>，讨论热点话题
+<a href=""https://www.gate.com/community"" target=""_blank"">进入全球社区</a>，获取最新资讯
+**透明度保障**
+<a href=""https://www.gate.com/proof-of-reserves"" target=""_blank"">查看 100% 储备金证明</a>",,
+output/gate/gate_46641.txt,ARIA/USDT,上架,现货,2025-08-21,gate,,,,,,
+output/gate/gate_46704.txt,SAPIEN/USDT,上架,合约,2025-08-21,gate,,,,,,
+output/gate/gate_46749.txt,WLFI/USDT,上架,合约,2025-08-24,gate,,,,,,
+output/gate/gate_46620.txt,ANI/USDT,上架,现货,2025-08-15,gate,,,,,,
+output/gate/gate_46748.txt,WLFI/USDT,上架,现货,2025-08-24,gate,,,,,,
+output/gate/gate_46565.txt,AIBOT/USDT,上架,现货,2025-08-14,gate,,,,,,
+output/gate/gate_46744.txt,XPL/USDT,上架,合约,2025-08-22,gate,,,,,,
+output/gate/gate_46713.txt,GTBTC/USDT,上架,现货,2025-08-21,gate,,,,,,
+output/gate/gate_46713.txt,GTBTC/BTC,上架,现货,2025-08-21,gate,,,,,,
+output/gate/gate_46593.txt,TCOM/USDT,上架,现货,2025-08-15,gate,,,,,,
+output/gate/gate_46710.txt,YZY/USDT,上架,现货,2025-08-21,gate,,,,,,
+output/gate/gate_46706.txt,XPIN/USDT,上架,现货,2025-08-22,gate,,,,,,
+output/gate/gate_46751.txt,FST/USDT,上架,现货,2025-08-24,gate,,,,,,
+output/gate/gate_46567.txt,URANUS/USDT,上架,现货,2025-08-13,gate,,,,,,
+output/gate/gate_46770.txt,TOWN/USDT,上架,现货,2025-08-26,gate,Gate Launchpool Project #301: Alt.town (TOWN). Stake USDT or TOWN to Claim Airdrops,https://www.gate.com/zh/announcements/article/46770,2025-08-25 17:21:52,"Gate Launchpool 第 301 期：Alt.town (TOWN)，质押 USDT、TOWN 领空投
+<!--Gate Launchpool 第 301 期：Alt.town (TOWN)，质押 USDT、TOWN 领空投-->
+[//]:content-type-MARKDOWN-DONOT-DELETE
+Gate Launchpool 将开启第 301 期 Launchpool：Alt.town (TOWN)。用户质押 USDT、TOWN 即可免费瓜分 2,727,273 TOWN 代币，每小时领取空投奖励，新用户参与质押可获得 100 USDT 仓位体验券，先到先得。
+
+**空投详情**
+**挖矿时间：2025 年 8 月 26 日 20:00 (UTC+8) 至 2025 年 9 月 2 日 20:00 (UTC+8)**
+挖矿总量：2,727,273 TOWN
+
+![](https://gimg2.gateimg.com/image/000000_20250825_142026_8a62f07a21e8786e0da916df9eccec7d.png)
+
+
+<div style=""text-align: center;""><a data-type=""gate-activity"" rel=""""  href=""https://www.gate.com/zh/launchpool/363?detail_button=1"" target=""_blank"" style=""text-decoration: none !important;display: inline-block;""><div class=""gateactivity-btn-style"" style=""width: 240px;height: 40px;box-sizing: border-box;padding: unset;border-radius: 99px;display: inline-flex;align-items: center;justify-content: center;background: #3377FF;cursor: pointer;""><strong><span style=""color:#fff; text-decoration: none;"">立即质押赚币</span></strong></div></a></div>
+
+
+解锁方式：100% 解锁
+Gate Launchpool 支持用户提前质押。在项目正式上线前，您即可提前质押资产，确保在项目开始挖矿后第一时间开始赚取奖励。
+用户选择质押资金赎回后转入余币宝【7 天】定期产品，即可在原质押收益基础上叠加额外空投奖励。<a href=""https://www.gate.com/zh/announcements/article/46561"" target=""_blank"">了解更多</a>。
+
+**奖励发放**
+系统将每小时按用户质押资产占比对用户发放代币奖励到现货账户。
+<a href=""https://www.gate.com/zh/help/guide/launchpool/37021"" target=""_blank"">Gate Launchpool 常见问题及解答</a>
+**新用户专属质押池参与要求：仅限在 2025 年 8 月 24 日 08:00 (UTC+8) 之后注册的新用户参加。**
+如何参与：登录 Gate 账号，完成 <a href=""https://www.gate.com/zh/myaccount/kyc_home"" target=""_blank"">身份认证</a> - 进入【<a href=""https://www.gate.com/zh/launchpool"" target=""_blank"">Launchpool</a>】- 持有不低于 0.1 USDT / 1 TOWN - 点击【质押】。
+
+**USDT 新手池专属福利：质押赢取 100 USDT 仓位体验券**
+用户参与 USDT 新手池只需保持连续质押时长不低于 48 小时且平均有效质押金额不低于 100 USDT，即可获得 100 USDT 仓位体验券奖励。平均有效质押金额将根据连续质押期间实际质押和赎回情况计算得出。
+共 3,000 个名额，先到先得。
+
+**项目基本信息**
+Alt.town 是面向虚拟偶像价值成长的下一代 Web3 平台。通过融合区块链技术，平台为创作者、粉丝与品牌赋能，实现数字所有权与数据驱动的粉丝互动。该协议致力于打造可持续、透明的粉丝经济，在整个娱乐生态中实现公平参与、治理与价值共享。
+官网：https://www.alt.town/
+
+**Gate Labs 投资公示**
+Gate Labs 未参与 Alt.town (TOWN) 投资。
+
+**注意事项**
+1. Gate Launchpool 是一个创新的质押空投平台，用户可通过质押 GT、BTC、ETH、USDT 或其他代币，每小时赚取热币新币空投，低门槛高年化，轻松捕获市场机遇。
+2. USDT 新手池专属福利将以仓位体验券的形式发放，满足条件的用户将在达标后 14 个工作日内收到空投。连续质押期间允许部分赎回，全部赎回将重新计算连续质押周期；达标后赎回不影响奖励发放。
+3. 参与用户需先完成 <a href=""https://www.gate.com/zh/myaccount/kyc_home"" target=""_blank"">身份认证</a> ，以保障您的账户和资产安全。
+4. 请参与时遵守相关活动规则，禁止任何作弊行为，任何作弊行为将导致取消获奖资格。
+5. 如翻译版本与英文版本有任何差异，以英文版本为主。
+6. Gate 拥有对本次活动的最终解释权。
+7. 本活动与 Apple Inc. 无关。
+8. 英国以及其他受限地区的用户无法使用全部或部分服务（包括参与本活动、游戏或竞赛），有关受限地区的详细资讯请阅读 <a href=""https://www.gate.com/zh/legal/user-agreement"" target=""_blank"">User Agreement</a>。
+
+**风险提示**
+1. 区块链初创项目仍处在初级阶段，项目的运营、项目的底层技术、法律法规环境等均可能存在极大的风险。
+2. 了解区块链初创项目并对其固有风险进行评估需要掌握高级的技术和财经知识。
+3. 受到技术、法律法规、市场和其他因素的影响，您参与的项目价格可能会剧烈波动，价格可能会大幅降低或者升高。
+4. 可能出现由于项目的底层技术或者 Gate 交易平台的原因，您参与的项目可能无法全部或者部分提现。
+5. 加密货币项目具有高风险。加密货币价格具有高波动性。项目方未设置保证金且不提供任何价格承诺和破发担保。请务必在完全了解风险并能承担风险的情况下参与，平台强烈提示风险，但无法对投资行为承担担保赔偿等责任。
+
+
+
+<br>
+<sp>
+Gate 团队
+2025 年 8 月 25 日
+<sp>
+**加密货币之门**
+安全、快捷、轻松交易超过 3,500 种加密货币
+**立即行动**
+<a href=""https://www.gate.com/signup"" target=""_blank"">注册账户</a>，最高可领 $10,000 迎新奖励
+<a href=""https://www.gate.com/referral"" target=""_blank"">邀请他人注册</a>，可获 40% 佣金
+**关注官方渠道**
+<a href=""https://www.gate.com/"" target=""_blank"">访问 Gate 官网</a>
+<a href=""https://www.gate.com/mobileapp"" target=""_blank"">下载 Gate App | 电脑端</a>
+<a href=""https://x.com/Gate_zh"" rel=""nofollow noopener noreferrer"" target=""_blank"">关注 X (Twitter)</a>，获取最新福利
+<a href=""https://t.me/gate_zh"" rel=""nofollow noopener noreferrer"" target=""_blank"">加入 Telegram 社群</a>，讨论热点话题
+<a href=""https://www.gate.com/community"" target=""_blank"">进入全球社区</a>，获取最新资讯
+**透明度保障**
+<a href=""https://www.gate.com/proof-of-reserves"" target=""_blank"">查看 100% 储备金证明</a>",,
+output/gate/gate_46711.txt,YZY/USDT,上架,合约,2025-08-21,gate,,,,,,
+output/gate/gate_46711.txt,MNT/USDT,上架,合约,2025-08-21,gate,,,,,,
+output/gate/gate_46720.txt,YZY/USDT,上架,合约,2025-08-21,gate,,,,,,
+output/gate/gate_46761.txt,BTR/USDT,上架,现货,2025-08-27,gate,Initial Listing: Gate to List Bitlayer (BTR) for Spot Trading,https://www.gate.com/zh/announcements/article/46761,2025-08-25 15:12:19,"首发上线：Gate 将支持 Bitlayer (BTR) 现货交易
+<!--首发上线：Gate 将支持 Bitlayer (BTR) 现货交易-->
+[//]:content-type-MARKDOWN-DONOT-DELETE
+**Gate 将于 2025 年 8 月 27 日 19:00 (UTC+8) 首发上线 Bitlayer (BTR) 现货交易。**
+
+简介：Bitlayer 正在开创首个 BitVM 实现。通过将无与伦比的安全性与极速智能合约引擎相结合，Bitlayer 正在释放比特币 DeFi 的全部潜能。项目累计融资 3000 万美元，投资方包括 Polychain Capital、Franklin Templeton、Framework、ABCDE、StarkWare 与 Alliance 等。
+基于比特币原生安全架构，Bitlayer 正在构建信任最小化的 BitVM 跨链桥、可生息资产 YBTC，以及高吞吐的比特币 Rollup，为比特币生态带来真正的实用性、速度与可组合性，进而完善并夯实比特币的 DeFi 基础设施。
+
+代币符号：BTR
+官方网站：https://www.bitlayer.org/
+推特：https://x.com/BitlayerLabs
+BTR 合约地址：
+https://www.btrscan.com/address/0x0e4cf4affdb72b39ea91fa726d291781cbd020bf
+BTR 充值地址：https://www.gate.com/zh/myaccount/deposit/BTR
+BTR 现货交易地址：https://www.gate.com/zh/trade/BTR_USDT
+
+**App 用户访问地址：**
+BTR 充值：Gate App -【资产】-【现货】-【充值】-【BTR】
+BTR 交易：Gate App -【交易】-【现货】-【左上角选择 BTR 交易市场】
+
+
+
+<br>
+<sp>
+Gate 团队
+2025 年 8 月 25 日
+<sp>
+**加密货币之门**
+安全、快捷、轻松交易超过 3,500 种加密货币
+**立即行动**
+<a href=""https://www.gate.com/signup"" target=""_blank"">注册账户</a>，最高可领 $10,000 迎新奖励
+<a href=""https://www.gate.com/referral"" target=""_blank"">邀请他人注册</a>，可获 40% 佣金
+**关注官方渠道**
+<a href=""https://www.gate.com/"" target=""_blank"">访问 Gate 官网</a>
+<a href=""https://www.gate.com/mobileapp"" target=""_blank"">下载 Gate App | 电脑端</a>
+<a href=""https://x.com/Gate_zh"" rel=""nofollow noopener noreferrer"" target=""_blank"">关注 X (Twitter)</a>，获取最新福利
+<a href=""https://t.me/gate_zh"" rel=""nofollow noopener noreferrer"" target=""_blank"">加入 Telegram 社群</a>，讨论热点话题
+<a href=""https://www.gate.com/community"" target=""_blank"">进入全球社区</a>，获取最新资讯
+**透明度保障**
+<a href=""https://www.gate.com/proof-of-reserves"" target=""_blank"">查看 100% 储备金证明</a>",,
+output/gate/gate_46645.txt,AIO/USDT,上架,现货,2025-08-15,gate,,,,,,
+output/gate/gate_46613.txt,PUBLIC/USDT,上架,现货,2025-08-15,gate,,,,,,
+output/bitget/bitget_12560603836190.txt,WLFI/USDT,上架,合约,2025-08-23,bitget,WLFIUSDT now launched for pre-market futures trading,https://www.bitget.com/support/articles/12560603836190,2025-08-23 21:50:48,,,
+output/bitget/bitget_12560603835932.txt,SAPIEN/USDT,上架,现货,2025-08-20,bitget,[Initial Listing] Bitget Will List Sapien (SAPIEN) in the Innovation and AI Zone,https://www.bitget.com/support/articles/12560603835932,2025-08-20 22:00:55,,,
+output/bitget/bitget_12560603835928.txt,ARIA/USDT,上架,现货,2025-08-21,bitget,[Initial Listing] Bitget Will List AriaAI (ARIA) in the Innovation and GameFi Zone,https://www.bitget.com/support/articles/12560603835928,2025-08-20 17:00:50,,,
+output/bitget/bitget_12560603835969.txt,YZY/USDT,上架,现货,2025-08-21,bitget,Bitget Will List YZY MONEY (YZY) in the Innovation and Meme Zone,https://www.bitget.com/support/articles/12560603835969,2025-08-21 11:17:20,,,
+output/binance/binance_40ee960c4a54cc4f1f5bc39122ca89a7.txt,MOVE/FDUSD,下架,现货,2025-08-22,binance,币安移除部分现货交易对的公告 - 2025-08-22,https://www.binance.com/zh-CN/support/announcement/detail/c62d1ed9054b4a70b2ecbe0af01e50bb,,,c62d1ed9054b4a70b2ecbe0af01e50bb,
+output/binance/binance_40ee960c4a54cc4f1f5bc39122ca89a7.txt,NIL/FDUSD,下架,现货,2025-08-22,binance,币安移除部分现货交易对的公告 - 2025-08-22,https://www.binance.com/zh-CN/support/announcement/detail/c62d1ed9054b4a70b2ecbe0af01e50bb,,,c62d1ed9054b4a70b2ecbe0af01e50bb,
+output/binance/binance_40ee960c4a54cc4f1f5bc39122ca89a7.txt,SXT/BNB,下架,现货,2025-08-22,binance,币安移除部分现货交易对的公告 - 2025-08-22,https://www.binance.com/zh-CN/support/announcement/detail/c62d1ed9054b4a70b2ecbe0af01e50bb,,,c62d1ed9054b4a70b2ecbe0af01e50bb,
+output/binance/binance_e541316d2811dd48540c009cb429b5dc.txt,DEFI/USDT,下架,合约,2025-08-11,binance,币安合约将下架DEFIUSDT和MEMEFI U本位永续合约（2025-08-11）,https://www.binance.com/zh-CN/support/announcement/detail/21e399dcea734230a3c181daf5407b64,,,21e399dcea734230a3c181daf5407b64,
+output/binance/binance_e541316d2811dd48540c009cb429b5dc.txt,MEMEFI/USDT,下架,合约,2025-08-11,binance,币安合约将下架DEFIUSDT和MEMEFI U本位永续合约（2025-08-11）,https://www.binance.com/zh-CN/support/announcement/detail/21e399dcea734230a3c181daf5407b64,,,21e399dcea734230a3c181daf5407b64,
+output/binance/binance_fefbcd2fc864b323cd618a1d975d167f.txt,DEFI/USDT,下架,合约,2025-08-11,binance,币安合约将下架DEFIUSDT和MEMEFI U本位永续合约（2025-08-11）,https://www.binance.com/zh-CN/support/announcement/detail/21e399dcea734230a3c181daf5407b64,,,21e399dcea734230a3c181daf5407b64,
+output/binance/binance_fefbcd2fc864b323cd618a1d975d167f.txt,MEMEFI/USDT,下架,合约,2025-08-11,binance,币安合约将下架DEFIUSDT和MEMEFI U本位永续合约（2025-08-11）,https://www.binance.com/zh-CN/support/announcement/detail/21e399dcea734230a3c181daf5407b64,,,21e399dcea734230a3c181daf5407b64,
+output/binance/binance_fb3d6a3d09f8f04384d7dfa1a34c0ad2.txt,ANIME/FDUSD,下架,现货,2025-08-15,binance,币安移除部分现货交易对的公告 - 2025-08-15,https://www.binance.com/zh-CN/support/announcement/detail/b021b76f70af4465a0b5add81d751de7,,,b021b76f70af4465a0b5add81d751de7,
+output/binance/binance_fb3d6a3d09f8f04384d7dfa1a34c0ad2.txt,HYPER/FDUSD,下架,现货,2025-08-15,binance,币安移除部分现货交易对的公告 - 2025-08-15,https://www.binance.com/zh-CN/support/announcement/detail/b021b76f70af4465a0b5add81d751de7,,,b021b76f70af4465a0b5add81d751de7,
+output/binance/binance_fb3d6a3d09f8f04384d7dfa1a34c0ad2.txt,STO/BNB,下架,现货,2025-08-15,binance,币安移除部分现货交易对的公告 - 2025-08-15,https://www.binance.com/zh-CN/support/announcement/detail/b021b76f70af4465a0b5add81d751de7,,,b021b76f70af4465a0b5add81d751de7,
+output/binance/binance_0990ef23ac94cc6ee006a95bbe3b1143.txt,DOGS/FDUSD,下架,合约,2025-08-08,binance,币安杠杆移除部分交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/3270cb16cd344fecb9646758131189dc,,,3270cb16cd344fecb9646758131189dc,
+output/binance/binance_0990ef23ac94cc6ee006a95bbe3b1143.txt,MOVE/FDUSD,下架,合约,2025-08-08,binance,币安杠杆移除部分交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/3270cb16cd344fecb9646758131189dc,,,3270cb16cd344fecb9646758131189dc,
+output/binance/binance_0990ef23ac94cc6ee006a95bbe3b1143.txt,MANTA/FDUSD,下架,合约,2025-08-08,binance,币安杠杆移除部分交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/3270cb16cd344fecb9646758131189dc,,,3270cb16cd344fecb9646758131189dc,
+output/binance/binance_0990ef23ac94cc6ee006a95bbe3b1143.txt,PEOPLE/FDUSD,下架,合约,2025-08-08,binance,币安杠杆移除部分交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/3270cb16cd344fecb9646758131189dc,,,3270cb16cd344fecb9646758131189dc,
+output/binance/binance_3270cb16cd344fecb9646758131189dc.txt,DOGS/FDUSD,下架,合约,2025-08-08,binance,币安杠杆移除部分交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/3270cb16cd344fecb9646758131189dc,,,3270cb16cd344fecb9646758131189dc,
+output/binance/binance_3270cb16cd344fecb9646758131189dc.txt,MOVE/FDUSD,下架,合约,2025-08-08,binance,币安杠杆移除部分交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/3270cb16cd344fecb9646758131189dc,,,3270cb16cd344fecb9646758131189dc,
+output/binance/binance_3270cb16cd344fecb9646758131189dc.txt,MANTA/FDUSD,下架,合约,2025-08-08,binance,币安杠杆移除部分交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/3270cb16cd344fecb9646758131189dc,,,3270cb16cd344fecb9646758131189dc,
+output/binance/binance_3270cb16cd344fecb9646758131189dc.txt,PEOPLE/FDUSD,下架,合约,2025-08-08,binance,币安杠杆移除部分交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/3270cb16cd344fecb9646758131189dc,,,3270cb16cd344fecb9646758131189dc,
+output/binance/binance_c06fdfdbe0056bbff6717e56e995b816.txt,NKN/BTC,下架,现货,2025-08-08,binance,币安移除部分现货交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/95ea413c2c1c41498664b0bad613fcd9,,,95ea413c2c1c41498664b0bad613fcd9,
+output/binance/binance_c06fdfdbe0056bbff6717e56e995b816.txt,STX/BNB,下架,现货,2025-08-08,binance,币安移除部分现货交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/95ea413c2c1c41498664b0bad613fcd9,,,95ea413c2c1c41498664b0bad613fcd9,
+output/binance/binance_72b7d930588783ddeaedad7c46fc769f.txt,ACT/EUR,下架,现货,2025-07-04,binance,币安移除部分现货交易对的公告 - 2025-07-04,https://www.binance.com/zh-CN/support/announcement/detail/8cf8c5c8702d40eabee04d8a66788733,,,8cf8c5c8702d40eabee04d8a66788733,
+output/binance/binance_72b7d930588783ddeaedad7c46fc769f.txt,FIO/BTC,下架,现货,2025-07-04,binance,币安移除部分现货交易对的公告 - 2025-07-04,https://www.binance.com/zh-CN/support/announcement/detail/8cf8c5c8702d40eabee04d8a66788733,,,8cf8c5c8702d40eabee04d8a66788733,
+output/binance/binance_72b7d930588783ddeaedad7c46fc769f.txt,TNSR/FDUSD,下架,现货,2025-07-04,binance,币安移除部分现货交易对的公告 - 2025-07-04,https://www.binance.com/zh-CN/support/announcement/detail/8cf8c5c8702d40eabee04d8a66788733,,,8cf8c5c8702d40eabee04d8a66788733,
+output/binance/binance_72b7d930588783ddeaedad7c46fc769f.txt,TST/FDUSD,下架,现货,2025-07-04,binance,币安移除部分现货交易对的公告 - 2025-07-04,https://www.binance.com/zh-CN/support/announcement/detail/8cf8c5c8702d40eabee04d8a66788733,,,8cf8c5c8702d40eabee04d8a66788733,
+output/binance/binance_8a31c579724352f626d8101d3ca48d20.txt,ALPHA/USDT,下架,现货,2025-07-04,binance,币安将下架ALPHA、BSW、KMD、LEVER、LTO（2025-07-04）,https://www.binance.com/zh-CN/support/announcement/detail/173b2a63c03141009029407ecfebd14a,,,173b2a63c03141009029407ecfebd14a,
+output/binance/binance_8a31c579724352f626d8101d3ca48d20.txt,BSW/USDT,下架,现货,2025-07-04,binance,币安将下架ALPHA、BSW、KMD、LEVER、LTO（2025-07-04）,https://www.binance.com/zh-CN/support/announcement/detail/173b2a63c03141009029407ecfebd14a,,,173b2a63c03141009029407ecfebd14a,
+output/binance/binance_8a31c579724352f626d8101d3ca48d20.txt,KMD/USDT,下架,现货,2025-07-04,binance,币安将下架ALPHA、BSW、KMD、LEVER、LTO（2025-07-04）,https://www.binance.com/zh-CN/support/announcement/detail/173b2a63c03141009029407ecfebd14a,,,173b2a63c03141009029407ecfebd14a,
+output/binance/binance_8a31c579724352f626d8101d3ca48d20.txt,LEVER/USDT,下架,现货,2025-07-04,binance,币安将下架ALPHA、BSW、KMD、LEVER、LTO（2025-07-04）,https://www.binance.com/zh-CN/support/announcement/detail/173b2a63c03141009029407ecfebd14a,,,173b2a63c03141009029407ecfebd14a,
+output/binance/binance_8a31c579724352f626d8101d3ca48d20.txt,LTO/USDT,下架,现货,2025-07-04,binance,币安将下架ALPHA、BSW、KMD、LEVER、LTO（2025-07-04）,https://www.binance.com/zh-CN/support/announcement/detail/173b2a63c03141009029407ecfebd14a,,,173b2a63c03141009029407ecfebd14a,
+output/binance/binance_9f4a100ca92a26ee8e95876d76b30719.txt,DOGS/FDUSD,下架,合约,2025-08-08,binance,币安杠杆移除部分交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/3270cb16cd344fecb9646758131189dc,,,3270cb16cd344fecb9646758131189dc,
+output/binance/binance_9f4a100ca92a26ee8e95876d76b30719.txt,MOVE/FDUSD,下架,合约,2025-08-08,binance,币安杠杆移除部分交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/3270cb16cd344fecb9646758131189dc,,,3270cb16cd344fecb9646758131189dc,
+output/binance/binance_9f4a100ca92a26ee8e95876d76b30719.txt,MANTA/FDUSD,下架,合约,2025-08-08,binance,币安杠杆移除部分交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/3270cb16cd344fecb9646758131189dc,,,3270cb16cd344fecb9646758131189dc,
+output/binance/binance_9f4a100ca92a26ee8e95876d76b30719.txt,PEOPLE/FDUSD,下架,合约,2025-08-08,binance,币安杠杆移除部分交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/3270cb16cd344fecb9646758131189dc,,,3270cb16cd344fecb9646758131189dc,
+output/binance/binance_3d6577495c905308d878a8584b54959b.txt,MOVE/FDUSD,下架,现货,2025-08-22,binance,币安移除部分现货交易对的公告 - 2025-08-22,https://www.binance.com/zh-CN/support/announcement/detail/c62d1ed9054b4a70b2ecbe0af01e50bb,,,c62d1ed9054b4a70b2ecbe0af01e50bb,
+output/binance/binance_3d6577495c905308d878a8584b54959b.txt,NIL/FDUSD,下架,现货,2025-08-22,binance,币安移除部分现货交易对的公告 - 2025-08-22,https://www.binance.com/zh-CN/support/announcement/detail/c62d1ed9054b4a70b2ecbe0af01e50bb,,,c62d1ed9054b4a70b2ecbe0af01e50bb,
+output/binance/binance_3d6577495c905308d878a8584b54959b.txt,SXT/BNB,下架,现货,2025-08-22,binance,币安移除部分现货交易对的公告 - 2025-08-22,https://www.binance.com/zh-CN/support/announcement/detail/c62d1ed9054b4a70b2ecbe0af01e50bb,,,c62d1ed9054b4a70b2ecbe0af01e50bb,
+output/binance/binance_8b919954dc970dcdee52dea954cdc2b6.txt,DEFI/USDT,下架,合约,2025-08-11,binance,币安合约将下架DEFIUSDT和MEMEFI U本位永续合约（2025-08-11）,https://www.binance.com/zh-CN/support/announcement/detail/21e399dcea734230a3c181daf5407b64,,,21e399dcea734230a3c181daf5407b64,
+output/binance/binance_8b919954dc970dcdee52dea954cdc2b6.txt,MEMEFI/USDT,下架,合约,2025-08-11,binance,币安合约将下架DEFIUSDT和MEMEFI U本位永续合约（2025-08-11）,https://www.binance.com/zh-CN/support/announcement/detail/21e399dcea734230a3c181daf5407b64,,,21e399dcea734230a3c181daf5407b64,
+output/binance/binance_d791a14fb73cd19b469e84baa7acd751.txt,NKN/BTC,下架,现货,2025-08-08,binance,币安移除部分现货交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/95ea413c2c1c41498664b0bad613fcd9,,,95ea413c2c1c41498664b0bad613fcd9,
+output/binance/binance_d791a14fb73cd19b469e84baa7acd751.txt,STX/BNB,下架,现货,2025-08-08,binance,币安移除部分现货交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/95ea413c2c1c41498664b0bad613fcd9,,,95ea413c2c1c41498664b0bad613fcd9,
+output/binance/binance_21e399dcea734230a3c181daf5407b64.txt,DEFI/USDT,下架,合约,2025-08-11,binance,币安合约将下架DEFIUSDT和MEMEFI U本位永续合约（2025-08-11）,https://www.binance.com/zh-CN/support/announcement/detail/21e399dcea734230a3c181daf5407b64,,,21e399dcea734230a3c181daf5407b64,
+output/binance/binance_21e399dcea734230a3c181daf5407b64.txt,MEMEFI/USDT,下架,合约,2025-08-11,binance,币安合约将下架DEFIUSDT和MEMEFI U本位永续合约（2025-08-11）,https://www.binance.com/zh-CN/support/announcement/detail/21e399dcea734230a3c181daf5407b64,,,21e399dcea734230a3c181daf5407b64,
+output/binance/binance_7f81ba43118f4877af41ed984f901e67.txt,GPS/FDUSD,下架,现货,2025-07-25,binance,币安移除部分现货交易对的公告 - 2025-07-25,https://www.binance.com/zh-CN/support/announcement/detail/7f81ba43118f4877af41ed984f901e67,,,7f81ba43118f4877af41ed984f901e67,
+output/binance/binance_7f81ba43118f4877af41ed984f901e67.txt,HIVE/FDUSD,下架,现货,2025-07-25,binance,币安移除部分现货交易对的公告 - 2025-07-25,https://www.binance.com/zh-CN/support/announcement/detail/7f81ba43118f4877af41ed984f901e67,,,7f81ba43118f4877af41ed984f901e67,
+output/binance/binance_a02d57f65e43fb9f6937b7ec0d5aefe2.txt,ANIME/FDUSD,下架,现货,2025-08-15,binance,币安移除部分现货交易对的公告 - 2025-08-15,https://www.binance.com/zh-CN/support/announcement/detail/b021b76f70af4465a0b5add81d751de7,,,b021b76f70af4465a0b5add81d751de7,
+output/binance/binance_a02d57f65e43fb9f6937b7ec0d5aefe2.txt,HYPER/FDUSD,下架,现货,2025-08-15,binance,币安移除部分现货交易对的公告 - 2025-08-15,https://www.binance.com/zh-CN/support/announcement/detail/b021b76f70af4465a0b5add81d751de7,,,b021b76f70af4465a0b5add81d751de7,
+output/binance/binance_a02d57f65e43fb9f6937b7ec0d5aefe2.txt,STO/BNB,下架,现货,2025-08-15,binance,币安移除部分现货交易对的公告 - 2025-08-15,https://www.binance.com/zh-CN/support/announcement/detail/b021b76f70af4465a0b5add81d751de7,,,b021b76f70af4465a0b5add81d751de7,
+output/binance/binance_4da1c4e783e24cfd93f24d73e484654e.txt,XVS/TRY,下架,现货,2025-08-01,binance,币安移除部分现货交易对的公告 - 2025-08-01,https://www.binance.com/zh-CN/support/announcement/detail/4da1c4e783e24cfd93f24d73e484654e,,,4da1c4e783e24cfd93f24d73e484654e,
+output/binance/binance_4da1c4e783e24cfd93f24d73e484654e.txt,YGG/TRY,下架,现货,2025-08-01,binance,币安移除部分现货交易对的公告 - 2025-08-01,https://www.binance.com/zh-CN/support/announcement/detail/4da1c4e783e24cfd93f24d73e484654e,,,4da1c4e783e24cfd93f24d73e484654e,
+output/binance/binance_af2de8759a8b0ae12ca1f537a4e92482.txt,DOGS/FDUSD,下架,合约,2025-08-08,binance,币安杠杆移除部分交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/3270cb16cd344fecb9646758131189dc,,,3270cb16cd344fecb9646758131189dc,
+output/binance/binance_af2de8759a8b0ae12ca1f537a4e92482.txt,MOVE/FDUSD,下架,合约,2025-08-08,binance,币安杠杆移除部分交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/3270cb16cd344fecb9646758131189dc,,,3270cb16cd344fecb9646758131189dc,
+output/binance/binance_af2de8759a8b0ae12ca1f537a4e92482.txt,MANTA/FDUSD,下架,合约,2025-08-08,binance,币安杠杆移除部分交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/3270cb16cd344fecb9646758131189dc,,,3270cb16cd344fecb9646758131189dc,
+output/binance/binance_af2de8759a8b0ae12ca1f537a4e92482.txt,PEOPLE/FDUSD,下架,合约,2025-08-08,binance,币安杠杆移除部分交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/3270cb16cd344fecb9646758131189dc,,,3270cb16cd344fecb9646758131189dc,
+output/binance/binance_857961a19f2e58be8d68ba1aa1fbf324.txt,XVS/TRY,下架,现货,2025-08-01,binance,币安移除部分现货交易对的公告 - 2025-08-01,https://www.binance.com/zh-CN/support/announcement/detail/4da1c4e783e24cfd93f24d73e484654e,,,4da1c4e783e24cfd93f24d73e484654e,
+output/binance/binance_857961a19f2e58be8d68ba1aa1fbf324.txt,YGG/TRY,下架,现货,2025-08-01,binance,币安移除部分现货交易对的公告 - 2025-08-01,https://www.binance.com/zh-CN/support/announcement/detail/4da1c4e783e24cfd93f24d73e484654e,,,4da1c4e783e24cfd93f24d73e484654e,
+output/binance/binance_95ea413c2c1c41498664b0bad613fcd9.txt,NKN/BTC,下架,现货,2025-08-08,binance,币安移除部分现货交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/95ea413c2c1c41498664b0bad613fcd9,,,95ea413c2c1c41498664b0bad613fcd9,
+output/binance/binance_95ea413c2c1c41498664b0bad613fcd9.txt,STX/BNB,下架,现货,2025-08-08,binance,币安移除部分现货交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/95ea413c2c1c41498664b0bad613fcd9,,,95ea413c2c1c41498664b0bad613fcd9,
+output/binance/binance_0708c5436874599af98174b5e03adb65.txt,NKN/BTC,下架,现货,2025-08-08,binance,币安移除部分现货交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/95ea413c2c1c41498664b0bad613fcd9,,,95ea413c2c1c41498664b0bad613fcd9,
+output/binance/binance_0708c5436874599af98174b5e03adb65.txt,STX/BNB,下架,现货,2025-08-08,binance,币安移除部分现货交易对的公告 - 2025-08-08,https://www.binance.com/zh-CN/support/announcement/detail/95ea413c2c1c41498664b0bad613fcd9,,,95ea413c2c1c41498664b0bad613fcd9,
+output/binance/binance_622b30e1f754d18033da9cc641d9ab65.txt,GPS/FDUSD,下架,现货,2025-07-25,binance,币安移除部分现货交易对的公告 - 2025-07-25,https://www.binance.com/zh-CN/support/announcement/detail/7f81ba43118f4877af41ed984f901e67,,,7f81ba43118f4877af41ed984f901e67,
+output/binance/binance_622b30e1f754d18033da9cc641d9ab65.txt,HIVE/FDUSD,下架,现货,2025-07-25,binance,币安移除部分现货交易对的公告 - 2025-07-25,https://www.binance.com/zh-CN/support/announcement/detail/7f81ba43118f4877af41ed984f901e67,,,7f81ba43118f4877af41ed984f901e67,
+output/binance/binance_b021b76f70af4465a0b5add81d751de7.txt,ANIME/FDUSD,下架,现货,2025-08-15,binance,币安移除部分现货交易对的公告 - 2025-08-15,https://www.binance.com/zh-CN/support/announcement/detail/b021b76f70af4465a0b5add81d751de7,,,b021b76f70af4465a0b5add81d751de7,
+output/binance/binance_b021b76f70af4465a0b5add81d751de7.txt,HYPER/FDUSD,下架,现货,2025-08-15,binance,币安移除部分现货交易对的公告 - 2025-08-15,https://www.binance.com/zh-CN/support/announcement/detail/b021b76f70af4465a0b5add81d751de7,,,b021b76f70af4465a0b5add81d751de7,
+output/binance/binance_b021b76f70af4465a0b5add81d751de7.txt,STO/BNB,下架,现货,2025-08-15,binance,币安移除部分现货交易对的公告 - 2025-08-15,https://www.binance.com/zh-CN/support/announcement/detail/b021b76f70af4465a0b5add81d751de7,,,b021b76f70af4465a0b5add81d751de7,
+output/binance/binance_c62d1ed9054b4a70b2ecbe0af01e50bb.txt,MOVE/FDUSD,下架,现货,2025-08-22,binance,币安移除部分现货交易对的公告 - 2025-08-22,https://www.binance.com/zh-CN/support/announcement/detail/c62d1ed9054b4a70b2ecbe0af01e50bb,,,c62d1ed9054b4a70b2ecbe0af01e50bb,
+output/binance/binance_c62d1ed9054b4a70b2ecbe0af01e50bb.txt,NIL/FDUSD,下架,现货,2025-08-22,binance,币安移除部分现货交易对的公告 - 2025-08-22,https://www.binance.com/zh-CN/support/announcement/detail/c62d1ed9054b4a70b2ecbe0af01e50bb,,,c62d1ed9054b4a70b2ecbe0af01e50bb,
+output/binance/binance_c62d1ed9054b4a70b2ecbe0af01e50bb.txt,SXT/BNB,下架,现货,2025-08-22,binance,币安移除部分现货交易对的公告 - 2025-08-22,https://www.binance.com/zh-CN/support/announcement/detail/c62d1ed9054b4a70b2ecbe0af01e50bb,,,c62d1ed9054b4a70b2ecbe0af01e50bb,
+output/binance/binance_b1a46bd8cc19ce190a47abc65821f526.txt,ANIME/FDUSD,下架,现货,2025-08-15,binance,币安移除部分现货交易对的公告 - 2025-08-15,https://www.binance.com/zh-CN/support/announcement/detail/b021b76f70af4465a0b5add81d751de7,,,b021b76f70af4465a0b5add81d751de7,
+output/binance/binance_b1a46bd8cc19ce190a47abc65821f526.txt,HYPER/FDUSD,下架,现货,2025-08-15,binance,币安移除部分现货交易对的公告 - 2025-08-15,https://www.binance.com/zh-CN/support/announcement/detail/b021b76f70af4465a0b5add81d751de7,,,b021b76f70af4465a0b5add81d751de7,
+output/binance/binance_b1a46bd8cc19ce190a47abc65821f526.txt,STO/BNB,下架,现货,2025-08-15,binance,币安移除部分现货交易对的公告 - 2025-08-15,https://www.binance.com/zh-CN/support/announcement/detail/b021b76f70af4465a0b5add81d751de7,,,b021b76f70af4465a0b5add81d751de7,
+output/binance/binance_dab7ed08672e073f2b9562fffcc15393.txt,KAITO/BNB,下架,现货,2025-06-27,binance,币安移除部分现货交易对的公告 - 2025-06-27,https://www.binance.com/zh-CN/support/announcement/detail/a37e284394114daf8e0045360dd129eb,,,a37e284394114daf8e0045360dd129eb,
+output/binance/binance_dab7ed08672e073f2b9562fffcc15393.txt,KAITO/BRL,下架,现货,2025-06-27,binance,币安移除部分现货交易对的公告 - 2025-06-27,https://www.binance.com/zh-CN/support/announcement/detail/a37e284394114daf8e0045360dd129eb,,,a37e284394114daf8e0045360dd129eb,
+output/binance/binance_dab7ed08672e073f2b9562fffcc15393.txt,ZIL/BTC,下架,现货,2025-06-27,binance,币安移除部分现货交易对的公告 - 2025-06-27,https://www.binance.com/zh-CN/support/announcement/detail/a37e284394114daf8e0045360dd129eb,,,a37e284394114daf8e0045360dd129eb,
+output/binance/binance_1873a51a3fd8e8e4548f401e6c3619ef.txt,ANIME/FDUSD,下架,现货,2025-08-15,binance,币安移除部分现货交易对的公告 - 2025-08-15,https://www.binance.com/zh-CN/support/announcement/detail/b021b76f70af4465a0b5add81d751de7,,,b021b76f70af4465a0b5add81d751de7,
+output/binance/binance_1873a51a3fd8e8e4548f401e6c3619ef.txt,HYPER/FDUSD,下架,现货,2025-08-15,binance,币安移除部分现货交易对的公告 - 2025-08-15,https://www.binance.com/zh-CN/support/announcement/detail/b021b76f70af4465a0b5add81d751de7,,,b021b76f70af4465a0b5add81d751de7,
+output/binance/binance_1873a51a3fd8e8e4548f401e6c3619ef.txt,STO/BNB,下架,现货,2025-08-15,binance,币安移除部分现货交易对的公告 - 2025-08-15,https://www.binance.com/zh-CN/support/announcement/detail/b021b76f70af4465a0b5add81d751de7,,,b021b76f70af4465a0b5add81d751de7,
+output/binance/binance_bea2eceafbb0a8438b731e5954e3e1b5.txt,MOVE/FDUSD,下架,现货,2025-08-22,binance,币安移除部分现货交易对的公告 - 2025-08-22,https://www.binance.com/zh-CN/support/announcement/detail/c62d1ed9054b4a70b2ecbe0af01e50bb,,,c62d1ed9054b4a70b2ecbe0af01e50bb,
+output/binance/binance_bea2eceafbb0a8438b731e5954e3e1b5.txt,NIL/FDUSD,下架,现货,2025-08-22,binance,币安移除部分现货交易对的公告 - 2025-08-22,https://www.binance.com/zh-CN/support/announcement/detail/c62d1ed9054b4a70b2ecbe0af01e50bb,,,c62d1ed9054b4a70b2ecbe0af01e50bb,
+output/binance/binance_bea2eceafbb0a8438b731e5954e3e1b5.txt,SXT/BNB,下架,现货,2025-08-22,binance,币安移除部分现货交易对的公告 - 2025-08-22,https://www.binance.com/zh-CN/support/announcement/detail/c62d1ed9054b4a70b2ecbe0af01e50bb,,,c62d1ed9054b4a70b2ecbe0af01e50bb,

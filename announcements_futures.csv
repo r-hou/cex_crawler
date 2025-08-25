@@ -1,22 +1,5 @@
-time,bitunix,blofin,btcc,bybit,gate,lbank,mexc,binance,bingx,bitget,okx,weex
-2025-08-14,,,,"上架 ASR
- 上架 ALPINE
- 上架 PSIX/USD
- 上架 CLS/USD
- 上架 DAVE/USD
- 上架 STRL/USD
- 上架 CRDO/USD
- 上架 VRT/USD
- 上架 FIG/USD
-",,,"上架 BLSH
-",,,,,
-2025-08-15,,"下架 TRXUSD
- 下架 1000000PEIPEI
-","上架 SBET
-",,,,"上架 PUBLIC
- 上架 TCOM
-",,,,,
-2025-08-18,,"下架 D
+time,bingx,bitget,bitunix,blofin,bybit,gate,lbank,mexc,okx,binance,btcc,weex
+2025-08-18,,,,"下架 D
  下架 SEND
  下架 QUICK
  下架 SCRT
@@ -47,25 +30,25 @@ time,bitunix,blofin,btcc,bybit,gate,lbank,mexc,binance,bingx,bitget,okx,weex
  上架 LINK/USDC
  上架 ENA/USDC
  上架 ADA/USDC
-",,"下架 MKR
+","下架 MKR
  上架 DAM
 ",,,"上架 DAM
+",,,,
+2025-08-19,,,,,,,"上架 BTCDOM
 ",,,,,
-2025-08-19,,,,,,"上架 BTCDOM
-",,,,,,
-2025-08-20,"上架 YALA
+2025-08-20,,,"上架 YALA
 ","上架 CUDIS
  上架 SAPIEN
-",,"上架 SAPIEN
+","上架 SAPIEN
 ","上架 CUDIS
 ","上架 DSYNC
 ","上架 SKY
-",,,,,
-2025-08-21,"上架 SAPIEN
+",,,,
+2025-08-21,,,"上架 SAPIEN
  上架 COS
  上架 YZY
 ","上架 YZY
-",,"上架 YZY
+","上架 YZY
 ","上架 ARIA
  上架 SAPIEN
  上架 YZY
@@ -79,11 +62,37 @@ time,bitunix,blofin,btcc,bybit,gate,lbank,mexc,binance,bingx,bitget,okx,weex
  上架 SAPIEN
  上架 BAS
  上架 YZY
-",,,,,
-2025-08-22,"下架 CSPR
-",,,,,,,,,,,
-2025-08-26,,"下架 TLM
+",,,,
+2025-08-22,,,"上架 CUDIS
+ 下架 CSPR
+ 上架 OKB
+",,"上架 XPL
+","上架 XPL
+",,,,,,
+2025-08-23,,"上架 WLFI
+",,"上架 XPL
+ 上架 WLFI
+","上架 WLFI
+",,,"上架 DORA
+","上架 WLFI
+",,,
+2025-08-24,,,"上架 WLFI
+",,,"上架 WLFI
+",,"上架 FST
+",,,,
+2025-08-25,"待确定上架 WLFI
+",,,,,,"上架 NVDAX
+","上架 TAKE
+ 待确定上架 BTR
+ 上架 PUMP/USDC
+ 上架 BIO/USDC
+ 上架 SOMI
+ 待确定上架 BTR
+",,,,
+2025-08-26,,,,"下架 TLM
  下架 COS
  下架 1000XEC
  下架 1000BTT
-",,,,,,,,,,
+",,,,,,,,
+2025-08-29,,,,,,,,,"下架 JST
+",,,

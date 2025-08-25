@@ -9,13 +9,14 @@ import uuid
 import re
 import os
 import sys
+import pandas as pd
 
 from deepseek_analyzer import DeepSeekAnalyzer
 from .base_scraper import BaseScraper
 
 class LbankScraper(BaseScraper):
-    def __init__(self, analyzer: DeepSeekAnalyzer, debug: bool = False, max_size: int = 10):
-        super().__init__("lbank", "https://www.lbank.com", analyzer, debug, max_size)
+    def __init__(self, analyzer: DeepSeekAnalyzer, debug: bool = False, max_size: int = 10, offset_days: int = 7, analyzer_api_key= None):
+        super().__init__("lbank", "https://www.lbank.com", analyzer, debug, max_size, offset_days, analyzer_api_key)
         
 
     def get_session_id(self):
@@ -187,7 +188,7 @@ class LbankScraper(BaseScraper):
 
         return all_announcements
 
-    def run_scraping(self):
+    async def run_scraping(self):
         announcements = self.get_announcements_id()
         # print(len(announcements))
         self.build_id = self.get_build_id()
@@ -197,10 +198,15 @@ class LbankScraper(BaseScraper):
         
         for i, announcement in enumerate(announcements):
             article_id = announcement.get('code', uuid.uuid4())
-            text_file_name = os.path.join(self.output_dir, f"lbank_{article_id}.txt")
+            release_time = int(announcement.get('contentShowTime'))
+            release_time_str = pd.to_datetime(release_time, unit='ms', utc=True).tz_convert('Asia/Hong_Kong').strftime('%Y-%m-%d %H:%M:%S')
+            if release_time_str < (pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)).strftime('%Y-%m-%d %H:%M:%S'):
+                print(f"公告 {announcement.get('title', 'N/A')} 发布时间 {release_time_str} 小于 {pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)}，跳过")
+                continue
+            # text_file_name = os.path.join(self.output_dir, f"lbank_{article_id}.txt")
             json_file_name = os.path.join(self.output_dir, f"lbank_{article_id}.json")
-            if os.path.exists(text_file_name) and os.path.exists(json_file_name):
-                print(f"公告详情已存在: {text_file_name}")
+            if os.path.exists(json_file_name):
+                print(f"公告详情已存在: {json_file_name}")
                 continue
             print(f"   标题: {announcement.get('title', 'N/A')}")
             print(f"   URL: https://www.lbank.com/support/articles/{announcement.get('code', '')}")
@@ -210,9 +216,9 @@ class LbankScraper(BaseScraper):
             if text_content:
                 print("\n=== 提取的文字数据 ===")
                 pprint.pprint(text_content, indent=4)
-                with open(text_file_name, 'w', encoding='utf-8') as f:
-                    f.write(text_content)
-                print(f"\nTEXT数据已保存到: {text_file_name}")
+                # with open(text_file_name, 'w', encoding='utf-8') as f:
+                #     f.write(text_content)
+                # print(f"\nTEXT数据已保存到: {text_file_name}")
                 # 使用OpenAI分析内容
                 print("\n=== 使用DeepSeek分析公告内容 ===")
                 try:
@@ -223,7 +229,12 @@ class LbankScraper(BaseScraper):
                     self.analyzer.print_analysis_result(analysis_result)
                     
                     # 保存分析结果
-                    self.analyzer.save_analysis_result(analysis_result, json_file_name, updates={'exchange': 'lbank'})
+                    self.analyzer.save_analysis_result(analysis_result, json_file_name, updates={'exchange': 'lbank',
+                        'title': announcement.get('title', 'N/A'),
+                        'url': f"https://www.lbank.com/support/articles/{announcement.get('code', '')}",
+                        'release_time': release_time_str,
+                        'content': text_content
+                    })
 
                     
                     # Increment counter for successfully processed announcements
@@ -239,9 +250,9 @@ class LbankScraper(BaseScraper):
             else:
                 print("获取公告详情失败")
             
-            # Break outer loop if we've reached max_size in debug mode
-            if self.debug and processed_count >= self.max_size:
-                break
+            # # Break outer loop if we've reached max_size in debug mode
+            # if self.debug and processed_count >= self.max_size:
+            #     break
 
 if __name__ == "__main__":
     analyzer = DeepSeekAnalyzer(api_key="sk-790c031d07224ee9a905c970cefffcba")
