@@ -19,14 +19,14 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 class BaseScraper:
     """Base class for all exchange scrapers to eliminate code duplication"""
     
-    def __init__(self, exchange_name: str, base_url: str, analyzer: DeepSeekAnalyzer = None, debug: bool = False, max_size: int = 10):
+    def __init__(self, exchange_name: str, base_url: str, analyzer: DeepSeekAnalyzer = None, debug: bool = False, max_size: int = 10, offset_days: int = 7, analyzer_api_key: Optional[str] = None):
         """
         Initialize base scraper
         
         Args:
             exchange_name: Name of the exchange (e.g., 'binance', 'bingx')
             base_url: Base URL of the exchange
-            analyzer: DeepSeekAnalyzer instance
+            analyzer: DeepSeekAnalyzer instance. If None, a new instance will be created per scraper.
             debug: Debug mode flag
             max_size: Maximum number of announcements to process in debug mode
         """
@@ -35,10 +35,19 @@ class BaseScraper:
         self.browser: Optional[Browser] = None
         self.context: Optional[BrowserContext] = None
         self.page: Optional[Page] = None
-        self.analyzer = analyzer
+        # Initialize analyzer per scraper instance if not provided (avoids singleton across parallel tasks)
+        if analyzer is None:
+            try:
+                self.analyzer = DeepSeekAnalyzer(api_key=analyzer_api_key)
+            except Exception as e:
+                print(f"{self.exchange_name} 初始化DeepSeekAnalyzer失败: {e}")
+                self.analyzer = None
+        else:
+            self.analyzer = analyzer
         self.debug = debug
         self.max_size = max_size
         self.playwright = None
+        self.offset_days = offset_days
         
         # Ensure output directory exists
         self.output_dir = f"output/{exchange_name}"
@@ -167,9 +176,6 @@ class BaseScraper:
         except Exception as e:
             print(f"模拟人类行为时出错: {e}")
     
-    def generate_file_id(self, content: str) -> str:
-        """Generate unique file ID based on content hash"""
-        return hashlib.md5(content.encode()).hexdigest()
     
     def save_json_file(self, data: List[Dict], file_id: str) -> str:
         """Save JSON data to file"""
@@ -199,17 +205,14 @@ class BaseScraper:
             print(f"保存文本文件失败: {e}")
             return ""
     
-    def analyze_and_save_announcement(self, text_content: str, updates: Dict = None) -> Optional[str]:
+    def analyze_and_save_announcement(self, text_content: str, file_id: str, updates: Dict = None) -> Optional[str]:
         """Analyze announcement text and save results"""
         if not self.analyzer or not text_content.strip():
             return None
         
         try:
-            # Generate file ID from content
-            file_id = self.generate_file_id(text_content)
-            
-            # Save text file
-            text_filepath = self.save_text_file(text_content, file_id)
+            # Save text file alongside json
+            _ = self.save_text_file(text_content, file_id)
             
             # Analyze with AI
             result = self.analyzer.analyze_announcement(text_content)
@@ -220,15 +223,10 @@ class BaseScraper:
             if updates:
                 base_updates.update(updates)
             
-            # Save analysis results
-            json_filepath = self.save_json_file(
-                result.get("listings", []) + result.get("delistings", []), 
-                file_id
-            )
-            
-            # Update saved results with additional info
-            if json_filepath and base_updates:
-                self.analyzer.save_analysis_result(result, json_filepath, base_updates)
+            # Save JSON analysis result to exchange-specific output
+            json_filename = f"{self.exchange_name}_{file_id}.json"
+            json_filepath = os.path.join(self.output_dir, json_filename)
+            self.analyzer.save_analysis_result(result, json_filepath, base_updates)
             
             return json_filepath
             

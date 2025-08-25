@@ -1,68 +1,37 @@
-time,binance,bingx,bybit,coinex,gate,lbank,mexc,upbit,bitget,bithumb
-2025-08-14,,"上架 CELL
-",,,"上架 AIBOT
-",,"上架 CRED
-",,,
-2025-08-15,"下架 ANIME/FDUSD
- 下架 HYPER/FDUSD
- 下架 STO/BNB
- 下架 ANIME/FDUSD
- 下架 HYPER/FDUSD
- 下架 STO/BNB
- 下架 ANIME/FDUSD
- 下架 HYPER/FDUSD
- 下架 STO/BNB
-",,"上架 AVA
- 上架 SPARK
- 上架 TROLL
- 上架 Tokabu
- 上架 House
- 上架 USDUC
- 上架 URANUS
- 上架 PYTHIA
- 下架 CHRP
- 下架 CAPS
- 下架 FMC
- 下架 FMB
-","上架 XNY
-","上架 ANI
- 上架 TCOM
- 上架 AIO
- 上架 PUBLIC
-",,"上架 LBAI
- 上架 MTT
- 上架 TCOM
- 上架 BLUP
-",,,
-2025-08-16,,,,,,,"上架 TOKABUETH
-",,,
-2025-08-18,,"上架 LIGHT
+time,binance,bingx,bitget,bybit,coinex,gate,lbank,mexc,upbit,bithumb
+2025-08-18,"上架 PLUME
+ 上架 PLUME/USDC
+ 上架 PLUME/BNB
+ 上架 PLUME/FDUSD
+ 上架 PLUME/TRY
+ 上架 PLUME
+ 上架 PLUME/USDC
+","上架 LIGHT
  下架 LIGHT
- 下架 IRON
  上架 CLIPPY
  下架 CLIPPY
-",,"下架 LIBRA
- 下架 UBC
- 下架 PAJAMAS
- 下架 APRS
- 下架 ESE
- 下架 ENQAI
- 下架 BULLY
- 下架 BLINK
- 下架 PESTO
-",,,"上架 MK
- 上架 DAM
-",,,
-2025-08-19,,,"上架 FWOG
+",,,,,,,,
+2025-08-19,,,,"上架 FWOG
  上架 WORTHLESS
  上架 CLIPPY
  上架 nub
 ","上架 FUSD
-",,,"上架 BAS
-","上架 API3/KRW
+",,,,"上架 API3/KRW
  上架 API3
-",,
+",
 2025-08-20,,"上架 SAPIEN
+ 下架 NEND
+ 下架 BEER2
+ 下架 BN
+ 下架 ARIX
+ 下架 TRC
+ 下架 PINKO
+ 下架 SVN
+ 下架 TX20
+ 下架 BARSIK
+ 下架 PDG
+","上架 SAPIEN
+ 上架 DGC
 ",,"下架 KLY
  下架 BEND
  下架 BEER
@@ -71,33 +40,27 @@ time,binance,bingx,bybit,coinex,gate,lbank,mexc,upbit,bitget,bithumb
  下架 SHARK
  下架 STFX
  下架 GUMMY
-",,"上架 HODL
- 上架 DGC
- 上架 HALO1
-",,,,
-2025-08-21,,,,"上架 SAPIEN
+",,,,,
+2025-08-21,"上架 SAPIEN
+",,"上架 YZY
+ 上架 ARIA
+",,"上架 SAPIEN
  上架 YZY
 ","上架 ARIA
- 上架 ARIA
  上架 GTBTC
  上架 GTBTC/BTC
  上架 YZY
-","上架 AKE
- 上架 LION
- 上架 67
- 上架 DARK1
- 上架 BBDY
- 上架 YZYMNY
- 上架 CLANKER1
 ",,,,
 2025-08-22,"下架 MOVE/FDUSD
  下架 NIL/FDUSD
  下架 SXT/BNB
- 下架 MOVE/FDUSD
- 下架 NIL/FDUSD
- 下架 SXT/BNB
-","上架 XPIN
-","下架 TGT
+","上架 UCN
+ 上架 XPIN
+ 下架 MAXWELLCAT
+ 下架 EVAN
+ 下架 O4DX
+ 下架 TROLL
+",,"下架 TGT
  下架 GST
  下架 NLK
  下架 FIRE
@@ -110,12 +73,65 @@ time,binance,bingx,bybit,coinex,gate,lbank,mexc,upbit,bitget,bithumb
  下架 FARMHYPE
  下架 POOLX
  下架 KCN
-","上架 XPIN
 ",,,,,
-2025-08-28,,,,"下架 AIPG
+2025-08-23,,,"上架 WLFI
+",,,,,,,
+2025-08-24,,,,,,"上架 WLFI
+ 上架 FST
+",,"上架 FST
+",,
+2025-08-25,,"上架 WLFI
+ 上架 MTP
+ 上架 MBG
+",,,,"上架 CUDIS
+","上架 RETIRE
+ 上架 BALAJIS
+","上架 MTP
+",,
+2025-08-26,"上架 A2Z/USDC
+ 上架 SSV/USDC
+ 上架 UMA/USDC
+",,"上架 TOWN
+",,,"上架 TOWN
+ 上架 TOWN
+","上架 VLTX
+",,,
+2025-08-27,"上架 BTR
+","上架 BTR
+",,,,"上架 BTR
+","上架 BTR
+ 上架 CAMP
+ 上架 DIT
+",,,
+2025-08-28,,,,,"下架 AIPG
  下架 AIT
  下架 UWU
  下架 BRWL
  下架 RAT
  下架 LEASH
+",,,,,
+2025-08-29,,"下架 GOB
+",,"下架 MAK
+ 下架 MNRY
+ 下架 SMILE
+ 下架 GENE
+ 下架 STAR
+ 下架 MSTAR
+ 下架 GALAXIS
+ 下架 EXVG
+ 下架 CATS
+ 下架 AARK
+ 下架 APRS
 ",,,,,,
+2025-09-01,,,,,"下架 BUBBLE
+ 下架 LSD
+ 下架 DVI
+ 下架 BLENDR
+ 下架 JOY
+ 下架 EVAN
+ 下架 WSDM
+ 下架 SILLY
+ 下架 COMBO
+ 下架 LUMO
+ 下架 SUPFRIEND
+",,,,,

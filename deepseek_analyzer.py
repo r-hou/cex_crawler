@@ -48,12 +48,13 @@ class DeepSeekAnalyzer:
 }}
 
 注意事项：
-1. 只提取明确的上架/下架信息
+1. 只提取上架/下架信息
 2. 时间格式要具体，格式是"YYYY-MM-DD"，不需要时区信息, 不能包含汉字或者韩语，必须输出时间，如果时间格式是"YYYY年MM月DD日"，则转换为"YYYY-MM-DD", 如果时间是YYYY年M月D日(比如2025年7月6日)，则转换为"2025-07-06"
 3. 交易对符号要准确，如"BTC/USDT"
 4. type字段必须填写"现货"或"合约"，根据公告内容判断
 5. 如果没有相关信息，返回空数组
 6. 只输出JSON格式，不要其他文字
+7. **宽松识别**：只要涉及开始任何形式的交易都算作上架
 
 公告内容：
 {content}
@@ -243,9 +244,18 @@ def main():
         analyzer = DeepSeekAnalyzer(api_key="sk-790c031d07224ee9a905c970cefffcba")
         
         # 示例公告内容
-        sample_text = """LBank Futures Will Delist [[0]]CBK, LUCE, GOONC, ELDE, GOR[[/0]] and [[1]]AITECH[[/1]] Perpetual Contracts
-Dear LBank users, LBank Futures will conduct an automatic settlement on the OLIVIA, ACID, VIRGEN and KNET perpetual contracts and delist them at 14:00 on 2025-7-6 (UTC) after the settlements are compl%
-        """
+        sample_text = """Bitget pre-market trading: World Liberty Financial (WLFI) is set to launch soon
+We're thrilled to announce that Bitget will launch World Liberty Financial (WLFI) in pre-market trading. Users can trade WLFI in advance, before it becomes available for spot trading. Details are as follows:
+Start time: 23 August, 2025, 14:00 (UTC)
+End time: TBD
+Spot Trading time: TBD
+Delivery Start time: TBD
+Delivery End time: TBD
+Pre-market trading link: WLFI/USDT
+Bitget Pre-Market Introduction
+Delivery method: Coin settlement, USDT settlement
+Coin settlement
+Starting from the project's delivery start time, the system will periodically execute multiple deliveries for orders under the Coin Settlement mode. Sell orders with sufficient spot balances will be filled with corresponding buy orders. If there are insufficient project tokens or if sellers voluntarily choose to default, compensation with security deposits will not be triggered immediately. At the project's delivery end time, the system will either d..."""
         
         print("示例分析:")
         result = analyzer.analyze_announcement(sample_text)

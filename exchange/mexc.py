@@ -10,6 +10,7 @@ import re
 from bs4 import BeautifulSoup
 import os
 import sys
+import pandas as pd
 
 from .base_scraper import BaseScraper
 from deepseek_analyzer import DeepSeekAnalyzer
@@ -19,8 +20,8 @@ import traceback
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 class MexcScraper(BaseScraper):
-    def __init__(self, analyzer: DeepSeekAnalyzer, debug: bool = False, max_size: int = 10):
-        super().__init__("mexc", "https://www.mexc.com", analyzer, debug, max_size)
+    def __init__(self, analyzer: DeepSeekAnalyzer, debug: bool = False, max_size: int = 10, offset_days: int = 7, analyzer_api_key= None):
+        super().__init__("mexc", "https://www.mexc.com", analyzer, debug, max_size, offset_days, analyzer_api_key)
         
 
     
@@ -52,7 +53,6 @@ class MexcScraper(BaseScraper):
         api_url = f'https://www.mexc.com/help/announce/api/zh-MY/section/{category_id}/sections?showAllSectionWithArticle=true'
         content = await self.get_page_content(api_url, 'load')
         json_data = self.get_json_from_html(content)
-        print(json_data)
         listing_section_id, delisting_section_id = None, None
         for i in json_data['data']:
             if i['name'] == '上币信息':
@@ -119,13 +119,19 @@ class MexcScraper(BaseScraper):
             
             for i, article in enumerate(announcements):
                 article_id = article.get('id')
-                text_file_name = os.path.join(self.output_dir, f"mexc_{article_id}.txt")
+                # text_file_name = os.path.join(self.output_dir, f"mexc_{article_id}.txt")
                 json_file_name = os.path.join(self.output_dir, f"mexc_{article_id}.json")
-                if os.path.exists(text_file_name) and os.path.exists(json_file_name):
-                    print(f"公告详情已存在: {text_file_name}")
+                url = f"https://www.mexc.com/zh-MY/support/articles/{article_id}"
+                release_time = article.get('createdAt')
+                release_time_str = pd.to_datetime(release_time).tz_convert('Asia/Hong_Kong').strftime('%Y-%m-%d %H:%M:%S')
+                if release_time_str < (pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)).strftime('%Y-%m-%d %H:%M:%S'):
+                    print(f"公告 {article.get('title', 'N/A')} 发布时间 {release_time_str} 小于 {pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)}，跳过")
+                    continue
+                if os.path.exists(json_file_name):
+                    print(f"公告详情已存在: {json_file_name}")
                     continue
                 print(f"   标题: {article.get('title', 'N/A')}")
-                print(f"   URL: https://www.mexc.com/zh-MY/support/articles/{article_id}")
+                print(f"   URL: {url}")
                 if article_id:
                     print("=== 获取公告详情 ===")
                     detail_result = await self.get_announcement_detail(article_id)
@@ -135,9 +141,9 @@ class MexcScraper(BaseScraper):
                         print(text_content[:1000] + "..." if len(text_content) > 1000 else text_content)
                         
                         # 保存到文件
-                        with open(text_file_name, 'w', encoding='utf-8') as f:
-                            f.write(text_content)
-                        print(f"\n纯文字内容已保存到: {text_file_name}")
+                        # with open(text_file_name, 'w', encoding='utf-8') as f:
+                        #     f.write(text_content)
+                        # print(f"\n纯文字内容已保存到: {text_file_name}")
                         
                         # 使用OpenAI分析内容
                         print("\n=== 使用DeepSeek分析公告内容 ===")
@@ -150,7 +156,12 @@ class MexcScraper(BaseScraper):
                             self.analyzer.print_analysis_result(analysis_result)
                             
                             # 保存分析结果
-                            self.analyzer.save_analysis_result(analysis_result, json_file_name, updates={'exchange': 'mexc'})
+                            self.analyzer.save_analysis_result(analysis_result, json_file_name, updates={'exchange': 'mexc',
+                                'title': article.get('title', 'N/A'),
+                                'url': f"https://www.mexc.com/zh-MY/support/articles/{article_id}",
+                                'release_time': release_time_str,
+                                'content': text_content
+                            })
                             
                             # Increment counter for successfully processed announcements
                             processed_count += 1
