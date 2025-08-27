@@ -75,13 +75,16 @@ class GateScraper(BaseScraper):
             
             for i, announcement in enumerate(announcements):
                 article_id = announcement.get('id', uuid.uuid4())
+                json_file_name = os.path.join(self.output_dir, f"gate_{article_id}.json")
                 release_time = int(announcement.get('release_timestamp', ''))
                 release_time_str = pd.to_datetime(release_time, unit='s', utc=True).tz_convert('Asia/Hong_Kong').strftime('%Y-%m-%d %H:%M:%S')
                 if release_time_str < (pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)).strftime('%Y-%m-%d %H:%M:%S'):
                     print(f"公告 {announcement.get('title', 'N/A')} 发布时间 {release_time_str} 小于 {pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)}，跳过")
+                    with open(json_file_name, 'w', encoding='utf-8') as f:
+                        json.dump({'release_time': release_time_str, 'text': "", 'url': f"https://www.gate.com/zh/announcements/article/{announcement.get('id', '')}", 'title': announcement.get('title', 'N/A'),"exchange": "gate"}, f, ensure_ascii=False, indent=4)
                     continue
                 # text_file_name = os.path.join(self.output_dir, f"gate_{article_id}.txt")
-                json_file_name = os.path.join(self.output_dir, f"gate_{article_id}.json")
+                
                 url = f"https://www.gate.com/zh/announcements/article/{announcement.get('id', '')}"
                 if os.path.exists(json_file_name):
                     print(f"公告详情已存在: {json_file_name}")

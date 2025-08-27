@@ -157,14 +157,16 @@ class BitgetScraper(BaseScraper):
             
             for i, article in enumerate(announcements):
                 article_id = article.get('simpleResult').get('contentId')
+                json_file_name = os.path.join(self.output_dir, f"bitget_{article_id}.json")
                 release_time = article.get('simpleResult').get('showTime')
                 url = f"https://www.bitget.com/support/articles/{article_id}"
                 release_time_str = pd.to_datetime(int(release_time), unit='ms', utc=True).tz_convert('Asia/Hong_Kong').strftime('%Y-%m-%d %H:%M:%S')
                 if release_time_str < (pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)).strftime('%Y-%m-%d %H:%M:%S'):
                     print(f"公告 {article.get('title', 'N/A')} 发布时间 {release_time_str} 小于 {pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)}，跳过")
+                    with open(json_file_name, 'w', encoding='utf-8') as f:
+                        json.dump({'release_time': release_time_str, 'text': "", 'url': url, 'title': article.get('title', 'N/A'),"exchange": "bitget"}, f, ensure_ascii=False, indent=4)
                     continue
                 # text_file_name = os.path.join(self.output_dir, f"bitget_{article_id}.txt")
-                json_file_name = os.path.join(self.output_dir, f"bitget_{article_id}.json")
                 if os.path.exists(json_file_name):
                     print(f"公告详情已存在: {json_file_name}")
                     continue
