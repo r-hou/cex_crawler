@@ -119,6 +119,10 @@ class OkxScraper(BaseScraper):
             processed_count = 0
             
             for i, announcement in enumerate(announcements):
+                # 获取公告详情
+                article_id = announcement.get('id', '')
+                # text_file_name = os.path.join(self.output_dir, f"bybit_{article_id}.txt")
+                json_file_name = os.path.join(self.output_dir, f"okx_{article_id}.json")
                 url = f"https://www.okx.com/zh-hans/help/{announcement.get('slug', '')}"
                 print(f"   标题: {announcement.get('title', 'N/A')}")
                 print(f"   URL: {url}")
@@ -126,11 +130,10 @@ class OkxScraper(BaseScraper):
                 release_time_str = pd.to_datetime(release_time, utc=True).tz_convert('Asia/Hong_Kong').strftime('%Y-%m-%d %H:%M:%S')
                 if release_time_str < (pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)).strftime('%Y-%m-%d %H:%M:%S'):
                     print(f"公告 {announcement.get('title', 'N/A')} 发布时间 {release_time_str} 小于 {pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)}，跳过")
+                    with open(json_file_name, 'w', encoding='utf-8') as f:
+                        json.dump({'release_time': release_time_str, 'text': "", 'url': url, 'title': announcement.get('title', 'N/A'),"exchange": "okx"}, f, ensure_ascii=False, indent=4)
                     continue
-                # 获取公告详情
-                article_id = announcement.get('id', '')
-                # text_file_name = os.path.join(self.output_dir, f"bybit_{article_id}.txt")
-                json_file_name = os.path.join(self.output_dir, f"okx_{article_id}.json")
+                
                 if os.path.exists(json_file_name):
                     print(f"公告详情已存在: {json_file_name}")
                     continue

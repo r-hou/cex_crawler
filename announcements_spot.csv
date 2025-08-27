@@ -1,46 +1,4 @@
 time,binance,bingx,bitget,bybit,coinex,gate,lbank,mexc,upbit,bithumb
-2025-08-18,"上架 PLUME
- 上架 PLUME/USDC
- 上架 PLUME/BNB
- 上架 PLUME/FDUSD
- 上架 PLUME/TRY
- 上架 PLUME
- 上架 PLUME/USDC
-","上架 LIGHT
- 下架 LIGHT
- 上架 CLIPPY
- 下架 CLIPPY
-",,,,,,,,
-2025-08-19,,,,"上架 FWOG
- 上架 WORTHLESS
- 上架 CLIPPY
- 上架 nub
-","上架 FUSD
-",,,,"上架 API3/KRW
- 上架 API3
-",
-2025-08-20,,"上架 SAPIEN
- 下架 NEND
- 下架 BEER2
- 下架 BN
- 下架 ARIX
- 下架 TRC
- 下架 PINKO
- 下架 SVN
- 下架 TX20
- 下架 BARSIK
- 下架 PDG
-","上架 SAPIEN
- 上架 DGC
-",,"下架 KLY
- 下架 BEND
- 下架 BEER
- 下架 AZUR
- 下架 BUZ
- 下架 SHARK
- 下架 STFX
- 下架 GUMMY
-",,,,,
 2025-08-21,"上架 SAPIEN
 ",,"上架 YZY
  上架 ARIA
@@ -60,7 +18,8 @@ time,binance,bingx,bitget,bybit,coinex,gate,lbank,mexc,upbit,bithumb
  下架 EVAN
  下架 O4DX
  下架 TROLL
-",,"下架 TGT
+",,"上架 BDXN
+ 下架 TGT
  下架 GST
  下架 NLK
  下架 FIRE
@@ -92,25 +51,47 @@ time,binance,bingx,bitget,bybit,coinex,gate,lbank,mexc,upbit,bithumb
  上架 SSV/USDC
  上架 UMA/USDC
 ",,"上架 TOWN
-",,,"上架 TOWN
+","上架 CFG
+",,"下架 AI3 PreToken
+ 上架 TOWN
  上架 TOWN
 ","上架 VLTX
 ",,,
 2025-08-27,"上架 BTR
 ","上架 BTR
-",,,,"上架 BTR
+","上架 CAMP
+ 上架 BTR
+","上架 CAMP
+ 上架 CAMP
+","上架 BTR
+","上架 CAMP
+ 上架 BTR
 ","上架 BTR
  上架 CAMP
  上架 DIT
 ",,,
-2025-08-28,,,,,"下架 AIPG
+2025-08-28,"上架 DOLO
+ 上架 DOLO/USDC
+ 上架 DOLO/BNB
+ 上架 DOLO/FDUSD
+ 上架 DOLO/TRY
+ 上架 MITO
+","上架 CTA
+","上架 LIVE
+",,"下架 AIPG
  下架 AIT
  下架 UWU
  下架 BRWL
  下架 RAT
  下架 LEASH
-",,,,,
-2025-08-29,,"下架 GOB
+","上架 LIVE
+ 上架 AI3
+",,"上架 LIVE
+",,
+2025-08-29,"下架 BABY/BNB
+ 下架 NXPC/FDUSD
+ 下架 SXT/FDUSD
+","下架 GOB
 ",,"下架 MAK
  下架 MNRY
  下架 SMILE
@@ -123,7 +104,16 @@ time,binance,bingx,bitget,bybit,coinex,gate,lbank,mexc,upbit,bithumb
  下架 AARK
  下架 APRS
 ",,,,,,
-2025-09-01,,,,,"下架 BUBBLE
+2025-09-01,,"下架 EBT
+ 下架 TIT
+ 下架 DLC
+ 下架 ANTT
+ 下架 GLONK
+ 下架 MDEX
+ 下架 AP
+ 下架 SHADOW
+ 下架 ORNJ
+",,,"下架 BUBBLE
  下架 LSD
  下架 DVI
  下架 BLENDR
@@ -134,4 +124,17 @@ time,binance,bingx,bitget,bybit,coinex,gate,lbank,mexc,upbit,bithumb
  下架 COMBO
  下架 LUMO
  下架 SUPFRIEND
+",,,,,
+2025-09-03,,,,,"下架 CHO
+ 下架 EVER
+ 下架 KP3R
+ 下架 CONVO
+ 下架 PIP
+ 下架 PUFF
+ 下架 ORA
+ 下架 METAV
+ 下架 FLX
+ 下架 BUCKAZOIDS
+ 下架 KITTY
+ 下架 MSTAR
 ",,,,,

@@ -176,6 +176,8 @@ class BitunixScraper(BaseScraper):
                     release_time_str = pd.to_datetime(release_time, utc=True).tz_convert('Asia/Hong_Kong').strftime('%Y-%m-%d %H:%M:%S')
                     if release_time_str < (pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)).strftime('%Y-%m-%d %H:%M:%S'):
                         print(f"公告 {article.get('title', 'N/A')} 发布时间 {release_time_str} 小于 {pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)}，跳过")
+                        with open(json_file_name, 'w', encoding='utf-8') as f:
+                            json.dump({'release_time': release_time_str, 'text': "", 'url': url, 'title': article.get('title', 'N/A'),"exchange": "bitunix"}, f, ensure_ascii=False, indent=4)
                         continue
                     if detail_result:
                         print("\n=== 纯文字内容 ===")

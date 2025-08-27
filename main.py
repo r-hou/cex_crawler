@@ -39,9 +39,9 @@ def save_accoucements_to_csv():
     for file in files:
         with open(file, 'r') as f:
             data = json.load(f)
-            # Update file path to point to corresponding text file
-            text_file = file.replace(".json", ".txt")
-            data = [{**{"file": text_file}, **i} for i in data]
+            if isinstance(data, dict):
+                data = [data]
+            data = [{**{"file": file}, **i} for i in data]
             announcements += data
     df = pd.DataFrame(announcements)
     today = pd.to_datetime(pd.Timestamp.now(tz='Asia/Shanghai').strftime("%Y-%m-%d"))
@@ -62,6 +62,9 @@ def save_accoucements_to_csv():
     df['time'] = pd.to_datetime(df['time'])
     # 过滤最近7天的数据
     df = df[df['time'] >= start_date]
+    df = df[df["release_time"] >= today-pd.Timedelta(days=OFFSET_DAYS)]
+    # df = df[df["content"].isna()]
+    # print(df[df["symbol"].isna()])
     df["description"] = df.apply(lambda x: x["comments"] + x["action"] + " " + x["symbol"].replace("/USDT", "").replace("USDT", "")+"\n", axis=1)
     spot_df = df[(df["type"] == "现货") & df["exchange"].isin(SPOT_CEX)]
     spot_df = spot_df.groupby(["time", "exchange"]).agg({"description": " ".join})
@@ -174,7 +177,7 @@ async def crawl_announcements():
                 print(f"[ProcessPool] Error in {name}: {e}")
 
 async def main():
-    # await crawl_announcements()
+    await crawl_announcements()
     save_accoucements_to_csv()
     generate_static_html()
 

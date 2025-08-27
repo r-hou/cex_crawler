@@ -1,75 +1,30 @@
-time,binance,bingx,bitunix,blofin,btcc,bybit,lbank,mexc,okx,bitget,gate,weex
-2025-08-18,"上架 PLUME
- 上架 PLUME/USDC
-","上架 DAM
-",,"上架 DAM
- 上架 BTC/USDC
- 上架 ETH/USDC
- 上架 DOGE/USDC
- 上架 SOL/USDC
- 上架 XRP/USDC
- 上架 BNB/USDC
- 上架 SUI/USDC
- 上架 LINK/USDC
- 上架 ENA/USDC
- 上架 ADA/USDC
- 下架 D
- 下架 SEND
- 下架 QUICK
- 下架 SCRT
- 下架 HIVE
- 下架 ALU
- 下架 ROAM
- 下架 DOLO
- 下架 SOSO
- 下架 PORT3
- 下架 NXPC
- 下架 LAUNCHCOIN
- 下架 XION
- 下架 GIGA
- 下架 CLOUD
- 下架 DUCK
- 下架 HPOS10l
- 下架 DMC
- 下架 TANSSI
- 下架 10000COQ
-",,"上架 DAM
- 下架 MKR
-",,,,,,
-2025-08-20,"上架 CUDIS
-",,,"上架 CUDIS
- 上架 SAPIEN
-",,"上架 SAPIEN
-",,,,,,
+time,binance,bingx,bitget,bitunix,blofin,btcc,bybit,lbank,mexc,okx,gate,weex
 2025-08-21,"上架 SAPIEN
 ","上架 YZY
  上架 SAPIEN
-","上架 YZY
+",,"上架 YZY
 ","上架 YZY
 ",,"上架 YZY
-",,,,,,
+",,,,,
 2025-08-22,"上架 XPL
-",,"上架 CUDIS
+",,,"上架 CUDIS
  上架 OKB
  下架 CSPR
 ",,,"上架 XPL
-",,,,,,
+",,,,,
 2025-08-23,"上架 WLFI
-",,,"上架 XPL
+",,,,"上架 XPL
  上架 WLFI
 ",,"上架 WLFI
 ",,,"上架 WLFI
-",,,
-2025-08-24,,,"上架 WLFI
+",,
+2025-08-24,,,,"上架 WLFI
 ",,,,,"上架 FST
-",,,,
+",,,
 2025-08-25,"上架 BIO/USDC
  上架 SOMI
-","待确定上架 PUMP
- 上架 QTUM
- 待确定上架 WLFI
- 待确定上架 XPL
-","上架 XPL
+","上架 QTUM
+",,"上架 XPL
 ",,"上架 BTC
  上架 ETH
  上架 LTC
@@ -84,24 +39,52 @@ time,binance,bingx,bitunix,blofin,btcc,bybit,lbank,mexc,okx,bitget,gate,weex
  上架 NVDAX
  上架 AAPLX
 ","上架 TAKE
- 待确定上架 BTR
  上架 PUMP/USDC
  上架 BIO/USDC
  上架 SOMI
  上架 DONKEY
-",,,,
-2025-08-26,,,,"下架 TLM
+",,,
+2025-08-26,"上架 BAS
+","上架 BAS
+",,,"上架 BAS
+ 下架 TLM
  下架 COS
  下架 1000XEC
  下架 1000BTT
-",,,,,,,,
+",,,,"上架 XCX
+",,,
 2025-08-27,"上架 BTR
-",,,,,,,,,,,
+","上架 BTR
+ 上架 CRO
+","上架 BTR
+",,"上架 BTR
+",,"上架 BSU
+ 上架 BTR
+","上架 METAX
+ 上架 CAMP
+ 上架 BTR
+ 上架 HOODX
+ 上架 COINx
+","上架 CAMP
+",,,
+2025-08-28,"上架 MITO
+","待确定上架 PUMP
+ 待确定上架 WLFI
+ 待确定上架 XPL
+",,,,,,,"上架 LIVE
+ 上架 MITO
+ 待确定上架 BTR
+",,,
 2025-08-29,,"下架 XLMUSD
  下架 OPUSD
  下架 TRXUSD
-",,,,,,,"下架 JST
-",,,
+",,,"下架 NTRN
+ 下架 HEI
+ 下架 KOMA
+ 下架 NKN
+ 下架 JST
+",,,,,"下架 JST
+",,
 2025-09-01,,"下架 ROAM
  下架 BULLA
  下架 RFC

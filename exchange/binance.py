@@ -236,11 +236,14 @@ class BinanceScraper(BaseScraper):
             for i, announcement in enumerate(announcements):
                 try:
                     article_id = announcement.get('code')
+                    json_filepath = os.path.join(self.output_dir, f"binance_{article_id}.json")
                     title = announcement.get('title', 'N/A')
                     release_time = int(announcement.get('releaseDate', 'N/A'))
                     release_time_str = pd.to_datetime(release_time, unit='ms', utc=True).tz_convert('Asia/Hong_Kong').strftime('%Y-%m-%d %H:%M:%S')
                     if release_time_str < (pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)).strftime('%Y-%m-%d %H:%M:%S'):
                         print(f"公告 {title} 发布时间 {release_time_str} 小于 {pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)}，跳过")
+                        with open(json_filepath, 'w', encoding='utf-8') as f:
+                            json.dump({'release_time': release_time_str, 'text': "", 'url': f"https://www.binance.com/zh-CN/support/announcement/detail/{article_id}", 'title': title,"exchange": "binance"}, f, ensure_ascii=False, indent=4)
                         continue
 
                     if not article_id:
@@ -250,7 +253,6 @@ class BinanceScraper(BaseScraper):
                     
                     # 检查文件是否已存在
                     # text_filepath = os.path.join(self.output_dir, f"binance_{article_id}.txt")
-                    json_filepath = os.path.join(self.output_dir, f"binance_{article_id}.json")
                     if os.path.exists(json_filepath):
                         print(f"公告详情已存在，跳过")
                         continue
