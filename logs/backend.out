@@ -1,0 +1,12 @@
+/root/cex_crawler/generate_html.py:134: SyntaxWarning: invalid escape sequence '\s'
+  function shortText(t, n=120) { if(!t) return ''; const s = String(t).replace(/\s+/g,' ').trim(); return s.length>n ? s.slice(0,n) + '…' : s; }
+INFO:     Started server process [135385]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8888 (Press CTRL+C to quit)
+Static HTML generated: announcements.html
+INFO:     219.79.165.127:65260 - "GET / HTTP/1.1" 200 OK
+INFO:     219.79.165.127:65260 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.

@@ -1,13 +1,7 @@
-[
-  {
-    "symbol": "OKT/USDT",
-    "action": "下架",
-    "type": "现货",
-    "time": "2025-08-13",
-    "exchange": "okx",
-    "title": "关于 X Layer 完成 PP 升级及启动OKB Gas Token 经济模型优化的公告",
-    "url": "https://www.okx.com/zh-hans/help/announcement-on-the-pp-upgrade-of-x-layer-and-optimisation-of-the-okb-gas",
+{
     "release_time": "2025-08-13 14:10:00",
-    "content": "关于 X Layer 完成 PP 升级及启动OKB Gas Token 经济模型优化的公告发布于 2025年8月13日阅读时长 3 分钟亲爱的 X Layer 社区成员、生态伙伴及广大用户：自 2023 年欧易携手 Polygon 推出基于 zkEVM 的公链 X Layer 以来，我们在技术性能与生态建设方面取得了阶段性成果。面对去中心化世界的持续扩张，欧易决定对 X Layer 进行战略级升级，将其打造为专注 DeFi、支付与 RWA 场景的领先公链。现就本次升级的核心内容与时间表公告如下。1. 底层技术—PP 升级随着 Polygon 技术栈战略调整，X Layer 已经全面接入 Polygon CDK (原 zkEVM) 的最新版本，并于2025年8月5日完成 “PP 升级”。性能提升吞吐量：TPS 提升至 5000，满足高并发交易需求Gas 成本：降低到忽略不计，提升用户交易体验安全性与兼容性：与 Ethereum 主网保持更高一致性，支持更丰富的开发工具链2. 生态建设战略重点场景：面向 DeFi、全球支付与现实世界资产 (RWA) 发行流转激励计划：设立生态基金及流动性激励，吸引开发者与项目方入驻基础设施：完善跨链桥、预言机、合规服务等关键组件，加速生态应用落地3. 深度与 OKX Wallet、OKX Exchange、OKX Pay 整合OKX Wallet全面集成 X Layer 网络，支持全球低 Gas 交易丰富的链上生态OKX Exchange推出 0 Gas 快速提币：USDT 等主流资产一键直达 X Layer，秒级到账OKX Pay默认采用 X Layer 作为支付底层公链，带来更快、更省、更安全的结算体验4. OKTChain 下线鉴于 OKTChain 与 X Layer 在定位与功能上高度重叠，X Layer 团队将分阶段终止 OKTChain 的技术维护与流通支持。自2025年8月13日 2:10 PM 起 (UTC+8），OKT 将在欧易交易所停止交易。届时，所有未完成撤单的挂单将被系统自动撤销。自2025年8月15日起，对于届时仍持有 OKT 的用户资产，欧易交易所会按2025年7月13日至8月12日期间 OKB 和 OKT 在欧易交易所会现货市场的平均收盘价 (“平均收盘价”) 定期自动把用户的 OKT 兑换为等值 OKB。OKTChain 将持续运行至2026年1月1日，在此之前链上 OKT 持有者可以在任何时候充值 OKT 到欧易。欧易交易所会按上条规则定期自动把用户的 OKT 按平均收盘价兑换为等值 OKB。OKT 必须存在资金账户中才能兑换。5. 原生 Gas 代币 —— OKB 经济模型升级Gas 和原生代币角色：OKB 将继续作为 X Layer 唯一 Gas 和原生代币。自公告日起，OKB (Ethereum L1 版本) 将逐步停止使用。请持有者先将 Ethereum L1 OKB 充值至欧易交易所，并使用“提现到 X Layer”功能完成一键换链。未来，欧易交易所将不再支持 OKB 提现至 Ethereum L1。一次性销毁历史回购以及预留的 OKB 65,256,712.097 枚 OKX 将对历史回购以及预留的 65,256,712.097 枚 OKB 进行一次性销毁，并改用智能合约自动销毁转入黑洞地址的全部 OKB。该操作完成后，我们将停止 OKB 人工销毁，OKB 的总发行量将固定为 2100 万枚。升级 OKB 智能合约：完成一次性销毁以后，我们将升级 OKB 智能合约，移除增发和销毁的功能。具体实施时间表如下：2025年8月13日 2:10 PM (UTC+8)：OKT 停止在欧易交易所交易，OKTChain 仍将正常出块并处理链上交易2025年8月13日 3:00 PM (UTC+8)：欧易交易所将停止提 OKB 到 ETH L12025年8月15日 10:00 AM (UTC+8)：平台自动将用户账户内的 OKT 按规则兑换为 OKB2025年8月15日 2:00 PM (UTC+8)：一次性销毁历史回购的 OKB，并且调用智能合约进行链上销毁2025年8月18日 2:00 PM (UTC+8)：升级 OKB 智能合约，移除增发和销毁的功能本公告所载信息仅供参考，并不构成对任何产品的要约、招揽或建议，也不应视为理财或投资建议。欧易拥有对实施细节和时间的最终决定权。"
-  }
-]
+    "text": "",
+    "url": "https://www.okx.com/zh-hans/help/announcement-on-the-pp-upgrade-of-x-layer-and-optimisation-of-the-okb-gas",
+    "title": "关于 X Layer 完成 PP 升级及启动OKB Gas Token 经济模型优化的公告",
+    "exchange": "okx"
+}

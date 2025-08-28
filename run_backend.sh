@@ -8,7 +8,7 @@ LOG_DIR="$DIR/logs"
 PID_FILE="$DIR/backend.pid"
 
 # Config (override via env vars)
-PYTHON_BIN="${PYTHON_BIN:-python3}"
+PYTHON_BIN="/root/miniconda3/bin/python"
 HOST="${HOST:-0.0.0.0}"
 PORT="${PORT:-8888}"
 APP_MODULE="${APP_MODULE:-backend:app}"
