@@ -126,6 +126,7 @@ class CoinexScraper(BaseScraper):
             
             for i, article in enumerate(announcements):
                 article_id = article.get('id')
+                url = f"https://www.coinex.com/en/announcements/detail/{article_id}"
                 json_file_name = os.path.join(self.output_dir, f"coinex_{article_id}.json")
                 release_time = article.get('created_at')
                 release_time_str = pd.to_datetime(release_time, unit='s', utc=True).tz_convert('Asia/Hong_Kong').strftime('%Y-%m-%d %H:%M:%S')
@@ -138,7 +139,6 @@ class CoinexScraper(BaseScraper):
                 if os.path.exists(json_file_name):
                     print(f"公告详情已存在: {json_file_name}")
                     continue
-                url = f"https://www.coinex.com/en/announcements/detail/{article_id}"
                 print("=== 获取公告详情 ===")
                 print(f"   标题: {article.get('title', 'N/A')}")
                 print(f"   URL: {url}")

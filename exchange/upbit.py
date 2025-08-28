@@ -45,7 +45,7 @@ class UpbitScraper(BaseScraper):
             
             # 获取公告分类数据
             announcements = self.get_announcements_id()
-            
+            processed_count = 0
             for i, article in enumerate(announcements):
                 article_id = article.get('id')
                 url = f"https://upbit.com/service_center/notice?id={article_id}"

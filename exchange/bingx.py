@@ -302,7 +302,7 @@ class BingxScraper(BaseScraper):
             
             # 限制调试模式下的处理数量
             # announcements = self.limit_results_for_debug(announcements)
-            print(announcements)
+            # print(announcements)
             processed_count = 0
             for i, article in enumerate(announcements):
                 try:

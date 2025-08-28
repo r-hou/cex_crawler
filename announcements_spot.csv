@@ -37,7 +37,8 @@ time,binance,bingx,bitget,bybit,coinex,gate,lbank,mexc,upbit,bithumb
 ",,,,,,,
 2025-08-24,,,,,,"上架 WLFI
  上架 FST
-",,"上架 FST
+",,"上架 WOLFTON
+ 上架 FST
 ",,
 2025-08-25,,"上架 WLFI
  上架 MTP
@@ -45,7 +46,8 @@ time,binance,bingx,bitget,bybit,coinex,gate,lbank,mexc,upbit,bithumb
 ",,,,"上架 CUDIS
 ","上架 RETIRE
  上架 BALAJIS
-","上架 MTP
+","上架 WEASY
+ 上架 MTP
 ",,
 2025-08-26,"上架 A2Z/USDC
  上架 SSV/USDC
@@ -57,7 +59,10 @@ time,binance,bingx,bitget,bybit,coinex,gate,lbank,mexc,upbit,bithumb
  上架 TOWN
 ","上架 VLTX
 ",,,
-2025-08-27,"上架 BTR
+2025-08-27,"上架 DOLO
+ 上架 DOLO/USDC
+ 上架 DOLO/BTC
+ 上架 BTR
 ","上架 BTR
 ","上架 CAMP
  上架 BTR
@@ -66,17 +71,20 @@ time,binance,bingx,bitget,bybit,coinex,gate,lbank,mexc,upbit,bithumb
 ","上架 BTR
 ","上架 CAMP
  上架 BTR
-","上架 BTR
+","上架 GOAT
+ 上架 BTR
  上架 CAMP
  上架 DIT
-",,,
+","上架 RISE
+",,
 2025-08-28,"上架 DOLO
  上架 DOLO/USDC
  上架 DOLO/BNB
  上架 DOLO/FDUSD
  上架 DOLO/TRY
  上架 MITO
-","上架 CTA
+","上架 CRO
+ 上架 CTA
 ","上架 LIVE
 ",,"下架 AIPG
  下架 AIT
@@ -86,12 +94,17 @@ time,binance,bingx,bitget,bybit,coinex,gate,lbank,mexc,upbit,bithumb
  下架 LEASH
 ","上架 LIVE
  上架 AI3
-",,"上架 LIVE
+","上架 AUBRAI
+ 上架 MITO
+","上架 LIVE
 ",,
-2025-08-29,"下架 BABY/BNB
+2025-08-29,"上架 HEMI
+ 下架 BABY/BNB
  下架 NXPC/FDUSD
  下架 SXT/FDUSD
-","下架 GOB
+","上架 HEMI
+ 上架 MISSION
+ 下架 GOB
 ",,"下架 MAK
  下架 MNRY
  下架 SMILE
@@ -103,7 +116,15 @@ time,binance,bingx,bitget,bybit,coinex,gate,lbank,mexc,upbit,bithumb
  下架 CATS
  下架 AARK
  下架 APRS
-",,,,,,
+",,"上架 MISSION
+ 上架 CELB
+","上架 CORN
+ 上架 UCN
+","上架 HEMI
+ 上架 HEMI/USDC
+",,
+2025-08-30,,,,,,"上架 AIOT
+",,,,
 2025-09-01,,"下架 EBT
  下架 TIT
  下架 DLC

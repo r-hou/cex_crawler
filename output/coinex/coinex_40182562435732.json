@@ -1,13 +1,7 @@
-[
-  {
-    "symbol": "YALA/USDT",
-    "action": "上架",
-    "type": "现货",
-    "time": "2025-08-13",
-    "exchange": "coinex",
-    "title": "CoinEx Will List YALA (Yala) on Aug 13, 2025",
-    "url": "https://www.coinex.com/en/announcements/detail/40182562435732",
+{
     "release_time": "2025-08-12 17:59:08",
-    "content": "Dear CoinEx users, To provide you with more trading options, after rigorous reviews, CoinEx will list YALA (Yala) on Aug 13, 2025. The details are as follows: List Time1. Deposit: 03:00 on Aug 13 (UTC)2. Withdrawal: 03:00 on Aug 13(UTC)3. Trading pair: YALA/USDT4. Opening method: Call Auction    a. Call Auction        03:00-03:20 Aug 13 (UTC)        Orders can be placed and canceled        03:20-03:30 Aug 13 (UTC)        Orders can be placed but cannot be canceled       b. Trading        03:30 Aug 13 (UTC)5. Service support: YALA/USDT supports AMM, Spot Grid, and Auto-Invest Plan. YALA (BEP20): 0xf970706063b7853877f39515c96932d49d5ac9cd About YALAYala is a Bitcoin-native liquidity protocol that bridges Bitcoin to DeFi and real-world asset yields without relinquishing custody. It enables users to deposit BTC and mint $YU, a Bitcoin-backed stablecoin, unlocking cross-chain liquidity and yield farming. The system emphasizes security, composability, capital efficiency, and decentralization, governed by its community. Yala’s token, $YALA, serves governance, utility, and recapitalization roles, incentivizing participation, securing infrastructure, and enabling transparent decentralized decision-making.Learn more about YALA>> About Automated Market Making (AMM)AMM is supported for the YALA/USDT market. CoinEx AMM allows every user to become a market maker. By adding liquidity to the liquidity pool, users can share 50% of the trading fees earned in this market. The fee dividends are calculated daily. Learn about AMM >> About Spot GridSpot Grid is supported for the YALA/USDT market. Spot Grid is a trading strategy suitable for volatile markets. It helps you capture profits in market fluctuations by automatically executing buy low and sell high within a certain market range 24 hours a day. Learn about Spot Grid >> About Auto-Invest PlanAuto-Invest Plan is supported for the YALA/USDT market. CoinEx Auto-Invest Plan is a trading strategy that helps you automatically accumulate crypto assets via pre-set investment and recurring cycles. It has the advantages of automatic execution, convenience, and friendly entry. With a minimum of 1 USDT, you can make stable investments and realize wealth growth. Learn about Auto-Invest Plan >> Risk ReminderCrypto products are innovative investment products with large price fluctuations as well as high investment risks. Therefore, please evaluate and invest wisely based on your risk tolerance and financial resources. CoinEx reserves the final interpretation of this announcement. CoinEx TeamAug 12, 2025  · Invite friends to register and share up to 40% trading fee rebate. More free vouchers await you >>>· Learn about CoinEx’s latest coin listing info in the New Listing zone >>>· Join CoinEx official community to get the latest asset listing updates and unlock exclusive benefits >>>· Follow CoinEx Global Twitter to learn about the latest market trends and win gifts >>>"
-  }
-]
+    "text": "",
+    "url": "https://www.coinex.com/en/announcements/detail/40182562435732",
+    "title": "CoinEx Will List YALA (Yala) on Aug 13, 2025",
+    "exchange": "upbit"
+}

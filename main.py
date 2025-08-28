@@ -22,6 +22,12 @@ from exchange.coinex import CoinexScraper
 from exchange.upbit import UpbitScraper
 from deepseek_analyzer import DeepSeekAnalyzer
 from generate_html import generate_static_html
+
+pd.set_option('display.max_columns', None)
+pd.set_option('display.max_rows', None)
+pd.set_option('display.width', None)
+pd.set_option('display.max_colwidth', None)
+
 # Configuration
 DEBUG_MODE = True  # Set to True for debug mode
 MAX_DEBUG_SIZE = 5  # Maximum announcements per exchange in debug mode
@@ -38,6 +44,7 @@ def save_accoucements_to_csv():
     announcements = []
     for file in files:
         with open(file, 'r') as f:
+            print(file)
             data = json.load(f)
             if isinstance(data, dict):
                 data = [data]
@@ -56,6 +63,7 @@ def save_accoucements_to_csv():
     df = df.sort_values(by=["release_date", "exchange"], ascending=False)
     df = df.drop(columns=["release_date"])
     df = df[["release_time","time", "exchange", "symbol", "type", "action", "title", "url", "content", "content", "file", "comments"]]
+    df = df[df["symbol"].notna() & (df["action"]!="") & df["action"].notna()]
     df.to_csv("announcements.csv", index=False)
     df = df.drop(columns=["file"])
     # 转换时间列，确保没有时区信息
@@ -65,6 +73,7 @@ def save_accoucements_to_csv():
     df = df[df["release_time"] >= today-pd.Timedelta(days=OFFSET_DAYS)]
     # df = df[df["content"].isna()]
     # print(df[df["symbol"].isna()])
+    print(df[df["symbol"].isna()])
     df["description"] = df.apply(lambda x: x["comments"] + x["action"] + " " + x["symbol"].replace("/USDT", "").replace("USDT", "")+"\n", axis=1)
     spot_df = df[(df["type"] == "现货") & df["exchange"].isin(SPOT_CEX)]
     spot_df = spot_df.groupby(["time", "exchange"]).agg({"description": " ".join})
