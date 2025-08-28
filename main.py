@@ -177,8 +177,8 @@ async def crawl_announcements():
                 print(f"[ProcessPool] Error in {name}: {e}")
 
 async def main():
-    # await crawl_announcements()
-    # save_accoucements_to_csv()
+    await crawl_announcements()
+    save_accoucements_to_csv()
     generate_static_html()
 
 if __name__ == "__main__":
