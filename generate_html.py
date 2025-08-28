@@ -37,6 +37,16 @@ def generate_static_html(input_csv: str = "announcements.csv", output_html: str 
     records = df.to_dict(orient="records")
 
     import json as _json
+    from datetime import datetime
+    try:
+        from zoneinfo import ZoneInfo
+        _hk_tz = ZoneInfo("Asia/Hong_Kong")
+        _tz_label = "HKT"
+    except Exception:
+        _hk_tz = None
+        _tz_label = "HKT"
+    _now_hk = datetime.now(_hk_tz) if _hk_tz else datetime.utcnow()
+    gen_time_str = _now_hk.strftime("%Y-%m-%d %H:%M:%S") + f" {_tz_label}"
     data_json = _json.dumps(records, ensure_ascii=False)
 
     html = """
@@ -104,6 +114,7 @@ def generate_static_html(input_csv: str = "announcements.csv", output_html: str 
         <label class="muted">End: <input type="date" id="endDate"></label>
         <div class="controls">
           <span class="counter" id="countLabel"></span>
+          <span class="counter" id="genTime">%%GENTIME%%</span>
         </div>
       </div>
     </div>
@@ -201,7 +212,7 @@ def generate_static_html(input_csv: str = "announcements.csv", output_html: str 
 
     try:
         with open(output_html, "w", encoding="utf-8") as f:
-            f.write(html.replace("%%DATA%%", data_json))
+            f.write(html.replace("%%DATA%%", data_json).replace("%%GENTIME%%", gen_time_str))
         print(f"Static HTML generated: {output_html}")
     except Exception as e:
         print(f"Failed to write {output_html}: {e}")
