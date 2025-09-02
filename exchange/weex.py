@@ -107,7 +107,7 @@ class WeexScraper(BaseScraper):
                     print("未找到article-author元素")
                     release_time = None
             except Exception as e:
-                print(f"获取release_time时出错: {e}")
+                print(f"获取release_time时出错: {traceback.format_exc()}")
                 release_time = None
 
 
@@ -118,7 +118,7 @@ class WeexScraper(BaseScraper):
             }
             
         except Exception as e:
-            print(f"获取公告详情失败: {e}")
+            print(f"获取公告详情失败: {traceback.format_exc()}")
             return None
     
     

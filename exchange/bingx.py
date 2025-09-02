@@ -25,21 +25,6 @@ class BingxScraper(BaseScraper):
         
 
     
-    def get_json_from_html(self, html_content):
-        """从HTML内容中提取JSON数据"""
-        try:
-            soup = BeautifulSoup(html_content, 'html.parser')
-            pre_tag = soup.find('pre')
-            if pre_tag and pre_tag.string:
-                return json.loads(pre_tag.string.strip())
-        except json.JSONDecodeError as e:
-            print(f"从<pre>标签解析JSON失败: {e}")
-            print("返回HTML内容供调试")
-            return html_content
-        except Exception as e:
-            print(f"解析页面内容失败: {e}")
-            return html_content
-    
     def get_announcement_url(self, content):
         soup = BeautifulSoup(content, 'html.parser')
         li_tags = soup.find_all('li', class_="article-item")
@@ -65,9 +50,9 @@ class BingxScraper(BaseScraper):
                 announcement_url = a_tag.get('href')
                 break
         if len(announcement_url) == 0:
-            print("未找到公告链接")
+            self.log("ERROR", "未找到公告链接")
             exit()
-        print(f"公告链接: {announcement_url}")
+        self.log("INFO", f"公告链接: {announcement_url}")
         
         while announcement_url[-1] == '/':
             announcement_url = announcement_url[:-1]
@@ -84,9 +69,9 @@ class BingxScraper(BaseScraper):
             if "delisting" in a_tag.get_text(strip=True).lower():
                 delisting_url = "https://bingx.com" + a_tag.get('href')
     
-        print(f"Spot Listing URL: {spot_listing_url}")
-        print(f"Future Listing URL: {future_listing_url}")
-        print(f"Delisting URL: {delisting_url}")
+        self.log("INFO", f"Spot Listing URL: {spot_listing_url}")
+        self.log("INFO", f"Future Listing URL: {future_listing_url}")
+        self.log("INFO", f"Delisting URL: {delisting_url}")
         
         spot_listing_section_id = spot_listing_url.split("/")[-1]
         future_listing_section_id = future_listing_url.split("/")[-1]
@@ -101,8 +86,6 @@ class BingxScraper(BaseScraper):
             (delisting_section_id, delisting_url)
         ]:
             try:
-                print(f"正在访问页面获取section {section_id} 的数据...")
-                
                 # 设置网络监听器
                 api_responses = []
                 
@@ -111,7 +94,6 @@ class BingxScraper(BaseScraper):
                         try:
                             json_data = await response.json()
                             api_responses.append(json_data)
-                            print(f"捕获到API响应: {len(json_data.get('data', {}).get('result', []))} 条记录")
                         except:
                             pass
                 
@@ -139,22 +121,20 @@ class BingxScraper(BaseScraper):
                                 announcement['full_url'] = f"https://bingx.com/en/support/articles/{announcement['id']}"
                         
                         announcements.extend(section_announcements)
-                        print(f"成功获取 {len(section_announcements)} 条公告 from section {section_id}")
                 
                 await self.random_delay(2, 3)
                 
             except Exception as e:
-                print(f"处理section {section_id} 时发生异常: {e}")
+                self.log("ERROR", f"处理section {section_id} 时发生异常: {traceback.format_exc()}")
                 continue
         
         # 如果网络监听没有获取到数据，尝试直接解析页面内容
         if not announcements:
-            print("网络监听未获取到数据，尝试解析页面内容...")
+            self.log("ERROR", "网络监听未获取到数据，尝试解析页面内容...")
             announcements = await self.parse_announcements_from_pages([
                 spot_listing_url, future_listing_url, delisting_url
             ])
         
-        print(f"总共获取到 {len(announcements)} 条公告")
         return announcements
 
     async def parse_announcements_from_pages(self, urls):
@@ -163,7 +143,6 @@ class BingxScraper(BaseScraper):
         
         for url in urls:
             try:
-                print(f"正在解析页面: {url}")
                 await self.page.goto(url)
                 await self.random_delay(3, 5)
                 
@@ -186,7 +165,6 @@ class BingxScraper(BaseScraper):
                 for selector in selectors:
                     links = soup.select(selector)
                     if links:
-                        print(f"使用选择器 {selector} 找到 {len(links)} 个链接")
                         for link in links:
                             title = link.get_text(strip=True)
                             href = link.get('href', '')
@@ -203,7 +181,7 @@ class BingxScraper(BaseScraper):
                         break
                 
             except Exception as e:
-                print(f"解析页面 {url} 时出错: {e}")
+                self.log("ERROR", f"解析页面 {url} 时出错: {traceback.format_exc()}")
                 continue
         
         return announcements
@@ -234,7 +212,7 @@ class BingxScraper(BaseScraper):
             return text.strip()
             
         except Exception as e:
-            print(f"文字提取失败: {e}")
+            self.log("ERROR", f"文字提取失败: {traceback.format_exc()}")
             # 如果BeautifulSoup失败，使用简单的正则表达式
             try:
                 # 移除HTML标签
@@ -255,7 +233,6 @@ class BingxScraper(BaseScraper):
     
     async def get_announcement_detail(self, full_url):
         """获取公告详情"""
-        print(f"正在获取公告详情: {full_url}")
         
         try:
             content = await self.get_page_content(full_url, 'load')
@@ -269,10 +246,9 @@ class BingxScraper(BaseScraper):
                 # 将article-body div及其子标签转换为字符串
                 article_body_html = str(article_body)
                 text_content = self.extract_text_from_html(article_body_html)
-                print("成功找到article-body标签")
             else:
                 # 如果没找到article-body，使用整个页面内容
-                print("未找到article-body标签，使用整个页面内容")
+                self.log("ERROR", "未找到article-body标签，使用整个页面内容")
                 text_content = self.extract_text_from_html(content)
 
             return {
@@ -281,7 +257,7 @@ class BingxScraper(BaseScraper):
             }
             
         except Exception as e:
-            print(f"获取公告详情失败: {e}")
+            self.log("ERROR", f"获取公告详情失败: {traceback.format_exc()}")
             return None
     
     
@@ -291,13 +267,13 @@ class BingxScraper(BaseScraper):
         try:
             await self.init_browser()
             
-            print(f"=== 开始抓取 {self.exchange_name} 公告 ===")
+            self.log("INFO", f"开始抓取 {self.exchange_name} 公告", console=True)
             
             # 获取公告列表
             announcements = await self.get_announcements_id()
 
             if not announcements:
-                print("未获取到公告")
+                self.log("ERROR", "未获取到公告", console=True)
                 return
             
             # 限制调试模式下的处理数量
@@ -312,7 +288,7 @@ class BingxScraper(BaseScraper):
                     if not full_url:
                         continue
                         
-                    print(f"\n处理公告 {i+1}/{len(announcements)}: {title}")
+                    self.log("INFO", f"处理公告 {i+1}/{len(announcements)}: {title}", console=True)
                     
                     # 生成文件ID
                     file_id = article.get('articleId', '')
@@ -320,7 +296,7 @@ class BingxScraper(BaseScraper):
                     release_time = article.get('updateTime', '')
                     release_time_str = pd.to_datetime(release_time).tz_convert('Asia/Hong_Kong').strftime('%Y-%m-%d %H:%M:%S')
                     if release_time_str < (pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)).strftime('%Y-%m-%d %H:%M:%S'):
-                        print(f"公告 {title} 发布时间 {release_time_str} 小于 {pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)}，跳过")
+                        self.log("INFO", f"公告 {title} 发布时间 {release_time_str} 小于 {pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)}，跳过", console=True)
                         with open(json_filepath, 'w', encoding='utf-8') as f:
                             json.dump({'release_time': release_time_str, 'text': "", 'url': full_url, 'title': title,"exchange": "bingx"}, f, ensure_ascii=False, indent=4)
                         continue
@@ -330,24 +306,19 @@ class BingxScraper(BaseScraper):
                     
                     
                     if os.path.exists(json_filepath):
-                        print(f"公告详情已存在，跳过")
+                        self.log("INFO", f"公告详情已存在，跳过", console=True)
                         continue
                     
                     # 获取公告详情
                     detail_result = await self.get_announcement_detail(full_url)
                     if not detail_result:
-                        print("获取详情失败")
+                        self.log("ERROR", "获取详情失败")
                         continue
                     
                     text_content = detail_result['text']
                     if not text_content.strip():
-                        print("文本内容为空")
+                        self.log("ERROR", "文本内容为空")
                         continue
-                    # with open(text_filepath, 'w', encoding='utf-8') as f:
-                    #     f.write(text_content)
-                    # print(f"\n纯文字内容已保存到: {text_filepath}")
-                    # 使用基类方法分析和保存
-                    # analyzer = DeepSeekAnalyzer(api_key="sk-790c031d07224ee9a905c970cefffcba")
                     analysis_result = self.analyzer.analyze_announcement(text_content)
                     
                     # 显示分析结果
@@ -371,14 +342,13 @@ class BingxScraper(BaseScraper):
                     await self.random_delay(2, 5)
                     
                 except Exception as e:
-                    print(f"处理公告时出错: {traceback.format_exc()}")
+                    self.log("ERROR", f"处理公告时出错: {traceback.format_exc()}")
                     continue
             
-            print(f"\n=== {self.exchange_name} 抓取完成，共处理 {processed_count} 个公告 ===")
+            self.log("INFO", f"{self.exchange_name} 抓取完成，共处理 {processed_count} 个公告")
             
         except Exception as e:
-            print(f"程序执行出错: {traceback.format_exc()}")
-            traceback.print_exc()
+            self.log("ERROR", f"程序执行出错: {traceback.format_exc()}", console=True)
         finally:
             await self.cleanup_browser()
 

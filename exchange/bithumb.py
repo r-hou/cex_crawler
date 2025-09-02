@@ -56,14 +56,14 @@ class BithumbScraper(BaseScraper):
                             await self.random_delay(10, 15)
                             
                     except Exception as e:
-                        print(f"等待Cloudflare检查时出错: {e}")
+                        print(f"等待Cloudflare检查时出错: {traceback.format_exc()}")
                         await self.random_delay(5, 8)
                 else:
                     print("页面正常加载，未遇到Cloudflare保护")
                     return await self.page.content()
                     
             except Exception as e:
-                print(f"第 {attempt + 1} 次尝试失败: {e}")
+                print(f"第 {attempt + 1} 次尝试失败: {traceback.format_exc()}")
                 if attempt < max_retries - 1:
                     await self.random_delay(5, 10)
                 else:
@@ -72,20 +72,6 @@ class BithumbScraper(BaseScraper):
         raise Exception("无法绕过Cloudflare保护")
 
     
-    def get_json_from_html(self, html_content):
-        """从HTML内容中提取JSON数据"""
-        try:
-            soup = BeautifulSoup(html_content, 'html.parser')
-            pre_tag = soup.find('pre')
-            if pre_tag and pre_tag.string:
-                return json.loads(pre_tag.string.strip())
-        except json.JSONDecodeError as e:
-            print(f"从<pre>标签解析JSON失败: {e}")
-            print("返回HTML内容供调试")
-            return html_content
-        except Exception as e:
-            print(f"解析页面内容失败: {e}")
-            return html_content
         
     async def get_announcements_id(self, catalog_id='161', page_no='1', page_size='10'):
         """获取公告列表"""
@@ -126,7 +112,7 @@ class BithumbScraper(BaseScraper):
                     json_data = json.loads(next_data_script.string.strip())
                     print("成功提取 __NEXT_DATA__ 数据")
                 except json.JSONDecodeError as e:
-                    print(f"解析 __NEXT_DATA__ JSON失败: {e}")
+                    print(f"解析 __NEXT_DATA__ JSON失败: {traceback.format_exc()}")
             
             
             if not json_data:
@@ -135,7 +121,7 @@ class BithumbScraper(BaseScraper):
             return json_data
             
         except Exception as e:
-            print(f"提取script标签JSON数据失败: {e}")
+            print(f"提取script标签JSON数据失败: {traceback.format_exc()}")
             return {}
         
         
@@ -147,7 +133,7 @@ class BithumbScraper(BaseScraper):
             content = await self.handle_cloudflare_protection(url)
             return content
         except Exception as e:
-            print(f"获取页面内容失败: {e}")
+            print(f"获取页面内容失败: {traceback.format_exc()}")
             # 如果Cloudflare处理失败，尝试传统方法
             await self.page.goto(url)
             await self.random_delay(2, 4)
@@ -173,7 +159,7 @@ class BithumbScraper(BaseScraper):
             }
             
         except Exception as e:
-            print(f"获取公告详情失败: {e}")
+            print(f"获取公告详情失败: {traceback.format_exc()}")
             return None
     
     

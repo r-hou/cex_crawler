@@ -5,6 +5,7 @@ import json
 import pandas as pd
 import multiprocessing as mp
 import concurrent.futures as cf
+import traceback
 from exchange.binance import BinanceScraper
 from exchange.bingx import BingxScraper
 from exchange.bitunix import BitunixScraper
@@ -44,7 +45,6 @@ def save_accoucements_to_csv():
     announcements = []
     for file in files:
         with open(file, 'r') as f:
-            print(file)
             data = json.load(f)
             if isinstance(data, dict):
                 data = [data]
@@ -142,7 +142,7 @@ def run_scraper_entry(scraper_name: str, debug: bool, max_size: int, offset_days
         else:
             run_method()
     except Exception as e:
-        print(f"[Process] Error in {scraper_name}: {e}")
+        print(f"[Process] Error in {scraper_name}: {traceback.format_exc()}")
 
 
 async def crawl_announcements():
@@ -157,20 +157,20 @@ async def crawl_announcements():
     # Initialize scrapers with debug configuration
     # Run each scraper in its own process via ProcessPoolExecutor
     scraper_names = [
-        "binance", 
-        "bingx", 
-        "bitunix", 
-        "blofin", 
-        "bitget", 
+        # "binance", 
+        # "bingx", 
+        # "bitunix", 
+        # "blofin", 
+        # "bitget", 
         "btcc", 
-        "bybit",
-        "gate",
-        "mexc",
-        "lbank", 
-        "weex", 
-        "coinex", 
-        "upbit", 
-        "okx"
+        # "bybit",
+        # "gate",
+        # "mexc",
+        # "lbank", 
+        # "weex", 
+        # "coinex", 
+        # "upbit", 
+        # "okx"
     ]
 
     max_workers = min(len(scraper_names), (os.cpu_count() or 4))
@@ -183,7 +183,7 @@ async def crawl_announcements():
             try:
                 fut.result()
             except Exception as e:
-                print(f"[ProcessPool] Error in {name}: {e}")
+                print(f"[ProcessPool] Error in {name}: {traceback.format_exc()}")
 
 async def main():
     await crawl_announcements()

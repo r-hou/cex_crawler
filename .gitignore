@@ -3,3 +3,4 @@ __pycache__/
 exchange/__pycache__/
 *.html
 CLAUDE.md
+logs/

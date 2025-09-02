@@ -12,6 +12,10 @@ import requests
 from bs4 import BeautifulSoup
 from deepseek_analyzer import DeepSeekAnalyzer
 import traceback
+try:
+    from utils import file_logger, console_logger
+except ImportError:
+    from ..utils import file_logger, console_logger
 
 # 禁用SSL警告
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -136,7 +140,7 @@ class BaseScraper:
             };
         """)
         
-        print(f"{self.exchange_name} 浏览器初始化完成")
+        self.log("INFO", f"{self.exchange_name} 浏览器初始化完成")
     
     async def cleanup_browser(self):
         """Clean up browser resources"""
@@ -149,14 +153,14 @@ class BaseScraper:
                 await self.browser.close()
             if self.playwright:
                 await self.playwright.stop()
-            print(f"{self.exchange_name} 浏览器资源清理完成")
+            self.log("INFO", f"{self.exchange_name} 浏览器资源清理完成")
         except Exception as e:
-            print(f"{self.exchange_name} 清理浏览器资源时出错: {e}")
+            self.log("ERROR", f"{self.exchange_name} 清理浏览器资源时出错: {traceback.format_exc()}")
     
     async def random_delay(self, min_delay: float = 1, max_delay: float = 3):
         """Random delay to simulate human behavior"""
         delay = random.uniform(min_delay, max_delay)
-        print(f"等待 {delay:.2f} 秒...")
+        self.log("INFO", f"等待 {delay:.2f} 秒...")
         await asyncio.sleep(delay)
     
     async def simulate_human_behavior(self):
@@ -279,3 +283,23 @@ class BaseScraper:
             chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
             return '\n'.join(chunk for chunk in chunks if chunk)
         return content
+    
+    def get_json_from_html(self, html_content):
+        """从HTML内容中提取JSON数据"""
+        try:
+            soup = BeautifulSoup(html_content, 'html.parser')
+            pre_tag = soup.find('pre')
+            if pre_tag and pre_tag.string:
+                return json.loads(pre_tag.string.strip())
+        except json.JSONDecodeError as e:
+            self.log("ERROR", f"从<pre>标签解析JSON失败: {traceback.format_exc()}")
+            return html_content
+        except Exception as e:
+            self.log("ERROR", f"解析页面内容失败: {traceback.format_exc()}")
+            return html_content
+        
+    def log(self,level,message, console=False, file=True):
+        if console:
+            console_logger.log(level, f"{self.exchange_name}: {message}")
+        if file:
+            file_logger.log(level, f"{self.exchange_name}: {message}")

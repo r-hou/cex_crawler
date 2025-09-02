@@ -74,7 +74,7 @@ class BinanceScraper(BaseScraper):
 
     def get_announcements_id(self, catalog_id='161', page_no='1', page_size='10'):
         """获取公告列表"""
-        print("正在获取公告列表...")
+        self.log("INFO", "正在获取公告列表...")
         
         # 构建请求参数
         params = {
@@ -120,19 +120,19 @@ class BinanceScraper(BaseScraper):
                 data = response.json()
                 if 'data' in data and 'catalogs' in data['data'] and len(data['data']['catalogs']) > 0:
                     announcements = data['data']['catalogs'][0]["articles"]
-                    print(f"成功获取 {len(announcements)} 条公告")
+                    self.log("INFO", f"成功获取 {len(announcements)} 条公告")
                     return announcements
                 else:
-                    print("响应数据格式异常")
-                    print("响应内容:", data)
+                    self.log("ERROR", "响应数据格式异常")
+                    self.log("ERROR", "响应内容:", data)
                     return []
             else:
-                print(f"请求失败，状态码: {response.status_code}")
-                print("响应内容:", response.text)
+                self.log("ERROR", f"请求失败，状态码: {response.status_code}")
+                self.log("ERROR", "响应内容:", response.text)
                 return []
                 
         except Exception as e:
-            print(f"请求异常: {e}")
+            self.log("ERROR", f"请求异常: {traceback.format_exc()}")
             return []
     
     async def parse_announcements_from_page(self):
@@ -163,22 +163,20 @@ class BinanceScraper(BaseScraper):
                 except:
                     continue
             
-            print(f"从页面解析到 {len(announcements)} 条公告")
+            self.log("INFO", f"从页面解析到 {len(announcements)} 条公告")
             return announcements
             
         except Exception as e:
-            print(f"页面解析失败: {e}")
+            self.log("ERROR", f"页面解析失败: {traceback.format_exc()}")
             return []
     
 
     async def get_announcement_detail(self, article_id):
         """获取公告详情"""
-        print(f"正在获取公告详情: {article_id}")
-        
         try:
             # 访问公告详情页
             detail_url = f'{self.base_url}/zh-CN/support/announcement/detail/{article_id}'
-            print(f"访问URL: {detail_url}")
+            self.log("INFO", f"访问URL: {detail_url}")
             
             await self.page.goto(detail_url)
             await self.random_delay(2, 4)
@@ -197,21 +195,20 @@ class BinanceScraper(BaseScraper):
                 title_element = await self.page.query_selector('h1, .css-1wr4jig')
                 if title_element:
                     title = await title_element.inner_text()
-                    print(f"公告标题: {title}")
             except:
                 pass
             
             # 提取纯文字内容
             text_content = self.parse_announcement_content(content)
             
-            print("成功获取公告详情")
+
             return {
                 'html': content,
                 'text': text_content
             }
             
         except Exception as e:
-            print(f"获取公告详情失败: {e}")
+            self.log("ERROR", f"获取公告详情失败: {traceback.format_exc()}")
             return None
     
     
@@ -220,14 +217,14 @@ class BinanceScraper(BaseScraper):
         try:
             await self.init_browser()
             
-            print(f"=== 开始抓取 {self.exchange_name} 公告 ===")
+            self.log("INFO", f"开始抓取 {self.exchange_name} 公告", console=True)
             
             # 获取公告列表
             delisting_announcements = self.get_announcements_id()
             listing_announcements = self.get_announcements_id(catalog_id='48')
             announcements = delisting_announcements + listing_announcements
             if not announcements:
-                print("未获取到公告")
+                self.log("ERROR", "未获取到公告", console=True)
                 return
             
             # Counter for processed announcements in debug mode
@@ -241,7 +238,7 @@ class BinanceScraper(BaseScraper):
                     release_time = int(announcement.get('releaseDate', 'N/A'))
                     release_time_str = pd.to_datetime(release_time, unit='ms', utc=True).tz_convert('Asia/Hong_Kong').strftime('%Y-%m-%d %H:%M:%S')
                     if release_time_str < (pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)).strftime('%Y-%m-%d %H:%M:%S'):
-                        print(f"公告 {title} 发布时间 {release_time_str} 小于 {pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)}，跳过")
+                        self.log("INFO", f"公告 {title} 发布时间 {release_time_str} 小于 {pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)}，跳过", console=True)
                         with open(json_filepath, 'w', encoding='utf-8') as f:
                             json.dump({'release_time': release_time_str, 'text': "", 'url': f"https://www.binance.com/zh-CN/support/announcement/detail/{article_id}", 'title': title,"exchange": "binance"}, f, ensure_ascii=False, indent=4)
                         continue
@@ -249,23 +246,23 @@ class BinanceScraper(BaseScraper):
                     if not article_id:
                         continue
                         
-                    print(f"\n处理公告 {i+1}/{len(announcements)}: {title}")
+                    self.log("INFO", f"处理公告 {i+1}/{len(announcements)}: {title}", console=True)
                     
                     # 检查文件是否已存在
                     # text_filepath = os.path.join(self.output_dir, f"binance_{article_id}.txt")
                     if os.path.exists(json_filepath):
-                        print(f"公告详情已存在，跳过")
+                        self.log("INFO", f"公告详情已存在，跳过", console=True)
                         continue
                     
                     # 获取公告详情
                     detail_result = await self.get_announcement_detail(article_id)
                     if not detail_result:
-                        print("获取详情失败")
+                        self.log("ERROR", "获取详情失败", console=True)
                         continue
                     
                     text_content = detail_result['text']
                     if not text_content.strip():
-                        print("文本内容为空")
+                        self.log("ERROR", "文本内容为空", console=True)
                         continue
                     # analyzer = DeepSeekAnalyzer(api_key="sk-790c031d07224ee9a905c970cefffcba")
                     analysis_result = self.analyzer.analyze_announcement(text_content)
@@ -283,22 +280,17 @@ class BinanceScraper(BaseScraper):
                         })
                     
                     processed_count += 1
-
-                    # if self.debug and processed_count >= self.max_size:
-                    #     print(f"Debug mode: Reached max_size limit ({self.max_size}), stopping...")
-                    #     break
                     
                     await self.random_delay(2, 5)
                     
                 except Exception as e:
-                    print(f"处理公告 {article_id} 时出错: {e}")
+                    self.log("ERROR", f"处理公告 {title} 时出错: {traceback.format_exc()}")
                     continue
             
-            print(f"\n=== {self.exchange_name} 抓取完成，共处理 {processed_count} 个公告 ===")
+            self.log("INFO", f"\n{self.exchange_name} 抓取完成，共处理 {processed_count} 个公告", console=True)
             
         except Exception as e:
-            print(f"程序执行出错: {e}")
-            traceback.print_exc()
+            self.log("ERROR", f"程序执行出错: {traceback.format_exc()}", console=True)
         finally:
             await self.cleanup_browser()
 

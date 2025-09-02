@@ -5,6 +5,7 @@ from datetime import datetime
 import os
 from typing import Dict, List, Optional
 import traceback
+from utils import file_logger, console_logger
 
 class DeepSeekAnalyzer:
     def __init__(self, api_key: str = None):
@@ -71,7 +72,7 @@ class DeepSeekAnalyzer:
             包含上架/下架信息的字典
         """
         try:
-            print("正在使用DeepSeek分析公告内容...")
+            file_logger.info("正在使用DeepSeek分析公告内容...")
             
             # 调用OpenAI API
             response = self.client.chat.completions.create(
@@ -92,11 +93,12 @@ class DeepSeekAnalyzer:
                 result = json.loads(ai_response)
                 return self._validate_and_clean_result(result)
             except json.JSONDecodeError:
-                print("OpenAI返回的不是有效JSON，尝试修复...")
+                file_logger.info("OpenAI返回的不是有效JSON，尝试修复...")
                 return self._fix_json_response(ai_response)
                 
         except Exception as e:
-            print(f"OpenAI API调用失败: {traceback.format_exc()}")
+            file_logger.info(f"OpenAI API调用失败: {traceback.format_exc()}")
+            console_logger.info(f"OpenAI API调用失败: {traceback.format_exc()}")
             return self._fallback_analysis(text_content)
     
     def _validate_and_clean_result(self, result: Dict) -> Dict:
@@ -146,7 +148,7 @@ class DeepSeekAnalyzer:
     
     def _fallback_analysis(self, text_content: str) -> Dict:
         """备用分析方法（基于关键词匹配）"""
-        print("使用备用分析方法...")
+        file_logger.info("使用备用分析方法...")
         
         result = {"listings": [], "delistings": []}
         
@@ -198,27 +200,27 @@ class DeepSeekAnalyzer:
     
     def print_analysis_result(self, result: Dict):
         """打印分析结果"""
-        print("\n" + "="*60)
-        print("📊 公告分析结果")
-        print("="*60)
+        file_logger.info("\n" + "="*60)
+        file_logger.info("📊 公告分析结果")
+        file_logger.info("="*60)
         
         # 上架信息
         if result['listings']:
-            print("\n🟢 上架信息:")
+            file_logger.info("\n🟢 上架信息:")
             for listing in result['listings']:
-                print(f"   • {listing['symbol']} - {listing['action']} - {listing['type']} - {listing['time']}")
+                file_logger.info(f"   • {listing['symbol']} - {listing['action']} - {listing['type']} - {listing['time']}")
         else:
-            print("\n🟢 上架信息: 无")
+            file_logger.info("\n🟢 上架信息: 无")
         
         # 下架信息
         if result['delistings']:
-            print("\n🔴 下架信息:")
+            file_logger.info("\n🔴 下架信息:")
             for delisting in result['delistings']:
-                print(f"   • {delisting['symbol']} - {delisting['action']} - {delisting['type']} - {delisting['time']}")
+                file_logger.info(f"   • {delisting['symbol']} - {delisting['action']} - {delisting['type']} - {delisting['time']}")
         else:
-            print("\n🔴 下架信息: 无")
+            file_logger.info("\n🔴 下架信息: 无")
         
-        print("="*60)
+        file_logger.info("="*60)
     
     def save_analysis_result(self, result: Dict, filename: str = None, updates = {}):
         """保存分析结果到文件"""    
@@ -233,9 +235,11 @@ class DeepSeekAnalyzer:
                 all_results = [ {**item, **updates} for item in all_results ]
             with open(filename, 'w', encoding='utf-8') as f:
                 json.dump(all_results, f, ensure_ascii=False, indent=2)
-            print(f"分析结果已保存到: {filename}")
+            file_logger.info(f"分析结果已保存到: {filename}")
+            console_logger.info(f"分析结果已保存到: {filename}")
         except Exception as e:
-            print(f"保存结果失败: {e}")
+            file_logger.info(f"保存结果失败: {e}")
+            console_logger.info(f"保存结果失败: {e}")
 
 def main():
     """测试函数"""

@@ -51,7 +51,7 @@ class OkxScraper(BaseScraper):
                     json_data = json.loads(next_data_script.string.strip())
                     print("成功提取 __app_data_for_ssr__ 数据")
                 except json.JSONDecodeError as e:
-                    print(f"解析 __app_data_for_ssr__ JSON失败: {e}")
+                    print(f"解析 __app_data_for_ssr__ JSON失败: {traceback.format_exc()}")
             
             
             if not json_data:
@@ -60,7 +60,7 @@ class OkxScraper(BaseScraper):
             return json_data
             
         except Exception as e:
-            print(f"提取script标签JSON数据失败: {e}")
+            print(f"提取script标签JSON数据失败: {traceback.format_exc()}")
             return {}
         
     def extract_text_from_html(self, html_content):
@@ -88,7 +88,7 @@ class OkxScraper(BaseScraper):
             return text.strip()
             
         except Exception as e:
-            print(f"文字提取失败: {e}")
+            print(f"文字提取失败: {traceback.format_exc()}")
             # 如果BeautifulSoup失败，使用简单的正则表达式
             try:
                 # 移除HTML标签

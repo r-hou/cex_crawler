@@ -65,7 +65,7 @@ class BybitScraper(BaseScraper):
                     json_data = json.loads(next_data_script.string.strip())
                     print("成功提取 __NEXT_DATA__ 数据")
                 except json.JSONDecodeError as e:
-                    print(f"解析 __NEXT_DATA__ JSON失败: {e}")
+                    print(f"解析 __NEXT_DATA__ JSON失败: {traceback.format_exc()}")
             
             
             if not json_data:
@@ -74,7 +74,7 @@ class BybitScraper(BaseScraper):
             return json_data
             
         except Exception as e:
-            print(f"提取script标签JSON数据失败: {e}")
+            print(f"提取script标签JSON数据失败: {traceback.format_exc()}")
             return {}
         
 

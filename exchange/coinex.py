@@ -35,11 +35,11 @@ class CoinexScraper(BaseScraper):
             if pre_tag and pre_tag.string:
                 return json.loads(pre_tag.string.strip())
         except json.JSONDecodeError as e:
-            print(f"从<pre>标签解析JSON失败: {e}")
+            print(f"从<pre>标签解析JSON失败: {traceback.format_exc()}")
             print("返回HTML内容供调试")
             return html_content
         except Exception as e:
-            print(f"解析页面内容失败: {e}")
+            print(f"解析页面内容失败: {traceback.format_exc()}")
             return html_content
         
     async def get_announcements_id(self, catalog_id='161', page_no='1', page_size='10'):
@@ -103,7 +103,7 @@ class CoinexScraper(BaseScraper):
             }
             
         except Exception as e:
-            print(f"获取公告详情失败: {e}")
+            print(f"获取公告详情失败: {traceback.format_exc()}")
             return None
     
     
