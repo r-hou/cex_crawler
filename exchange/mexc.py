@@ -34,11 +34,11 @@ class MexcScraper(BaseScraper):
             if pre_tag and pre_tag.string:
                 return json.loads(pre_tag.string.strip())
         except json.JSONDecodeError as e:
-            print(f"从<pre>标签解析JSON失败: {traceback.format_exc()}")
-            print("返回HTML内容供调试")
+            self.log("ERROR", f"从<pre>标签解析JSON失败: {traceback.format_exc()}")
+            self.log("DEBUG", "返回HTML内容供调试")
             return html_content
         except Exception as e:
-            print(f"解析页面内容失败: {traceback.format_exc()}")
+            self.log("ERROR", f"解析页面内容失败: {traceback.format_exc()}")
             return html_content
         
     async def get_announcements_id(self, catalog_id='161', page_no='1', page_size='10'):
@@ -59,8 +59,8 @@ class MexcScraper(BaseScraper):
                 listing_section_id = i['id']
             elif i['name'] == '币种下架':
                 delisting_section_id = i['id']
-        print(f"Listing section ID: {listing_section_id}")
-        print(f"Delisting section ID: {delisting_section_id}")
+        self.log("INFO", f"Listing section ID: {listing_section_id}")
+        self.log("INFO", f"Delisting section ID: {delisting_section_id}")
         listing_url = f'https://www.mexc.com/help/announce/api/zh-MY/section/{listing_section_id}/articles?page=1&perPage=20'
         delisting_url = f'https://www.mexc.com/help/announce/api/zh-MY/section/{delisting_section_id}/articles?page=1&perPage=20'
         listing_content = await self.get_page_content(listing_url, 'load')
@@ -82,21 +82,19 @@ class MexcScraper(BaseScraper):
     
     async def get_announcement_detail(self, article_id):
         """获取公告详情"""
-        print(f"正在获取公告详情: {article_id}")
-        
         try:
             content = await self.get_page_content(f'https://www.mexc.com/help/announce/api/zh-MY/article/{article_id}', 'load')
             json_data = self.get_json_from_html(content)
             text_content = json_data['data']['title'] + "\n" + self.parse_announcement_content(json_data['data']['body'])
             
-            print("成功获取公告详情")
+            self.log("INFO", "成功获取公告详情")
             return {
                 'html': content,
                 'text': text_content
             }
             
         except Exception as e:
-            print(f"获取公告详情失败: {traceback.format_exc()}")
+            self.log("ERROR", f"获取公告详情失败: {traceback.format_exc()}", console=True)
             return None
     
     
@@ -111,7 +109,7 @@ class MexcScraper(BaseScraper):
             announcements = await self.get_announcements_id()
             
             if not announcements:
-                print("未获取到公告")
+                self.log("ERROR", "未获取到公告", console=True)
                 return
             
             # Counter for processed announcements in debug mode
@@ -119,28 +117,29 @@ class MexcScraper(BaseScraper):
             
             for i, article in enumerate(announcements):
                 article_id = article.get('id')
+                self.log("INFO", f"处理公告 {i+1}/{len(announcements)}: {article.get('title', 'N/A')}", console=True)
                 # text_file_name = os.path.join(self.output_dir, f"mexc_{article_id}.txt")
                 json_file_name = os.path.join(self.output_dir, f"mexc_{article_id}.json")
                 url = f"https://www.mexc.com/zh-MY/support/articles/{article_id}"
                 release_time = article.get('createdAt')
                 release_time_str = pd.to_datetime(release_time).tz_convert('Asia/Hong_Kong').strftime('%Y-%m-%d %H:%M:%S')
                 if release_time_str < (pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)).strftime('%Y-%m-%d %H:%M:%S'):
-                    print(f"公告 {article.get('title', 'N/A')} 发布时间 {release_time_str} 小于 {pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)}，跳过")
+                    self.log("INFO", f"公告 {article.get('title', 'N/A')} 发布时间 {release_time_str} 小于 {pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)}，跳过", console=True)
                     with open(json_file_name, 'w', encoding='utf-8') as f:
                         json.dump({'release_time': release_time_str, 'text': "", 'url': url, 'title': article.get('title', 'N/A'),"exchange": "mexc"}, f, ensure_ascii=False, indent=4)
                     continue
                 if os.path.exists(json_file_name):
-                    print(f"公告详情已存在: {json_file_name}")
+                    self.log("INFO", f"公告详情已存在: {json_file_name}")
                     continue
-                print(f"   标题: {article.get('title', 'N/A')}")
-                print(f"   URL: {url}")
+                self.log("INFO", f"   标题: {article.get('title', 'N/A')}")
+                self.log("INFO", f"   URL: {url}")
                 if article_id:
-                    print("=== 获取公告详情 ===")
+                    self.log("INFO", "获取公告详情")
                     detail_result = await self.get_announcement_detail(article_id)
                     if detail_result:
-                        print("\n=== 纯文字内容 ===")
+                        self.log("INFO", "纯文字内容")
                         text_content = detail_result['text']
-                        print(text_content[:1000] + "..." if len(text_content) > 1000 else text_content)
+                        self.log("INFO", text_content[:1000] + "..." if len(text_content) > 1000 else text_content)
                         
                         # 保存到文件
                         # with open(text_file_name, 'w', encoding='utf-8') as f:
@@ -148,7 +147,7 @@ class MexcScraper(BaseScraper):
                         # print(f"\n纯文字内容已保存到: {text_file_name}")
                         
                         # 使用OpenAI分析内容
-                        print("\n=== 使用DeepSeek分析公告内容 ===")
+                        self.log("INFO", "使用DeepSeek分析公告内容")
                         try:
                             # analyzer = DeepSeekAnalyzer(api_key="sk-790c031d07224ee9a905c970cefffcba")
                             analysis_result = self.analyzer.analyze_announcement(text_content)
@@ -168,20 +167,20 @@ class MexcScraper(BaseScraper):
                             # Increment counter for successfully processed announcements
                             processed_count += 1
                             if self.debug and processed_count >= self.max_size:
-                                print(f"Debug mode: Reached max_size limit ({self.max_size}), stopping...")
+                                self.log("INFO", f"Debug mode: Reached max_size limit ({self.max_size}), stopping...")
                                 break
                             
                         except Exception as e:
-                            print(f"DeepSeek分析失败: {traceback.format_exc()}")
+                            self.log("ERROR", f"DeepSeek分析失败: {traceback.format_exc()}", console=True)
                     else:
-                        print("获取详情失败")
+                        self.log("ERROR", "获取详情失败", console=True)
                 
                 # Break outer loop if we've reached max_size in debug mode
-                if self.debug and processed_count >= self.max_size:
-                    break
+                # if self.debug and processed_count >= self.max_size:
+                #     break
             
         except Exception as e:
-            print(f"程序执行出错: {traceback.format_exc()}")
+            self.log("ERROR", f"程序执行出错: {traceback.format_exc()}", console=True)
         
         finally:
             # 关闭浏览器

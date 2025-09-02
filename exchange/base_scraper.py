@@ -44,7 +44,7 @@ class BaseScraper:
             try:
                 self.analyzer = DeepSeekAnalyzer(api_key=analyzer_api_key)
             except Exception as e:
-                print(f"{self.exchange_name} 初始化DeepSeekAnalyzer失败: {e}")
+                file_logger.error(f"{self.exchange_name} 初始化DeepSeekAnalyzer失败: {e}")
                 self.analyzer = None
         else:
             self.analyzer = analyzer
@@ -178,7 +178,7 @@ class BaseScraper:
                 await self.page.evaluate(f"window.scrollBy(0, {random.randint(100, 300)})")
                 await self.random_delay(0.5, 1.0)
         except Exception as e:
-            print(f"模拟人类行为时出错: {e}")
+            file_logger.error(f"模拟人类行为时出错: {e}")
     
     
     def save_json_file(self, data: List[Dict], file_id: str) -> str:
@@ -189,10 +189,10 @@ class BaseScraper:
         try:
             with open(filepath, 'w', encoding='utf-8') as f:
                 json.dump(data, f, ensure_ascii=False, indent=2)
-            print(f"JSON文件已保存: {filepath}")
+            file_logger.info(f"JSON文件已保存: {filepath}")
             return filepath
         except Exception as e:
-            print(f"保存JSON文件失败: {e}")
+            file_logger.error(f"保存JSON文件失败: {e}")
             return ""
     
     def save_text_file(self, content: str, file_id: str) -> str:
@@ -203,10 +203,10 @@ class BaseScraper:
         try:
             with open(filepath, 'w', encoding='utf-8') as f:
                 f.write(content)
-            print(f"文本文件已保存: {filepath}")
+            file_logger.info(f"文本文件已保存: {filepath}")
             return filepath
         except Exception as e:
-            print(f"保存文本文件失败: {e}")
+            file_logger.error(f"保存文本文件失败: {e}")
             return ""
     
     def analyze_and_save_announcement(self, text_content: str, file_id: str, updates: Dict = None) -> Optional[str]:

@@ -2,7 +2,7 @@ import asyncio
 import time
 import random
 import json
-from pprint import pprint
+# from pprint import pprint
 from playwright.async_api import async_playwright
 import urllib3
 import requests
@@ -29,7 +29,7 @@ class BithumbScraper(BaseScraper):
         """处理Cloudflare保护"""
         for attempt in range(max_retries):
             try:
-                print(f"尝试访问 {url} (第 {attempt + 1} 次)")
+                self.log("INFO", f"尝试访问 {url} (第 {attempt + 1} 次)", console=True)
                 
                 # 导航到页面
                 await self.page.goto(url, wait_until='domcontentloaded')
@@ -38,7 +38,7 @@ class BithumbScraper(BaseScraper):
                 # 检查是否遇到Cloudflare保护页面
                 page_content = await self.page.content()
                 if "Attention Required!" in page_content or "Cloudflare" in page_content:
-                    print("检测到Cloudflare保护页面，等待处理...")
+                    self.log("WARNING", "检测到Cloudflare保护页面，等待处理...", console=True)
                     
                     # 等待Cloudflare检查完成
                     try:
@@ -49,21 +49,21 @@ class BithumbScraper(BaseScraper):
                         # 检查是否还有Cloudflare页面
                         current_content = await self.page.content()
                         if "Attention Required!" not in current_content and "Cloudflare" not in current_content:
-                            print("Cloudflare检查完成，页面已正常加载")
+                            self.log("INFO", "Cloudflare检查完成，页面已正常加载", console=True)
                             return await self.page.content()
                         else:
-                            print("Cloudflare检查仍在进行，继续等待...")
+                            self.log("WARNING", "Cloudflare检查仍在进行，继续等待...")
                             await self.random_delay(10, 15)
                             
                     except Exception as e:
-                        print(f"等待Cloudflare检查时出错: {traceback.format_exc()}")
+                        self.log("ERROR", f"等待Cloudflare检查时出错: {traceback.format_exc()}")
                         await self.random_delay(5, 8)
                 else:
-                    print("页面正常加载，未遇到Cloudflare保护")
+                    self.log("INFO", "页面正常加载，未遇到Cloudflare保护")
                     return await self.page.content()
                     
             except Exception as e:
-                print(f"第 {attempt + 1} 次尝试失败: {traceback.format_exc()}")
+                self.log("ERROR", f"第 {attempt + 1} 次尝试失败: {traceback.format_exc()}")
                 if attempt < max_retries - 1:
                     await self.random_delay(5, 10)
                 else:
@@ -85,7 +85,7 @@ class BithumbScraper(BaseScraper):
         with open('listing_content.html', 'w') as f:
             f.write(listing_content)
         listing_json_data = self.get_json_from_html(listing_content)
-        pprint(listing_json_data)
+        # pprint(listing_json_data)
         announcements_listing = listing_json_data['props']['pageProps']['noticeList']
         announcements_listing = [ i for i in announcements_listing if i['categoryName1'] in ["안내", "거래지원종료"]]
         
@@ -93,8 +93,8 @@ class BithumbScraper(BaseScraper):
         delisting_json_data = self.get_json_from_html(delisting_content)
         announcements_delisting = delisting_json_data['props']['pageProps']['noticeList']
         announcements_delisting = [ i for i in announcements_delisting if i['categoryName1'] in ["안내", "거래지원종료"]]
-        pprint(announcements_listing)
-        pprint(announcements_delisting)
+        # pprint(announcements_listing)
+        # pprint(announcements_delisting)
         return announcements_listing + announcements_delisting
 
 

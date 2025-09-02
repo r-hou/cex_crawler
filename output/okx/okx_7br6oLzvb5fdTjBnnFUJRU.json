@@ -1,0 +1,13 @@
+[
+  {
+    "symbol": "USD1/USDT",
+    "action": "上架",
+    "type": "现货",
+    "time": "2025-09-02",
+    "exchange": "okx",
+    "title": "欧易关于上线 USD1 (World Liberty Financial USD) 现货交易的公告",
+    "url": "https://www.okx.com/zh-hans/help/okx-to-list-usd1-world-liberty-financial-usd-for-spot-trading",
+    "release_time": "2025-09-02 16:00:00",
+    "content": "欧易关于上线 USD1 (World Liberty Financial USD) 现货交易的公告发布于 2025年9月2日阅读时长 3 分钟尊敬的欧易用户：欧易即将上线 USD1 (World Liberty Financial USD)，具体时间安排如下：上线时间USD1 开放充币时间：2025 年 9 月 2 日下午 4:00 (UTC+8)USD1 提前挂单时间段：2025 年 9 月 2 日下午 6:00 至 7:00 (UTC+8)USD1/USDT 现货交易开盘时间：2025 年 9 月 2 日下午 7:00 (UTC+8)USD1 开放提币时间：2025 年 9 月 2 日下午 10:00 (UTC+8)充值到欧易现在参与 WLFI 奖金活动，300,000 枚 WLFI & 220,000 枚 USD1 代币等你赢取：立即参加现货开盘风控规则订单限制：为保护投资者免受新币上线初期价格波动影响，欧易将在现货交易开始后前 5 分钟内实施以下限制：每笔限价单最大金额为 10,000 美元。以上限制将在交易开始 5 分钟后解除。限价规则：在提前挂单和连续交易期间，平台将启用基于指数的限价机制。基于指数的限价计算规则：阶段买单最高限价卖单最低限价提前挂单中Index × (1 + J)Index × (1 – J)新币上线前 10 分钟内Index × (1 + X)Index × (1 – X)新币上线 10 分钟后Min[Max(Index, Index × (1 + Y) + 过去 2 分钟溢价均值), Index × (1 + Z)]Max[Min(Index, Index × (1 – Y) + 过去 2 分钟溢价均值),Index × (1 – Z)]注意：平台可根据市场情况调整参数 J, X, Y, Z ，或切换限价计算规则，调整将不会进行另行通知。请访问：/trade-market/info/spot 查看实时规则详情。关于提前挂单USD1/USDT 现货上线将采用提前挂单机制，提前挂单时间为30分钟。欧易采用提前挂单机制，您可以在新的交易对正式开始交易前，按照既定的交易参数，以自己期望的价位下单。在提前挂单阶段中，买卖双方可以在指数限价的范围内挂单。买单需低于指数*（1+J%）的最高买价限制，卖单需高于指数*（1-J%）的最低买价限制。提前挂单结束时，系统会用指数价格为基准取消订单。低于等于指数价格的买单 和 高于等于指数价格的卖单 将被撤单。与集合竞价不一样，提前挂单结束时，系统并不会进行成交，没有被撤销的订单会保留和进入连续交易。进入实时交易阶段后，没有被撤销的订单会保留和进入连续交易，并根据订单簿交易规则执行。请访问 OKX 现货开盘机制了解有关规则的更多信息。欧易会使用提前挂单结束时的指数价格作为K线的起始点。项目介绍USD1 是 World Liberty Financial 推出的由法币支持的数字资产，旨在与美元保持 1:1 的等值。英文全称：World Liberty Financial USD英文简称：USD1合约地址：Ethereum Chain (0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d)查看 World Liberty Financial USD 价格: https://www.okx.com/price/world-liberty-financial-usd-usd1充入 USDT立即充币，为 USD1/USDT 现货交易做好准备：充值 USDT 到您的欧易账户欧易将持续为您提供更优秀的产品和更优质的服务！欧易团队2025 年 9 月 2 日"
+  }
+]

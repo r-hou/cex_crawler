@@ -1,0 +1,13 @@
+[
+  {
+    "symbol": "10000WHY/USDT",
+    "action": "下架",
+    "type": "合约",
+    "time": "2025-09-03",
+    "exchange": "bybit",
+    "title": "10000WHYUSDT 永续合约下架",
+    "url": "https://announcements.bybit.com/zh-MY//article/delisting-of-10000whyusdt-perpetual-contract-bltef59f7d838950f41/",
+    "release_time": "2025-08-29 17:06:32",
+    "content": "Bybit will 将于 2025 年 9 月 3 日9:00 UTC 下架 10000WHYUSDT 永续合约。公告发布日期:2025-08-29T09:06:32.000Z\n\n\n注：- 10000WHYUSDT 永续合约即将下架，不再支持交易。- 10000WHYUSDT 永续合约的所有活动单和条件单都将自动取消。- 10000WHYUSDT 永续合约中的任何未平仓位都将自动平仓。平仓价格基于下架前 30 分钟的平均指数价格。- 10000WHYUSDT 永续合约即将下架，不再支持交易机器人。- 10000WHYUSDT 永续合约的所有跟单交易未成交订单都将自动取消。如有任何疑问，欢迎请随时联系[客服团队](https://www.bybit.com/zh-MY/help-center/s/webform)。感谢您一直以来的支持。"
+  }
+]

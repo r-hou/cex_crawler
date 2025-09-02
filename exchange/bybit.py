@@ -63,24 +63,24 @@ class BybitScraper(BaseScraper):
             if next_data_script and next_data_script.string:
                 try:
                     json_data = json.loads(next_data_script.string.strip())
-                    print("成功提取 __NEXT_DATA__ 数据")
+                    self.log("INFO", "成功提取 __NEXT_DATA__ 数据")
                 except json.JSONDecodeError as e:
-                    print(f"解析 __NEXT_DATA__ JSON失败: {traceback.format_exc()}")
+                    self.log("ERROR", f"解析 __NEXT_DATA__ JSON失败: {traceback.format_exc()}")
             
             
             if not json_data:
-                print("未找到script标签中的JSON数据")
+                self.log("WARNING", "未找到script标签中的JSON数据")
             
             return json_data
             
         except Exception as e:
-            print(f"提取script标签JSON数据失败: {traceback.format_exc()}")
+            self.log("ERROR", f"提取script标签JSON数据失败: {traceback.format_exc()}")
             return {}
         
 
     def get_announcement_detail(self, announcement_url):
         url = f'https://announcements.bybit.com/zh-MY/{announcement_url}'
-        print(url)
+        self.log("INFO", f"获取公告详情: {url}")
         response = requests.get(url, headers=self.headers)
         html_content = response.text
         
@@ -106,7 +106,7 @@ class BybitScraper(BaseScraper):
     async def run_scraping(self):
         try:
             announcements = self.get_announcements_id()
-            print("\n=== 公告列表 ===")
+            self.log("INFO", "公告列表")
             
             # Counter for processed announcements in debug mode
             processed_count = 0
@@ -114,34 +114,34 @@ class BybitScraper(BaseScraper):
             for i, announcement in enumerate(announcements):
                 url = announcement.get('url', '')
                 url = f"https://announcements.bybit.com/zh-MY/{url}"
-                print(f"   标题: {announcement.get('title', 'N/A')}")
-                print(f"   URL: {url}")
+                self.log("INFO", f"   标题: {announcement.get('title', 'N/A')}")
+                self.log("INFO", f"   URL: {url}")
                 
                 # 获取公告详情
                 article_id = hashlib.md5(announcement.get('url', '').encode('utf-8')).hexdigest()
                 # text_file_name = os.path.join(self.output_dir, f"bybit_{article_id}.txt")
                 json_file_name = os.path.join(self.output_dir, f"bybit_{article_id}.json")
                 if os.path.exists(json_file_name):
-                    print(f"公告详情已存在: {json_file_name}")
+                    self.log("INFO", f"公告详情已存在: {json_file_name}")
                     continue
                 detail_result = self.get_announcement_detail(announcement.get('url', ''))
                 text_content = detail_result.get('text', '')
                 release_time = detail_result.get('release_time', '')
                 release_time_str = pd.to_datetime(release_time, utc=True).tz_convert('Asia/Hong_Kong').strftime('%Y-%m-%d %H:%M:%S')
                 if release_time_str < (pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)).strftime('%Y-%m-%d %H:%M:%S'):
-                    print(f"公告 {announcement.get('title', 'N/A')} 发布时间 {release_time_str} 小于 {pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)}，跳过")
+                    self.log("INFO", f"公告 {announcement.get('title', 'N/A')} 发布时间 {release_time_str} 小于 {pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)}，跳过", console=True)
                     with open(json_file_name, 'w', encoding='utf-8') as f:
                         json.dump({'release_time': release_time_str, 'text': "", 'url': url, 'title': announcement.get('title', 'N/A'),"exchange": "bybit"}, f, ensure_ascii=False, indent=4)
                     continue
                 if detail_result:
-                    print("\n=== 提取的文字数据 ===")
-                    pprint.pprint(detail_result, indent=4)
+                    self.log("INFO", "=== 提取的文字数据 ===")
+                    # pprint.pprint(detail_result, indent=4)
                     # 保存JSON数据
                     # with open(text_file_name, 'w', encoding='utf-8') as f:
                     #     f.write(text_content)
                     # print(f"\nTEXT数据已保存到: {text_file_name}")
                     # 使用OpenAI分析内容
-                    print("\n=== 使用DeepSeek分析公告内容 ===")
+                    self.log("INFO", "使用DeepSeek分析公告内容")
                     try:
                         # analyzer = DeepSeekAnalyzer(api_key="sk-790c031d07224ee9a905c970cefffcba")
                         analysis_result = self.analyzer.analyze_announcement(text_content)
@@ -164,17 +164,17 @@ class BybitScraper(BaseScraper):
                         #     break
                         
                     except Exception as e:
-                        print(f"DeepSeek分析失败: {traceback.format_exc()}")
+                        self.log("ERROR", f"DeepSeek分析失败: {traceback.format_exc()}")
 
                     
                 else:
-                    print("获取公告详情失败")
+                    self.log("ERROR", "获取公告详情失败", console=True)
                 
                 # Break outer loop if we've reached max_size in debug mode
                 # if self.debug and processed_count >= self.max_size:
                 #     break
         except Exception as e:
-            print(f"获取Bybit公告详情失败: {traceback.format_exc()}")
+            self.log("ERROR", f"获取Bybit公告详情失败: {traceback.format_exc()}", console=True)
 
 if __name__ == "__main__":
     scraper = BybitScraper()

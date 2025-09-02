@@ -35,11 +35,11 @@ class CoinexScraper(BaseScraper):
             if pre_tag and pre_tag.string:
                 return json.loads(pre_tag.string.strip())
         except json.JSONDecodeError as e:
-            print(f"从<pre>标签解析JSON失败: {traceback.format_exc()}")
-            print("返回HTML内容供调试")
+            self.log("ERROR", f"从<pre>标签解析JSON失败: {traceback.format_exc()}")
+            self.log("DEBUG", "返回HTML内容供调试")
             return html_content
         except Exception as e:
-            print(f"解析页面内容失败: {traceback.format_exc()}")
+            self.log("ERROR", f"解析页面内容失败: {traceback.format_exc()}")
             return html_content
         
     async def get_announcements_id(self, catalog_id='161', page_no='1', page_size='10'):
@@ -68,7 +68,7 @@ class CoinexScraper(BaseScraper):
                 delisting_section_id = href.split('=')[-1]
         
         if len(listting_section_id) == 0 or len(delisting_section_id) == 0:
-            print("未找到coinex公告链接")
+            self.log("ERROR", "未找到coinex公告链接")
             exit()
         
         listting_url = f"https://www.coinex.com/res/support/zendesk/articles/new?limit=15&page=1&section_id={listting_section_id}&order_by=is_top"
@@ -103,7 +103,7 @@ class CoinexScraper(BaseScraper):
             }
             
         except Exception as e:
-            print(f"获取公告详情失败: {traceback.format_exc()}")
+            self.log("ERROR", f"获取公告详情失败: {traceback.format_exc()}")
             return None
     
     
@@ -118,35 +118,36 @@ class CoinexScraper(BaseScraper):
             announcements = await self.get_announcements_id()
             
             if not announcements:
-                print("未获取到公告")
+                self.log("ERROR", "未获取到公告", console=True)
                 return
             
             # Counter for processed announcements in debug mode
             processed_count = 0
             
             for i, article in enumerate(announcements):
+                self.log("INFO", f"处理公告 {i+1}/{len(announcements)}: {article.get('title', 'N/A')}", console=True)
                 article_id = article.get('id')
                 url = f"https://www.coinex.com/en/announcements/detail/{article_id}"
                 json_file_name = os.path.join(self.output_dir, f"coinex_{article_id}.json")
                 release_time = article.get('created_at')
                 release_time_str = pd.to_datetime(release_time, unit='s', utc=True).tz_convert('Asia/Hong_Kong').strftime('%Y-%m-%d %H:%M:%S')
                 if release_time_str < (pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)).strftime('%Y-%m-%d %H:%M:%S'):
-                    print(f"公告 {article.get('title', 'N/A')} 发布时间 {release_time_str} 小于 {pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)}，跳过")
+                    self.log("INFO", f"公告 {article.get('title', 'N/A')} 发布时间 {release_time_str} 小于 {pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)}，跳过", console=True)
                     with open(json_file_name, 'w', encoding='utf-8') as f:
                         json.dump({'release_time': release_time_str, 'text': "", 'url': url, 'title': article.get('title', 'N/A'),"exchange": "upbit"}, f, ensure_ascii=False, indent=4)
                     continue
                 # text_file_name = os.path.join(self.output_dir, f"coinex_{article_id}.txt")
                 if os.path.exists(json_file_name):
-                    print(f"公告详情已存在: {json_file_name}")
+                    self.log("INFO", f"公告详情已存在: {json_file_name}")
                     continue
-                print("=== 获取公告详情 ===")
-                print(f"   标题: {article.get('title', 'N/A')}")
-                print(f"   URL: {url}")
+                self.log("INFO", "获取公告详情")
+                self.log("INFO", f"   标题: {article.get('title', 'N/A')}")
+                self.log("INFO", f"   URL: {url}")
                 detail_result = await self.get_announcement_detail(article.get('body'))
                 if detail_result:
-                    print("\n=== 纯文字内容 ===")
+                    self.log("INFO", "纯文字内容")
                     text_content = detail_result['text']
-                    print(text_content[:1000] + "..." if len(text_content) > 1000 else text_content)
+                    self.log("INFO", text_content[:1000] + "..." if len(text_content) > 1000 else text_content)
                     
                     # 保存到文件
                     # with open(text_file_name, 'w', encoding='utf-8') as f:
@@ -154,7 +155,7 @@ class CoinexScraper(BaseScraper):
                     # print(f"\n纯文字内容已保存到: {text_file_name}")
                     
                     # 使用OpenAI分析内容
-                    print("\n=== 使用DeepSeek分析公告内容 ===")
+                    self.log("INFO", "使用DeepSeek分析公告内容")
                     try:
                         # analyzer = DeepSeekAnalyzer(api_key="sk-790c031d07224ee9a905c970cefffcba")
                         analysis_result = self.analyzer.analyze_announcement(text_content)
@@ -178,16 +179,16 @@ class CoinexScraper(BaseScraper):
                         #     break
                         
                     except Exception as e:
-                        print(f"DeepSeek分析失败: {traceback.format_exc()}")
+                        self.log("ERROR", f"DeepSeek分析失败: {traceback.format_exc()}")
                 else:
-                    print("获取详情失败")
+                    self.log("ERROR", "获取详情失败", console=True)
                 
                 # Break outer loop if we've reached max_size in debug mode
                 # if self.debug and processed_count >= self.max_size:
                 #     break
             
         except Exception as e:
-            print(f"程序执行出错: {traceback.format_exc()}")
+            self.log("ERROR", f"程序执行出错: {traceback.format_exc()}", console=True)
         
         finally:
             # 关闭浏览器

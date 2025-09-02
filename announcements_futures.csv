@@ -57,16 +57,38 @@ time,binance,bingx,bitget,bitunix,blofin,bybit,gate,lbank,mexc,okx,btcc,weex
  下架 KOMA
  下架 NKN
  下架 JST
-",,,,"上架 HEMI
+","上架 MITO
+",,,"上架 HEMI
 ","下架 JST
 ",,
 2025-09-01,,"下架 ROAM
  下架 BULLA
  下架 RFC
  下架 FRAG
-",,,,,,,,,,
+",,,,"上架 WLFI
+ 上架 LINEA
+","上架 NODE
+ 上架 LINEA
+ 上架 HEMI
+ 上架 WLFI
+",,"上架 WLFI
+ 上架 LINEA
+","上架 LINEA
+ 上架 WLFI
+",,
 2025-09-02,,"待确定上架 PUMP
  待确定上架 WLFI
  待确定上架 XPL
-",,,,,,,"待确定上架 BTR
+",,,,,"上架 SOMI
+ 上架 Q
+","上架 USDUC
+ 上架 CDL
+","上架 SOMI
+ 待确定上架 BTR
 ",,,
+2025-09-03,,,,,,"下架 FB
+ 下架 10000WHY
+ 下架 MBL
+",,,,,,
+2025-09-04,,,,,,,,,,"下架 MKR
+",,

@@ -235,8 +235,8 @@ class DeepSeekAnalyzer:
                 all_results = [ {**item, **updates} for item in all_results ]
             with open(filename, 'w', encoding='utf-8') as f:
                 json.dump(all_results, f, ensure_ascii=False, indent=2)
-            file_logger.info(f"分析结果已保存到: {filename}")
-            console_logger.info(f"分析结果已保存到: {filename}")
+            # file_logger.info(f"分析结果已保存到: {filename}")
+            # console_logger.info(f"分析结果已保存到: {filename}")
         except Exception as e:
             file_logger.info(f"保存结果失败: {e}")
             console_logger.info(f"保存结果失败: {e}")

@@ -47,29 +47,30 @@ class UpbitScraper(BaseScraper):
             announcements = self.get_announcements_id()
             processed_count = 0
             for i, article in enumerate(announcements):
+                self.log("INFO", f"处理公告 {i+1}/{len(announcements)}: {article.get('title', 'N/A')}", console=True)
                 article_id = article.get('id')
                 url = f"https://upbit.com/service_center/notice?id={article_id}"
                 json_file_name = os.path.join(self.output_dir, f"upbit_{article_id}.json")
                 release_time = article.get('first_listed_at')
                 release_time_str = pd.to_datetime(release_time).tz_convert('Asia/Hong_Kong').strftime('%Y-%m-%d %H:%M:%S')
                 if release_time_str < (pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)).strftime('%Y-%m-%d %H:%M:%S'):
-                    print(f"公告 {article.get('title', 'N/A')} 发布时间 {release_time_str} 小于 {pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)}，跳过")
+                    self.log("INFO", f"公告 {article.get('title', 'N/A')} 发布时间 {release_time_str} 小于 {pd.Timestamp.now(tz='Asia/Hong_Kong') - pd.Timedelta(days=self.offset_days)}，跳过")
                     with open(json_file_name, 'w', encoding='utf-8') as f:
                         json.dump({'release_time': release_time_str, 'text': "", 'url': url, 'title': article.get('title', 'N/A'),"exchange": "upbit"}, f, ensure_ascii=False, indent=4)
                     continue
                 # text_file_name = os.path.join(self.output_dir, f"upbit_{article_id}.txt")
                 
                 if os.path.exists(json_file_name):
-                    print(f"公告详情已存在: {json_file_name}")
+                    self.log("INFO", f"公告详情已存在: {json_file_name}")
                     continue
-                print("=== 获取公告详情 ===")
-                print(f"   标题: {article.get('title', 'N/A')}")
-                print(f"   URL: {url}")
+                self.log("INFO", "获取公告详情")
+                self.log("INFO", f"   标题: {article.get('title', 'N/A')}",)
+                self.log("INFO", f"   URL: {url}")
                 detail_result = self.get_announcement_detail(article.get('id'))
                 if detail_result:
-                    print("\n=== 纯文字内容 ===")
+                    self.log("INFO", "纯文字内容")
                     text_content = detail_result['text']
-                    print(text_content[:1000] + "..." if len(text_content) > 1000 else text_content)
+                    self.log("INFO", text_content[:1000] + "..." if len(text_content) > 1000 else text_content)
                     
                     # 保存到文件
                     # with open(text_file_name, 'w', encoding='utf-8') as f:
@@ -77,7 +78,7 @@ class UpbitScraper(BaseScraper):
                     # print(f"\n纯文字内容已保存到: {text_file_name}")
                     
                     # 使用OpenAI分析内容
-                    print("\n=== 使用DeepSeek分析公告内容 ===")
+                    self.log("INFO", "使用DeepSeek分析公告内容")
                     try:
                         # analyzer = DeepSeekAnalyzer(api_key="sk-790c031d07224ee9a905c970cefffcba")
                         analysis_result = self.analyzer.analyze_announcement(text_content)
@@ -100,13 +101,13 @@ class UpbitScraper(BaseScraper):
                         #     break
                         
                     except Exception as e:
-                        print(f"DeepSeek分析失败: {traceback.format_exc()}")
+                        self.log("ERROR", f"DeepSeek分析失败: {traceback.format_exc()}", console=True)
                 else:
-                    print("获取详情失败")
+                    self.log("ERROR", "获取详情失败", console=True)
 
             
         except Exception as e:
-            print(f"程序执行出错: {traceback.format_exc()}")
+            self.log("ERROR", f"程序执行出错: {traceback.format_exc()}", console=True)
         
 
 if __name__ == "__main__":

@@ -66,14 +66,18 @@ time,binance,bingx,bitget,bybit,coinex,gate,lbank,mexc,upbit,bithumb
  下架 CATS
  下架 AARK
  下架 APRS
-",,"上架 MISSION
+","上架 BAS
+ 上架 CAMP
+","上架 MITO
+ 上架 MISSION
  上架 CELB
 ","上架 CORN
  上架 UCN
 ","上架 HEMI
  上架 HEMI/USDC
 ",,
-2025-08-30,,,,,,"上架 AIOT
+2025-08-30,,,,,,"上架 BLOCKST
+ 上架 AIOT
 ",,,,
 2025-09-01,,"下架 EBT
  下架 TIT
@@ -84,7 +88,12 @@ time,binance,bingx,bitget,bybit,coinex,gate,lbank,mexc,upbit,bithumb
  下架 AP
  下架 SHADOW
  下架 ORNJ
-",,,"下架 BUBBLE
+",,"上架 WLFI
+ 上架 WLFI
+ 上架 XO
+","上架 WLFI
+ 下架 COMAI
+ 下架 BUBBLE
  下架 LSD
  下架 DVI
  下架 BLENDR
@@ -95,7 +104,37 @@ time,binance,bingx,bitget,bybit,coinex,gate,lbank,mexc,upbit,bithumb
  下架 COMBO
  下架 LUMO
  下架 SUPFRIEND
-",,,,,
+","上架 SOMI
+ 上架 WLFI
+ 上架 WLFI/USD1
+ 上架 FOREST
+ 上架 WLFI
+ 上架 WLFI/USD1
+ 上架 NODE
+ 上架 WLFI
+","上架 USDUT
+ 上架 EMULITES
+ 上架 EAGLE
+ 上架 WLFI
+",,"上架 WLFI/KRW
+ 上架 WLFI/BTC
+ 上架 WLFI
+",
+2025-09-02,,,,"上架 SOMI
+ 上架 SOMI
+","上架 SOMI
+","上架 SAPIEN
+ 上架 BLOCKST
+ 上架 SOMI
+ 上架 Q
+","上架 HOLO
+ 上架 ENIDOG
+ 上架 SOMI
+ 上架 CDL
+ 上架 LFT
+ 上架 MEMEBLI
+","上架 CDL
+",,
 2025-09-03,,,,,"下架 CHO
  下架 EVER
  下架 KP3R
@@ -108,4 +147,21 @@ time,binance,bingx,bitget,bybit,coinex,gate,lbank,mexc,upbit,bithumb
  下架 BUCKAZOIDS
  下架 KITTY
  下架 MSTAR
+","上架 MCH
+ 上架 PTB
+ 上架 MCH
+","上架 CROSS
+","上架 PTB
+",,
+2025-09-05,,,,,"下架 KACY
+ 下架 DOODOO
+ 下架 SLN
+ 下架 KIN
+ 下架 VGX
+ 下架 MUBARAKAH
+ 下架 LFT
+ 下架 MCB
+ 下架 DOGESOL
+ 下架 ORE
+ 下架 IMG
 ",,,,,

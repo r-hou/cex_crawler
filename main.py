@@ -157,20 +157,20 @@ async def crawl_announcements():
     # Initialize scrapers with debug configuration
     # Run each scraper in its own process via ProcessPoolExecutor
     scraper_names = [
-        # "binance", 
-        # "bingx", 
-        # "bitunix", 
-        # "blofin", 
-        # "bitget", 
+        "binance", 
+        "bingx", 
+        "bitunix", 
+        "blofin", 
+        "bitget", 
         "btcc", 
-        # "bybit",
-        # "gate",
-        # "mexc",
-        # "lbank", 
-        # "weex", 
-        # "coinex", 
-        # "upbit", 
-        # "okx"
+        "bybit",
+        "gate",
+        "mexc",
+        "lbank", 
+        "weex", 
+        "coinex", 
+        "upbit", 
+        "okx"
     ]
 
     max_workers = min(len(scraper_names), (os.cpu_count() or 4))
